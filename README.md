@@ -17,7 +17,7 @@ branchNameExample = yyyymmdd_yourInitials_taskBriefDescription
 
 5. When the task is finished, execute the following commands:
 
-`git status` -> to check lust of changes (files, folders)
+`git status` -> to check list of changes (files, folders)
 
 `git add .` -> to add all changed/added files/folders to git
 
