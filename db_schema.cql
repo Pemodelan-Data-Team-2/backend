@@ -1,5 +1,6 @@
-CREATE KEYSPACE hospital_occupancy WITH REPLICATION = 
-    {'class': 'SimpleStrategy', 'replication_factor': 3};
+CREATE KEYSPACE hospital_occupancy WITH REPLICATION = {'class': 'NetworkTopologyStrategy', 'us-west2': 3};
+
+CREATE KEYSPACE hospital_occupancy WITH REPLICATION = {'class': 'NetworkTopologyStrategy', 'asia-southeast2': 3};
 
 CREATE TYPE hospital_occupancy.address (
     street TEXT, 
@@ -21,25 +22,25 @@ CREATE TABLE hospital_occupancy.carecenters_by_city (
     address frozen<address>, 
     PRIMARY KEY ((city), care_center_id)) 
     WITH COMMENT = 'Find care centers by city'
-    ADD CLUSTERING ORDER BY (care_center_id ASC);
+    AND CLUSTERING ORDER BY (care_center_id ASC);
 
 CREATE TABLE hospital_occupancy.carecenters_by_state (
     state text, 
     care_center_id text, 
     care_center_name text, 
     address frozen<address>, 
-    PRIMARY KEY ((city), care_center_id)) 
+    PRIMARY KEY ((state), care_center_id)) 
     WITH COMMENT = 'Find care centers by state'
-    ADD CLUSTERING ORDER BY (care_center_id ASC);
+    AND CLUSTERING ORDER BY (care_center_id ASC);
 
 CREATE TABLE hospital_occupancy.carecenters_by_country (
     country text, 
     care_center_id text, 
     care_center_name text, 
     address frozen<address>, 
-    PRIMARY KEY ((city), care_center_id)) 
+    PRIMARY KEY ((country), care_center_id)) 
     WITH COMMENT = 'Find care centers by country'
-    ADD CLUSTERING ORDER BY (care_center_id ASC);
+    AND CLUSTERING ORDER BY (care_center_id ASC);
 
 CREATE TABLE hospital_occupancy.rooms (
     room_id text PRIMARY KEY,
@@ -73,7 +74,7 @@ CREATE TABLE hospital_occupancy.available_beds_by_room (
     is_occupied BOOLEAN,
     PRIMARY KEY ((room_id), bed_id))
     WITH COMMENT = 'Find available beds by room'
-    ADD CLUSTERING ORDER BY (bed_id ASC);
+    AND CLUSTERING ORDER BY (bed_id ASC);
 
 CREATE TABLE hospital_occupancy.patients (
     patient_id TEXT PRIMARY KEY,

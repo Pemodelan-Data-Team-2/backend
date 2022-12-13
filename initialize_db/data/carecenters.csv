@@ -1,5 +1,0 @@
-﻿care_center_id;care_center_name;address
-cc1;Care Center 1;{street: '10 Northfields Ave', city:'C', state_or_province:'S', zip_code:'2350', country:'USA'}
-cc2;Care Center 2;{street: '1 Karen Ave', city:'C', state_or_province:'S', zip_code:'2349', country:'USA'}
-cc3;Care Center 3;{street: '1 Karen Ave', city:'D', state_or_province:'S', zip_code:'2349', country:'USA'}
-cc4;Care Center 4;{street: '2 Karen Ave', city:'D', state_or_province:'S', zip_code:'2340', country:'USA'}
