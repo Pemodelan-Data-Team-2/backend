@@ -18,7 +18,7 @@ def get_carecenters_by_id(id):
     df = pd.DataFrame(row)
     return df
 
-def carecenters_by_city(city, country):
+def carecenters_by_city(country):
     """
     Function to get carecenters that are located in given city
     """
@@ -29,16 +29,42 @@ def carecenters_by_city(city, country):
         dc = 'idn'
     session = create_session(dc=dc)
     row = session.execute(f"""
-        SELECT * FROM carecenters_by_city WHERE city='{city}';
+        SELECT * FROM carecenters_by_city;
     """)
     df = pd.DataFrame(row)
     return df
 
-def carecenters_by_state(state, country):
-    pass
+def carecenters_by_state(country):
+    """
+    Function to get carecenters that are located in given state
+    """
+    dc = 'usa'
+    if country.lower() == 'usa':
+        dc = 'usa'
+    elif country.lower() == 'idn':
+        dc = 'idn'
+    session = create_session(dc=dc)
+    row = session.execute(f"""
+        SELECT * FROM carecenters_by_state;
+    """)
+    df = pd.DataFrame(row)
+    return df
 
 def carecenters_by_country(country):
-    pass
+    """
+    Function to get carecenters that are located in given country
+    """
+    dc = 'usa'
+    if country.lower() == 'usa':
+        dc = 'usa'
+    elif country.lower() == 'idn':
+        dc = 'idn'
+    session = create_session(dc=dc)
+    row = session.execute(f"""
+        SELECT * FROM carecenters_by_country;
+    """)
+    df = pd.DataFrame(row)
+    return df
 
 
 test = get_carecenters_by_id('cc-usa-1')
