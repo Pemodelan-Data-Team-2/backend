@@ -50,15 +50,14 @@ CREATE TABLE hospital_occupancy.rooms (
     rate DOUBLE)
     WITH COMMENT = 'Find information about a room';
 
-CREATE TABLE hospital_occupancy.available_rooms_by_carecenter_date (
+CREATE TABLE hospital_occupancy.available_rooms_by_carecenter (
     care_center_id TEXT,
-    date_oi date,
     room_id TEXT,
     room_type TEXT,
     occupancy_status TEXT,
     rate DOUBLE,
-    PRIMARY KEY ((care_center_id), date_oi, room_id))
-    WITH COMMENT = 'Find available rooms by care center and date';
+    PRIMARY KEY ((care_center_id), room_id))
+    WITH COMMENT = 'Find available rooms by care center';
 
 CREATE TABLE hospital_occupancy.beds (
     bed_id TEXT PRIMARY KEY, 
@@ -100,10 +99,8 @@ CREATE TABLE hospital_occupancy.patient_admissions (
     room_rate_total DOUBLE)
     WITH COMMENT = 'Find information about a patient admission';
 
-CREATE TABLE hospital_occupancy.patient_admissions_by_carecenter_period (
+CREATE TABLE hospital_occupancy.patient_admissions_by_carecenter (
     care_center_id TEXT,
-    period_start date,
-    period_end date,
     admission_id TEXT,
     patient_id TEXT,
     bed_id TEXT,
@@ -113,13 +110,11 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_carecenter_period (
     admitted_causes TEXT,
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
-    PRIMARY KEY ((care_center_id), period_start, period_end, admission_id))
-    WITH COMMENT = 'Find patient admissions by care center and period';
+    PRIMARY KEY ((care_center_id), admission_id))
+    WITH COMMENT = 'Find patient admissions by care center';
 
-CREATE TABLE hospital_occupancy.patient_admissions_by_city_period (
+CREATE TABLE hospital_occupancy.patient_admissions_by_city (
     city TEXT,
-    period_start date,
-    period_end date,
     admission_id TEXT,
     patient_id TEXT,
     bed_id TEXT,
@@ -130,13 +125,11 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_city_period (
     admitted_causes TEXT,
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
-    PRIMARY KEY ((city), period_start, period_end, admission_id))
-    WITH COMMENT = 'Find patient admissions by city and period';
+    PRIMARY KEY ((city), admission_id))
+    WITH COMMENT = 'Find patient admissions by city';
 
-CREATE TABLE hospital_occupancy.patient_admissions_by_state_period (
+CREATE TABLE hospital_occupancy.patient_admissions_by_state (
     state TEXT,
-    period_start date,
-    period_end date,
     admission_id TEXT,
     patient_id TEXT,
     bed_id TEXT,
@@ -147,13 +140,11 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_state_period (
     admitted_causes TEXT,
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
-    PRIMARY KEY ((state), period_start, period_end, admission_id))
-    WITH COMMENT = 'Find patient admissions by state and period';
+    PRIMARY KEY ((state), admission_id))
+    WITH COMMENT = 'Find patient admissions by state';
 
-CREATE TABLE hospital_occupancy.patient_admissions_by_country_period (
+CREATE TABLE hospital_occupancy.patient_admissions_by_country (
     country TEXT,
-    period_start date,
-    period_end date,
     admission_id TEXT,
     patient_id TEXT,
     bed_id TEXT,
@@ -164,5 +155,5 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_country_period (
     admitted_causes TEXT,
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
-    PRIMARY KEY ((country), period_start, period_end, admission_id))
-    WITH COMMENT = 'Find patient admissions by country and period';
+    PRIMARY KEY ((country), admission_id))
+    WITH COMMENT = 'Find patient admissions by country';
