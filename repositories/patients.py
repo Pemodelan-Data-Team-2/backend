@@ -13,7 +13,7 @@ def get_patient_by_id(id):
         dc = 'idn'
     session = create_session(dc=dc)
     row = session.execute(f"""
-        SELECT * FROM patients WHERE patient_id='{id}';
+        SELECT * FROM patients WHERE patient_id='{id}' ALLOW FILTERING;
     """)
     df = pd.DataFrame(row)
     return df

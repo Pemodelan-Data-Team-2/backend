@@ -13,7 +13,7 @@ def get_patient_admission_by_id(id):
         dc = 'idn'
     session = create_session(dc=dc)
     row = session.execute(f"""
-        SELECT * FROM patient_admissions WHERE admission_id='{id}';
+        SELECT * FROM patient_admissions WHERE admission_id='{id}' ALLOW FILTERING;
     """)
     df = pd.DataFrame(row)
     return df
@@ -35,7 +35,7 @@ def patient_admissions_by_carecenter(country, care_center_id=None):
         """)
     else:
         row = session.execute(f"""
-            SELECT * FROM patient_admissions_by_carecenter WHERE care_center_id='{care_center_id}';
+            SELECT * FROM patient_admissions_by_carecenter WHERE care_center_id='{care_center_id}' ALLOW FILTERING;
         """)
 
     df = pd.DataFrame(row)
@@ -58,7 +58,7 @@ def patient_admissions_by_city(country, city=None):
         """)
     else:
         row = session.execute(f"""
-            SELECT * FROM patient_admissions_by_city WHERE city='{city}';
+            SELECT * FROM patient_admissions_by_city WHERE city='{city}' ALLOW FILTERING;
         """)
 
     df = pd.DataFrame(row)
@@ -81,7 +81,7 @@ def patient_admissions_by_state(country, state=None):
         """)
     else:
         row = session.execute(f"""
-            SELECT * FROM patient_admissions_by_state WHERE state='{state}';
+            SELECT * FROM patient_admissions_by_state WHERE state='{state}' ALLOW FILTERING;
         """)
 
     df = pd.DataFrame(row)

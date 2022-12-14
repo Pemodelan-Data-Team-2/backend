@@ -10,7 +10,7 @@ def get_room_by_id(id):
         dc = 'idn'
     session = create_session(dc=dc)
     row = session.execute(f"""
-        SELECT * FROM rooms WHERE room_id='{id}';
+        SELECT * FROM rooms WHERE room_id='{id}' ALLOW FILTERING;
     """)
     df = pd.DataFrame(row)
     return df
@@ -31,11 +31,11 @@ def available_rooms_by_carecenter(country, care_center_id=None, available=True):
     else:
         if not available:
             row = session.execute(f"""
-                SELECT * FROM available_rooms_by_carecenter WHERE care_center_id='{care_center_id}';
+                SELECT * FROM available_rooms_by_carecenter WHERE care_center_id='{care_center_id}' ALLOW FILTERING;
             """)
         else:
             row = session.execute(f"""
-                SELECT * FROM available_rooms_by_carecenter WHERE care_center_id='{care_center_id}' AND occupancy_status!='FullyOccupied';
+                SELECT * FROM available_rooms_by_carecenter WHERE care_center_id='{care_center_id}' AND occupancy_status!='FullyOccupied' ALLOW FILTERING;
             """)
     df = pd.DataFrame(row)
     return df
