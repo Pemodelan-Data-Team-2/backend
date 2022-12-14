@@ -56,7 +56,7 @@ def create_session(dc):
         try:
             cluster = Cluster([idn_IPs[1]])
             session = cluster.connect('hospital_occupancy')
-            print(f"Accessing DC: {dc}. External IP {idn_IPs[0]}")
+            print(f"Accessing DC: {dc}. External IP {idn_IPs[1]}")
             return session
         except:
             pass
@@ -64,7 +64,7 @@ def create_session(dc):
         try:
             cluster = Cluster([idn_IPs[2]])
             session = cluster.connect('hospital_occupancy')
-            print(f"Accessing DC: {dc}. External IP {idn_IPs[0]}")
+            print(f"Accessing DC: {dc}. External IP {idn_IPs[2]}")
             return session
         except:
             print(f'Failed to create connection to data center in {dc}')
