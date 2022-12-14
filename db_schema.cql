@@ -57,7 +57,8 @@ CREATE TABLE hospital_occupancy.available_rooms_by_carecenter (
     occupancy_status TEXT,
     rate DOUBLE,
     PRIMARY KEY ((care_center_id), room_id))
-    WITH COMMENT = 'Find available rooms by care center';
+    WITH COMMENT = 'Find available rooms by care center'
+    AND CLUSTERING ORDER BY (room_id ASC);
 
 CREATE TABLE hospital_occupancy.beds (
     bed_id TEXT PRIMARY KEY, 
@@ -111,7 +112,8 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_carecenter (
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
     PRIMARY KEY ((care_center_id), admission_id))
-    WITH COMMENT = 'Find patient admissions by care center';
+    WITH COMMENT = 'Find patient admissions by care center'
+    AND CLUSTERING ORDER BY (admission_id ASC);
 
 CREATE TABLE hospital_occupancy.patient_admissions_by_city (
     city TEXT,
@@ -126,7 +128,8 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_city (
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
     PRIMARY KEY ((city), admission_id))
-    WITH COMMENT = 'Find patient admissions by city';
+    WITH COMMENT = 'Find patient admissions by city'
+    AND CLUSTERING ORDER BY (admission_id ASC);
 
 CREATE TABLE hospital_occupancy.patient_admissions_by_state (
     state TEXT,
@@ -141,7 +144,8 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_state (
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
     PRIMARY KEY ((state), admission_id))
-    WITH COMMENT = 'Find patient admissions by state';
+    WITH COMMENT = 'Find patient admissions by state'
+    AND CLUSTERING ORDER BY (admission_id ASC);
 
 CREATE TABLE hospital_occupancy.patient_admissions_by_country (
     country TEXT,
@@ -156,4 +160,5 @@ CREATE TABLE hospital_occupancy.patient_admissions_by_country (
     room_rate_per_night DOUBLE,
     room_rate_total DOUBLE,
     PRIMARY KEY ((country), admission_id))
-    WITH COMMENT = 'Find patient admissions by country';
+    WITH COMMENT = 'Find patient admissions by country'
+    AND CLUSTERING ORDER BY (admission_id ASC);
