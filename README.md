@@ -7,6 +7,10 @@
 
 `git clone https://github.com/Pemodelan-Data-Team-2/backend.git`
 
+and install required modules
+
+`pip install -r requirements.txt`
+
 3. Create a branch using the following name format: 
 
 branchNameExample = yyyymmdd_yourInitials_taskBriefDescription
