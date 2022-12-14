@@ -10,7 +10,7 @@ import repositories.rooms as rooms_repo
 import pandas as pd
 import numpy as np
 
-class Country_Reports(object):
+class CountryReports(object):
     def __init__(self, country):
         self.country = country
 
