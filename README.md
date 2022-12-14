@@ -21,7 +21,7 @@ branchNameExample = yyyymmdd_yourInitials_taskBriefDescription
 
 `git add .` -> to add all changed/added files/folders to git
 
-`git commit -m 'commit_message` -> to commit your changes to local - make sure give a descriptive commit_message
+`git commit -m 'commit_message` -> to commit your changes to local - make sure to give a descriptive commit_message
 
 `git push origin branchNameExample` -> to push your local branch to remote repository
 
