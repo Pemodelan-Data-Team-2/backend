@@ -166,14 +166,14 @@ class CountryReports(object):
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby(['year','state'],as_index = False)[['room_rate_total']].sum()
         agg = agg.rename(columns={'room_rate_total':'total_revenues'})
-        return agg
+        return self.format_json_table(agg)
 
     def patient_admission_by_state_per_year(self,df):
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby(['year','state'],as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
-        return agg
+        return self.format_json_table(agg)
 
     #untuk tampilan tabel
     def format_json_table(self,df):
@@ -184,7 +184,7 @@ class CountryReports(object):
         output = []
         columns = list(df.columns)
         for i in range(len(df)):
-            output.append(rbtpa.iloc[i].to_dict())
+            output.append(df.iloc[i].to_dict())
         return output
 
     ## DEPRECATED
