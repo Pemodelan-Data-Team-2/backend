@@ -25,7 +25,7 @@ class CountryReports(object):
     def carecenters_by_city(self, city=None):
         df = carecenters_repo.carecenters_by_city(country=self.country, city=city)
         return df
-    
+
     def carecenters_by_state(self, state=None):
         df = carecenters_repo.carecenters_by_state(country=self.country, state=state)
         return df
@@ -56,48 +56,62 @@ class CountryReports(object):
 
     ## PATIENT ADMISSIONS REVENUES REPORTS
 
+    def format_json_linechart(self,df):
+        """
+        fungsi ini digunakan untuk mengconvert format dataframe menjadi format
+        inputan javascript untuk plot linechart
+        """
+        output = {"id" : self.country}
+        data = []
+        column = list(df.columns)
+        for i in range(len(df)):
+            data.append({"x":str(df[column[0]][i]),
+                          "y":df[column[1]][i]})
+        output["data"] = data
+        return output
+
     def patient_admissions_revenues_per_annum(self, df):
         """
         Function to generate annual report
         Args:
-        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
-        agg = df.groupby('year')[['room_rate_total']].sum()
-        agg.rename(columns={'room_rate_total':'total_revenues'})
-        return agg
+        agg = df.groupby('year',as_index = False)[['room_rate_total']].sum()
+        agg = agg.rename(columns={'room_rate_total':'total_revenues'})
+        return self.format_json_linechart(agg)
 
     def patient_admissions_revenues_per_month(self, df, year):
         """
         Function to generate monthly report
         Args:
-        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['month'] = df['admitted_date'].dt.month
-        agg = df.groupby('month')[['room_rate_total']].sum()
-        agg.rename(columns={'room_rate_total':'total_revenues'})
-        return agg
+        agg = df.groupby('month',as_index = False)[['room_rate_total']].sum()
+        agg = agg.rename(columns={'room_rate_total':'total_revenues'})
+        return self.format_json_linechart(agg)
 
     def patient_admissions_revenues_per_quarter(self, df, year):
         """
         Function to generate quarterly report
         Args:
-        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['quarter'] = df['admitted_date'].dt.quarter
-        agg = df.groupby('quarter')[['room_rate_total']].sum()
-        agg.rename(columns={'room_rate_total':'total_revenues'})
-        return agg
+        agg = df.groupby('quarter',as_index = False)[['room_rate_total']].sum()
+        agg = agg.rename(columns={'room_rate_total':'total_revenues'})
+        return self.format_json_linechart(agg)
 
     ## PATIENT ADMISSIONS REPORT
 
@@ -105,45 +119,73 @@ class CountryReports(object):
         """
         Function to generate annual report
         Args:
-        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
-        agg = df.groupby('year')[['admission_id']].count()
-        agg.rename(columns={'admission_id':'total_admitted_patients'})
-        return agg
+        agg = df.groupby('year',as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return self.format_json_linechart(agg)
 
     def patient_admissions_per_month(self, df, year):
         """
         Function to generate monthly report
         Args:
-        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['month'] = df['admitted_date'].dt.month
-        agg = df.groupby('year')[['admission_id']].count()
-        agg.rename(columns={'admission_id':'total_admitted_patients'})
-        return agg
+        agg = df.groupby('year',as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return self.format_json_linechart(agg)
 
     def patient_admissions_per_quarter(self, df, year):
         """
         Function to generate quarterly report
         Args:
-        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['quarter'] = df['admitted_date'].dt.quarter
-        agg = df.groupby('year')[['admission_id']].count()
-        agg.rename(columns={'admission_id':'total_admitted_patients'})
+        agg = df.groupby('year',as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return self.format_json_linechart(agg)
+
+    def revenues_by_state_per_annum(self,df):
+        """
+        function to generate report revenue per year by state
+        """
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year','state'],as_index = False)[['room_rate_total']].sum()
+        agg = agg.rename(columns={'room_rate_total':'total_revenues'})
         return agg
 
+    def patient_admission_by_state_per_year(self,df):
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year','state'],as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return agg
+
+    #untuk tampilan tabel
+    def format_json_table(self,df):
+        """
+        format_json fangsi digunakna untuk mengubah format dataframe ke bentuk inputan
+        javascript.
+        """
+        output = []
+        columns = list(df.columns)
+        for i in range(len(df)):
+            output.append(rbtpa.iloc[i].to_dict())
+        return output
 
     ## DEPRECATED
 
