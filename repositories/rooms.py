@@ -15,27 +15,21 @@ def get_room_by_id(id):
     df = pd.DataFrame(row)
     return df
 
-def available_rooms_by_carecenter(country, care_center_id=None, available=True):
-    # available: if occupancy_status = 'PartiallyOccupied' or 'NotOccupied'
+def rooms_by_carecenter(country, care_center_id=None):
     dc = 'usa'
-    if 'usa' in id:
+    if country.lower() == 'usa':
         dc = 'usa'
-    elif 'idn' in id:
+    elif country.lower() == 'idn':
         dc = 'idn'
     session = create_session(dc=dc)
 
     if care_center_id == None:
         row = session.execute(f"""
-            SELECT * FROM available_rooms_by_carecenter;
+            SELECT * FROM rooms_by_carecenter;
         """)
     else:
-        if not available:
-            row = session.execute(f"""
-                SELECT * FROM available_rooms_by_carecenter WHERE care_center_id='{care_center_id}' ALLOW FILTERING;
-            """)
-        else:
-            row = session.execute(f"""
-                SELECT * FROM available_rooms_by_carecenter WHERE care_center_id='{care_center_id}' AND occupancy_status!='FullyOccupied' ALLOW FILTERING;
-            """)
+        row = session.execute(f"""
+            SELECT * FROM rooms_by_carecenter WHERE care_center_id='{care_center_id}' ALLOW FILTERING;
+        """)
     df = pd.DataFrame(row)
     return df

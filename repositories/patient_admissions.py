@@ -18,6 +18,26 @@ def get_patient_admission_by_id(id):
     df = pd.DataFrame(row)
     return df
 
+def patient_admissions_by_room(country, room_id):
+    dc = 'usa'
+    if country.lower() == 'usa':
+        dc = 'usa'
+    elif country.lower() == 'idn':
+        dc = 'idn'
+    session = create_session(dc=dc)
+
+    if room_id == None:
+        row = session.execute(f"""
+            SELECT * FROM patient_admissions_by_room;
+        """)
+    else:
+        row = session.execute(f"""
+            SELECT * FROM patient_admissions_by_carecenter WHERE room_id='{room_id}' ALLOW FILTERING;
+        """)
+
+    df = pd.DataFrame(row)
+    return df
+
 def patient_admissions_by_carecenter(country, care_center_id=None):
     """
     Function to get patient admissions by carecenter

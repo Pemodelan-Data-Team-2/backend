@@ -15,7 +15,7 @@ def get_bed_by_id(id):
     df = pd.DataFrame(row)
     return df
 
-def available_beds_by_room(country, room_id=None, is_available=True):
+def beds_by_room(country, room_id=None):
     dc = 'usa'
     if country.lower() == 'usa':
         dc = 'usa'
@@ -25,11 +25,11 @@ def available_beds_by_room(country, room_id=None, is_available=True):
 
     if room_id == None:
         row = session.execute(f"""
-            SELECT * FROM available_beds_by_room WHERE is_occupied={is_available} ALLOW FILTERING;
+            SELECT * FROM available_beds_by_room;
         """)
     else:
         row = session.execute(f"""
-            SELECT * FROM available_beds_by_room WHERE is_occupied={is_available} AND room_id='{room_id}' ALLOW FILTERING;
+            SELECT * FROM available_beds_by_room WHERE room_id='{room_id}' ALLOW FILTERING;
         """)
     df = pd.DataFrame(row)
     return df
