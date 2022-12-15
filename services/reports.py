@@ -54,19 +54,29 @@ class CountryReports(object):
         df = patient_admissions_repo.patient_admissions_by_country(country=self.country)
         return df
 
-    """
-    Country
-    """
-    def revenues_from_patient_admissions_per_annum(self):
-        df = self.patient_admissions_by_country()
+    ## PATIENT ADMISSIONS REVENUES REPORTS
+
+    def patient_admissions_revenues_per_annum(self, df):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby('year')[['room_rate_total']].sum()
         agg.rename(columns={'room_rate_total':'total_revenues'})
         return agg
 
-    def revenues_from_patient_admissions_per_month(self, year):
-        df = self.patient_admissions_by_country()
+    def patient_admissions_revenues_per_month(self, df, year):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        - year: int -> year of interest
+        """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['month'] = df['admitted_date'].dt.month
@@ -74,8 +84,14 @@ class CountryReports(object):
         agg.rename(columns={'room_rate_total':'total_revenues'})
         return agg
 
-    def revenues_from_patient_admissions_per_quarter(self, year):
-        df = self.patient_admissions_by_country()
+    def patient_admissions_revenues_per_quarter(self, df, year):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        - year: int -> year of interest
+        """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['quarter'] = df['admitted_date'].dt.quarter
@@ -83,31 +99,105 @@ class CountryReports(object):
         agg.rename(columns={'room_rate_total':'total_revenues'})
         return agg
 
-    def admitted_patients_per_annum(self):
-        df = self.patient_admissions_by_country()
+    ## PATIENT ADMISSIONS REPORT
+
+    def patient_admissions_per_annum(self, df):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby('year')[['admission_id']].count()
         agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
-    def admitted_patients_per_month(self, year):
-        df = self.patient_admissions_by_country()
+    def patient_admissions_per_month(self, df, year):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        - year: int -> year of interest
+        """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['month'] = df['admitted_date'].dt.month
-        agg = df.groupby('month')[['admission_id']].count()
+        agg = df.groupby('year')[['admission_id']].count()
         agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
-    def admitted_patients_per_quarter(self, year):
-        df = self.patient_admissions_by_country()
+    def patient_admissions_per_quarter(self, df, year):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        - year: int -> year of interest
+        """
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['quarter'] = df['admitted_date'].dt.quarter
-        agg = df.groupby('quarter')[['admission_id']].count()
+        agg = df.groupby('year')[['admission_id']].count()
         agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
+
+
+    ## DEPRECATED
+
+    # def revenues_from_patient_admissions_per_annum(self):
+    #     df = self.patient_admissions_by_country()
+    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+    #     df['year'] = df['admitted_date'].dt.year
+    #     agg = df.groupby('year')[['room_rate_total']].sum()
+    #     agg.rename(columns={'room_rate_total':'total_revenues'})
+    #     return agg
+
+    # def revenues_from_patient_admissions_per_month(self, year):
+    #     df = self.patient_admissions_by_country()
+    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+    #     df = df[df['admitted_date'].dt.year==year]
+    #     df['month'] = df['admitted_date'].dt.month
+    #     agg = df.groupby('month')[['room_rate_total']].sum()
+    #     agg.rename(columns={'room_rate_total':'total_revenues'})
+    #     return agg
+
+    # def revenues_from_patient_admissions_per_quarter(self, year):
+    #     df = self.patient_admissions_by_country()
+    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+    #     df = df[df['admitted_date'].dt.year==year]
+    #     df['quarter'] = df['admitted_date'].dt.quarter
+    #     agg = df.groupby('quarter')[['room_rate_total']].sum()
+    #     agg.rename(columns={'room_rate_total':'total_revenues'})
+    #     return agg
+
+    # def admitted_patients_per_annum(self):
+    #     df = self.patient_admissions_by_country()
+    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+    #     df['year'] = df['admitted_date'].dt.year
+    #     agg = df.groupby('year')[['admission_id']].count()
+    #     agg.rename(columns={'admission_id':'total_admitted_patients'})
+    #     return agg
+
+    # def admitted_patients_per_month(self, year):
+    #     df = self.patient_admissions_by_country()
+    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+    #     df = df[df['admitted_date'].dt.year==year]
+    #     df['month'] = df['admitted_date'].dt.month
+    #     agg = df.groupby('month')[['admission_id']].count()
+    #     agg.rename(columns={'admission_id':'total_admitted_patients'})
+    #     return agg
+
+    # def admitted_patients_per_quarter(self, year):
+    #     df = self.patient_admissions_by_country()
+    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+    #     df = df[df['admitted_date'].dt.year==year]
+    #     df['quarter'] = df['admitted_date'].dt.quarter
+    #     agg = df.groupby('quarter')[['admission_id']].count()
+    #     agg.rename(columns={'admission_id':'total_admitted_patients'})
+    #     return agg
 
 
         
