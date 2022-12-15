@@ -71,7 +71,7 @@ class CountryReports(object):
 
     def patient_admissions_revenues_per_month(self, df, year):
         """
-        Function to generate annual report
+        Function to generate monthly report
         Args:
         - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
@@ -86,7 +86,7 @@ class CountryReports(object):
 
     def patient_admissions_revenues_per_quarter(self, df, year):
         """
-        Function to generate annual report
+        Function to generate quarterly report
         Args:
         - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
@@ -116,7 +116,7 @@ class CountryReports(object):
 
     def patient_admissions_per_month(self, df, year):
         """
-        Function to generate annual report
+        Function to generate monthly report
         Args:
         - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
@@ -131,7 +131,7 @@ class CountryReports(object):
 
     def patient_admissions_per_quarter(self, df, year):
         """
-        Function to generate annual report
+        Function to generate quarterly report
         Args:
         - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....). 
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
@@ -198,9 +198,3 @@ class CountryReports(object):
     #     agg = df.groupby('quarter')[['admission_id']].count()
     #     agg.rename(columns={'admission_id':'total_admitted_patients'})
     #     return agg
-
-
-        
-
-    
-
