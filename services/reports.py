@@ -126,7 +126,7 @@ class CountryReports(object):
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby('year',as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
-        return self.format_json_linechart(agg)
+        return agg
 
     def patient_admissions_per_month(self, df, year):
         """
@@ -141,7 +141,7 @@ class CountryReports(object):
         df['month'] = df['admitted_date'].dt.month
         agg = df.groupby('year',as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
-        return self.format_json_linechart(agg)
+        return agg
 
     def patient_admissions_per_quarter(self, df, year):
         """
@@ -156,7 +156,7 @@ class CountryReports(object):
         df['quarter'] = df['admitted_date'].dt.quarter
         agg = df.groupby('year',as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
-        return self.format_json_linechart(agg)
+        return agg
 
     def revenues_by_state_per_annum(self,df):
         """
@@ -182,6 +182,7 @@ class CountryReports(object):
         javascript.
         """
         output = []
+        df["Country"] = self.country
         columns = list(df.columns)
         for i in range(len(df)):
             output.append(df.iloc[i].to_dict())
