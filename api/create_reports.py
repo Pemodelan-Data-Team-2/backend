@@ -20,8 +20,8 @@ def monthly_revenues_line_chart_data():
     usa_monthly_revenues = usa_instance.patient_admissions_by_country()
     idn_monthly_revenues = idn_instance.patient_admissions_by_country()
 
-    usa_monthly_revenues = usa_instance.patient_admissions_revenues_per_month(df=usa_annual_revenues)
-    idn_monthly_revenues = idn_instance.patient_admissions_revenues_per_month(df=idn_annual_revenues)
+    usa_monthly_revenues = usa_instance.patient_admissions_revenues_per_month(df=usa_monthly_revenues)
+    idn_monthly_revenues = idn_instance.patient_admissions_revenues_per_month(df=idn_monthly_revenues)
 
     data = [usa_monthly_revenues,idn_monthly_revenues]
     return data
@@ -34,7 +34,6 @@ def quarterly_revenues_line_chart_data():
     idn_quarter_revenues = idn_instance.patient_admissions_revenues_per_quarter(df=idn_quarter_revenues)
 
     data = [usa_quarter_revenues,idn_quarter_revenues]
-
     return data
 
 def annual_admitted_patients_bar_chart_data():
