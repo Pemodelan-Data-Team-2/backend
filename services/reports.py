@@ -14,8 +14,12 @@ class CountryReports(object):
     def __init__(self, country):
         self.country = country
 
-    def available_rooms_by_carecenter(self, care_center_id=None, available=True):
-        df = rooms_repo.available_rooms_by_carecenter(country=self.country, care_center_id=care_center_id, available=available)
+    def rooms_by_carecenter(self, care_center_id=None):
+        df = rooms_repo.rooms_by_carecenter(country=self.country, care_center_id=care_center_id)
+        return df
+
+    def beds_by_room(self, room_id=None):
+        df = beds_repo.beds_by_room(country=self.country,room_id=room_id)
         return df
 
     def carecenters_by_city(self, city=None):
@@ -32,6 +36,10 @@ class CountryReports(object):
 
     def patient_admissions_by_carecenter(self, care_center_id=None):
         df = patient_admissions_repo.patient_admissions_by_carecenter(country=self.country, care_center_id=care_center_id)
+        return df
+
+    def patient_admissions_by_room(self, room_id=None):
+        df = patient_admissions_repo.patient_admissions_by_room(country=self.country, room_id=room_id)
         return df
 
     def patient_admissions_by_city(self, city=None):
