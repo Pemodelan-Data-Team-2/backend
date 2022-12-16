@@ -1,6 +1,8 @@
+import sys
+sys.path.append('../')
 import pandas as pd
 
-from create_session import create_session
+from repositories.create_session_v2 import create_session
 
 def get_carecenters_by_id(id):
     """
@@ -87,9 +89,10 @@ def carecenters_by_country(country=None):
             SELECT * FROM carecenters_by_country;
         """)
         df = pd.DataFrame(row)
+        return df
 
 
 # test = get_carecenters_by_id('cc-usa-1')
 # print(test)
-test = carecenters_by_city('idn', city='Badung')
-print(test)
+# test = carecenters_by_city('idn', city='Badung')
+# print(test)

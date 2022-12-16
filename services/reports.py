@@ -77,6 +77,7 @@ class CountryReports(object):
         - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby('year',as_index = False)[['room_rate_total']].sum()
@@ -91,9 +92,25 @@ class CountryReports(object):
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['month'] = df['admitted_date'].dt.month
+        # month_dct = {
+        #     1: '1 January',
+        #     2: '2 February',
+        #     3: '3 March',
+        #     4: '4 April',
+        #     5: '5 May',
+        #     6: '6 June',
+        #     7: '7 July',
+        #     8: '8 August',
+        #     9: '9 September',
+        #     10: '10 October',
+        #     11: '11 November',
+        #     12: '12 December'
+        # }
+        # df['month'] = df['month'].map(month_dct)
         agg = df.groupby('month',as_index = False)[['room_rate_total']].sum()
         agg = agg.rename(columns={'room_rate_total':'total_revenues'})
         return self.format_json_linechart(agg)
@@ -106,9 +123,17 @@ class CountryReports(object):
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['quarter'] = df['admitted_date'].dt.quarter
+        quarter_dct = {
+            1: 'Q1',
+            2: 'Q2',
+            3: 'Q3',
+            4: 'Q4'
+        }
+        df['quarter'] = df['quarter'].map(quarter_dct)
         agg = df.groupby('quarter',as_index = False)[['room_rate_total']].sum()
         agg = agg.rename(columns={'room_rate_total':'total_revenues'})
         return self.format_json_linechart(agg)
@@ -122,6 +147,7 @@ class CountryReports(object):
         - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby('year',as_index = False)[['admission_id']].count()
@@ -136,10 +162,26 @@ class CountryReports(object):
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['month'] = df['admitted_date'].dt.month
-        agg = df.groupby('year',as_index = False)[['admission_id']].count()
+        # month_dct = {
+        #     1: '1 January',
+        #     2: '2 February',
+        #     3: '3 March',
+        #     4: '4 April',
+        #     5: '5 May',
+        #     6: '6 June',
+        #     7: '7 July',
+        #     8: '8 August',
+        #     9: '9 September',
+        #     10: '10 October',
+        #     11: '11 November',
+        #     12: '12 December'
+        # }
+        # df['month'] = df['month'].map(month_dct)
+        agg = df.groupby('month',as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
@@ -151,10 +193,18 @@ class CountryReports(object):
             E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
         - year: int -> year of interest
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df = df[df['admitted_date'].dt.year==year]
         df['quarter'] = df['admitted_date'].dt.quarter
-        agg = df.groupby('year',as_index = False)[['admission_id']].count()
+        quarter_dct = {
+            1: 'Q1',
+            2: 'Q2',
+            3: 'Q3',
+            4: 'Q4'
+        }
+        df['quarter'] = df['quarter'].map(quarter_dct)
+        agg = df.groupby('quarter',as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
@@ -162,6 +212,7 @@ class CountryReports(object):
         """
         function to generate report revenue per year by state
         """
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby(['year','state'],as_index = False)[['room_rate_total']].sum()
@@ -169,6 +220,7 @@ class CountryReports(object):
         return self.format_json_table(agg)
 
     def patient_admission_by_state_per_year(self,df):
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby(['year','state'],as_index = False)[['admission_id']].count()

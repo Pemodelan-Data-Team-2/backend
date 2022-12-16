@@ -1,6 +1,8 @@
+import sys
+sys.path.append('../')
 import pandas as pd
 
-from create_session import create_session
+from repositories.create_session_v2 import create_session
 
 def get_room_by_id(id):
     dc = 'usa'
