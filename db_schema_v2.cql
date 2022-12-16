@@ -77,6 +77,7 @@ CREATE TABLE hospital_occupancy.patients (
     mrn TEXT,
     first_name TEXT,
     last_name TEXT,
+    gender TEXT,
     contact TEXT,
     dob date,
     address frozen<address>,

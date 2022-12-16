@@ -127,8 +127,7 @@ p-usa-0253,814036,Jennifer,Reyes,T,+17961234466,2011-11-16,"{street: '432 Jensen
 p-usa-0833,212653,Kimberly,Crawford,T,+16344993550,2019-02-03,"{street: '048 Mike V', city:'J', state_or_province:'W', zip_code:'83891', country:'USA'}",True
 p-usa-0278,848607,Lee,Williams,F,+19071586138,2000-04-06,"{street: '8153 Horto', city:'Q', state_or_province:'I', zip_code:'46809', country:'USA'}",True
 p-usa-0052,355178,Evan,Brown,F,+15781686013,1966-07-02,"{street: '73227 Cand', city:'V', state_or_province:'L', zip_code:'09373', country:'USA'}",True
-p-usa-0826,639246,Sheila,Finley,F,+10785687177,1946-12-21,"{street: 'USS Rush
-F', city:'J', state_or_province:'Z', zip_code:'16210', country:'USA'}",True
+p-usa-0826,639246,Sheila,Finley,F,+10785687177,1946-12-21,"{street: 'USS Rush', city:'J', state_or_province:'Z', zip_code:'16210', country:'USA'}",True
 p-usa-0672,884417,Elizabeth,Costa,T,+12179578273,1967-11-19,"{street: '391 Nguyen', city:'T', state_or_province:'Y', zip_code:'45670', country:'USA'}",True
 p-usa-0502,570227,Erika,Roman,T,+10504493570,1968-07-22,"{street: '9700 Mario', city:'S', state_or_province:'Y', zip_code:'33990', country:'USA'}",False
 p-usa-0092,370185,Valerie,Wagner,T,+14063564783,1956-06-30,"{street: '146 Velez ', city:'M', state_or_province:'U', zip_code:'43055', country:'USA'}",False
