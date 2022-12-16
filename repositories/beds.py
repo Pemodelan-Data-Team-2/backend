@@ -1,6 +1,8 @@
+import sys
+sys.path.append('../')
 import pandas as pd
 
-from create_session import create_session
+from repositories.create_session_v2 import create_session
 
 def get_bed_by_id(id):
     dc = 'usa'
@@ -25,11 +27,11 @@ def beds_by_room(country, room_id=None):
 
     if room_id == None:
         row = session.execute(f"""
-            SELECT * FROM available_beds_by_room;
+            SELECT * FROM beds_by_room;
         """)
     else:
         row = session.execute(f"""
-            SELECT * FROM available_beds_by_room WHERE room_id='{room_id}' ALLOW FILTERING;
+            SELECT * FROM beds_by_room WHERE room_id='{room_id}' ALLOW FILTERING;
         """)
     df = pd.DataFrame(row)
     return df
