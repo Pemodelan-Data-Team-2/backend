@@ -1,0 +1,3 @@
+careCenterID,careCenterName,address
+cc-usa-1,Global Health MVCH,"{street: '65681 Chri', city:'B', state_or_province:'T',zip_code:'18960', country:'USA'}"
+cc-usa-2,MedStar MVCH,"{street: '6367 Santa', city:'D', state_or_province:'I',zip_code:'22391', country:'USA'}"
