@@ -239,7 +239,28 @@ class CountryReports(object):
         for i in range(len(df)):
             output.append(df.iloc[i].to_dict())
         return output
-
+    def room_occupancy_by_room_type_per_year(self,df):
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year','room_type'],as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_occupancy'})
+        return self.format_json_occupancy(agg)
+    def format_json_occupancy(self,df):
+        """
+        format_json fangsi digunakna untuk mengubah format dataframe Occupancy ke bentuk inputan
+        javascript.
+        """
+        output = []
+        
+        year = df['year'].unique()
+        for i in year:
+            d = {}
+            d['year'] = i
+            for k, j in df.iterrows():
+                if j.year == i:
+                    d[j.room_type] = j.total_occupancy
+            output.append(d)
+        return output
     ## DEPRECATED
 
     # def revenues_from_patient_admissions_per_annum(self):
