@@ -23,7 +23,6 @@ def create_session(dc):
             cluster = Cluster(usa_IPs)
             session = cluster.connect('hospital_occupancy')
             print(f"Accessing DC: {dc}")
-            print(str(cluster.metadata))
             return session
         except:
             print(f'Failed to create connection to data center in {dc}')
@@ -34,7 +33,6 @@ def create_session(dc):
             cluster = Cluster(idn_IPs)
             session = cluster.connect('hospital_occupancy')
             print(f"Accessing DC: {dc}")
-            print(str(cluster.metadata))
             return session
         except:
             print(f'Failed to create connection to data center in {dc}')

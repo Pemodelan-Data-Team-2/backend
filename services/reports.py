@@ -239,12 +239,35 @@ class CountryReports(object):
         for i in range(len(df)):
             output.append(df.iloc[i].to_dict())
         return output
-    def room_occupancy_by_room_type_per_year(self,df):
+
+    def get_room_type(self, df):
+        room_types = []
+        for idx, row in df.iterrows():
+            if '-iii-' in row['room_id']:
+                room_types.append('Class III')
+            elif '-ii-' in row['room_id']:
+                room_types.append('Class II')
+            elif '-i-' in row['room_id']:
+                room_types.append('Class I')
+            elif '-vip-' in row['room_id']:
+                room_types.append('VIP')
+            elif '-vvip-' in row['room_id']:
+                room_types.append('VVIP')
+            else:
+                room_types.append('Invalid')
+        df['room_type'] = room_types
+        return df
+
+    def room_occupancy_by_room_type_per_year(self, df_):
+        df = df_.copy()
+        df = self.get_room_type(df)
+        df['admitted_date'] = df['admitted_date'].astype('str')
         df['admitted_date'] = pd.to_datetime(df['admitted_date'])
         df['year'] = df['admitted_date'].dt.year
         agg = df.groupby(['year','room_type'],as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_occupancy'})
         return self.format_json_occupancy(agg)
+        
     def format_json_occupancy(self,df):
         """
         format_json fangsi digunakna untuk mengubah format dataframe Occupancy ke bentuk inputan
@@ -261,56 +284,3 @@ class CountryReports(object):
                     d[j.room_type] = j.total_occupancy
             output.append(d)
         return output
-    ## DEPRECATED
-
-    # def revenues_from_patient_admissions_per_annum(self):
-    #     df = self.patient_admissions_by_country()
-    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
-    #     df['year'] = df['admitted_date'].dt.year
-    #     agg = df.groupby('year')[['room_rate_total']].sum()
-    #     agg.rename(columns={'room_rate_total':'total_revenues'})
-    #     return agg
-
-    # def revenues_from_patient_admissions_per_month(self, year):
-    #     df = self.patient_admissions_by_country()
-    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
-    #     df = df[df['admitted_date'].dt.year==year]
-    #     df['month'] = df['admitted_date'].dt.month
-    #     agg = df.groupby('month')[['room_rate_total']].sum()
-    #     agg.rename(columns={'room_rate_total':'total_revenues'})
-    #     return agg
-
-    # def revenues_from_patient_admissions_per_quarter(self, year):
-    #     df = self.patient_admissions_by_country()
-    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
-    #     df = df[df['admitted_date'].dt.year==year]
-    #     df['quarter'] = df['admitted_date'].dt.quarter
-    #     agg = df.groupby('quarter')[['room_rate_total']].sum()
-    #     agg.rename(columns={'room_rate_total':'total_revenues'})
-    #     return agg
-
-    # def admitted_patients_per_annum(self):
-    #     df = self.patient_admissions_by_country()
-    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
-    #     df['year'] = df['admitted_date'].dt.year
-    #     agg = df.groupby('year')[['admission_id']].count()
-    #     agg.rename(columns={'admission_id':'total_admitted_patients'})
-    #     return agg
-
-    # def admitted_patients_per_month(self, year):
-    #     df = self.patient_admissions_by_country()
-    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
-    #     df = df[df['admitted_date'].dt.year==year]
-    #     df['month'] = df['admitted_date'].dt.month
-    #     agg = df.groupby('month')[['admission_id']].count()
-    #     agg.rename(columns={'admission_id':'total_admitted_patients'})
-    #     return agg
-
-    # def admitted_patients_per_quarter(self, year):
-    #     df = self.patient_admissions_by_country()
-    #     df['admitted_date'] = pd.to_datetime(df['admitted_date'])
-    #     df = df[df['admitted_date'].dt.year==year]
-    #     df['quarter'] = df['admitted_date'].dt.quarter
-    #     agg = df.groupby('quarter')[['admission_id']].count()
-    #     agg.rename(columns={'admission_id':'total_admitted_patients'})
-    #     return agg

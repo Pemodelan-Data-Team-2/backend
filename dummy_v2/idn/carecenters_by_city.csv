@@ -1,0 +1,3 @@
+city,care_center_id,care_center_name,address
+D,cc-idn-1,Medistra MVCH,"""{street: 'Gang Rajaw', city:'D', state_or_province:'B',zip_code:'37164', country:'IDN'}"""
+J,cc-idn-2,Rumah Sakit Mitra Keluarga MVCH,"""{street: 'Jl. Moch. ', city:'J', state_or_province:'J',zip_code:'31619', country:'IDN'}"""

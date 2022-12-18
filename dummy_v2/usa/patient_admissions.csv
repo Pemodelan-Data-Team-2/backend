@@ -1,0 +1,956 @@
+admission_id,patient_id,bed_id,room_id,care_center_id,admitted_date,discharged_date,admitted_causes,room_rate_per_night,room_rate_total
+adm-usa-9939,p-usa-0042,b-usa-3734,r-usa-vip-1650,cc-usa-1,2014-06-24,2014-06-26,Bell's palsy facial muscle weakness,520.66,1041.32
+adm-usa-1860,p-usa-0782,b-usa-3820,r-usa-vvip-6484,cc-usa-2,2019-10-26,2019-10-29,Discitis spinal disk inflammation,919.31,2757.93
+adm-usa-3413,p-usa-0715,b-usa-0660,r-usa-vip-0654,cc-usa-2,2019-09-27,2019-10-27,Nasopharyngeal carcinoma tumor,672.34,20170.2
+adm-usa-6462,p-usa-0850,b-usa-9370,r-usa-i-6653,cc-usa-2,2014-12-21,2015-01-13,"Ear infection, middle ear otitis media",479.38,11025.74
+adm-usa-8219,p-usa-0667,b-usa-2477,r-usa-vip-0587,cc-usa-2,2018-09-08,2018-10-03,Abdominal aortic aneurysm (enlarged major blood vessel),672.34,16808.5
+adm-usa-0221,p-usa-0603,b-usa-5190,r-usa-vip-8775,cc-usa-2,2017-12-13,2018-01-01,"Deep venous thrombosis DVT, venous blood clot",672.34,12774.46
+adm-usa-7164,p-usa-0486,b-usa-0959,r-usa-iii-3213,cc-usa-2,2019-05-17,2019-06-28,Ophthalmoplegia eye muscle weakness,83.64,3512.88
+adm-usa-9517,p-usa-0884,b-usa-3138,r-usa-vvip-6493,cc-usa-2,2020-08-15,2020-08-18,Ophthalmoplegia eye muscle weakness,919.31,2757.93
+adm-usa-1532,p-usa-0142,b-usa-3972,r-usa-ii-1489,cc-usa-2,2013-11-14,2013-12-01,Legg Calve Perthes disease childhood hip condition,184.48,3136.16
+adm-usa-9582,p-usa-0157,b-usa-1888,r-usa-i-3419,cc-usa-1,2021-01-24,2021-01-27,Antidepressant overdose,319.53,958.59
+adm-usa-6378,p-usa-0186,b-usa-0752,r-usa-vip-7069,cc-usa-1,2014-01-23,2014-02-05,Testicular hypofunction,520.66,6768.58
+adm-usa-9462,p-usa-0645,b-usa-5867,r-usa-i-8908,cc-usa-1,2013-05-13,2013-05-22,Cystocele bladder hernia,319.53,2875.77
+adm-usa-7205,p-usa-0125,b-usa-3834,r-usa-ii-6457,cc-usa-1,2019-10-04,2019-10-17,"Sever's disease calcaneal apophysitis, common cause of heel pain",225.11,2926.43
+adm-usa-1802,p-usa-0501,b-usa-0953,r-usa-vvip-3084,cc-usa-1,2016-06-24,2016-07-31,Fat embolism blood clot from fat,784.86,29039.82
+adm-usa-5466,p-usa-0696,b-usa-3544,r-usa-iii-7268,cc-usa-2,2012-10-24,2012-11-14,Waldenström macroglobulinemia blood cell disease,83.64,1756.44
+adm-usa-3675,p-usa-0182,b-usa-2156,r-usa-vvip-5192,cc-usa-2,2015-06-24,2015-06-26,Peritonsillar abscess collection of pus around tonsils,919.31,1838.62
+adm-usa-8694,p-usa-0999,b-usa-4592,r-usa-vvip-4822,cc-usa-1,2017-09-14,2017-09-21,Eyelid laceration skin cut,784.86,5494.02
+adm-usa-3151,p-usa-0902,b-usa-6148,r-usa-vip-3469,cc-usa-1,2015-11-28,2015-12-09,"Brain arteriovenous malformation blood vessel abnormality in the brain, AVM Arteriovenous malformation of brain",520.66,5727.26
+adm-usa-5343,p-usa-0335,b-usa-8811,r-usa-i-1183,cc-usa-1,2017-04-06,2017-04-21,Unisom overdose doxylamine overdose,319.53,4792.95
+adm-usa-6211,p-usa-0962,b-usa-3244,r-usa-iii-3667,cc-usa-1,2015-06-20,2015-07-01,Mitral valve prolapse abnormal heart valve,77.11,848.21
+adm-usa-6037,p-usa-0563,b-usa-6472,r-usa-vip-9966,cc-usa-2,2015-01-13,2015-01-30,Fat embolism blood clot from fat,672.34,11429.78
+adm-usa-3931,p-usa-0581,b-usa-0321,r-usa-vip-1438,cc-usa-2,2014-05-25,2014-06-13,Kidney cancer tumor,672.34,12774.46
+adm-usa-0084,p-usa-0265,b-usa-9526,r-usa-vvip-2413,cc-usa-1,2015-03-17,2015-03-31,Finger swelling,784.86,10988.04
+adm-usa-2492,p-usa-0801,b-usa-7403,r-usa-iii-2057,cc-usa-2,2017-11-26,2017-12-20,Puncture wound of knee,83.64,2007.36
+adm-usa-4036,p-usa-0296,b-usa-5497,r-usa-iii-3130,cc-usa-2,2018-04-18,2018-05-07,Ligament sprain connection between two bones,83.64,1589.16
+adm-usa-5104,p-usa-0120,b-usa-0032,r-usa-vip-2217,cc-usa-2,2022-08-27,2022-09-29,Hypotension low blood pressure,672.34,22187.22
+adm-usa-0455,p-usa-0974,b-usa-6948,r-usa-iii-7780,cc-usa-1,2018-12-20,2018-12-25,Spinal cord tumor,77.11,385.55
+adm-usa-6319,p-usa-0856,b-usa-3190,r-usa-i-6563,cc-usa-1,2015-08-03,2015-08-17,Temporal arteritis inflamed scalp artery,319.53,4473.42
+adm-usa-8271,p-usa-0667,b-usa-7602,r-usa-vip-6178,cc-usa-1,2018-11-09,2018-11-15,De Quervain's tenosynovitis hand tendon inflammation,520.66,3123.96
+adm-usa-3000,p-usa-0603,b-usa-7133,r-usa-iii-1149,cc-usa-1,2019-11-05,2019-11-09,Tension headache stress headache,77.11,308.44
+adm-usa-1568,p-usa-0367,b-usa-0974,r-usa-ii-7211,cc-usa-2,2021-06-13,2021-07-06,Kaposi Sarcoma type of cancer,184.48,4243.04
+adm-usa-4436,p-usa-0387,b-usa-8000,r-usa-iii-9532,cc-usa-1,2016-09-09,2016-09-22,Appendicitis,77.11,1002.43
+adm-usa-4205,p-usa-0296,b-usa-0795,r-usa-vvip-2413,cc-usa-2,2018-05-19,2018-05-29,Basal cell carcinoma skin cancer,919.31,9193.1
+adm-usa-9622,p-usa-0634,b-usa-5922,r-usa-vvip-1174,cc-usa-2,2014-09-23,2014-10-04,Vertigo spinning sensation,919.31,10112.41
+adm-usa-3822,p-usa-0013,b-usa-3388,r-usa-vvip-4685,cc-usa-1,2022-11-11,2022-11-13,Down syndrome common genetic disorder,784.86,1569.72
+adm-usa-5562,p-usa-0581,b-usa-1798,r-usa-iii-1149,cc-usa-2,2014-02-10,2014-03-03,Corneal ulcer,83.64,1756.44
+adm-usa-1587,p-usa-0528,b-usa-2633,r-usa-ii-7950,cc-usa-1,2015-01-27,2015-02-05,Food poisoning,225.11,2025.99
+adm-usa-3584,p-usa-0649,b-usa-7105,r-usa-vip-0654,cc-usa-1,2012-02-05,2012-02-08,Suicide,520.66,1561.98
+adm-usa-3426,p-usa-0902,b-usa-0428,r-usa-ii-6457,cc-usa-1,2022-04-03,2022-04-11,Miller Fisher Syndrome rare nerve disease,225.11,1800.88
+adm-usa-0588,p-usa-0251,b-usa-9179,r-usa-vip-5496,cc-usa-1,2018-09-23,2018-10-16,Myositis muscle inflammation or infection,520.66,11975.18
+adm-usa-6052,p-usa-0250,b-usa-2474,r-usa-iii-3107,cc-usa-1,2014-07-06,2014-07-17,Rhinovirus infection common cold,77.11,848.21
+adm-usa-2804,p-usa-0124,b-usa-7457,r-usa-ii-7087,cc-usa-1,2021-08-18,2021-08-21,Asthma,225.11,675.33
+adm-usa-2917,p-usa-0951,b-usa-1798,r-usa-vip-2254,cc-usa-1,2014-10-06,2014-10-30,Rhabdomyolysis severe muscle breakdown,520.66,12495.84
+adm-usa-6776,p-usa-0044,b-usa-1798,r-usa-iii-7780,cc-usa-2,2015-04-12,2015-04-20,Thyroglossal duct cyst neck cyst,83.64,669.12
+adm-usa-8956,p-usa-0634,b-usa-8811,r-usa-vip-6624,cc-usa-2,2014-11-03,2014-11-20,Mitral stenosis tight heart valve,672.34,11429.78
+adm-usa-8127,p-usa-0293,b-usa-0923,r-usa-vvip-2413,cc-usa-1,2012-06-11,2012-07-17,Chlamydia trachomatis infection STD,784.86,28254.96
+adm-usa-3462,p-usa-0304,b-usa-9703,r-usa-ii-6126,cc-usa-1,2016-01-14,2016-01-17,"Chronic obstructive pulmonary disease COPD, emphysema",225.11,675.33
+adm-usa-3344,p-usa-0552,b-usa-4470,r-usa-iii-2108,cc-usa-1,2019-08-16,2019-08-24,Herpes simplex infection viral infection,77.11,616.88
+adm-usa-5713,p-usa-0581,b-usa-0216,r-usa-vip-8766,cc-usa-2,2022-11-07,2022-11-29,Bacterial tracheitis,672.34,14791.48
+adm-usa-7550,p-usa-0501,b-usa-3544,r-usa-i-8908,cc-usa-2,2018-08-05,2018-08-11,Rocky mountain spotted fever bacterial infection spread by ticks,479.38,2876.28
+adm-usa-6328,p-usa-0054,b-usa-5553,r-usa-vvip-9238,cc-usa-2,2014-02-25,2014-02-27,Testicular cancer tumor,919.31,1838.62
+adm-usa-2802,p-usa-0123,b-usa-2699,r-usa-i-1055,cc-usa-1,2022-08-12,2022-09-16,Testicular torsion twisting of testicle,319.53,11183.55
+adm-usa-7202,p-usa-0418,b-usa-8082,r-usa-iii-8563,cc-usa-1,2021-06-04,2021-06-07,Focal seizure partial seizure,77.11,231.33
+adm-usa-0182,p-usa-0450,b-usa-7006,r-usa-iii-9384,cc-usa-2,2012-11-21,2012-12-16,Puncture wound of ankle,83.64,2091.0
+adm-usa-8964,p-usa-0634,b-usa-9333,r-usa-i-6699,cc-usa-1,2022-05-12,2022-05-30,Ototoxicity ear toxicity,319.53,5751.54
+adm-usa-8292,p-usa-0745,b-usa-7245,r-usa-iii-8807,cc-usa-1,2016-03-15,2016-03-22,"Systemic sclerosis scleroderma, progressive soft tissue hardening",77.11,539.77
+adm-usa-9574,p-usa-0453,b-usa-5416,r-usa-vvip-2312,cc-usa-2,2022-07-12,2022-07-29,Hereditary hemorrhagic telangiectasia Osler Weber Rendu syndrome,919.31,15628.27
+adm-usa-2805,p-usa-0312,b-usa-9248,r-usa-vvip-3342,cc-usa-1,2020-08-17,2020-08-27,Dog bite,784.86,7848.6
+adm-usa-0547,p-usa-0501,b-usa-8581,r-usa-iii-1558,cc-usa-1,2016-12-06,2016-12-17,Rickets childhood bone disease,77.11,848.21
+adm-usa-1815,p-usa-0225,b-usa-8204,r-usa-ii-9664,cc-usa-2,2022-01-16,2022-02-11,Macular degeneration chronic eye disease,184.48,4796.48
+adm-usa-7018,p-usa-0322,b-usa-2983,r-usa-ii-5936,cc-usa-2,2017-10-05,2017-10-29,Volvulus twisted intestine,184.48,4427.52
+adm-usa-1053,p-usa-0082,b-usa-3265,r-usa-iii-1499,cc-usa-1,2020-12-25,2021-01-07,Nasal cancer tumor,77.11,1002.43
+adm-usa-9678,p-usa-0745,b-usa-7694,r-usa-vip-5014,cc-usa-1,2017-11-02,2017-11-16,Septic arthritis joint infection,520.66,7289.24
+adm-usa-4758,p-usa-0323,b-usa-1949,r-usa-ii-3837,cc-usa-1,2021-03-24,2021-04-09,Ligament tear connection between two bones,225.11,3601.76
+adm-usa-0507,p-usa-0453,b-usa-1176,r-usa-vip-2057,cc-usa-2,2018-03-05,2018-03-07,Contact urticaria hives,672.34,1344.68
+adm-usa-8417,p-usa-0079,b-usa-8716,r-usa-iii-4396,cc-usa-2,2020-03-23,2020-04-20,Blocked tear duct dacryostenosis,83.64,2341.92
+adm-usa-3821,p-usa-0528,b-usa-0580,r-usa-vvip-8224,cc-usa-1,2018-11-01,2018-11-09,"Systemic sclerosis scleroderma, progressive soft tissue hardening",784.86,6278.88
+adm-usa-2835,p-usa-0880,b-usa-5195,r-usa-iii-7963,cc-usa-2,2013-01-19,2013-02-23,Pemphigoid,83.64,2927.4
+adm-usa-2622,p-usa-0013,b-usa-5416,r-usa-vvip-5192,cc-usa-2,2013-09-21,2013-10-04,Cerumen impaction ear wax buildup,919.31,11951.03
+adm-usa-6877,p-usa-0317,b-usa-0416,r-usa-vvip-4226,cc-usa-2,2017-02-06,2017-03-09,Confusion  (altered mental status),919.31,28498.61
+adm-usa-2502,p-usa-0731,b-usa-4617,r-usa-ii-8720,cc-usa-1,2019-05-23,2019-07-04,Alcohol  ethanol poisoning  (overdose),225.11,9454.62
+adm-usa-6287,p-usa-0645,b-usa-9696,r-usa-vvip-4521,cc-usa-2,2016-04-18,2016-04-25,Puncture wound of arm,919.31,6435.17
+adm-usa-6797,p-usa-0999,b-usa-7769,r-usa-vip-7966,cc-usa-1,2016-01-30,2016-02-07,Invasive lobular carcinoma,520.66,4165.28
+adm-usa-6186,p-usa-0406,b-usa-6011,r-usa-vip-6788,cc-usa-1,2019-06-11,2019-07-07,Syphilis treponema pallidum,520.66,13537.16
+adm-usa-3588,p-usa-0129,b-usa-3634,r-usa-i-8082,cc-usa-1,2020-09-26,2020-10-10,"Pneumocystis pneumonia PCP, fungal lung infection",319.53,4473.42
+adm-usa-1564,p-usa-0104,b-usa-5195,r-usa-i-3301,cc-usa-1,2020-05-24,2020-05-29,Brain tumor cancer of the brain,319.53,1597.65
+adm-usa-0186,p-usa-0619,b-usa-0262,r-usa-iii-5712,cc-usa-1,2021-11-29,2021-12-30,Altitude illness Illnesses due to high altitude effects,77.11,2390.41
+adm-usa-9559,p-usa-0686,b-usa-9519,r-usa-ii-0282,cc-usa-1,2016-04-28,2016-05-04,Farsightedness hyperopia/hypermetropia,225.11,1350.66
+adm-usa-5943,p-usa-0383,b-usa-0428,r-usa-vvip-2773,cc-usa-2,2014-07-03,2014-07-07,Tylenol  acetaminophen poisoning,919.31,3677.24
+adm-usa-4585,p-usa-0331,b-usa-9899,r-usa-vip-2158,cc-usa-1,2012-12-27,2013-01-21,Mallory Weiss syndrome esophageal tear,520.66,13016.5
+adm-usa-1128,p-usa-0769,b-usa-2321,r-usa-vvip-4226,cc-usa-2,2021-12-16,2021-12-28,Spondylolisthesis slipped back bone,919.31,11031.72
+adm-usa-3649,p-usa-0370,b-usa-2461,r-usa-vip-3401,cc-usa-1,2017-07-23,2017-07-30,Anaphylactoid reactions  (pseudo allergic reaction),520.66,3644.62
+adm-usa-3870,p-usa-0705,b-usa-8230,r-usa-i-8432,cc-usa-1,2014-10-20,2014-10-27,Polyphagia overeating,319.53,2236.71
+adm-usa-4088,p-usa-0088,b-usa-7105,r-usa-iii-1558,cc-usa-2,2012-12-05,2012-12-11,Sinusitis sinus infection,83.64,501.84
+adm-usa-9335,p-usa-0445,b-usa-5868,r-usa-vvip-5192,cc-usa-1,2016-09-05,2016-09-26,Hepatic encephalopathy confusion from liver failure,784.86,16482.06
+adm-usa-2309,p-usa-0674,b-usa-1058,r-usa-vip-4098,cc-usa-2,2014-01-21,2014-02-06,Cavity tooth caries,672.34,10757.44
+adm-usa-4020,p-usa-0453,b-usa-5101,r-usa-vip-5240,cc-usa-2,2012-11-11,2012-11-24,Pyelonephritis kidney infection,672.34,8740.42
+adm-usa-9208,p-usa-0825,b-usa-4467,r-usa-i-3789,cc-usa-1,2022-02-16,2022-03-01,Liver injury liver trauma,319.53,4153.89
+adm-usa-0532,p-usa-0831,b-usa-0504,r-usa-ii-3837,cc-usa-2,2015-09-23,2015-10-19,"Ventricular tachycardia VT, dangerous irregular heart beat",184.48,4796.48
+adm-usa-5539,p-usa-0073,b-usa-6666,r-usa-iii-6938,cc-usa-1,2017-04-09,2017-04-13,Serotonin syndrome severe medication reaction,77.11,308.44
+adm-usa-6758,p-usa-0667,b-usa-1800,r-usa-iii-4396,cc-usa-2,2020-12-03,2020-12-12,Cytomegalovirus infection CMV viral infection,83.64,752.76
+adm-usa-5828,p-usa-0520,b-usa-6562,r-usa-vip-2254,cc-usa-1,2022-07-26,2022-08-04,Ant bite,520.66,4685.94
+adm-usa-4609,p-usa-0408,b-usa-7495,r-usa-ii-9664,cc-usa-1,2015-09-07,2015-09-15,Ludwigs angina severe infection in the floor of the mouth and neck,225.11,1800.88
+adm-usa-1125,p-usa-0951,b-usa-1677,r-usa-i-5148,cc-usa-2,2021-08-31,2021-10-02,Puncture wound of lip,479.38,15340.16
+adm-usa-2177,p-usa-0921,b-usa-9248,r-usa-vvip-3569,cc-usa-1,2018-01-28,2018-02-01,Sunburn,784.86,3139.44
+adm-usa-4108,p-usa-0962,b-usa-0828,r-usa-i-5298,cc-usa-1,2017-09-04,2017-09-28,Rhinosporidiosis fungal nasal infection,319.53,7668.72
+adm-usa-7161,p-usa-0802,b-usa-8881,r-usa-iii-2057,cc-usa-1,2019-10-02,2019-10-07,Cat bite,77.11,385.55
+adm-usa-8721,p-usa-0521,b-usa-6326,r-usa-iii-5566,cc-usa-2,2012-03-18,2012-03-22,Vitiligo loss of skin pigment,83.64,334.56
+adm-usa-3041,p-usa-0125,b-usa-9253,r-usa-vvip-3342,cc-usa-2,2013-12-09,2014-01-03,"Neisseria meningitidis infection Neisseria meningitidis meningococcus, serious bacterial illness",919.31,22982.75
+adm-usa-4291,p-usa-0918,b-usa-3795,r-usa-vvip-0537,cc-usa-1,2020-02-02,2020-02-10,Tennis elbow lateral epicondylitis,784.86,6278.88
+adm-usa-2187,p-usa-0951,b-usa-0788,r-usa-i-1055,cc-usa-1,2015-04-13,2015-04-18,Anorexia nervosa  (eating disorder),319.53,1597.65
+adm-usa-3285,p-usa-0205,b-usa-3979,r-usa-iii-9970,cc-usa-2,2020-12-07,2021-01-01,Liver abscess collection of pus,83.64,2091.0
+adm-usa-3190,p-usa-0944,b-usa-2677,r-usa-iii-2057,cc-usa-1,2014-01-09,2014-01-20,Hypoparathyroidism,77.11,848.21
+adm-usa-6988,p-usa-0464,b-usa-1776,r-usa-vip-7400,cc-usa-2,2022-02-18,2022-03-14,Brain abscess collection of pus in the brain,672.34,16136.16
+adm-usa-0113,p-usa-0001,b-usa-8125,r-usa-ii-6457,cc-usa-2,2015-07-23,2015-08-06,Nail contusion swelling of finger and nail,184.48,2582.72
+adm-usa-4167,p-usa-0696,b-usa-6520,r-usa-vvip-3005,cc-usa-2,2012-09-30,2012-10-08,"Leishmaniasis parasitic infection, kala azar",919.31,7354.48
+adm-usa-9141,p-usa-0759,b-usa-1949,r-usa-vvip-7652,cc-usa-1,2018-08-19,2018-09-27,Sun poisoning,784.86,30609.54
+adm-usa-9818,p-usa-0660,b-usa-1174,r-usa-vvip-2413,cc-usa-2,2013-10-08,2013-10-27,Post herpetic neuralgia nerve pain after shingles,919.31,17466.89
+adm-usa-8940,p-usa-0782,b-usa-9685,r-usa-vip-2217,cc-usa-1,2018-10-25,2018-11-04,Dental eruption appearance of new tooth,520.66,5206.6
+adm-usa-3065,p-usa-0370,b-usa-3591,r-usa-vip-6624,cc-usa-2,2014-07-30,2014-08-09,Mosquito bite,672.34,6723.4
+adm-usa-6590,p-usa-0729,b-usa-4549,r-usa-vvip-3058,cc-usa-1,2022-07-10,2022-07-21,Melanoma skin cancer,784.86,8633.46
+adm-usa-0468,p-usa-0984,b-usa-9664,r-usa-vip-8775,cc-usa-1,2020-02-10,2020-03-02,Neisseria gonorrhea infection sexually transmitted disease,520.66,10933.86
+adm-usa-2829,p-usa-0294,b-usa-2435,r-usa-vip-8775,cc-usa-2,2021-04-10,2021-04-19,Secondary dysmenorrhea painful menstruation,672.34,6051.06
+adm-usa-1875,p-usa-0013,b-usa-9248,r-usa-iii-0021,cc-usa-1,2012-08-29,2012-09-01,Hyperkeratosis skin thickening,77.11,231.33
+adm-usa-4691,p-usa-0430,b-usa-2156,r-usa-iii-9532,cc-usa-1,2019-07-29,2019-08-22,Brucellosis bacterial infection spread from animals,77.11,1850.64
+adm-usa-7255,p-usa-0101,b-usa-4127,r-usa-vip-6532,cc-usa-1,2014-09-28,2014-10-28,Epiglottitis severe throat inflammation,520.66,15619.8
+adm-usa-4588,p-usa-0860,b-usa-9508,r-usa-iii-4396,cc-usa-1,2012-11-02,2012-11-14,Broken heart syndrome Takotsubo cardiomyopathy,77.11,925.32
+adm-usa-8697,p-usa-0294,b-usa-9769,r-usa-iii-5566,cc-usa-1,2020-01-23,2020-01-29,Asperger's syndrome autism spectrum disorder,77.11,462.66
+adm-usa-4414,p-usa-0125,b-usa-6985,r-usa-vip-6788,cc-usa-1,2012-10-19,2012-11-06,Dry socket pain after tooth removal,520.66,9371.88
+adm-usa-5254,p-usa-0221,b-usa-5153,r-usa-vvip-5192,cc-usa-2,2015-05-16,2015-05-26,Prescription drug abuse,919.31,9193.1
+adm-usa-8555,p-usa-0306,b-usa-2916,r-usa-vip-7521,cc-usa-1,2016-03-25,2016-05-02,Lymphoma lymph node cancer,520.66,19785.08
+adm-usa-9415,p-usa-0616,b-usa-9767,r-usa-vvip-3964,cc-usa-1,2014-09-05,2014-09-18,Tick paralysis toxin from ticks,784.86,10203.18
+adm-usa-9800,p-usa-0926,b-usa-7518,r-usa-vip-3469,cc-usa-1,2013-08-09,2013-08-30,Schizoaffective disorder features of schizophrenia and mood disorder,520.66,10933.86
+adm-usa-0630,p-usa-0520,b-usa-5278,r-usa-vvip-3569,cc-usa-1,2012-08-30,2012-09-07,Filariasis elephantiasis,784.86,6278.88
+adm-usa-5123,p-usa-0574,b-usa-6941,r-usa-i-8805,cc-usa-1,2014-05-19,2014-06-13,Diabetes high blood sugar,319.53,7988.25
+adm-usa-4918,p-usa-0353,b-usa-9836,r-usa-vvip-3342,cc-usa-2,2015-08-08,2015-08-29,Depression excessive sadness,919.31,19305.51
+adm-usa-3668,p-usa-0370,b-usa-0385,r-usa-vvip-7652,cc-usa-2,2022-11-29,2022-12-17,Nose bleed epistaxis,919.31,16547.58
+adm-usa-5181,p-usa-0731,b-usa-7423,r-usa-i-7503,cc-usa-2,2013-07-14,2013-08-11,Finger laceration skin cut,479.38,13422.64
+adm-usa-3086,p-usa-0042,b-usa-0656,r-usa-iii-2791,cc-usa-1,2014-02-03,2014-02-07,Gangrene death of body tissue,77.11,308.44
+adm-usa-4017,p-usa-0773,b-usa-7544,r-usa-vvip-1041,cc-usa-1,2016-04-12,2016-04-28,Henoch Schönlein purpura blood vessel inflammation,784.86,12557.76
+adm-usa-4571,p-usa-0621,b-usa-4781,r-usa-vvip-3173,cc-usa-2,2013-02-19,2013-02-21,Pickwickian syndrome severe obesity,919.31,1838.62
+adm-usa-5251,p-usa-0308,b-usa-1605,r-usa-vvip-1174,cc-usa-1,2018-11-03,2018-11-26,Polycythemia vera increased number of red blood cells,784.86,18051.78
+adm-usa-8410,p-usa-0725,b-usa-7148,r-usa-i-8133,cc-usa-1,2012-08-17,2012-08-29,"Thoracic outlet syndrome nerve, blood vessel compression",319.53,3834.36
+adm-usa-3620,p-usa-0005,b-usa-6596,r-usa-vvip-4246,cc-usa-1,2021-03-12,2021-04-09,Optic neuritis optic nerve inflammation,784.86,21976.08
+adm-usa-7481,p-usa-0799,b-usa-7602,r-usa-vvip-4226,cc-usa-2,2019-04-03,2019-04-23,Patellar knee cap tendon rupture,919.31,18386.2
+adm-usa-7317,p-usa-0251,b-usa-7551,r-usa-vip-2217,cc-usa-2,2020-01-25,2020-01-31,Hypothyroidism low thyroid hormone,672.34,4034.04
+adm-usa-4119,p-usa-0738,b-usa-3556,r-usa-ii-7241,cc-usa-2,2019-08-31,2019-09-02,Diabetic nephropathy diabetes and kidney disease,184.48,368.96
+adm-usa-4113,p-usa-0791,b-usa-1677,r-usa-vip-4098,cc-usa-1,2017-11-05,2017-11-15,Aortic regurgitation leaking heart valve,520.66,5206.6
+adm-usa-4815,p-usa-0808,b-usa-5910,r-usa-vip-3469,cc-usa-1,2019-09-23,2019-10-09,Ankle fracture broken ankle,520.66,8330.56
+adm-usa-8323,p-usa-0600,b-usa-5068,r-usa-iii-6704,cc-usa-1,2020-11-27,2020-12-05,Measles viral disease with typical rash,77.11,616.88
+adm-usa-2426,p-usa-0958,b-usa-3795,r-usa-ii-8143,cc-usa-2,2015-04-21,2015-05-05,Birth control pill use,184.48,2582.72
+adm-usa-6546,p-usa-0918,b-usa-7769,r-usa-iii-3213,cc-usa-1,2022-04-26,2022-05-07,Athlete's foot tinea pedis,77.11,848.21
+adm-usa-1915,p-usa-0300,b-usa-4279,r-usa-iii-4615,cc-usa-2,2021-11-11,2021-11-17,Myopathy muscle disease,83.64,501.84
+adm-usa-1293,p-usa-0251,b-usa-4577,r-usa-iii-7632,cc-usa-2,2016-04-10,2016-04-29,Mitral stenosis tight heart valve,83.64,1589.16
+adm-usa-4210,p-usa-0201,b-usa-0606,r-usa-ii-4324,cc-usa-2,2019-02-08,2019-02-19,Kidney cancer tumor,184.48,2029.28
+adm-usa-3519,p-usa-0423,b-usa-1493,r-usa-vip-4712,cc-usa-2,2014-06-22,2014-07-05,Medication reaction,672.34,8740.42
+adm-usa-8102,p-usa-0094,b-usa-1504,r-usa-vvip-3173,cc-usa-2,2015-07-20,2015-07-23,Vaginal atrophy atrophic vaginitis,919.31,2757.93
+adm-usa-2283,p-usa-0145,b-usa-6264,r-usa-iii-9363,cc-usa-1,2019-01-08,2019-01-24,Scar,77.11,1233.76
+adm-usa-3623,p-usa-0111,b-usa-2677,r-usa-vip-6353,cc-usa-2,2013-04-26,2013-05-06,Knee laceration skin cut,672.34,6723.4
+adm-usa-8312,p-usa-0349,b-usa-9453,r-usa-ii-7241,cc-usa-2,2022-03-04,2022-03-11,Enlarged lymph nodes lymphadenopathy,184.48,1291.36
+adm-usa-9530,p-usa-0372,b-usa-7049,r-usa-ii-8143,cc-usa-2,2016-07-29,2016-08-13,Abdominal swelling,184.48,2767.2
+adm-usa-0624,p-usa-0907,b-usa-9208,r-usa-ii-9664,cc-usa-1,2018-10-26,2018-11-18,Hydrocephalus brain fluid build-up,225.11,5177.53
+adm-usa-5947,p-usa-0459,b-usa-5861,r-usa-ii-3143,cc-usa-1,2016-06-06,2016-06-23,Pickwickian syndrome severe obesity,225.11,3826.87
+adm-usa-3786,p-usa-0508,b-usa-4631,r-usa-iii-1558,cc-usa-2,2013-08-12,2013-09-03,Tenosynovitis tendon sheath inflammation,83.64,1840.08
+adm-usa-5704,p-usa-0844,b-usa-9877,r-usa-vvip-6484,cc-usa-1,2015-03-29,2015-04-18,Teeth grinding bruxism,784.86,15697.2
+adm-usa-9500,p-usa-0304,b-usa-0857,r-usa-ii-6126,cc-usa-2,2015-11-15,2015-12-01,Dislocation joint out of place,184.48,2951.68
+adm-usa-7322,p-usa-0287,b-usa-2435,r-usa-vvip-2773,cc-usa-1,2012-10-21,2012-11-22,Broken leg leg fracture,784.86,25115.52
+adm-usa-6687,p-usa-0600,b-usa-6759,r-usa-vip-9966,cc-usa-1,2018-08-23,2018-09-23,Septic hip infected hip joint,520.66,16140.46
+adm-usa-4359,p-usa-0799,b-usa-7474,r-usa-vip-6903,cc-usa-2,2016-08-13,2016-08-29,Broken heart syndrome Takotsubo cardiomyopathy,672.34,10757.44
+adm-usa-3638,p-usa-0286,b-usa-7761,r-usa-ii-3837,cc-usa-1,2012-01-18,2012-02-02,Gestational diabetes diabetes during pregnancy,225.11,3376.65
+adm-usa-3327,p-usa-0129,b-usa-9206,r-usa-i-5041,cc-usa-2,2016-08-12,2016-08-16,Hypersensitivity pneumonitis allergic lung disease,479.38,1917.52
+adm-usa-0753,p-usa-0745,b-usa-9179,r-usa-iii-1547,cc-usa-1,2017-03-06,2017-03-25,Strabismus crossed eyes,77.11,1465.09
+adm-usa-2218,p-usa-0287,b-usa-1454,r-usa-i-4815,cc-usa-2,2012-08-22,2012-09-12,Periorbital cellulitis infection around eye,479.38,10066.98
+adm-usa-1276,p-usa-0806,b-usa-6040,r-usa-vip-4766,cc-usa-1,2012-06-11,2012-06-25,Radiation exposure radiation sickness,520.66,7289.24
+adm-usa-2977,p-usa-0589,b-usa-5264,r-usa-vip-0036,cc-usa-1,2021-07-01,2021-07-25,"Respiratory failure breathing failure, ARDS",520.66,12495.84
+adm-usa-9410,p-usa-0534,b-usa-8347,r-usa-vip-5169,cc-usa-2,2017-01-04,2017-01-19,Attention deficit hyperactivity disorder ADHD,672.34,10085.1
+adm-usa-1949,p-usa-0603,b-usa-5276,r-usa-i-8133,cc-usa-1,2015-12-12,2016-01-06,Caffeine use,319.53,7988.25
+adm-usa-2764,p-usa-0621,b-usa-0787,r-usa-i-9075,cc-usa-2,2018-11-07,2018-12-06,Malnutrition,479.38,13902.02
+adm-usa-9471,p-usa-0918,b-usa-9430,r-usa-i-3886,cc-usa-2,2012-03-01,2012-03-11,Major depressive disorder severe depression,479.38,4793.8
+adm-usa-4052,p-usa-0339,b-usa-8438,r-usa-vip-1209,cc-usa-1,2013-05-12,2013-06-06,"Mastocytosis urticaria pigmentosa, skin disease",520.66,13016.5
+adm-usa-2156,p-usa-0800,b-usa-4366,r-usa-i-1183,cc-usa-2,2015-09-26,2015-10-24,"Pelvic inflammatory disease PID, female reproductive organ infection",479.38,13422.64
+adm-usa-5541,p-usa-0356,b-usa-2855,r-usa-iii-4396,cc-usa-2,2017-01-25,2017-02-15,Invasive ductal carcinoma,83.64,1756.44
+adm-usa-3647,p-usa-0884,b-usa-1976,r-usa-i-5041,cc-usa-2,2022-08-28,2022-10-08,Chagas disease trypanosomiasis,479.38,19654.58
+adm-usa-1254,p-usa-0348,b-usa-3830,r-usa-vip-8328,cc-usa-2,2012-05-23,2012-05-28,Nail contusion swelling of finger and nail,672.34,3361.7
+adm-usa-8350,p-usa-0687,b-usa-7403,r-usa-vip-0055,cc-usa-1,2013-06-23,2013-07-28,Myocarditis heart muscle inflammation,520.66,18223.1
+adm-usa-0858,p-usa-0574,b-usa-7919,r-usa-iii-9532,cc-usa-1,2021-12-15,2021-12-20,Lip laceration skin cut,77.11,385.55
+adm-usa-2824,p-usa-0951,b-usa-5190,r-usa-vip-1774,cc-usa-1,2017-12-31,2018-02-04,Insect bite,520.66,18223.1
+adm-usa-6902,p-usa-0120,b-usa-8267,r-usa-iii-7268,cc-usa-1,2017-07-06,2017-07-29,Spinal cord tumor,77.11,1773.53
+adm-usa-0091,p-usa-0603,b-usa-4062,r-usa-ii-3143,cc-usa-1,2019-07-23,2019-08-08,Aphthous ulcers mouth stomatitis,225.11,3601.76
+adm-usa-7808,p-usa-0099,b-usa-9131,r-usa-vip-5169,cc-usa-1,2012-07-28,2012-08-07,Septic knee joint infected knee joint,520.66,5206.6
+adm-usa-8235,p-usa-0348,b-usa-9662,r-usa-iii-8563,cc-usa-2,2015-02-19,2015-02-26,"Oral candidiasis thrush, oral yeast",83.64,585.48
+adm-usa-1050,p-usa-0864,b-usa-1324,r-usa-vip-0587,cc-usa-2,2013-06-04,2013-06-15,Burning mouth syndrome,672.34,7395.74
+adm-usa-9319,p-usa-0098,b-usa-9316,r-usa-iii-0704,cc-usa-2,2012-05-21,2012-05-27,Puncture wound of toe,83.64,501.84
+adm-usa-7072,p-usa-0990,b-usa-6562,r-usa-iii-7963,cc-usa-2,2022-07-04,2022-07-24,Hypothyroidism low thyroid hormone,83.64,1672.8
+adm-usa-0919,p-usa-0329,b-usa-0654,r-usa-vip-2057,cc-usa-2,2017-12-30,2018-01-07,Prinzmetal angina heart artery spasm,672.34,5378.72
+adm-usa-1353,p-usa-0889,b-usa-2221,r-usa-i-8432,cc-usa-2,2021-06-03,2021-06-19,Self-inflicted injury,479.38,7670.08
+adm-usa-6830,p-usa-0022,b-usa-5041,r-usa-vip-2214,cc-usa-1,2014-06-11,2014-06-22,Interstitial lung disease chronic scarring of the lung,520.66,5727.26
+adm-usa-1300,p-usa-0696,b-usa-3118,r-usa-ii-4324,cc-usa-2,2014-09-14,2014-10-06,Nail avulsion traumatic removal of nail,184.48,4058.56
+adm-usa-5675,p-usa-0077,b-usa-5600,r-usa-iii-4396,cc-usa-2,2012-01-21,2012-02-05,Abdominal adhesions scar tissue,83.64,1254.6
+adm-usa-0635,p-usa-0161,b-usa-2221,r-usa-vvip-3084,cc-usa-2,2012-03-25,2012-04-06,Cat scratch fever bacterial infection after cat scratch,919.31,11031.72
+adm-usa-5546,p-usa-0367,b-usa-5945,r-usa-ii-6485,cc-usa-1,2017-06-10,2017-07-12,Cervical radiculopathy pinched nerve in neck,225.11,7203.52
+adm-usa-8891,p-usa-0581,b-usa-9080,r-usa-vvip-5016,cc-usa-2,2020-08-18,2020-08-20,Lactose intolerance,919.31,1838.62
+adm-usa-7599,p-usa-0956,b-usa-2353,r-usa-vvip-1174,cc-usa-2,2018-09-28,2018-10-22,Abdominal aortic aneurysm (enlarged major blood vessel),919.31,22063.44
+adm-usa-8056,p-usa-0736,b-usa-0752,r-usa-iii-0704,cc-usa-1,2014-12-20,2015-02-10,Long QT Syndrome inherited heart condition,77.11,4009.72
+adm-usa-4706,p-usa-0949,b-usa-5526,r-usa-i-9320,cc-usa-2,2018-06-22,2018-07-16,Suicide,479.38,11505.12
+adm-usa-8848,p-usa-0408,b-usa-3683,r-usa-i-6563,cc-usa-2,2018-07-02,2018-07-14,Focal seizure partial seizure,479.38,5752.56
+adm-usa-4968,p-usa-0017,b-usa-9377,r-usa-vip-2057,cc-usa-1,2019-08-07,2019-08-10,Quaternary syphilis late stage syphilis,520.66,1561.98
+adm-usa-9929,p-usa-0446,b-usa-9811,r-usa-ii-7532,cc-usa-1,2015-04-29,2015-05-26,Facial nerve paralysis,225.11,6077.97
+adm-usa-5366,p-usa-0329,b-usa-4832,r-usa-vip-4712,cc-usa-2,2015-08-13,2015-08-22,Interstitial lung disease chronic scarring of the lung,672.34,6051.06
+adm-usa-4869,p-usa-0453,b-usa-1653,r-usa-iii-5527,cc-usa-2,2014-09-27,2014-10-24,Asthma,83.64,2258.28
+adm-usa-0512,p-usa-0335,b-usa-5278,r-usa-iii-3107,cc-usa-2,2022-03-23,2022-04-22,"Obsessive compulsive disorder OCD, anxiety disorder",83.64,2509.2
+adm-usa-8491,p-usa-0750,b-usa-3389,r-usa-ii-2764,cc-usa-2,2021-10-22,2021-11-05,Colic prolonged infant crying episodes,184.48,2582.72
+adm-usa-4301,p-usa-0406,b-usa-0834,r-usa-vvip-7512,cc-usa-1,2021-05-08,2021-05-22,Discitis spinal disk inflammation,784.86,10988.04
+adm-usa-6039,p-usa-0236,b-usa-4366,r-usa-vip-4712,cc-usa-2,2016-08-09,2016-08-18,Tick borne encephalitis brain infection,672.34,6051.06
+adm-usa-1450,p-usa-0599,b-usa-3060,r-usa-vvip-3084,cc-usa-1,2013-03-30,2013-04-10,"Wolff Parkinson White syndrome WPW, additional electrical pathway in the heart",784.86,8633.46
+adm-usa-8435,p-usa-0771,b-usa-6197,r-usa-ii-9195,cc-usa-1,2022-08-22,2022-08-30,Eye trauma injury,225.11,1800.88
+adm-usa-0839,p-usa-0574,b-usa-5735,r-usa-iii-2791,cc-usa-2,2019-10-13,2019-10-20,Trigger finger,83.64,585.48
+adm-usa-8702,p-usa-0947,b-usa-1976,r-usa-vvip-3173,cc-usa-2,2022-10-08,2022-10-23,Bronchiectasis bronchial tube inflammatory damage,919.31,13789.65
+adm-usa-6750,p-usa-0453,b-usa-1677,r-usa-vip-3088,cc-usa-2,2014-04-25,2014-04-29,Cutaneous T cell lymphoma,672.34,2689.36
+adm-usa-6859,p-usa-0005,b-usa-3979,r-usa-vvip-1174,cc-usa-1,2019-06-11,2019-06-26,Fibromuscular dysplasia FMD,784.86,11772.9
+adm-usa-1160,p-usa-0372,b-usa-4768,r-usa-iii-1547,cc-usa-2,2021-12-11,2022-01-03,Chronic liver disease,83.64,1923.72
+adm-usa-4176,p-usa-0290,b-usa-3427,r-usa-iii-9386,cc-usa-2,2021-12-10,2021-12-16,Farsightedness hyperopia/hypermetropia,83.64,501.84
+adm-usa-3125,p-usa-0609,b-usa-3244,r-usa-vip-9966,cc-usa-1,2020-07-31,2020-08-02,Meniere's disease dizziness and vertigo,520.66,1041.32
+adm-usa-9628,p-usa-0060,b-usa-4572,r-usa-iii-4396,cc-usa-1,2013-11-21,2013-11-23,Chronic pain,77.11,154.22
+adm-usa-0662,p-usa-0161,b-usa-8718,r-usa-iii-7683,cc-usa-2,2017-02-12,2017-03-09,Mitral regurgitation leaking heart valve,83.64,2091.0
+adm-usa-7915,p-usa-0264,b-usa-9068,r-usa-i-8908,cc-usa-1,2014-02-20,2014-03-13,Orchitis inflammation of the testicles,319.53,6710.13
+adm-usa-1152,p-usa-0001,b-usa-3002,r-usa-i-8908,cc-usa-1,2013-11-22,2013-12-08,Sinusitis sinus infection,319.53,5112.48
+adm-usa-5160,p-usa-0932,b-usa-9556,r-usa-iii-7780,cc-usa-1,2021-11-07,2021-12-08,Cholesteatoma middle ear mass,77.11,2390.41
+adm-usa-8789,p-usa-0378,b-usa-2321,r-usa-vip-9966,cc-usa-2,2022-06-25,2022-07-19,Oral ulcers mouth ulcers,672.34,16136.16
+adm-usa-7644,p-usa-0725,b-usa-9484,r-usa-iii-3213,cc-usa-1,2015-10-18,2015-10-26,Corneal foreign body object in the eye,77.11,616.88
+adm-usa-6537,p-usa-0031,b-usa-2983,r-usa-ii-8011,cc-usa-1,2012-10-19,2012-11-02,Tonsillar cancer tumor tongue,225.11,3151.54
+adm-usa-1780,p-usa-0373,b-usa-6227,r-usa-vvip-2783,cc-usa-1,2018-09-11,2018-10-11,Mosquito bite,784.86,23545.8
+adm-usa-2760,p-usa-0683,b-usa-3679,r-usa-ii-2534,cc-usa-2,2019-10-19,2019-11-26,Foot laceration skin cut,184.48,7010.24
+adm-usa-7196,p-usa-0238,b-usa-9068,r-usa-vip-7069,cc-usa-2,2019-04-25,2019-05-03,Metastatic neoplasm cancer spread,672.34,5378.72
+adm-usa-0757,p-usa-0812,b-usa-2986,r-usa-iii-3130,cc-usa-1,2017-12-23,2018-01-11,Optic neuritis optic nerve inflammation,77.11,1465.09
+adm-usa-1947,p-usa-0549,b-usa-8274,r-usa-iii-5527,cc-usa-1,2013-06-27,2013-07-10,Hodgkin's disease cancer of the lymph system,77.11,1002.43
+adm-usa-0453,p-usa-0044,b-usa-9510,r-usa-vip-0036,cc-usa-2,2013-03-07,2013-03-18,Salmonella infection common bacterial intestinal infection,672.34,7395.74
+adm-usa-0785,p-usa-0860,b-usa-8576,r-usa-vip-7400,cc-usa-1,2012-10-16,2012-11-07,"Trichinella spiralis infection trichinosis, parasitic infection from undercooked pork",520.66,11454.52
+adm-usa-7836,p-usa-0958,b-usa-4951,r-usa-i-3789,cc-usa-2,2019-07-06,2019-07-15,Cardiac arrhythmia abnormal heart rate,479.38,4314.42
+adm-usa-4243,p-usa-0755,b-usa-5892,r-usa-vvip-3964,cc-usa-2,2019-01-30,2019-02-20,Extremity trauma leg or arm injury,919.31,19305.51
+adm-usa-2553,p-usa-0534,b-usa-3514,r-usa-vip-3401,cc-usa-2,2012-05-04,2012-05-15,Hydrocephalus brain fluid build-up,672.34,7395.74
+adm-usa-5996,p-usa-0135,b-usa-2914,r-usa-ii-3837,cc-usa-2,2021-08-17,2021-08-22,Cavernous sinus thrombosis head vein blood clot,184.48,922.4
+adm-usa-5662,p-usa-0635,b-usa-8347,r-usa-vvip-6493,cc-usa-2,2020-03-05,2020-03-26,Vertebral-basilar stroke stroke in the back of the brain Vertebro basilar insufficiency,919.31,19305.51
+adm-usa-6497,p-usa-0383,b-usa-0580,r-usa-vvip-3173,cc-usa-2,2013-10-22,2013-11-06,Posterior vitreous detachment common eye abnormality,919.31,13789.65
+adm-usa-8175,p-usa-0603,b-usa-7271,r-usa-iii-5645,cc-usa-1,2013-07-03,2013-07-23,Hydrocele fluid collection near the testicle,77.11,1542.2
+adm-usa-7881,p-usa-0825,b-usa-9430,r-usa-ii-8143,cc-usa-1,2016-12-30,2017-01-01,"Pelvic inflammatory disease PID, female reproductive organ infection",225.11,450.22
+adm-usa-3100,p-usa-0088,b-usa-7495,r-usa-i-5148,cc-usa-1,2022-08-21,2022-08-27,Puncture wound,319.53,1917.18
+adm-usa-8715,p-usa-0455,b-usa-4660,r-usa-vip-2158,cc-usa-1,2013-08-16,2013-08-18,Abdominal trauma,520.66,1041.32
+adm-usa-1171,p-usa-0715,b-usa-1454,r-usa-vvip-6493,cc-usa-2,2021-06-10,2021-07-25,Filariasis elephantiasis,919.31,41368.95
+adm-usa-7393,p-usa-0181,b-usa-4183,r-usa-vvip-2783,cc-usa-2,2021-08-22,2021-09-05,"Zenker's diverticulum pharyngeal pouch, weakening of the esophageal wall",919.31,12870.34
+adm-usa-6083,p-usa-0240,b-usa-9556,r-usa-iii-7582,cc-usa-1,2014-05-22,2014-06-06,Myopathy muscle disease,77.11,1156.65
+adm-usa-6140,p-usa-0566,b-usa-4043,r-usa-vvip-2413,cc-usa-2,2021-06-08,2021-06-25,Dry air nasal irritation,919.31,15628.27
+adm-usa-8152,p-usa-0450,b-usa-3518,r-usa-vvip-3058,cc-usa-2,2021-12-09,2021-12-17,Benign positional vertigo sensation of spinning,919.31,7354.48
+adm-usa-4366,p-usa-0338,b-usa-8718,r-usa-vip-7069,cc-usa-1,2014-06-30,2014-07-19,Fragile X syndrome genetic disorder,520.66,9892.54
+adm-usa-1660,p-usa-0317,b-usa-6631,r-usa-vvip-2312,cc-usa-2,2014-11-23,2015-01-02,Brown recluse spider bite,919.31,36772.4
+adm-usa-5234,p-usa-0140,b-usa-6837,r-usa-vvip-9238,cc-usa-1,2018-02-03,2018-03-11,Foot ulcer,784.86,28254.96
+adm-usa-5481,p-usa-0621,b-usa-1768,r-usa-ii-2534,cc-usa-2,2021-08-16,2021-08-19,Chondromalacia cartilage damage,184.48,553.44
+adm-usa-5458,p-usa-0524,b-usa-0262,r-usa-vip-9966,cc-usa-1,2018-06-15,2018-06-27,Tension pneumothorax dangerous lung collapse,520.66,6247.92
+adm-usa-9540,p-usa-0492,b-usa-8475,r-usa-iii-0021,cc-usa-2,2013-10-09,2013-10-23,Fibromuscular dysplasia FMD,83.64,1170.96
+adm-usa-1699,p-usa-0034,b-usa-1463,r-usa-vip-9992,cc-usa-1,2020-03-28,2020-04-10,Abdominal trauma,520.66,6768.58
+adm-usa-7249,p-usa-0041,b-usa-7668,r-usa-vip-8766,cc-usa-1,2017-06-30,2017-07-02,Arm swelling,520.66,1041.32
+adm-usa-3729,p-usa-0079,b-usa-2524,r-usa-vip-4766,cc-usa-1,2013-12-21,2013-12-30,Cerebral contusion bruise of brain,520.66,4685.94
+adm-usa-2487,p-usa-0498,b-usa-9068,r-usa-iii-2791,cc-usa-2,2020-01-11,2020-01-24,Duodenal cancer small intestine,83.64,1087.32
+adm-usa-2914,p-usa-0490,b-usa-8274,r-usa-i-9075,cc-usa-2,2015-11-10,2015-11-18,Anopheles mosquito bite,479.38,3835.04
+adm-usa-8301,p-usa-0320,b-usa-4618,r-usa-vvip-9554,cc-usa-1,2017-12-04,2017-12-10,Puncture wound of finger,784.86,4709.16
+adm-usa-9739,p-usa-0124,b-usa-5487,r-usa-vip-1209,cc-usa-1,2015-11-23,2015-12-18,Headache,520.66,13016.5
+adm-usa-3034,p-usa-0687,b-usa-7777,r-usa-vip-3088,cc-usa-2,2012-08-05,2012-08-31,Traumatic nerve injury,672.34,17480.84
+adm-usa-7865,p-usa-0563,b-usa-9568,r-usa-ii-8662,cc-usa-1,2012-03-29,2012-04-13,Attention deficit hyperactivity disorder ADHD,225.11,3376.65
+adm-usa-3169,p-usa-0464,b-usa-8872,r-usa-i-1183,cc-usa-2,2015-10-29,2015-11-17,Enlarged lymph nodes lymphadenopathy,479.38,9108.22
+adm-usa-2121,p-usa-0521,b-usa-5526,r-usa-vvip-0537,cc-usa-2,2020-08-13,2020-08-18,Foot ulcer,919.31,4596.55
+adm-usa-4349,p-usa-0607,b-usa-0716,r-usa-ii-8237,cc-usa-1,2013-12-03,2013-12-22,Tarsal tunnel syndrome foot nerve damage,225.11,4277.09
+adm-usa-0312,p-usa-0086,b-usa-7133,r-usa-ii-7211,cc-usa-2,2021-04-28,2021-05-21,Finger fracture broken finger,184.48,4243.04
+adm-usa-5290,p-usa-0323,b-usa-1324,r-usa-vip-1774,cc-usa-1,2013-07-06,2013-07-11,Cellulitis skin infection,520.66,2603.3
+adm-usa-7366,p-usa-0494,b-usa-5988,r-usa-iii-3107,cc-usa-1,2014-02-15,2014-02-17,Retinoblastoma pediatric eye cancer,77.11,154.22
+adm-usa-8748,p-usa-0552,b-usa-4043,r-usa-vvip-4246,cc-usa-1,2019-12-26,2020-01-12,Finger laceration skin cut,784.86,13342.62
+adm-usa-3558,p-usa-0475,b-usa-2983,r-usa-iii-6266,cc-usa-2,2022-09-25,2022-10-19,Optic neuritis optic nerve inflammation,83.64,2007.36
+adm-usa-8847,p-usa-0914,b-usa-9224,r-usa-vip-1438,cc-usa-2,2012-11-19,2012-12-11,Thyroiditis thyroid inflammation,672.34,14791.48
+adm-usa-5887,p-usa-0649,b-usa-8475,r-usa-iii-3491,cc-usa-1,2020-02-18,2020-03-08,Vertebral fracture broken back or neck bone,77.11,1465.09
+adm-usa-0171,p-usa-0098,b-usa-0924,r-usa-iii-5817,cc-usa-2,2017-12-15,2018-01-05,Hair loss alopecia,83.64,1756.44
+adm-usa-6913,p-usa-0430,b-usa-1463,r-usa-ii-8143,cc-usa-1,2020-09-07,2020-09-28,Antidepressant overdose,225.11,4727.31
+adm-usa-4785,p-usa-0576,b-usa-6227,r-usa-ii-8011,cc-usa-1,2020-02-14,2020-03-02,Benzodiazepine Valium overdose,225.11,3826.87
+adm-usa-5571,p-usa-0294,b-usa-3051,r-usa-vip-6178,cc-usa-1,2015-06-18,2015-06-27,Orbital cellulitis soft tissue eye infection,520.66,4685.94
+adm-usa-0242,p-usa-0450,b-usa-0660,r-usa-vvip-0485,cc-usa-2,2020-05-17,2020-05-29,Scalded skin syndrome blistering skin infection,919.31,11031.72
+adm-usa-3012,p-usa-0897,b-usa-6520,r-usa-i-3886,cc-usa-1,2012-10-22,2012-11-15,Goiter enlarged thyroid,319.53,7668.72
+adm-usa-6405,p-usa-0642,b-usa-0332,r-usa-i-2978,cc-usa-1,2020-08-11,2020-08-16,Anorexia (eating disorder),319.53,1597.65
+adm-usa-0226,p-usa-0378,b-usa-6824,r-usa-vvip-9758,cc-usa-2,2022-01-02,2022-02-17,Radiation exposure radiation sickness,919.31,42288.26
+adm-usa-9851,p-usa-0031,b-usa-4053,r-usa-iii-3130,cc-usa-1,2016-05-09,2016-05-29,Osteochondritis dissecans joint disorder,77.11,1542.2
+adm-usa-1066,p-usa-0755,b-usa-4660,r-usa-vvip-4685,cc-usa-1,2012-07-01,2012-07-10,Abdominal adhesions scar tissue,784.86,7063.74
+adm-usa-2392,p-usa-0814,b-usa-8472,r-usa-ii-6485,cc-usa-1,2022-04-16,2022-04-18,Ankle laceration  (cut in skin),225.11,450.22
+adm-usa-2700,p-usa-0409,b-usa-9996,r-usa-vvip-0935,cc-usa-2,2020-12-08,2020-12-12,Greater trochanteric bursitis hip bursitis,919.31,3677.24
+adm-usa-2206,p-usa-0066,b-usa-8476,r-usa-i-5899,cc-usa-2,2020-11-30,2021-01-11,Bladder cancer,479.38,20133.96
+adm-usa-7884,p-usa-0104,b-usa-7444,r-usa-ii-3143,cc-usa-2,2013-10-25,2013-11-19,Viral exanthem rash from viral infection,184.48,4612.0
+adm-usa-1099,p-usa-0563,b-usa-8650,r-usa-vip-1380,cc-usa-2,2015-02-16,2015-02-21,Hemochromatosis excess iron disorder,672.34,3361.7
+adm-usa-4284,p-usa-0505,b-usa-0416,r-usa-i-6190,cc-usa-2,2012-09-02,2012-09-12,"Renal arteriovenous malformation AVM, blood vessel abnormality of the kidney",479.38,4793.8
+adm-usa-2925,p-usa-0057,b-usa-8096,r-usa-ii-8720,cc-usa-2,2021-11-02,2021-11-15,Neuroblastoma,184.48,2398.24
+adm-usa-9058,p-usa-0541,b-usa-5416,r-usa-vvip-8310,cc-usa-1,2015-12-16,2016-01-08,Polyarteritis Nodosa PAN,784.86,18051.78
+adm-usa-0089,p-usa-0041,b-usa-1103,r-usa-vip-6624,cc-usa-2,2019-11-17,2019-11-28,Bullous myringitis middle ear infection,672.34,7395.74
+adm-usa-3948,p-usa-0604,b-usa-8811,r-usa-vvip-3084,cc-usa-1,2012-03-09,2012-04-09,Dyslexia reading disorder,784.86,24330.66
+adm-usa-0979,p-usa-0859,b-usa-0177,r-usa-vip-2254,cc-usa-2,2013-12-08,2013-12-12,Parotitis salivary gland inflammation,672.34,2689.36
+adm-usa-1627,p-usa-0686,b-usa-0383,r-usa-i-1699,cc-usa-1,2015-10-16,2015-10-25,Sclerosing cholangitis progressive bile duct disease ,319.53,2875.77
+adm-usa-1964,p-usa-0239,b-usa-4075,r-usa-vip-5897,cc-usa-1,2018-03-31,2018-04-23,"Narcotic morphine, heroin overdose",520.66,11975.18
+adm-usa-2976,p-usa-0687,b-usa-9776,r-usa-vip-2254,cc-usa-2,2017-06-17,2017-07-03,Pinworms common intestinal worm,672.34,10757.44
+adm-usa-0378,p-usa-0383,b-usa-9080,r-usa-iii-9363,cc-usa-2,2014-01-16,2014-01-23,Candida albicans yeast infection,83.64,585.48
+adm-usa-2898,p-usa-0251,b-usa-3820,r-usa-i-5899,cc-usa-2,2022-09-02,2022-09-26,Sarcoma soft tissue cancer,479.38,11505.12
+adm-usa-9515,p-usa-0501,b-usa-5888,r-usa-iii-9970,cc-usa-1,2013-10-06,2013-10-24,AC joint separation acromioclavicular joint separation closed separation of acromioclavicular joint,77.11,1387.98
+adm-usa-9860,p-usa-0101,b-usa-9937,r-usa-vip-1774,cc-usa-2,2017-03-18,2017-04-11,Cat bite,672.34,16136.16
+adm-usa-5344,p-usa-0318,b-usa-2435,r-usa-ii-6457,cc-usa-2,2017-03-09,2017-03-29,Obesity,184.48,3689.6
+adm-usa-7947,p-usa-0077,b-usa-6124,r-usa-vip-0055,cc-usa-1,2019-06-12,2019-06-17,Congenital heart disease heart defect at birth,520.66,2603.3
+adm-usa-3580,p-usa-0800,b-usa-3734,r-usa-i-8133,cc-usa-1,2022-07-23,2022-07-25,Hepatitis liver inflammation,319.53,639.06
+adm-usa-5442,p-usa-0099,b-usa-8537,r-usa-ii-7950,cc-usa-1,2015-04-08,2015-04-12,Rotator cuff syndrome shoulder injury,225.11,900.44
+adm-usa-8976,p-usa-0619,b-usa-5278,r-usa-iii-9386,cc-usa-2,2017-07-15,2017-07-23,Dog bite,83.64,669.12
+adm-usa-8511,p-usa-0686,b-usa-7919,r-usa-vvip-3084,cc-usa-2,2013-07-02,2013-07-21,"Neisseria meningitidis infection Neisseria meningitidis meningococcus, serious bacterial illness",919.31,17466.89
+adm-usa-6614,p-usa-0867,b-usa-6111,r-usa-i-5899,cc-usa-2,2014-08-31,2014-09-09,Malabsorption syndrome abnormal intestinal digestion,479.38,4314.42
+adm-usa-6606,p-usa-0060,b-usa-1350,r-usa-vip-1438,cc-usa-2,2017-11-02,2017-11-20,Reyes syndrome rare liver and brain swelling,672.34,12102.12
+adm-usa-0174,p-usa-0017,b-usa-5600,r-usa-i-8061,cc-usa-2,2022-02-25,2022-03-17,Acoustic neuroma (ear nerve tumor),479.38,9587.6
+adm-usa-4147,p-usa-0318,b-usa-1995,r-usa-vvip-9554,cc-usa-1,2022-07-13,2022-08-03,Golfer's elbow medial epicondylitis of elbow,784.86,16482.06
+adm-usa-4453,p-usa-0574,b-usa-6631,r-usa-vvip-2312,cc-usa-1,2014-08-11,2014-08-15,"Spinal cord injury, acute",784.86,3139.44
+adm-usa-1172,p-usa-0035,b-usa-2412,r-usa-i-6563,cc-usa-2,2015-04-07,2015-04-12,Frozen shoulder  (adhesive capsulitis of shoulder),479.38,2396.9
+adm-usa-2934,p-usa-0125,b-usa-8754,r-usa-iii-9440,cc-usa-1,2019-03-18,2019-04-08,Drug reaction,77.11,1619.31
+adm-usa-6505,p-usa-0531,b-usa-4729,r-usa-vip-5496,cc-usa-2,2013-05-23,2013-06-03,Perforated septum hole in skin between nostrils,672.34,7395.74
+adm-usa-9352,p-usa-0406,b-usa-8230,r-usa-i-7946,cc-usa-1,2013-06-28,2013-07-11,Back trauma injury,319.53,4153.89
+adm-usa-8232,p-usa-0603,b-usa-6636,r-usa-iii-2057,cc-usa-2,2017-05-11,2017-05-28,Esophageal rupture tear in esophagus,83.64,1421.88
+adm-usa-9696,p-usa-0728,b-usa-8812,r-usa-vip-5240,cc-usa-1,2022-04-10,2022-04-19,Cerebral palsy movement disorder,520.66,4685.94
+adm-usa-0085,p-usa-0670,b-usa-9690,r-usa-iii-1149,cc-usa-1,2015-06-19,2015-07-22,Excessive hair growth Hirsutism,77.11,2544.63
+adm-usa-8654,p-usa-0296,b-usa-4592,r-usa-vvip-3964,cc-usa-1,2017-05-07,2017-05-10,Pancytopenia,784.86,2354.58
+adm-usa-6055,p-usa-0190,b-usa-6174,r-usa-vip-6788,cc-usa-1,2016-07-21,2016-08-02,Golfer's elbow medial epicondylitis of elbow,520.66,6247.92
+adm-usa-1491,p-usa-0141,b-usa-4921,r-usa-vip-3401,cc-usa-1,2014-08-05,2014-09-04,Peritonitis abdominal cavity inflammation,520.66,15619.8
+adm-usa-4058,p-usa-0312,b-usa-1463,r-usa-vvip-4710,cc-usa-2,2013-11-19,2013-11-30,Subarachnoid hemorrhage brain bleeding,919.31,10112.41
+adm-usa-6340,p-usa-0951,b-usa-3918,r-usa-vvip-1283,cc-usa-2,2019-07-19,2019-07-24,Legg Calve Perthes disease childhood hip condition,919.31,4596.55
+adm-usa-3060,p-usa-0143,b-usa-8872,r-usa-i-6190,cc-usa-2,2012-04-09,2012-04-27,Fallopian tube cancer,479.38,8628.84
+adm-usa-3403,p-usa-0918,b-usa-4693,r-usa-vvip-8310,cc-usa-1,2015-06-25,2015-07-05,Spinal cord compression cauda equina syndrome,784.86,7848.6
+adm-usa-2659,p-usa-0753,b-usa-4470,r-usa-vip-0654,cc-usa-1,2020-10-31,2020-11-02,Scaphoid fracture broken hand bone,520.66,1041.32
+adm-usa-1489,p-usa-0060,b-usa-9093,r-usa-vvip-1283,cc-usa-2,2014-10-05,2014-10-16,Balanitis penis swelling,919.31,10112.41
+adm-usa-1281,p-usa-0951,b-usa-1568,r-usa-ii-9664,cc-usa-2,2020-01-13,2020-02-12,Anorexia (eating disorder),184.48,5534.4
+adm-usa-4211,p-usa-0239,b-usa-2916,r-usa-iii-4396,cc-usa-1,2022-03-14,2022-04-07,Primary affective disorder depression,77.11,1850.64
+adm-usa-2853,p-usa-0053,b-usa-0177,r-usa-vip-7620,cc-usa-2,2012-09-19,2012-09-30,Small bowel cancer small intestine,672.34,7395.74
+adm-usa-8498,p-usa-0104,b-usa-9179,r-usa-ii-7211,cc-usa-1,2021-03-24,2021-04-28,Hemolytic anemia red blood cell destruction disorder,225.11,7878.85
+adm-usa-7325,p-usa-0531,b-usa-5397,r-usa-vvip-4710,cc-usa-2,2019-07-06,2019-08-13,Heat stroke,919.31,34933.78
+adm-usa-8017,p-usa-0541,b-usa-9224,r-usa-i-7503,cc-usa-1,2017-12-17,2018-01-02,Essential thrombocythemia excessive blood platelets,319.53,5112.48
+adm-usa-9953,p-usa-0164,b-usa-7209,r-usa-ii-9195,cc-usa-2,2012-02-15,2012-03-13,Keratosis pilaris common skin condition,184.48,4980.96
+adm-usa-1506,p-usa-0227,b-usa-4592,r-usa-ii-9664,cc-usa-1,2013-05-31,2013-06-06,Subconjunctival hemorrhage blood covering white part of the eye,225.11,1350.66
+adm-usa-6563,p-usa-0164,b-usa-1800,r-usa-i-9462,cc-usa-2,2020-06-16,2020-07-08,"Trichinella spiralis infection trichinosis, parasitic infection from undercooked pork",479.38,10546.36
+adm-usa-0592,p-usa-0574,b-usa-6011,r-usa-vvip-9758,cc-usa-2,2013-01-12,2013-01-29,Ramsay Hunt syndrome viral infection causing facial weakness,919.31,15628.27
+adm-usa-7515,p-usa-0139,b-usa-7474,r-usa-vip-4098,cc-usa-2,2019-03-27,2019-03-29,Bacterial dysentery bacterial infection of the intestines,672.34,1344.68
+adm-usa-5937,p-usa-0599,b-usa-2524,r-usa-vvip-7652,cc-usa-2,2018-06-28,2018-07-02,"Viral hemorrhagic fevers Ebola, Lassa",919.31,3677.24
+adm-usa-5144,p-usa-0508,b-usa-3190,r-usa-vvip-7652,cc-usa-2,2014-08-21,2014-09-07,Myxedema coma severely low thyroid hormone,919.31,15628.27
+adm-usa-0036,p-usa-0707,b-usa-0032,r-usa-i-9320,cc-usa-2,2015-04-22,2015-05-02,Thyroid cyst,479.38,4793.8
+adm-usa-9464,p-usa-0294,b-usa-5600,r-usa-i-9075,cc-usa-2,2019-06-01,2019-06-07,Non venomous snake bite,479.38,2876.28
+adm-usa-0536,p-usa-0729,b-usa-3068,r-usa-vip-2595,cc-usa-2,2015-01-25,2015-01-28,Swine Flu H1N1 Influenza,672.34,2017.02
+adm-usa-8736,p-usa-0464,b-usa-7049,r-usa-vvip-5192,cc-usa-2,2015-06-27,2015-06-30,Leptospirosis bacterial infection,919.31,2757.93
+adm-usa-8930,p-usa-0250,b-usa-6111,r-usa-ii-9195,cc-usa-2,2016-07-10,2016-07-14,Fecal impaction rectal blockage from stool,184.48,737.92
+adm-usa-3593,p-usa-0306,b-usa-2156,r-usa-iii-9970,cc-usa-1,2016-04-23,2016-05-05,"Hantavirus infection rare, serious viral infection",77.11,925.32
+adm-usa-8196,p-usa-0549,b-usa-9696,r-usa-i-3419,cc-usa-2,2015-09-13,2015-10-06,Common spider bite spider bite,479.38,11025.74
+adm-usa-3779,p-usa-0686,b-usa-4183,r-usa-i-8133,cc-usa-1,2016-12-31,2017-02-05,Sebaceous cyst sac under the skin,319.53,11503.08
+adm-usa-7541,p-usa-0416,b-usa-0477,r-usa-ii-2534,cc-usa-2,2018-10-23,2018-12-06,Spermatocele sperm-filled epididymal cyst,184.48,8117.12
+adm-usa-0873,p-usa-0899,b-usa-5195,r-usa-vip-7400,cc-usa-2,2018-09-01,2018-09-20,"Lupus systemic lupus erythematosus, SLE",672.34,12774.46
+adm-usa-0901,p-usa-0286,b-usa-8000,r-usa-vip-5169,cc-usa-1,2016-06-02,2016-08-01,"Sever's disease calcaneal apophysitis, common cause of heel pain",520.66,31239.6
+adm-usa-0133,p-usa-0252,b-usa-8576,r-usa-vvip-9758,cc-usa-2,2017-09-05,2017-09-15,Overdose,919.31,9193.1
+adm-usa-7275,p-usa-0423,b-usa-7529,r-usa-iii-2791,cc-usa-1,2012-06-20,2012-07-24,Periodontitis gum inflammation,77.11,2621.74
+adm-usa-6911,p-usa-0589,b-usa-4062,r-usa-vip-1380,cc-usa-2,2016-07-11,2016-08-13,Cerebellar hemorrhage bleeding in back of brain,672.34,22187.22
+adm-usa-0884,p-usa-0954,b-usa-3138,r-usa-vip-6121,cc-usa-1,2016-02-05,2016-02-18,Posterior inferior cerebellar artery syndrome stroke syndrome,520.66,6768.58
+adm-usa-5656,p-usa-0432,b-usa-9811,r-usa-vvip-3084,cc-usa-2,2020-11-01,2020-12-08,Central cord syndrome traumatic spine injury,919.31,34014.47
+adm-usa-0861,p-usa-0373,b-usa-6298,r-usa-vip-0036,cc-usa-1,2014-12-29,2015-01-10,Dystonia,520.66,6247.92
+adm-usa-8544,p-usa-0017,b-usa-8347,r-usa-vvip-0537,cc-usa-1,2012-11-22,2012-12-07,Hypotension low blood pressure,784.86,11772.9
+adm-usa-0607,p-usa-0275,b-usa-0824,r-usa-vvip-7067,cc-usa-2,2019-01-28,2019-02-03,Intestinal volvulus twisting of intestine,919.31,5515.86
+adm-usa-3455,p-usa-0604,b-usa-9703,r-usa-iii-5527,cc-usa-2,2013-07-30,2013-09-03,Third cranial nerve disorder disorder of eye movement,83.64,2927.4
+adm-usa-1862,p-usa-0634,b-usa-2156,r-usa-vvip-9238,cc-usa-2,2017-12-29,2018-01-08,Retropharyngeal abscess throat abscess,919.31,9193.1
+adm-usa-9024,p-usa-0728,b-usa-9333,r-usa-vip-2214,cc-usa-1,2014-01-13,2014-01-23,Scoliosis crooked spine,520.66,5206.6
+adm-usa-3415,p-usa-0949,b-usa-1568,r-usa-iii-4615,cc-usa-1,2014-11-19,2014-12-13,Coarctation of aorta narrowing of the aorta,77.11,1850.64
+adm-usa-7670,p-usa-0312,b-usa-9637,r-usa-vip-4098,cc-usa-1,2022-06-27,2022-07-13,Renal vein thrombosis kidney vein clot,520.66,8330.56
+adm-usa-7514,p-usa-0475,b-usa-1568,r-usa-i-8280,cc-usa-2,2020-01-14,2020-02-11,Puncture wound of scalp,479.38,13422.64
+adm-usa-5669,p-usa-0958,b-usa-7519,r-usa-ii-3837,cc-usa-1,2018-04-19,2018-05-19,Folliculitis hair follicle infection,225.11,6753.3
+adm-usa-7235,p-usa-0473,b-usa-2359,r-usa-iii-5527,cc-usa-1,2015-08-21,2015-09-09,Ligament sprain connection between two bones,77.11,1465.09
+adm-usa-1157,p-usa-0991,b-usa-3388,r-usa-ii-7211,cc-usa-1,2016-01-22,2016-02-07,Dental eruption appearance of new tooth,225.11,3601.76
+adm-usa-4288,p-usa-0705,b-usa-8812,r-usa-vip-2057,cc-usa-2,2018-11-13,2018-11-17,Trench foot immersion foot,672.34,2689.36
+adm-usa-3471,p-usa-0589,b-usa-8230,r-usa-vip-7620,cc-usa-1,2012-05-13,2012-06-11,"Brain arteriovenous malformation blood vessel abnormality in the brain, AVM Arteriovenous malformation of brain",520.66,15099.14
+adm-usa-7407,p-usa-0221,b-usa-6640,r-usa-vip-1774,cc-usa-1,2019-12-07,2019-12-13,Epidural abscess brain or spine pus collection,520.66,3123.96
+adm-usa-2924,p-usa-0799,b-usa-4394,r-usa-iii-9970,cc-usa-1,2017-09-26,2017-10-26,"Loffler's syndrome pulmonary eosinophilia, lung inflammation",77.11,2313.3
+adm-usa-6099,p-usa-0603,b-usa-8537,r-usa-iii-1558,cc-usa-1,2012-08-30,2012-09-01,Shin splints tibial stress syndrome,77.11,154.22
+adm-usa-0393,p-usa-0576,b-usa-0951,r-usa-i-1001,cc-usa-2,2016-07-03,2016-07-08,Ligament sprain connection between two bones,479.38,2396.9
+adm-usa-1848,p-usa-0801,b-usa-6081,r-usa-vip-2217,cc-usa-2,2020-06-27,2020-07-11,"Chronic obstructive pulmonary disease COPD, emphysema",672.34,9412.76
+adm-usa-0306,p-usa-0039,b-usa-9370,r-usa-ii-4324,cc-usa-2,2022-02-24,2022-03-14,Legionellosis Legionnaires' disease,184.48,3320.64
+adm-usa-1605,p-usa-0293,b-usa-7474,r-usa-vip-1438,cc-usa-1,2012-11-02,2012-12-01,Phimosis,520.66,15099.14
+adm-usa-1990,p-usa-0822,b-usa-8663,r-usa-vvip-2783,cc-usa-1,2013-04-06,2013-04-12,Epiglottitis severe throat inflammation,784.86,4709.16
+adm-usa-3697,p-usa-0372,b-usa-7444,r-usa-vip-2057,cc-usa-1,2018-01-18,2018-01-21,Shock severe low blood pressure,520.66,1561.98
+adm-usa-7605,p-usa-0932,b-usa-4958,r-usa-vip-8775,cc-usa-2,2021-11-22,2021-11-25,Carbuncle,672.34,2017.02
+adm-usa-2681,p-usa-0783,b-usa-5397,r-usa-ii-7950,cc-usa-1,2019-10-15,2019-10-17,Greater trochanteric bursitis hip bursitis,225.11,450.22
+adm-usa-8324,p-usa-0275,b-usa-3890,r-usa-i-3301,cc-usa-2,2021-10-14,2021-11-14,Benadryl diphenhydramine overdose,479.38,14860.78
+adm-usa-8824,p-usa-0602,b-usa-7049,r-usa-vip-6121,cc-usa-2,2022-07-10,2022-07-22,Chemical burn,672.34,8068.08
+adm-usa-7092,p-usa-0981,b-usa-1145,r-usa-iii-9440,cc-usa-2,2016-11-28,2016-12-12,Puncture wound of foot,83.64,1170.96
+adm-usa-6415,p-usa-0773,b-usa-8417,r-usa-vvip-4226,cc-usa-2,2021-01-29,2021-02-18,Scoliosis crooked spine,919.31,18386.2
+adm-usa-7632,p-usa-0576,b-usa-2986,r-usa-vvip-3964,cc-usa-1,2018-10-07,2018-10-25,Leg swelling leg edema,784.86,14127.48
+adm-usa-6094,p-usa-0030,b-usa-9510,r-usa-i-8061,cc-usa-2,2018-03-10,2018-03-16,Foreign body in a wound,479.38,2876.28
+adm-usa-3515,p-usa-0210,b-usa-7668,r-usa-iii-5527,cc-usa-2,2017-07-09,2017-08-04,Chronic fatigue syndrome CFS,83.64,2174.64
+adm-usa-8359,p-usa-0819,b-usa-2524,r-usa-ii-9195,cc-usa-1,2014-09-04,2014-09-09,Lymphoma lymph node cancer,225.11,1125.55
+adm-usa-8355,p-usa-0954,b-usa-4592,r-usa-vip-0055,cc-usa-2,2014-02-22,2014-03-07,Hammer toes toe deformity,672.34,8740.42
+adm-usa-9741,p-usa-0240,b-usa-4577,r-usa-i-9320,cc-usa-2,2015-02-14,2015-02-20,Tennis elbow lateral epicondylitis,479.38,2876.28
+adm-usa-5632,p-usa-0475,b-usa-2990,r-usa-vvip-2312,cc-usa-2,2017-10-13,2017-10-26,Choledocholithiasis stone in bile duct,919.31,11951.03
+adm-usa-6077,p-usa-0227,b-usa-3679,r-usa-iii-3130,cc-usa-2,2020-05-23,2020-06-13,Lymphoma lymph node cancer,83.64,1756.44
+adm-usa-0923,p-usa-0312,b-usa-4832,r-usa-i-9320,cc-usa-2,2018-10-19,2018-10-22,Skin abscess collection of pus,479.38,1438.14
+adm-usa-9973,p-usa-0642,b-usa-1154,r-usa-iii-3491,cc-usa-1,2018-12-14,2019-02-02,Puncture wound of ankle,77.11,3855.5
+adm-usa-9895,p-usa-0268,b-usa-6666,r-usa-i-9462,cc-usa-1,2016-03-14,2016-04-12,Early menopause premature ovarian failure,319.53,9266.37
+adm-usa-3628,p-usa-0808,b-usa-5954,r-usa-iii-1149,cc-usa-1,2020-06-28,2020-07-06,Overdose,77.11,616.88
+adm-usa-0024,p-usa-0649,b-usa-5041,r-usa-iii-7582,cc-usa-1,2013-08-29,2013-09-04,Hepatitis A,77.11,462.66
+adm-usa-6654,p-usa-0464,b-usa-7519,r-usa-vip-0055,cc-usa-2,2021-01-10,2021-01-21,Septic arthritis joint infection,672.34,7395.74
+adm-usa-1169,p-usa-0728,b-usa-3661,r-usa-iii-7780,cc-usa-1,2015-08-06,2015-08-27,Triple negative breast cancer,77.11,1619.31
+adm-usa-9146,p-usa-0294,b-usa-0857,r-usa-iii-0704,cc-usa-2,2015-01-02,2015-01-31,Newborn jaundice newborn skin discoloration,83.64,2425.56
+adm-usa-6218,p-usa-0884,b-usa-4075,r-usa-vip-6121,cc-usa-2,2013-04-23,2013-05-14,Insect bite,672.34,14119.14
+adm-usa-8850,p-usa-0728,b-usa-9745,r-usa-ii-9664,cc-usa-1,2016-03-06,2016-03-08,Ulcerative colitis large intestine inflammation,225.11,450.22
+adm-usa-4586,p-usa-0506,b-usa-7777,r-usa-vip-1774,cc-usa-2,2013-05-16,2013-05-31,Common spider bite spider bite,672.34,10085.1
+adm-usa-6228,p-usa-0300,b-usa-3795,r-usa-ii-0282,cc-usa-1,2022-06-21,2022-07-31,"Arteriovenous malformation blood vessel abnormality, AVM",225.11,9004.4
+adm-usa-0292,p-usa-0524,b-usa-3051,r-usa-vip-6353,cc-usa-1,2016-10-05,2016-10-18,Schizophrenia chronic impaired reality perception,520.66,6768.58
+adm-usa-7619,p-usa-0711,b-usa-2900,r-usa-vip-1774,cc-usa-2,2020-03-17,2020-03-26,"Gastrointestinal bleeding stomach, intestine bleeding",672.34,6051.06
+adm-usa-7939,p-usa-0079,b-usa-3531,r-usa-vip-5240,cc-usa-1,2015-09-23,2015-10-12,Perforated septum hole in skin between nostrils,520.66,9892.54
+adm-usa-5108,p-usa-0348,b-usa-6655,r-usa-vvip-3084,cc-usa-2,2017-09-12,2017-09-22,Skull fracture broken bone,919.31,9193.1
+adm-usa-0650,p-usa-0044,b-usa-9899,r-usa-i-5298,cc-usa-2,2018-12-01,2018-12-07,Pancoast syndrome apical lung tumor,479.38,2876.28
+adm-usa-2786,p-usa-0221,b-usa-4161,r-usa-ii-8331,cc-usa-1,2022-02-17,2022-03-15,Vesicovaginal fistula connection between the bladder and vagina,225.11,5852.86
+adm-usa-5443,p-usa-0806,b-usa-6655,r-usa-vip-3469,cc-usa-1,2016-08-24,2016-08-28,Excessive hair growth Hirsutism,520.66,2082.64
+adm-usa-6946,p-usa-0265,b-usa-3060,r-usa-vvip-3084,cc-usa-2,2020-02-06,2020-03-10,Coarctation of aorta narrowing of the aorta,919.31,30337.23
+adm-usa-4637,p-usa-0111,b-usa-6477,r-usa-vvip-1283,cc-usa-2,2017-11-08,2017-12-12,Poisoning,919.31,31256.54
+adm-usa-6108,p-usa-0772,b-usa-9696,r-usa-vvip-7652,cc-usa-1,2017-11-01,2017-11-03,Sebaceous cyst sac under the skin,784.86,1569.72
+adm-usa-7125,p-usa-0773,b-usa-6937,r-usa-vip-6262,cc-usa-2,2013-03-27,2013-04-06,Insect bite,672.34,6723.4
+adm-usa-0215,p-usa-0467,b-usa-7133,r-usa-iii-5712,cc-usa-1,2020-08-29,2020-09-04,Polyarteritis Nodosa PAN,77.11,462.66
+adm-usa-2730,p-usa-0782,b-usa-3591,r-usa-ii-6545,cc-usa-2,2016-11-23,2016-12-08,Bullous myringitis middle ear infection,184.48,2767.2
+adm-usa-0633,p-usa-0001,b-usa-3192,r-usa-vvip-3964,cc-usa-2,2022-05-28,2022-07-01,Post herpetic neuralgia nerve pain after shingles,919.31,31256.54
+adm-usa-7365,p-usa-0140,b-usa-8475,r-usa-i-9462,cc-usa-1,2014-09-10,2014-09-28,Common spider bite spider bite,319.53,5751.54
+adm-usa-8066,p-usa-0806,b-usa-0416,r-usa-i-7503,cc-usa-1,2018-05-15,2018-06-12,Reflex sympathetic dystrophy complex pain syndrome,319.53,8946.84
+adm-usa-0204,p-usa-0949,b-usa-6011,r-usa-vip-0036,cc-usa-1,2017-04-03,2017-04-08,Sclerosing cholangitis progressive bile duct disease ,520.66,2603.3
+adm-usa-1553,p-usa-0771,b-usa-9662,r-usa-iii-5817,cc-usa-1,2015-12-21,2016-01-14,Diabetes mellitus type 1 elevated blood sugar,77.11,1850.64
+adm-usa-6496,p-usa-0736,b-usa-3918,r-usa-vvip-2969,cc-usa-1,2018-11-11,2018-11-15,Optic neuritis optic nerve inflammation,784.86,3139.44
+adm-usa-5881,p-usa-0734,b-usa-2514,r-usa-ii-8237,cc-usa-1,2012-09-02,2012-09-09,Hydronephrosis,225.11,1575.77
+adm-usa-5103,p-usa-0884,b-usa-3190,r-usa-i-8133,cc-usa-1,2012-01-29,2012-02-08,Rickets childhood bone disease,319.53,3195.3
+adm-usa-8699,p-usa-0738,b-usa-4043,r-usa-iii-6704,cc-usa-2,2016-08-01,2016-08-05,AC joint separation acromioclavicular joint separation closed separation of acromioclavicular joint,83.64,334.56
+adm-usa-0055,p-usa-0406,b-usa-8189,r-usa-iii-2831,cc-usa-2,2013-05-21,2013-05-25,Cervical lymphadenopathy enlarged neck lymph nodes,83.64,334.56
+adm-usa-3315,p-usa-0317,b-usa-9328,r-usa-vvip-6493,cc-usa-2,2021-02-08,2021-02-12,Lyme disease bacterial infection from ticks,919.31,3677.24
+adm-usa-2071,p-usa-0286,b-usa-2359,r-usa-iii-9384,cc-usa-2,2013-09-04,2013-09-07,Vaginal yeast fungal infection,83.64,250.92
+adm-usa-7743,p-usa-0387,b-usa-6081,r-usa-vvip-9238,cc-usa-1,2016-09-07,2016-09-26,Allergic reaction,784.86,14912.34
+adm-usa-6986,p-usa-0044,b-usa-5735,r-usa-vip-6788,cc-usa-1,2019-03-16,2019-03-25,Streptococcus infection strep throat bacteria,520.66,4685.94
+adm-usa-5434,p-usa-0533,b-usa-5735,r-usa-vip-4766,cc-usa-2,2020-02-25,2020-02-28,Prostate cancer male anatomy cancer,672.34,2017.02
+adm-usa-8800,p-usa-0296,b-usa-3745,r-usa-vip-0303,cc-usa-1,2021-01-24,2021-02-09,"Actinic keratosis AK, skin growth",520.66,8330.56
+adm-usa-4021,p-usa-0563,b-usa-5945,r-usa-iii-8207,cc-usa-1,2016-09-22,2016-10-13,Sunburn,77.11,1619.31
+adm-usa-5614,p-usa-0125,b-usa-6197,r-usa-vvip-4685,cc-usa-2,2022-08-22,2022-08-24,"Renal failure, acute sudden kidney failure",919.31,1838.62
+adm-usa-2555,p-usa-0179,b-usa-9526,r-usa-i-7503,cc-usa-2,2021-05-28,2021-06-17,Munchausen syndrome fabricated illness,479.38,9587.6
+adm-usa-0698,p-usa-0549,b-usa-2200,r-usa-i-5148,cc-usa-2,2012-09-22,2012-10-15,Addison's disease adrenal insufficiency,479.38,11025.74
+adm-usa-3683,p-usa-0498,b-usa-3820,r-usa-vip-5014,cc-usa-2,2022-09-17,2022-10-08,Hereditary hemorrhagic telangiectasia Osler Weber Rendu syndrome,672.34,14119.14
+adm-usa-6919,p-usa-0239,b-usa-3591,r-usa-i-6190,cc-usa-2,2017-04-17,2017-04-24,Scaphoid fracture broken hand bone,479.38,3355.66
+adm-usa-4394,p-usa-0907,b-usa-0828,r-usa-iii-3213,cc-usa-1,2015-02-07,2015-02-20,Bone cancer bone tumor,77.11,1002.43
+adm-usa-9028,p-usa-0914,b-usa-2326,r-usa-iii-7780,cc-usa-1,2013-06-20,2013-06-26,Laceration skin cut,77.11,462.66
+adm-usa-3085,p-usa-0111,b-usa-4390,r-usa-vvip-8310,cc-usa-2,2013-07-17,2013-08-16,Esophagitis esophageal inflammation,919.31,27579.3
+adm-usa-9956,p-usa-0696,b-usa-7422,r-usa-i-8133,cc-usa-2,2020-05-06,2020-05-23,Hiatal hernia stomach pushes through diaphragm,479.38,8149.46
+adm-usa-4117,p-usa-0403,b-usa-8663,r-usa-iii-3130,cc-usa-1,2022-06-09,2022-06-28,Keloid overgrown scar,77.11,1465.09
+adm-usa-5889,p-usa-0947,b-usa-0604,r-usa-i-7503,cc-usa-1,2022-09-28,2022-10-02,Nasal cancer tumor,319.53,1278.12
+adm-usa-6935,p-usa-0495,b-usa-9664,r-usa-iii-8807,cc-usa-1,2015-07-20,2015-08-13,Myocarditis heart muscle inflammation,77.11,1850.64
+adm-usa-5171,p-usa-0088,b-usa-4158,r-usa-iii-2057,cc-usa-2,2021-01-04,2021-02-06,Bronchitis bronchial tube infection,83.64,2760.12
+adm-usa-2699,p-usa-0467,b-usa-1971,r-usa-vip-3401,cc-usa-1,2013-06-14,2013-06-18,Shock severe low blood pressure,520.66,2082.64
+adm-usa-9450,p-usa-0725,b-usa-3170,r-usa-i-5899,cc-usa-1,2017-10-06,2017-11-19,Charcot-Marie-Tooth disease,319.53,14059.32
+adm-usa-1560,p-usa-0073,b-usa-9703,r-usa-iii-2108,cc-usa-2,2014-08-25,2014-09-15,Essential tremor abnormal rhythmic shaking,83.64,1756.44
+adm-usa-8742,p-usa-0078,b-usa-3389,r-usa-vip-0055,cc-usa-2,2018-11-28,2018-12-18,Ovarian cyst female organ fluid collection,672.34,13446.8
+adm-usa-5672,p-usa-0094,b-usa-3531,r-usa-vvip-2413,cc-usa-2,2020-08-12,2020-08-17,Slipped capital femoral epiphysis adolescent hip disorder,919.31,4596.55
+adm-usa-9254,p-usa-0431,b-usa-9568,r-usa-vip-7620,cc-usa-2,2012-09-03,2012-09-20,Bartholin abscess or cyst sac of pus near the vaginal opening,672.34,11429.78
+adm-usa-7864,p-usa-0533,b-usa-8288,r-usa-iii-8563,cc-usa-2,2018-09-23,2018-10-13,Hematoma collection of blood,83.64,1672.8
+adm-usa-9924,p-usa-0991,b-usa-0953,r-usa-vvip-4521,cc-usa-2,2017-08-23,2017-08-25,Encephalitis brain infection,919.31,1838.62
+adm-usa-4942,p-usa-0521,b-usa-7294,r-usa-iii-5566,cc-usa-2,2018-11-30,2018-12-07,Skin swelling,83.64,585.48
+adm-usa-4851,p-usa-0190,b-usa-9020,r-usa-ii-9664,cc-usa-2,2015-01-07,2015-01-12,Finger amputation,184.48,922.4
+adm-usa-6003,p-usa-0660,b-usa-9811,r-usa-ii-6485,cc-usa-2,2021-07-28,2021-08-04,Slipped capital femoral epiphysis adolescent hip disorder,184.48,1291.36
+adm-usa-6250,p-usa-0947,b-usa-0477,r-usa-iii-7780,cc-usa-2,2019-05-20,2019-06-30,Nail avulsion traumatic removal of nail,83.64,3429.24
+adm-usa-6507,p-usa-0707,b-usa-1154,r-usa-iii-9386,cc-usa-2,2016-03-18,2016-04-06,Sunburn,83.64,1589.16
+adm-usa-5427,p-usa-0914,b-usa-5367,r-usa-i-5298,cc-usa-2,2022-04-04,2022-04-15,Pubic lice,479.38,5273.18
+adm-usa-3088,p-usa-0773,b-usa-7185,r-usa-i-1699,cc-usa-1,2013-05-14,2013-05-26,Rubella German measles,319.53,3834.36
+adm-usa-2562,p-usa-0450,b-usa-0763,r-usa-iii-1149,cc-usa-2,2019-08-27,2019-09-12,"Polycystic ovarian syndrome PCOS, female hormonal disorder",83.64,1338.24
+adm-usa-1575,p-usa-0492,b-usa-3374,r-usa-iii-2108,cc-usa-1,2018-04-06,2018-04-18,Lung abscess collection of pus,77.11,925.32
+adm-usa-8574,p-usa-0190,b-usa-3391,r-usa-vvip-3964,cc-usa-2,2012-01-10,2012-01-20,Scoliosis crooked spine,919.31,9193.1
+adm-usa-0431,p-usa-0188,b-usa-9229,r-usa-ii-0028,cc-usa-2,2016-11-25,2016-11-30,Swine Flu H1N1 Influenza,184.48,922.4
+adm-usa-1624,p-usa-0227,b-usa-5082,r-usa-iii-2831,cc-usa-2,2019-03-16,2019-04-04,Jellyfish stings,83.64,1589.16
+adm-usa-9875,p-usa-0404,b-usa-9766,r-usa-iii-1499,cc-usa-1,2012-02-28,2012-03-19,Syphilis treponema pallidum,77.11,1542.2
+adm-usa-4664,p-usa-0844,b-usa-8745,r-usa-i-9075,cc-usa-1,2019-09-01,2019-09-16,"Chronic obstructive pulmonary disease COPD, emphysema",319.53,4792.95
+adm-usa-8148,p-usa-0472,b-usa-6824,r-usa-vvip-6484,cc-usa-1,2022-03-17,2022-03-26,Pericarditis heart sac inflammation,784.86,7063.74
+adm-usa-4450,p-usa-0884,b-usa-6264,r-usa-ii-7532,cc-usa-2,2016-11-21,2016-11-27,Septic knee joint infected knee joint,184.48,1106.88
+adm-usa-8657,p-usa-0022,b-usa-7495,r-usa-vip-3469,cc-usa-2,2015-05-14,2015-05-27,Intussusception telescoping intestine,672.34,8740.42
+adm-usa-0391,p-usa-0929,b-usa-9937,r-usa-iii-3130,cc-usa-2,2019-08-15,2019-08-22,Ecstasy MDMA abuse,83.64,585.48
+adm-usa-6828,p-usa-0335,b-usa-0648,r-usa-i-8805,cc-usa-1,2020-04-27,2020-05-16,Allergic reaction,319.53,6071.07
+adm-usa-1042,p-usa-0149,b-usa-3556,r-usa-vip-0303,cc-usa-2,2022-10-27,2022-11-11,Interstitial cystitis bladder inflammation,672.34,10085.1
+adm-usa-9653,p-usa-0039,b-usa-4043,r-usa-vvip-9758,cc-usa-2,2020-12-28,2021-01-01,Slipped capital femoral epiphysis adolescent hip disorder,919.31,3677.24
+adm-usa-9130,p-usa-0841,b-usa-7919,r-usa-iii-2726,cc-usa-2,2014-02-19,2014-03-05,Skull fracture broken bone,83.64,1170.96
+adm-usa-5511,p-usa-0165,b-usa-6520,r-usa-i-8280,cc-usa-1,2020-01-16,2020-02-18,Postural hypotension low blood pressure after standing,319.53,10544.49
+adm-usa-7200,p-usa-0227,b-usa-2712,r-usa-ii-6972,cc-usa-1,2014-05-24,2014-06-01,Colonic diverticulitis inflammation of pouches in the large intestine,225.11,1800.88
+adm-usa-0243,p-usa-0483,b-usa-4863,r-usa-vip-7521,cc-usa-1,2015-06-28,2015-07-07,Acidosis  (excessive acid in the body),520.66,4685.94
+adm-usa-6310,p-usa-0750,b-usa-2449,r-usa-i-8133,cc-usa-1,2016-11-15,2016-11-28,Renal vein thrombosis kidney vein clot,319.53,4153.89
+adm-usa-1000,p-usa-0079,b-usa-9253,r-usa-vvip-6484,cc-usa-2,2018-08-16,2018-09-02,Allergy,919.31,15628.27
+adm-usa-7024,p-usa-0124,b-usa-8780,r-usa-ii-8331,cc-usa-2,2012-02-26,2012-03-12,Triangular fibrocartilage complex injury wrist injury,184.48,2767.2
+adm-usa-5113,p-usa-0819,b-usa-0428,r-usa-iii-7683,cc-usa-2,2012-06-04,2012-06-15,Peritonitis abdominal cavity inflammation,83.64,920.04
+adm-usa-1654,p-usa-0935,b-usa-3388,r-usa-ii-0028,cc-usa-2,2018-10-28,2018-11-19,Retinopathy,184.48,4058.56
+adm-usa-3964,p-usa-0383,b-usa-2321,r-usa-ii-8720,cc-usa-1,2013-11-19,2013-12-07,Colic prolonged infant crying episodes,225.11,4051.98
+adm-usa-5038,p-usa-0802,b-usa-2112,r-usa-iii-4615,cc-usa-1,2022-11-16,2022-11-25,Diverticulosis weakening of the large intestine wall,77.11,693.99
+adm-usa-0691,p-usa-0621,b-usa-7185,r-usa-vvip-3569,cc-usa-1,2021-10-26,2021-11-13,Gastroenteritis intestinal infection,784.86,14127.48
+adm-usa-0486,p-usa-0473,b-usa-3060,r-usa-vip-8766,cc-usa-2,2016-02-18,2016-02-29,Rotator cuff syndrome shoulder injury,672.34,7395.74
+adm-usa-1146,p-usa-0944,b-usa-9068,r-usa-vvip-5192,cc-usa-2,2014-06-07,2014-06-09,Foot swelling,919.31,1838.62
+adm-usa-3191,p-usa-0322,b-usa-4143,r-usa-iii-2962,cc-usa-1,2016-02-01,2016-02-26,Extragonadal germ cell tumors,77.11,1927.75
+adm-usa-1874,p-usa-0472,b-usa-2524,r-usa-vip-1438,cc-usa-2,2020-01-21,2020-02-02,"Obsessive compulsive disorder OCD, anxiety disorder",672.34,8068.08
+adm-usa-6987,p-usa-0250,b-usa-9370,r-usa-i-6563,cc-usa-2,2014-12-10,2014-12-22,Yellow fever viral hemorrhagic fever,479.38,5752.56
+adm-usa-3016,p-usa-0492,b-usa-9899,r-usa-iii-5817,cc-usa-2,2018-12-22,2018-12-26,Glaucoma elevated eye pressure,83.64,334.56
+adm-usa-5444,p-usa-0580,b-usa-2256,r-usa-i-8280,cc-usa-2,2017-04-05,2017-04-10,Transverse myelitis spinal cord inflammation,479.38,2396.9
+adm-usa-7589,p-usa-0139,b-usa-9662,r-usa-iii-1558,cc-usa-2,2017-01-18,2017-01-21,Diabetic neuropathy nerve damage,83.64,250.92
+adm-usa-5191,p-usa-0179,b-usa-9510,r-usa-iii-6668,cc-usa-2,2020-12-02,2021-01-04,Arrhythmia abnormal heart rhythm,83.64,2760.12
+adm-usa-2823,p-usa-0356,b-usa-0710,r-usa-ii-0679,cc-usa-1,2018-08-11,2018-08-15,Birth control pill use,225.11,900.44
+adm-usa-9590,p-usa-0808,b-usa-7602,r-usa-ii-0028,cc-usa-1,2018-07-17,2018-07-26,Dengue fever tropical mosquito borne illness,225.11,2025.99
+adm-usa-1748,p-usa-0552,b-usa-6941,r-usa-i-1261,cc-usa-1,2018-08-14,2018-08-31,Infection,319.53,5432.01
+adm-usa-7263,p-usa-0806,b-usa-4161,r-usa-iii-9440,cc-usa-2,2021-10-14,2021-10-30,Testicular torsion twisting of testicle,83.64,1338.24
+adm-usa-7573,p-usa-0660,b-usa-2200,r-usa-vvip-4521,cc-usa-2,2020-01-24,2020-01-27,Compression fracture broken spinal bone,919.31,2757.93
+adm-usa-4995,p-usa-0600,b-usa-6081,r-usa-vip-7069,cc-usa-2,2013-12-22,2014-01-03,"Disseminated intravascular coagulation DIC, abnormality of blood clotting",672.34,8068.08
+adm-usa-7879,p-usa-0256,b-usa-6617,r-usa-vip-2057,cc-usa-1,2021-06-30,2021-07-10,Ear laceration cut on the ear,520.66,5206.6
+adm-usa-8069,p-usa-0954,b-usa-1254,r-usa-iii-9440,cc-usa-2,2021-09-15,2021-09-20,Tennis elbow lateral epicondylitis,83.64,418.2
+adm-usa-0272,p-usa-0738,b-usa-7209,r-usa-vvip-1041,cc-usa-1,2014-05-18,2014-07-02,Puerperal psychosis loss of contact with reality after birth,784.86,35318.7
+adm-usa-2577,p-usa-0371,b-usa-5418,r-usa-vip-7521,cc-usa-1,2012-07-19,2012-07-23,Neurofibromatosis inherited nerve tumors,520.66,2082.64
+adm-usa-8233,p-usa-0736,b-usa-6744,r-usa-vvip-4710,cc-usa-2,2020-09-04,2020-09-27,Male infertility,919.31,21144.13
+adm-usa-9407,p-usa-0296,b-usa-1987,r-usa-ii-9195,cc-usa-2,2012-12-28,2013-01-15,Knee swelling,184.48,3320.64
+adm-usa-2545,p-usa-0416,b-usa-2221,r-usa-vip-6121,cc-usa-1,2012-05-06,2012-06-02,Histoplasmosis fungal infection,520.66,14057.82
+adm-usa-5189,p-usa-0424,b-usa-1802,r-usa-vip-1380,cc-usa-2,2020-08-26,2020-09-10,Polycythemia vera increased number of red blood cells,672.34,10085.1
+adm-usa-9866,p-usa-0190,b-usa-9370,r-usa-vip-7069,cc-usa-2,2019-04-14,2019-05-04,Atrioventricular node conduction block heart block,672.34,13446.8
+adm-usa-3976,p-usa-0034,b-usa-9116,r-usa-vip-1774,cc-usa-1,2018-08-04,2018-08-27,Diphtheria infection bacterial respiratory infection,520.66,11975.18
+adm-usa-8690,p-usa-0645,b-usa-3595,r-usa-ii-7087,cc-usa-2,2018-07-02,2018-07-08,Carotid artery stenosis neck artery narrowing,184.48,1106.88
+adm-usa-0375,p-usa-0228,b-usa-0648,r-usa-vip-6353,cc-usa-2,2015-10-07,2015-10-14,Anal fistula,672.34,4706.38
+adm-usa-3710,p-usa-0602,b-usa-0177,r-usa-ii-8011,cc-usa-2,2012-05-06,2012-05-12,Carbuncle,184.48,1106.88
+adm-usa-5288,p-usa-0495,b-usa-6824,r-usa-vvip-9758,cc-usa-2,2013-12-05,2013-12-27,Herpes simplex infection viral infection,919.31,20224.82
+adm-usa-1515,p-usa-0660,b-usa-5945,r-usa-iii-2726,cc-usa-2,2013-04-07,2013-04-27,Acute fatty liver of pregnancy,83.64,1672.8
+adm-usa-7043,p-usa-0164,b-usa-1096,r-usa-vip-1438,cc-usa-1,2015-10-20,2015-11-26,Rickets childhood bone disease,520.66,19264.42
+adm-usa-8986,p-usa-0315,b-usa-6174,r-usa-iii-1537,cc-usa-1,2018-06-24,2018-07-08,Pemphigus rare skin disorder,77.11,1079.54
+adm-usa-8944,p-usa-0508,b-usa-4183,r-usa-ii-5307,cc-usa-2,2016-07-18,2016-07-24,Rocky mountain spotted fever bacterial infection spread by ticks,184.48,1106.88
+adm-usa-6058,p-usa-0566,b-usa-7530,r-usa-vip-7400,cc-usa-2,2017-04-09,2017-04-13,Mononucleosis common viral illness,672.34,2689.36
+adm-usa-0540,p-usa-0372,b-usa-6148,r-usa-vvip-2312,cc-usa-2,2020-10-30,2020-11-09,"Actinic keratosis AK, skin growth",919.31,9193.1
+adm-usa-9064,p-usa-0221,b-usa-5675,r-usa-vvip-7512,cc-usa-2,2022-06-22,2022-07-05,Premenstrual syndrome PMS,919.31,11951.03
+adm-usa-4898,p-usa-0688,b-usa-5276,r-usa-iii-9440,cc-usa-2,2020-02-16,2020-02-21,Placental abruption placenta separation,83.64,418.2
+adm-usa-7166,p-usa-0581,b-usa-5553,r-usa-vip-1650,cc-usa-2,2022-06-08,2022-06-28,Ureaplasma urealyticum infection genital infection,672.34,13446.8
+adm-usa-3563,p-usa-0995,b-usa-3591,r-usa-iii-9532,cc-usa-1,2021-05-30,2021-06-17,"Renal failure, acute sudden kidney failure",77.11,1387.98
+adm-usa-1414,p-usa-0759,b-usa-5036,r-usa-iii-3667,cc-usa-1,2018-03-28,2018-05-02,Rocky mountain spotted fever bacterial infection spread by ticks,77.11,2698.85
+adm-usa-5729,p-usa-0897,b-usa-5194,r-usa-ii-6457,cc-usa-1,2017-11-30,2017-12-04,AC joint separation acromioclavicular joint separation closed separation of acromioclavicular joint,225.11,900.44
+adm-usa-8327,p-usa-0886,b-usa-8509,r-usa-iii-2962,cc-usa-1,2017-12-16,2017-12-24,"Porphyria rare disorder of skin, nervous system",77.11,616.88
+adm-usa-5766,p-usa-0239,b-usa-2461,r-usa-i-5298,cc-usa-2,2018-12-08,2019-01-08,Hyperkeratosis skin thickening,479.38,14860.78
+adm-usa-1569,p-usa-0490,b-usa-8581,r-usa-iii-4615,cc-usa-2,2016-09-25,2016-10-04,Ventral hernia bulging of the abdominal wall,83.64,752.76
+adm-usa-4293,p-usa-0022,b-usa-6111,r-usa-i-8432,cc-usa-2,2013-04-04,2013-04-19,Septic knee joint infected knee joint,479.38,7190.7
+adm-usa-0075,p-usa-0182,b-usa-4693,r-usa-iii-3491,cc-usa-1,2019-03-08,2019-03-16,Autism spectrum disorder ASD,77.11,616.88
+adm-usa-9177,p-usa-0918,b-usa-4143,r-usa-vvip-1041,cc-usa-2,2015-12-13,2015-12-20,Broken heart syndrome Takotsubo cardiomyopathy,919.31,6435.17
+adm-usa-9990,p-usa-0005,b-usa-7495,r-usa-vip-4712,cc-usa-2,2018-08-01,2018-08-21,Keratitis inflammation of cornea,672.34,13446.8
+adm-usa-5976,p-usa-0349,b-usa-9229,r-usa-vvip-0935,cc-usa-2,2012-01-03,2012-01-13,Motion sickness,919.31,9193.1
+adm-usa-5376,p-usa-0467,b-usa-9583,r-usa-ii-7532,cc-usa-2,2016-12-12,2016-12-16,False pregnancy,184.48,737.92
+adm-usa-4733,p-usa-0926,b-usa-6617,r-usa-i-1001,cc-usa-1,2021-03-27,2021-04-01,Peripheral vascular disease blocked blood vessels,319.53,1597.65
+adm-usa-3883,p-usa-0580,b-usa-2990,r-usa-i-9320,cc-usa-1,2012-07-29,2012-08-08,Methemoglobinemia blood disorder,319.53,3195.3
+adm-usa-2892,p-usa-0769,b-usa-9229,r-usa-vvip-5192,cc-usa-2,2022-10-28,2022-10-31,Spinal cord tumor,919.31,2757.93
+adm-usa-2806,p-usa-0731,b-usa-2382,r-usa-vvip-2783,cc-usa-2,2018-05-04,2018-05-07,Ovarian torsion twisting of the ovary,919.31,2757.93
+adm-usa-5737,p-usa-0279,b-usa-5553,r-usa-vip-9992,cc-usa-1,2020-03-03,2020-03-10,Abdominal aortic aneurysm (enlarged major blood vessel),520.66,3644.62
+adm-usa-5122,p-usa-0306,b-usa-6326,r-usa-i-8061,cc-usa-1,2019-01-02,2019-01-06,Fetal alcohol syndrome,319.53,1278.12
+adm-usa-5984,p-usa-0619,b-usa-4768,r-usa-iii-0308,cc-usa-2,2016-04-29,2016-05-05,Eustachian tube dysfunction inner ear tube,83.64,501.84
+adm-usa-0595,p-usa-0101,b-usa-1421,r-usa-vvip-3058,cc-usa-2,2019-06-16,2019-06-29,Hereditary hemorrhagic telangiectasia Osler Weber Rendu syndrome,919.31,11951.03
+adm-usa-7227,p-usa-0729,b-usa-4572,r-usa-vip-0055,cc-usa-1,2014-05-07,2014-05-31,Fibroid uterine muscle tumor,520.66,12495.84
+adm-usa-3505,p-usa-0723,b-usa-5497,r-usa-i-2978,cc-usa-1,2020-05-30,2020-06-04,Arm laceration skin cut,319.53,1597.65
+adm-usa-9184,p-usa-0236,b-usa-3182,r-usa-vvip-2312,cc-usa-1,2022-02-11,2022-03-15,Jellyfish stings,784.86,25115.52
+adm-usa-5520,p-usa-0410,b-usa-2138,r-usa-iii-0704,cc-usa-2,2018-02-09,2018-02-16,Tape worm infection,83.64,585.48
+adm-usa-4840,p-usa-0799,b-usa-3918,r-usa-vip-6788,cc-usa-1,2016-12-18,2016-12-30,Shin splints tibial stress syndrome,520.66,6247.92
+adm-usa-9593,p-usa-0962,b-usa-5367,r-usa-vvip-0935,cc-usa-1,2012-03-11,2012-03-17,"Fifth disease erythema infectiosum, viral illness",784.86,4709.16
+adm-usa-1457,p-usa-0300,b-usa-7105,r-usa-iii-9363,cc-usa-1,2013-04-20,2013-05-01,Supracondylar fracture elbow fracture,77.11,848.21
+adm-usa-8951,p-usa-0932,b-usa-5101,r-usa-vvip-1041,cc-usa-1,2018-08-29,2018-09-29,Back trauma injury,784.86,24330.66
+adm-usa-0149,p-usa-0944,b-usa-9484,r-usa-iii-5527,cc-usa-2,2014-02-02,2014-02-07,Cardiac arrest heart stops,83.64,418.2
+adm-usa-3504,p-usa-0818,b-usa-2382,r-usa-iii-2108,cc-usa-2,2018-10-15,2018-10-27,Erectile dysfunction ED,83.64,1003.68
+adm-usa-5306,p-usa-0287,b-usa-9556,r-usa-i-7946,cc-usa-1,2015-07-27,2015-08-02,Insulin overdose,319.53,1917.18
+adm-usa-6983,p-usa-0505,b-usa-7001,r-usa-iii-2791,cc-usa-2,2014-09-29,2014-10-31,Eyelid laceration skin cut,83.64,2676.48
+adm-usa-8923,p-usa-0406,b-usa-6937,r-usa-vip-1774,cc-usa-1,2016-08-04,2016-08-15,Peripheral vascular disease blocked blood vessels,520.66,5727.26
+adm-usa-8879,p-usa-0490,b-usa-3820,r-usa-vip-4766,cc-usa-1,2012-11-04,2012-12-10,Rhinovirus infection common cold,520.66,18743.76
+adm-usa-7795,p-usa-0054,b-usa-1058,r-usa-vvip-7512,cc-usa-1,2012-09-03,2012-09-16,Abdominal trauma,784.86,10203.18
+adm-usa-1986,p-usa-0990,b-usa-9863,r-usa-iii-7963,cc-usa-1,2013-07-29,2013-08-16,Esophageal rupture tear in esophagus,77.11,1387.98
+adm-usa-2292,p-usa-0221,b-usa-7294,r-usa-vvip-2773,cc-usa-2,2020-12-22,2020-12-30,Pancreatic cancer tumor,919.31,7354.48
+adm-usa-4572,p-usa-0696,b-usa-9257,r-usa-ii-3143,cc-usa-2,2019-08-30,2019-09-28,Febrile fever illness,184.48,5349.92
+adm-usa-9870,p-usa-0907,b-usa-9370,r-usa-i-6699,cc-usa-1,2017-11-12,2017-11-27,Placenta previa placenta covers cervix,319.53,4792.95
+adm-usa-2531,p-usa-0960,b-usa-5600,r-usa-iii-2791,cc-usa-1,2012-06-08,2012-06-13,Chronic venous insufficiency weakened leg veins,77.11,385.55
+adm-usa-7435,p-usa-0475,b-usa-3595,r-usa-i-1183,cc-usa-2,2017-12-03,2017-12-10,Spermatocele sperm-filled epididymal cyst,479.38,3355.66
+adm-usa-9541,p-usa-0145,b-usa-1235,r-usa-vvip-7512,cc-usa-1,2022-01-16,2022-02-06,Cervical lymphadenopathy enlarged neck lymph nodes,784.86,16482.06
+adm-usa-4486,p-usa-0306,b-usa-2156,r-usa-i-3886,cc-usa-2,2015-06-07,2015-06-19,Cerebellar hemorrhage bleeding in back of brain,479.38,5752.56
+adm-usa-7066,p-usa-0494,b-usa-6631,r-usa-vip-9966,cc-usa-2,2017-08-24,2017-09-11,Aphthous ulcers mouth stomatitis,672.34,12102.12
+adm-usa-1247,p-usa-0318,b-usa-5675,r-usa-iii-7268,cc-usa-1,2016-03-07,2016-03-26,Bacterial infection,77.11,1465.09
+adm-usa-9349,p-usa-0929,b-usa-1096,r-usa-ii-0028,cc-usa-1,2021-10-08,2021-11-08,Breast abscess collection of pus in the breast,225.11,6978.41
+adm-usa-6248,p-usa-0696,b-usa-9253,r-usa-vvip-9554,cc-usa-2,2017-01-08,2017-01-11,Golfer's elbow medial epicondylitis of elbow,919.31,2757.93
+adm-usa-0603,p-usa-0383,b-usa-7245,r-usa-iii-2791,cc-usa-2,2020-10-24,2020-11-06,Esophageal spasm painful muscle contraction,83.64,1087.32
+adm-usa-9339,p-usa-0822,b-usa-1306,r-usa-iii-3213,cc-usa-1,2022-07-31,2022-08-12,Dermatofibroma,77.11,925.32
+adm-usa-9925,p-usa-0818,b-usa-9430,r-usa-vip-3469,cc-usa-1,2016-11-17,2016-12-03,"Steven Johnson syndrome rare, serious skin disorder",520.66,8330.56
+adm-usa-6196,p-usa-0181,b-usa-9664,r-usa-vip-0303,cc-usa-2,2017-05-13,2017-06-11,"Wegener's granulomatosis granulomatosis with polyangiitis,  blood vessel disease",672.34,19497.86
+adm-usa-1366,p-usa-0161,b-usa-1798,r-usa-vip-6532,cc-usa-1,2017-06-16,2017-06-24,Herpes stomatitis viral mouth infection,520.66,4165.28
+adm-usa-8406,p-usa-0446,b-usa-5194,r-usa-vip-8328,cc-usa-2,2017-04-29,2017-06-04,Thrombocytopenia low platelet count,672.34,24204.24
+adm-usa-6344,p-usa-0711,b-usa-9583,r-usa-vvip-6353,cc-usa-2,2016-07-07,2016-07-13,Cerebellar hemorrhage bleeding in back of brain,919.31,5515.86
+adm-usa-4611,p-usa-0776,b-usa-0824,r-usa-iii-5817,cc-usa-1,2013-09-27,2013-10-18,Smallpox Variola virus infection,77.11,1619.31
+adm-usa-7913,p-usa-0603,b-usa-3795,r-usa-i-1055,cc-usa-1,2017-04-13,2017-04-19,White coat hypertension elevated blood pressure at doctor's office,319.53,1917.18
+adm-usa-1447,p-usa-0808,b-usa-1117,r-usa-vvip-9554,cc-usa-2,2019-07-08,2019-07-21,Acute fatty liver of pregnancy,919.31,11951.03
+adm-usa-5967,p-usa-0275,b-usa-1800,r-usa-iii-7268,cc-usa-2,2020-08-19,2020-09-20,"Thalassemia Mediterranean anemia, inherited blood disorder",83.64,2676.48
+adm-usa-1753,p-usa-0265,b-usa-3276,r-usa-iii-9384,cc-usa-2,2022-10-18,2022-11-03,Nose bleed epistaxis,83.64,1338.24
+adm-usa-1263,p-usa-0564,b-usa-6706,r-usa-vip-0587,cc-usa-1,2015-12-20,2015-12-30,Hypokalemia low blood potassium,520.66,5206.6
+adm-usa-9679,p-usa-0686,b-usa-8387,r-usa-ii-4324,cc-usa-1,2015-12-24,2016-01-04,Osteochondritis dissecans joint disorder,225.11,2476.21
+adm-usa-5046,p-usa-0608,b-usa-9430,r-usa-vip-1774,cc-usa-1,2016-02-12,2016-02-17,Baker's cyst fluid sac behind knee,520.66,2603.3
+adm-usa-5655,p-usa-0367,b-usa-9029,r-usa-vvip-2969,cc-usa-1,2017-09-27,2017-10-08,Alcohol  ethanol poisoning  (overdose),784.86,8633.46
+adm-usa-7652,p-usa-0456,b-usa-8568,r-usa-iii-5566,cc-usa-1,2014-06-29,2014-07-28,Scarlet fever post strep inflammation,77.11,2236.19
+adm-usa-8616,p-usa-0475,b-usa-6568,r-usa-vvip-7067,cc-usa-2,2018-09-29,2018-10-02,Diphtheria infection bacterial respiratory infection,919.31,2757.93
+adm-usa-2962,p-usa-0406,b-usa-5082,r-usa-i-9462,cc-usa-1,2020-01-04,2020-01-12,Pyomyositis muscle infection,319.53,2556.24
+adm-usa-0926,p-usa-0995,b-usa-3265,r-usa-iii-5817,cc-usa-2,2019-12-18,2020-01-23,Parotitis salivary gland inflammation,83.64,3011.04
+adm-usa-3724,p-usa-0979,b-usa-9692,r-usa-iii-6668,cc-usa-1,2014-05-30,2014-06-03,Chlorine bleach ingestion,77.11,308.44
+adm-usa-1162,p-usa-0179,b-usa-1472,r-usa-i-8805,cc-usa-1,2018-11-08,2018-11-11,"Sever's disease calcaneal apophysitis, common cause of heel pain",319.53,958.59
+adm-usa-5754,p-usa-0670,b-usa-3531,r-usa-vip-4766,cc-usa-1,2014-12-06,2014-12-16,Puncture wound of arm,520.66,5206.6
+adm-usa-9660,p-usa-0498,b-usa-7182,r-usa-vip-0654,cc-usa-1,2022-10-08,2022-10-10,Subluxation,520.66,1041.32
+adm-usa-0700,p-usa-0180,b-usa-3051,r-usa-iii-8207,cc-usa-2,2016-02-18,2016-03-07,Bee sting wasp sting,83.64,1505.52
+adm-usa-1416,p-usa-0409,b-usa-0321,r-usa-vvip-3058,cc-usa-1,2022-07-20,2022-07-23,"Renal failure, acute sudden kidney failure",784.86,2354.58
+adm-usa-2841,p-usa-0723,b-usa-3172,r-usa-i-8061,cc-usa-2,2015-11-28,2015-12-15,Iron overdose,479.38,8149.46
+adm-usa-2000,p-usa-0574,b-usa-2221,r-usa-i-4815,cc-usa-1,2016-10-31,2016-11-02,Rhabdomyolysis severe muscle breakdown,319.53,639.06
+adm-usa-2878,p-usa-0371,b-usa-0828,r-usa-i-6699,cc-usa-1,2020-03-30,2020-04-13,"Norovirus infection viral diarrhea, Norwalk virus",319.53,4473.42
+adm-usa-9588,p-usa-0166,b-usa-6512,r-usa-ii-7446,cc-usa-2,2017-02-05,2017-02-26,Rubbing isopropyl alcohol overdose,184.48,3874.08
+adm-usa-4686,p-usa-0378,b-usa-2474,r-usa-vip-6353,cc-usa-1,2021-07-20,2021-08-05,"Polymyalgia rheumatica PMR, muscle and joint disorder",520.66,8330.56
+adm-usa-1220,p-usa-0078,b-usa-2382,r-usa-vvip-4246,cc-usa-2,2022-10-24,2022-11-02,Cryptosporidium infection diarrheal parasite infection Infection by Cryptosporidium Cryptosporidiosis infection Infection by Cryptosporidium parvum,919.31,8273.79
+adm-usa-0967,p-usa-0531,b-usa-1176,r-usa-ii-7211,cc-usa-2,2022-01-14,2022-01-22,Bird flu avian influenza,184.48,1475.84
+adm-usa-6748,p-usa-0123,b-usa-4933,r-usa-vip-7521,cc-usa-1,2016-10-08,2016-11-10,Interstitial cystitis bladder inflammation,520.66,17181.78
+adm-usa-7835,p-usa-0166,b-usa-1691,r-usa-iii-2791,cc-usa-2,2017-10-04,2017-10-10,Basal cell carcinoma skin cancer,83.64,501.84
+adm-usa-0373,p-usa-0589,b-usa-3918,r-usa-vip-1209,cc-usa-2,2012-07-09,2012-07-17,Double diabetes hybrid diabetes,672.34,5378.72
+adm-usa-8782,p-usa-0867,b-usa-0604,r-usa-vvip-7652,cc-usa-1,2018-06-27,2018-07-14,Anopheles mosquito bite,784.86,13342.62
+adm-usa-9326,p-usa-0818,b-usa-9484,r-usa-ii-8331,cc-usa-2,2022-08-05,2022-08-20,Phimosis,184.48,2767.2
+adm-usa-3333,p-usa-0979,b-usa-0604,r-usa-ii-6545,cc-usa-1,2018-07-24,2018-08-07,Anorexia (eating disorder),225.11,3151.54
+adm-usa-1899,p-usa-0017,b-usa-1691,r-usa-iii-5566,cc-usa-1,2021-07-15,2021-08-04,Heat cramps,77.11,1542.2
+adm-usa-6048,p-usa-0839,b-usa-6321,r-usa-vip-1650,cc-usa-1,2019-03-31,2019-04-21,Primary sclerosing cholangitis bile duct disease,520.66,10933.86
+adm-usa-5416,p-usa-0188,b-usa-8125,r-usa-vip-0587,cc-usa-1,2020-03-13,2020-03-19,Multiple myeloma blood cancer,520.66,3123.96
+adm-usa-3619,p-usa-0349,b-usa-2321,r-usa-i-3789,cc-usa-1,2016-10-26,2016-10-30,Aplastic anemia bone marrow failure,319.53,1278.12
+adm-usa-9524,p-usa-0418,b-usa-9703,r-usa-vvip-0537,cc-usa-2,2020-10-09,2020-10-31,Bacterial infection,919.31,20224.82
+adm-usa-5911,p-usa-0448,b-usa-2677,r-usa-vvip-3084,cc-usa-1,2018-12-09,2018-12-19,Eyelid laceration skin cut,784.86,7848.6
+adm-usa-3744,p-usa-0373,b-usa-4043,r-usa-i-5899,cc-usa-2,2012-06-22,2012-07-10,Esophageal rupture tear in esophagus,479.38,8628.84
+adm-usa-0403,p-usa-0228,b-usa-0654,r-usa-iii-4396,cc-usa-2,2020-12-06,2020-12-22,"Plantar wart human papilloma virus infection, foot warts",83.64,1338.24
+adm-usa-0184,p-usa-0822,b-usa-9664,r-usa-iii-4396,cc-usa-2,2018-11-19,2018-12-06,Chronic fatigue syndrome CFS,83.64,1421.88
+adm-usa-2258,p-usa-0300,b-usa-8267,r-usa-vvip-0537,cc-usa-2,2014-05-28,2014-06-09,Diabetes insipidus excessive water loss from the kidneys,919.31,11031.72
+adm-usa-1666,p-usa-0841,b-usa-2353,r-usa-vvip-3964,cc-usa-2,2017-08-01,2017-08-08,Mycoplasma genitalium sexually transmitted disease,919.31,6435.17
+adm-usa-6727,p-usa-0221,b-usa-7897,r-usa-vip-0654,cc-usa-2,2022-02-08,2022-02-12,Uterine rupture uterine tear during childbirth,672.34,2689.36
+adm-usa-0014,p-usa-0252,b-usa-1987,r-usa-vip-7400,cc-usa-2,2016-09-15,2016-09-28,Tonsillar cancer tumor tongue,672.34,8740.42
+adm-usa-2096,p-usa-0448,b-usa-9985,r-usa-iii-1547,cc-usa-2,2017-12-11,2018-01-01,"Hemorrhagic stroke CVA, cerebrovascular accident",83.64,1756.44
+adm-usa-5309,p-usa-0728,b-usa-4631,r-usa-i-7162,cc-usa-2,2018-05-19,2018-06-25,Ludwigs angina severe infection in the floor of the mouth and neck,479.38,17737.06
+adm-usa-5003,p-usa-0348,b-usa-9696,r-usa-vvip-1283,cc-usa-1,2019-03-30,2019-04-16,Fecal impaction rectal blockage from stool,784.86,13342.62
+adm-usa-8135,p-usa-0531,b-usa-3389,r-usa-ii-7087,cc-usa-2,2014-01-09,2014-01-25,Hodgkin's disease cancer of the lymph system,184.48,2951.68
+adm-usa-8447,p-usa-0188,b-usa-7271,r-usa-vvip-5016,cc-usa-1,2021-11-12,2021-11-14,Basilar artery migraine headache,784.86,1569.72
+adm-usa-8942,p-usa-0071,b-usa-2712,r-usa-vvip-3173,cc-usa-2,2015-02-09,2015-03-03,Addison's disease adrenal insufficiency,919.31,20224.82
+adm-usa-4272,p-usa-0135,b-usa-6545,r-usa-i-6563,cc-usa-1,2014-02-15,2014-02-22,Farsightedness hyperopia/hypermetropia,319.53,2236.71
+adm-usa-6805,p-usa-0453,b-usa-0332,r-usa-ii-0028,cc-usa-2,2014-01-10,2014-01-21,Pesticide poisoning organophosphate poisoning,184.48,2029.28
+adm-usa-1192,p-usa-0782,b-usa-0974,r-usa-iii-1149,cc-usa-1,2013-05-23,2013-06-22,Subconjunctival hemorrhage blood covering white part of the eye,77.11,2313.3
+adm-usa-9436,p-usa-0034,b-usa-6227,r-usa-iii-0308,cc-usa-2,2019-12-10,2019-12-13,Herpes simplex infection viral infection,83.64,250.92
+adm-usa-0271,p-usa-0306,b-usa-9703,r-usa-vip-8328,cc-usa-1,2014-08-26,2014-09-12,Rhinitis nasal inflammation,520.66,8851.22
+adm-usa-0233,p-usa-0450,b-usa-1701,r-usa-i-8432,cc-usa-2,2015-05-29,2015-06-24,Costochondritis chest wall inflammation,479.38,12463.88
+adm-usa-0675,p-usa-0696,b-usa-3389,r-usa-vip-1438,cc-usa-2,2014-12-02,2015-01-04,Personality disorder unhealthy patterns of thinking and behavior,672.34,22187.22
+adm-usa-8624,p-usa-0800,b-usa-4872,r-usa-vip-8766,cc-usa-1,2013-01-18,2013-01-26,Central cord syndrome traumatic spine injury,520.66,4165.28
+adm-usa-5287,p-usa-0432,b-usa-6666,r-usa-vvip-7067,cc-usa-2,2021-07-04,2021-07-17,Puncture wound of toe,919.31,11951.03
+adm-usa-2231,p-usa-0179,b-usa-8916,r-usa-iii-6413,cc-usa-2,2021-05-14,2021-05-19,Hidradenitis suppurativa chronic collections of pus,83.64,418.2
+adm-usa-2647,p-usa-0287,b-usa-2321,r-usa-i-6699,cc-usa-1,2020-03-20,2020-04-10,Traveler's diarrhea Montezuma's revenge,319.53,6710.13
+adm-usa-3738,p-usa-0490,b-usa-5418,r-usa-iii-3107,cc-usa-1,2019-09-25,2019-10-21,Brain tumor cancer of the brain,77.11,2004.86
+adm-usa-4158,p-usa-0506,b-usa-3389,r-usa-ii-8331,cc-usa-2,2022-11-12,2022-12-13,Multiple sclerosis MS,184.48,5718.88
+adm-usa-0057,p-usa-0101,b-usa-6579,r-usa-i-1699,cc-usa-1,2017-03-12,2017-03-20,Anemia  (low red blood cell count),319.53,2556.24
+adm-usa-1495,p-usa-0482,b-usa-0763,r-usa-ii-0028,cc-usa-1,2013-03-21,2013-03-28,"Mayer Rokitansky Küster Hauser syndrome MRKH, inherited vaginal abnormality",225.11,1575.77
+adm-usa-9714,p-usa-0818,b-usa-4729,r-usa-vvip-1174,cc-usa-2,2018-09-26,2018-09-29,Goiter enlarged thyroid,919.31,2757.93
+adm-usa-8116,p-usa-0490,b-usa-6706,r-usa-vvip-3084,cc-usa-1,2013-09-10,2013-10-03,Posterior inferior cerebellar artery syndrome stroke syndrome,784.86,18051.78
+adm-usa-7583,p-usa-0580,b-usa-0442,r-usa-i-7162,cc-usa-2,2020-05-26,2020-06-25,Nasal foreign body unnatural object in the nose,479.38,14381.4
+adm-usa-0850,p-usa-0949,b-usa-7038,r-usa-vip-6121,cc-usa-2,2019-07-10,2019-07-23,Thyroid cyst,672.34,8740.42
+adm-usa-4153,p-usa-0157,b-usa-2990,r-usa-vvip-7652,cc-usa-2,2019-10-19,2019-11-21,Nasal cancer tumor,919.31,30337.23
+adm-usa-9234,p-usa-0001,b-usa-9508,r-usa-vvip-8193,cc-usa-2,2021-11-02,2021-12-02,"Vestibular neuronitis labyrinthitis, vertigo",919.31,27579.3
+adm-usa-3903,p-usa-0564,b-usa-4231,r-usa-vvip-3005,cc-usa-1,2016-12-18,2016-12-31,Skin swelling,784.86,10203.18
+adm-usa-2688,p-usa-0528,b-usa-5190,r-usa-vvip-6493,cc-usa-2,2021-05-04,2021-06-11,Myocarditis heart muscle inflammation,919.31,34933.78
+adm-usa-3335,p-usa-0753,b-usa-9116,r-usa-iii-6668,cc-usa-2,2021-09-02,2021-09-15,Genital herpes HSV type 2 infection,83.64,1087.32
+adm-usa-1585,p-usa-0378,b-usa-8812,r-usa-ii-0028,cc-usa-1,2012-10-09,2012-10-13,Self-inflicted injury,225.11,900.44
+adm-usa-1945,p-usa-0035,b-usa-4467,r-usa-vvip-3005,cc-usa-1,2021-09-10,2021-09-14,Iron deficiency anemia low red blood cell count,784.86,3139.44
+adm-usa-7437,p-usa-0603,b-usa-3244,r-usa-vvip-7067,cc-usa-1,2014-07-11,2014-07-25,Burns,784.86,10988.04
+adm-usa-0433,p-usa-0221,b-usa-9556,r-usa-vip-6242,cc-usa-2,2013-03-08,2013-03-15,Sinusitis sinus infection,672.34,4706.38
+adm-usa-8915,p-usa-0242,b-usa-9020,r-usa-ii-2764,cc-usa-1,2012-06-02,2012-07-01,Colon cancer large intestine tumor,225.11,6528.19
+adm-usa-3120,p-usa-0372,b-usa-6631,r-usa-iii-4615,cc-usa-2,2019-09-21,2019-09-24,Alzheimer's disease dementia,83.64,250.92
+adm-usa-2291,p-usa-0850,b-usa-3544,r-usa-vvip-0935,cc-usa-1,2021-09-18,2021-10-08,Alcohol withdrawal syndrome  (mild),784.86,15697.2
+adm-usa-9701,p-usa-0188,b-usa-9381,r-usa-i-8432,cc-usa-2,2013-06-05,2013-07-08,Puncture wound of lip,479.38,15819.54
+adm-usa-0656,p-usa-0822,b-usa-5397,r-usa-vip-6242,cc-usa-2,2017-05-25,2017-06-11,Extremity trauma leg or arm injury,672.34,11429.78
+adm-usa-9663,p-usa-0864,b-usa-5934,r-usa-vip-5897,cc-usa-1,2012-04-10,2012-04-17,Anxiety disorder generalized anxiety disorder GAD,520.66,3644.62
+adm-usa-0165,p-usa-0124,b-usa-9179,r-usa-ii-8143,cc-usa-1,2021-10-07,2021-10-21,Whooping cough pertussis,225.11,3151.54
+adm-usa-9421,p-usa-0844,b-usa-4951,r-usa-vvip-7652,cc-usa-2,2012-08-05,2012-08-28,Mitral regurgitation leaking heart valve,919.31,21144.13
+adm-usa-6731,p-usa-0367,b-usa-7271,r-usa-vvip-3058,cc-usa-1,2021-04-08,2021-04-27,West Nile virus infection mosquito-transmitted illness,784.86,14912.34
+adm-usa-2597,p-usa-0841,b-usa-5416,r-usa-vip-4098,cc-usa-1,2021-06-05,2021-06-08,Entamoeba histolytica infection ameba infection Infection due to Entamoeba histolytica,520.66,1561.98
+adm-usa-1659,p-usa-0995,b-usa-5988,r-usa-iii-1547,cc-usa-2,2013-10-15,2013-11-13,Orbital cellulitis soft tissue eye infection,83.64,2425.56
+adm-usa-6691,p-usa-0432,b-usa-5068,r-usa-ii-1489,cc-usa-2,2020-12-02,2020-12-18,Compression fracture broken spinal bone,184.48,2951.68
+adm-usa-6955,p-usa-0902,b-usa-0442,r-usa-ii-8143,cc-usa-1,2013-09-01,2013-09-26,Atrial flutter irregular heart rate,225.11,5627.75
+adm-usa-4873,p-usa-0996,b-usa-1096,r-usa-vvip-2413,cc-usa-1,2013-07-24,2013-08-02,Maxillary sinus carcinoma sinus cancer,784.86,7063.74
+adm-usa-9731,p-usa-0227,b-usa-1364,r-usa-vip-6242,cc-usa-1,2019-06-09,2019-06-19,Diphtheria infection bacterial respiratory infection,520.66,5206.6
+adm-usa-8234,p-usa-0264,b-usa-5082,r-usa-ii-8011,cc-usa-2,2021-05-09,2021-05-13,Discitis spinal disk inflammation,184.48,737.92
+adm-usa-2605,p-usa-0914,b-usa-5038,r-usa-i-1055,cc-usa-2,2013-09-26,2013-10-04,Pneumonia lung infection,479.38,3835.04
+adm-usa-0953,p-usa-0356,b-usa-9637,r-usa-vvip-0537,cc-usa-1,2016-12-18,2017-01-04,Familial cold urticaria cold-related hives,784.86,13342.62
+adm-usa-6353,p-usa-0312,b-usa-5945,r-usa-ii-5307,cc-usa-1,2012-01-24,2012-02-01,Toothache,225.11,1800.88
+adm-usa-3956,p-usa-0188,b-usa-6596,r-usa-ii-0282,cc-usa-2,2022-05-28,2022-06-22,Smoking tobacco use disorder,184.48,4612.0
+adm-usa-3888,p-usa-0251,b-usa-1564,r-usa-iii-3107,cc-usa-1,2017-10-12,2017-10-26,"Methicillin-resistant Staphylococcus aureus MRSA, type of bacteria",77.11,1079.54
+adm-usa-9446,p-usa-0645,b-usa-3652,r-usa-vip-7521,cc-usa-2,2012-05-18,2012-05-28,"Stroke CVA, cerebrovascular accident",672.34,6723.4
+adm-usa-9719,p-usa-0322,b-usa-7133,r-usa-ii-8662,cc-usa-1,2019-10-07,2019-10-23,Drug overdose,225.11,3601.76
+adm-usa-0332,p-usa-0541,b-usa-2412,r-usa-iii-7683,cc-usa-2,2015-02-02,2015-02-26,Puncture wound of knee,83.64,2007.36
+adm-usa-1288,p-usa-0510,b-usa-5934,r-usa-vip-7620,cc-usa-1,2012-11-07,2012-11-10,Acne pimples,520.66,1561.98
+adm-usa-2948,p-usa-0443,b-usa-8576,r-usa-vip-1380,cc-usa-2,2013-01-14,2013-02-04,"Neisseria meningitidis infection Neisseria meningitidis meningococcus, serious bacterial illness",672.34,14119.14
+adm-usa-8467,p-usa-0863,b-usa-4161,r-usa-i-5041,cc-usa-1,2021-03-11,2021-03-14,Hordeolum stye of eye,319.53,958.59
+adm-usa-2145,p-usa-0495,b-usa-6655,r-usa-iii-3667,cc-usa-2,2022-09-28,2022-10-08,Inhalants abuse huffing,83.64,836.4
+adm-usa-8325,p-usa-0996,b-usa-9179,r-usa-ii-0028,cc-usa-2,2021-04-28,2021-05-26,Major depressive disorder severe depression,184.48,5165.44
+adm-usa-9887,p-usa-0944,b-usa-0055,r-usa-iii-2057,cc-usa-1,2017-10-01,2017-10-05,Hot tub follicullitis hair follicle infection Pustular folliculitis,77.11,308.44
+adm-usa-5317,p-usa-0492,b-usa-4617,r-usa-vip-5014,cc-usa-1,2016-05-30,2016-06-06,Typhoid fever salmonella typhi infection from contaminated food or water,520.66,3644.62
+adm-usa-6795,p-usa-0125,b-usa-1568,r-usa-vip-8766,cc-usa-2,2020-07-02,2020-07-08,Back trauma injury,672.34,4034.04
+adm-usa-4834,p-usa-0371,b-usa-1145,r-usa-i-9462,cc-usa-1,2013-07-28,2013-08-07,Campylobacter infection intestinal bacterial infection,319.53,3195.3
+adm-usa-8880,p-usa-0124,b-usa-5908,r-usa-vip-2057,cc-usa-1,2012-11-18,2012-11-22,Cavernous sinus aneurysm head vein dilation,520.66,2082.64
+adm-usa-9489,p-usa-0895,b-usa-2677,r-usa-vip-9966,cc-usa-2,2019-10-02,2019-10-05,Sickle cell crisis complication of sickle cell disease,672.34,2017.02
+adm-usa-3111,p-usa-0113,b-usa-5867,r-usa-iii-2791,cc-usa-1,2020-02-17,2020-02-22,Foot sprain,77.11,385.55
+adm-usa-3875,p-usa-0814,b-usa-0385,r-usa-iii-7780,cc-usa-1,2022-05-31,2022-06-06,Congenital heart disease heart defect at birth,77.11,462.66
+adm-usa-0016,p-usa-0564,b-usa-5082,r-usa-iii-2962,cc-usa-1,2016-04-09,2016-05-03,Compartment syndrome increased pressure inside muscles,77.11,1850.64
+adm-usa-0688,p-usa-0918,b-usa-7182,r-usa-iii-2962,cc-usa-1,2015-12-17,2015-12-29,Pregnancy,77.11,925.32
+adm-usa-2571,p-usa-0576,b-usa-9568,r-usa-vvip-3058,cc-usa-2,2018-08-23,2018-09-05,Optic neuritis optic nerve inflammation,919.31,11951.03
+adm-usa-2142,p-usa-0808,b-usa-3556,r-usa-iii-5566,cc-usa-2,2012-08-29,2012-09-18,Macular degeneration chronic eye disease,83.64,1672.8
+adm-usa-9361,p-usa-0378,b-usa-7185,r-usa-iii-9363,cc-usa-2,2021-05-31,2021-06-23,Burning mouth syndrome,83.64,1923.72
+adm-usa-7337,p-usa-0473,b-usa-9316,r-usa-ii-8143,cc-usa-2,2018-10-02,2018-10-23,Rheumatic fever complication of strep infection,184.48,3874.08
+adm-usa-8898,p-usa-0448,b-usa-0770,r-usa-vvip-7601,cc-usa-1,2021-08-16,2021-09-04,Diffuse esophageal spasm painful contractions of the esophagus,784.86,14912.34
+adm-usa-7579,p-usa-0296,b-usa-5527,r-usa-i-1699,cc-usa-1,2013-09-24,2013-10-16,Psoriasis scaly skin disease,319.53,7029.66
+adm-usa-6060,p-usa-0495,b-usa-6313,r-usa-iii-3491,cc-usa-2,2016-10-02,2016-10-16,Foreign body in a wound,83.64,1170.96
+adm-usa-9643,p-usa-0054,b-usa-5264,r-usa-vip-7966,cc-usa-1,2015-02-24,2015-02-27,Pemphigoid,520.66,1561.98
+adm-usa-6833,p-usa-0145,b-usa-6313,r-usa-vip-6262,cc-usa-1,2018-08-12,2018-08-28,"Lupus systemic lupus erythematosus, SLE",520.66,8330.56
+adm-usa-6209,p-usa-0224,b-usa-7006,r-usa-i-6653,cc-usa-1,2012-01-02,2012-01-06,Puncture wound of scalp,319.53,1278.12
+adm-usa-6680,p-usa-0897,b-usa-3752,r-usa-i-6699,cc-usa-1,2015-02-28,2015-03-05,Toxic shock syndrome life-threatening bacterial infection complication,319.53,1597.65
+adm-usa-8759,p-usa-0068,b-usa-0262,r-usa-iii-9363,cc-usa-2,2019-01-26,2019-02-21,Amebiasis ameba infection,83.64,2174.64
+adm-usa-1591,p-usa-0338,b-usa-3276,r-usa-iii-4396,cc-usa-2,2014-09-30,2014-10-08,Oral ulcers mouth ulcers,83.64,669.12
+adm-usa-7491,p-usa-0954,b-usa-2435,r-usa-iii-8207,cc-usa-2,2021-09-12,2021-09-15,"Fifth disease erythema infectiosum, viral illness",83.64,250.92
+adm-usa-0474,p-usa-0141,b-usa-0787,r-usa-ii-6972,cc-usa-1,2015-08-08,2015-08-31,Cerebellar Ataxia,225.11,5177.53
+adm-usa-6311,p-usa-0731,b-usa-4127,r-usa-vvip-2783,cc-usa-1,2017-04-15,2017-05-12,Anaphylaxis (severe/life threatening allergic reaction),784.86,21191.22
+adm-usa-6030,p-usa-0372,b-usa-3544,r-usa-ii-9775,cc-usa-1,2015-09-24,2015-09-29,Drug overdose,225.11,1125.55
+adm-usa-4761,p-usa-0884,b-usa-3679,r-usa-i-5899,cc-usa-2,2013-03-19,2013-03-24,"Myasthenia gravis autoimmune disease of the nerves, muscles",479.38,2396.9
+adm-usa-1706,p-usa-0182,b-usa-5153,r-usa-iii-8807,cc-usa-2,2014-05-28,2014-06-11,Insulin overdose,83.64,1170.96
+adm-usa-9705,p-usa-0791,b-usa-8811,r-usa-vip-4766,cc-usa-2,2022-09-19,2022-10-02,Tenosynovitis tendon sheath inflammation,672.34,8740.42
+adm-usa-2714,p-usa-0843,b-usa-5038,r-usa-iii-3130,cc-usa-1,2020-08-28,2020-09-23,Fibrocystic breasts breast lumpiness,77.11,2004.86
+adm-usa-2391,p-usa-0510,b-usa-4279,r-usa-vip-9966,cc-usa-2,2013-01-01,2013-01-21,Hepatitis liver inflammation,672.34,13446.8
+adm-usa-4461,p-usa-0506,b-usa-9253,r-usa-vvip-5016,cc-usa-1,2017-09-02,2017-09-09,Friedreich's Ataxia genetic disorder,784.86,5494.02
+adm-usa-5375,p-usa-0449,b-usa-9996,r-usa-ii-8331,cc-usa-2,2013-09-15,2013-10-09,Histoplasmosis fungal infection,184.48,4427.52
+adm-usa-1888,p-usa-0856,b-usa-5735,r-usa-vvip-5016,cc-usa-2,2022-01-09,2022-01-13,Allergic rhinitis  (allergic reaction in the nose),919.31,3677.24
+adm-usa-7764,p-usa-0949,b-usa-8653,r-usa-vvip-3342,cc-usa-2,2021-12-07,2021-12-28,Cholangitis inflammation of the bile ducts,919.31,19305.51
+adm-usa-1976,p-usa-0995,b-usa-9381,r-usa-ii-7950,cc-usa-1,2016-11-26,2016-12-07,Bartholin abscess or cyst sac of pus near the vaginal opening,225.11,2476.21
+adm-usa-6180,p-usa-0031,b-usa-2449,r-usa-i-8432,cc-usa-2,2022-07-11,2022-08-01,Peripheral nerve transection nerve injury,479.38,10066.98
+adm-usa-6794,p-usa-0949,b-usa-9615,r-usa-ii-7446,cc-usa-1,2015-04-05,2015-04-27,Slipped capital femoral epiphysis adolescent hip disorder,225.11,4952.42
+adm-usa-2424,p-usa-0672,b-usa-2855,r-usa-vip-5897,cc-usa-2,2013-09-02,2013-09-27,Genital herpes HSV type 2 infection,672.34,16808.5
+adm-usa-2909,p-usa-0221,b-usa-4279,r-usa-i-8133,cc-usa-2,2018-10-23,2018-10-27,Myotonia impaired muscle relaxation,479.38,1917.52
+adm-usa-7745,p-usa-0633,b-usa-0477,r-usa-iii-0704,cc-usa-1,2021-11-30,2022-01-03,Myopathy muscle disease,77.11,2621.74
+adm-usa-4095,p-usa-0483,b-usa-2393,r-usa-ii-2764,cc-usa-1,2017-08-18,2017-08-26,Hypotension low blood pressure,225.11,1800.88
+adm-usa-1943,p-usa-0755,b-usa-2477,r-usa-i-7162,cc-usa-1,2012-11-21,2012-11-25,Spondylolisthesis slipped back bone,319.53,1278.12
+adm-usa-7439,p-usa-0279,b-usa-9533,r-usa-ii-8662,cc-usa-2,2017-11-08,2017-11-11,Urine retention inability to urinate,184.48,553.44
+adm-usa-4365,p-usa-0238,b-usa-3060,r-usa-ii-2534,cc-usa-2,2018-10-29,2018-11-04,"Stroke CVA, cerebrovascular accident",184.48,1106.88
+adm-usa-6657,p-usa-0135,b-usa-6657,r-usa-vvip-8193,cc-usa-1,2012-08-10,2012-08-19,Gastritis stomach inflammation,784.86,7063.74
+adm-usa-2523,p-usa-0040,b-usa-9257,r-usa-iii-6266,cc-usa-2,2020-07-20,2020-08-08,"Molar pregnancy gestational trophoblastic disease, pregnancy-related tumor",83.64,1589.16
+adm-usa-7677,p-usa-0263,b-usa-9766,r-usa-ii-0282,cc-usa-2,2022-02-13,2022-02-16,Giardiasis giardia infection,184.48,553.44
+adm-usa-8095,p-usa-0304,b-usa-1254,r-usa-vip-7400,cc-usa-1,2017-05-12,2017-05-23,Liver cancer tumor,520.66,5727.26
+adm-usa-4275,p-usa-0802,b-usa-1686,r-usa-iii-5645,cc-usa-2,2015-10-14,2015-10-17,"Renal failure, chronic ongoing kidney failure",83.64,250.92
+adm-usa-7883,p-usa-0001,b-usa-1254,r-usa-iii-2108,cc-usa-1,2017-10-14,2017-10-23,Cocaine overdose,77.11,693.99
+adm-usa-3429,p-usa-0825,b-usa-7148,r-usa-iii-0021,cc-usa-1,2017-02-20,2017-03-20,Polyphagia overeating,77.11,2159.08
+adm-usa-5708,p-usa-0440,b-usa-9554,r-usa-vvip-9554,cc-usa-1,2021-07-01,2021-07-10,Premenstrual syndrome PMS,784.86,7063.74
+adm-usa-4156,p-usa-0296,b-usa-6579,r-usa-vip-4712,cc-usa-1,2014-12-01,2014-12-04,"Loffler's syndrome pulmonary eosinophilia, lung inflammation",520.66,1561.98
+adm-usa-9314,p-usa-0687,b-usa-7271,r-usa-ii-9195,cc-usa-1,2013-01-23,2013-02-13,Pancytopenia,225.11,4727.31
+adm-usa-7212,p-usa-0145,b-usa-0654,r-usa-iii-7632,cc-usa-2,2021-05-13,2021-06-16,Bullous myringitis middle ear infection,83.64,2843.76
+adm-usa-9516,p-usa-0581,b-usa-4572,r-usa-i-6699,cc-usa-1,2019-11-29,2019-12-22,Botulism bacterial toxin causing muscle weakness,319.53,7349.19
+adm-usa-9129,p-usa-0674,b-usa-5038,r-usa-i-6653,cc-usa-1,2018-05-29,2018-06-02,"Loffler's syndrome pulmonary eosinophilia, lung inflammation",319.53,1278.12
+adm-usa-0343,p-usa-0852,b-usa-4684,r-usa-ii-8720,cc-usa-1,2013-12-22,2014-01-01,Essential hypertension high blood pressure,225.11,2251.1
+adm-usa-6200,p-usa-0957,b-usa-9767,r-usa-vip-1380,cc-usa-1,2012-02-04,2012-02-27,Optic neuritis optic nerve inflammation,520.66,11975.18
+adm-usa-5307,p-usa-0079,b-usa-3391,r-usa-i-5511,cc-usa-2,2012-07-30,2012-08-04,Erysipelas bacterial skin infection,479.38,2396.9
+adm-usa-9691,p-usa-0149,b-usa-7897,r-usa-vvip-1283,cc-usa-2,2017-08-08,2017-08-15,Laxative abuse,919.31,6435.17
+adm-usa-6265,p-usa-0123,b-usa-3162,r-usa-vip-9966,cc-usa-2,2021-01-04,2021-02-06,Familial cold urticaria cold-related hives,672.34,22187.22
+adm-usa-2321,p-usa-0060,b-usa-4161,r-usa-vip-5169,cc-usa-1,2016-07-20,2016-08-11,Tendon laceration tendon cut,520.66,11454.52
+adm-usa-4626,p-usa-0508,b-usa-7885,r-usa-iii-9440,cc-usa-2,2021-06-30,2021-07-13,Coarctation of aorta narrowing of the aorta,83.64,1087.32
+adm-usa-2104,p-usa-0771,b-usa-9208,r-usa-vvip-5016,cc-usa-1,2020-10-31,2020-11-04,Marijuana use,784.86,3139.44
+adm-usa-6306,p-usa-0495,b-usa-7897,r-usa-iii-6704,cc-usa-1,2020-08-28,2020-09-22,Duodenal cancer small intestine,77.11,1927.75
+adm-usa-6432,p-usa-0755,b-usa-5675,r-usa-ii-3143,cc-usa-1,2021-05-04,2021-05-13,Anal fissure  (tear),225.11,2025.99
+adm-usa-7492,p-usa-0455,b-usa-6666,r-usa-vip-2158,cc-usa-2,2014-10-24,2014-11-25,Ovarian torsion twisting of the ovary,672.34,21514.88
+adm-usa-8909,p-usa-0508,b-usa-8125,r-usa-vvip-2969,cc-usa-1,2019-10-09,2019-10-26,Urethral stricture,784.86,13342.62
+adm-usa-7832,p-usa-0723,b-usa-5264,r-usa-ii-8143,cc-usa-1,2012-10-22,2012-11-16,Golfer's elbow medial epicondylitis of elbow,225.11,5627.75
+adm-usa-4150,p-usa-0541,b-usa-1350,r-usa-vvip-3005,cc-usa-2,2014-11-12,2014-12-10,Mastitis breast infection inflammation,919.31,25740.68
+adm-usa-4802,p-usa-0935,b-usa-2032,r-usa-iii-3130,cc-usa-2,2013-08-09,2013-08-21,Schizophrenia chronic impaired reality perception,83.64,1003.68
+adm-usa-3700,p-usa-0098,b-usa-3664,r-usa-iii-2108,cc-usa-2,2021-09-18,2021-10-14,Frostbite tissue damage from cold,83.64,2174.64
+adm-usa-0228,p-usa-0077,b-usa-6326,r-usa-vvip-9554,cc-usa-1,2012-04-14,2012-04-23,Paraphimosis,784.86,7063.74
+adm-usa-5272,p-usa-0604,b-usa-5954,r-usa-i-5148,cc-usa-2,2018-04-01,2018-05-04,Mycoplasma infection bacteria,479.38,15819.54
+adm-usa-0238,p-usa-0531,b-usa-8537,r-usa-i-8432,cc-usa-1,2021-07-17,2021-08-19,Prostatitis prostate inflammation,319.53,10544.49
+adm-usa-5807,p-usa-0902,b-usa-7271,r-usa-ii-0679,cc-usa-2,2012-06-01,2012-06-10,Yellow fever viral hemorrhagic fever,184.48,1660.32
+adm-usa-0268,p-usa-0432,b-usa-0385,r-usa-vvip-4710,cc-usa-2,2020-12-25,2021-02-03,Cradle cap infant scalp rash,919.31,36772.4
+adm-usa-8208,p-usa-0101,b-usa-4842,r-usa-ii-4324,cc-usa-1,2015-03-19,2015-03-24,Conjunctivitis pink eye,225.11,1125.55
+adm-usa-8695,p-usa-0995,b-usa-7519,r-usa-vvip-3964,cc-usa-1,2022-09-22,2022-10-05,Cough medicine abuse,784.86,10203.18
+adm-usa-2500,p-usa-0736,b-usa-0415,r-usa-vvip-7512,cc-usa-2,2018-02-19,2018-03-23,"Ear infection, middle ear otitis media",919.31,29417.92
+adm-usa-0342,p-usa-0738,b-usa-7303,r-usa-vvip-0537,cc-usa-1,2015-10-15,2015-10-24,Posterior inferior cerebellar artery syndrome stroke syndrome,784.86,7063.74
+adm-usa-5377,p-usa-0999,b-usa-9029,r-usa-vvip-1041,cc-usa-1,2015-08-21,2015-09-23,Vertebral-basilar stroke stroke in the back of the brain Vertebro basilar insufficiency,784.86,25900.38
+adm-usa-0755,p-usa-0221,b-usa-3182,r-usa-vip-7069,cc-usa-1,2019-08-26,2019-09-04,Sclerosing cholangitis progressive bile duct disease ,520.66,4685.94
+adm-usa-5894,p-usa-0696,b-usa-8872,r-usa-vip-9096,cc-usa-2,2013-12-15,2013-12-23,Cervicitis inflammation of the lower uterus,672.34,5378.72
+adm-usa-5705,p-usa-0993,b-usa-4750,r-usa-ii-8662,cc-usa-1,2019-10-30,2019-11-15,"Viral hemorrhagic fevers Ebola, Lassa",225.11,3601.76
+adm-usa-2077,p-usa-0755,b-usa-2163,r-usa-ii-5936,cc-usa-2,2022-08-26,2022-09-12,Sebaceous cyst sac under the skin,184.48,3136.16
+adm-usa-7866,p-usa-0148,b-usa-2156,r-usa-ii-5307,cc-usa-1,2012-08-14,2012-08-24,"Coronary artery disease CAD, heart disease",225.11,2251.1
+adm-usa-8211,p-usa-0599,b-usa-5036,r-usa-vvip-0935,cc-usa-1,2020-04-23,2020-05-06,Boil pus-filled lump,784.86,10203.18
+adm-usa-7486,p-usa-0929,b-usa-6124,r-usa-vvip-7652,cc-usa-1,2014-09-06,2014-10-20,Fibromyalgia chronic pain disorder,784.86,34533.84
+adm-usa-6059,p-usa-0850,b-usa-9224,r-usa-i-3886,cc-usa-2,2019-04-23,2019-05-20,Miscarriage,479.38,12943.26
+adm-usa-7397,p-usa-0667,b-usa-8702,r-usa-vip-6788,cc-usa-2,2019-11-13,2019-11-26,Newborn jaundice newborn skin discoloration,672.34,8740.42
+adm-usa-0771,p-usa-0996,b-usa-5527,r-usa-iii-7683,cc-usa-1,2019-07-22,2019-07-30,Endometritis inflammation of the uterus,77.11,616.88
+adm-usa-4536,p-usa-0387,b-usa-9612,r-usa-i-6563,cc-usa-1,2019-03-25,2019-04-09,Unisom overdose doxylamine overdose,319.53,4792.95
+adm-usa-0763,p-usa-0406,b-usa-1978,r-usa-iii-7683,cc-usa-2,2020-04-07,2020-04-28,Von Willebrand's disease,83.64,1756.44
+adm-usa-0719,p-usa-0707,b-usa-2321,r-usa-ii-6485,cc-usa-2,2016-05-01,2016-05-18,Frozen shoulder  (adhesive capsulitis of shoulder),184.48,3136.16
+adm-usa-3179,p-usa-0696,b-usa-9811,r-usa-i-8280,cc-usa-2,2013-02-14,2013-02-19,Cavity tooth caries,479.38,2396.9
+adm-usa-7162,p-usa-0312,b-usa-4951,r-usa-iii-1558,cc-usa-2,2016-04-09,2016-04-17,Ankle sprain,83.64,669.12
+adm-usa-1592,p-usa-0001,b-usa-1949,r-usa-vip-0654,cc-usa-2,2018-04-23,2018-04-28,Lipoma benign fatty tumor,672.34,3361.7
+adm-usa-1407,p-usa-0715,b-usa-5041,r-usa-ii-6126,cc-usa-1,2018-07-27,2018-08-03,Lip laceration skin cut,225.11,1575.77
+adm-usa-6533,p-usa-0320,b-usa-1254,r-usa-i-7503,cc-usa-1,2015-03-23,2015-03-30,Subluxation,319.53,2236.71
+adm-usa-0408,p-usa-0619,b-usa-3391,r-usa-ii-6972,cc-usa-1,2013-10-04,2013-10-09,Posterior cruciate ligament injuries PCL injury Rupture of posterior cruciate ligament Sprain of posterior cruciate ligament of knee,225.11,1125.55
+adm-usa-4376,p-usa-0771,b-usa-3514,r-usa-i-8061,cc-usa-2,2021-03-11,2021-03-17,Rheumatic fever complication of strep infection,479.38,2876.28
+adm-usa-1896,p-usa-0750,b-usa-0951,r-usa-vvip-0537,cc-usa-1,2015-07-31,2015-08-16,"Bladder stone, urinary",784.86,12557.76
+adm-usa-3457,p-usa-0576,b-usa-3276,r-usa-vvip-5016,cc-usa-1,2013-03-23,2013-04-19,Mumps viral infection involving salivary glands,784.86,21191.22
+adm-usa-0483,p-usa-0263,b-usa-8230,r-usa-ii-1489,cc-usa-1,2020-11-08,2020-12-21,Meniere's disease dizziness and vertigo,225.11,9679.73
+adm-usa-3404,p-usa-0315,b-usa-1096,r-usa-ii-8720,cc-usa-2,2012-07-06,2012-07-24,Esophageal rupture tear in esophagus,184.48,3320.64
+adm-usa-1719,p-usa-0812,b-usa-3323,r-usa-vvip-1283,cc-usa-1,2015-03-30,2015-04-02,Toothache,784.86,2354.58
+adm-usa-9591,p-usa-0246,b-usa-4592,r-usa-iii-2831,cc-usa-1,2022-04-14,2022-04-18,Dystonia,77.11,308.44
+adm-usa-5035,p-usa-0566,b-usa-6684,r-usa-vip-8775,cc-usa-2,2018-10-17,2018-10-31,Retroperitoneal hemorrhage flank bleeding,672.34,9412.76
+adm-usa-5919,p-usa-0574,b-usa-9080,r-usa-vvip-1283,cc-usa-2,2020-05-26,2020-06-02,Charcot-Marie-Tooth disease,919.31,6435.17
+adm-usa-4031,p-usa-0957,b-usa-3918,r-usa-iii-3667,cc-usa-1,2022-08-25,2022-08-27,Wilms' Tumor,77.11,154.22
+adm-usa-9433,p-usa-0808,b-usa-9637,r-usa-ii-2534,cc-usa-1,2020-10-18,2020-11-17,Male infertility,225.11,6753.3
+adm-usa-7318,p-usa-0432,b-usa-1976,r-usa-iii-1499,cc-usa-2,2012-08-31,2012-09-23,Newborn jaundice newborn skin discoloration,83.64,1923.72
+adm-usa-1855,p-usa-0921,b-usa-9430,r-usa-iii-3667,cc-usa-2,2016-05-29,2016-06-02,Drug withdrawal syndrome,83.64,334.56
+adm-usa-7824,p-usa-0105,b-usa-9116,r-usa-iii-1558,cc-usa-1,2017-12-31,2018-01-26,"Vestibular neuronitis labyrinthitis, vertigo",77.11,2004.86
+adm-usa-2745,p-usa-0951,b-usa-3652,r-usa-i-1183,cc-usa-2,2022-02-02,2022-02-06,Abdominal adhesions scar tissue,479.38,1917.52
+adm-usa-9367,p-usa-0921,b-usa-7694,r-usa-iii-0308,cc-usa-2,2018-03-20,2018-04-05,Psoriatic arthritis joint pain and stiffness,83.64,1338.24
+adm-usa-1933,p-usa-0224,b-usa-4612,r-usa-vip-0055,cc-usa-2,2013-05-11,2013-06-02,Eyelid swelling,672.34,14791.48
+adm-usa-5183,p-usa-0040,b-usa-9776,r-usa-vip-6178,cc-usa-1,2013-05-10,2013-05-22,"Bladder stone, urinary",520.66,6247.92
+adm-usa-5207,p-usa-0600,b-usa-7699,r-usa-vvip-1041,cc-usa-1,2012-08-17,2012-08-21,Methyl alcohol intoxication methanol,784.86,3139.44
+adm-usa-6456,p-usa-0621,b-usa-9899,r-usa-i-8133,cc-usa-1,2017-05-09,2017-05-22,Mongolian spots blue birthmark,319.53,4153.89
+adm-usa-0945,p-usa-0907,b-usa-9696,r-usa-ii-7532,cc-usa-1,2014-12-21,2015-01-01,"Polymyalgia rheumatica PMR, muscle and joint disorder",225.11,2476.21
+adm-usa-2549,p-usa-0456,b-usa-7769,r-usa-iii-9970,cc-usa-1,2020-03-11,2020-04-03,Guillain Barre syndrome ascending muscle weakness,77.11,1773.53
+adm-usa-0438,p-usa-0041,b-usa-1306,r-usa-vvip-6484,cc-usa-1,2012-04-04,2012-04-21,Pneumonia lung infection,784.86,13342.62
+adm-usa-4290,p-usa-0312,b-usa-5954,r-usa-vvip-7512,cc-usa-2,2021-09-09,2021-09-27,Excessive hair growth Hirsutism,919.31,16547.58
+adm-usa-6137,p-usa-0889,b-usa-9533,r-usa-vip-0055,cc-usa-1,2020-04-11,2020-04-15,Male pattern hair loss hereditary-patterned baldness Androgenic alopecia,520.66,2082.64
+adm-usa-5844,p-usa-0287,b-usa-7544,r-usa-vvip-9238,cc-usa-1,2016-09-24,2016-10-07,Ecstasy MDMA abuse,784.86,10203.18
+adm-usa-3305,p-usa-0445,b-usa-6520,r-usa-i-7162,cc-usa-1,2013-08-23,2013-09-13,Strabismus crossed eyes,319.53,6710.13
+adm-usa-2345,p-usa-0099,b-usa-3391,r-usa-i-2268,cc-usa-2,2019-07-25,2019-09-01,Lip laceration skin cut,479.38,18216.44
+adm-usa-3351,p-usa-0483,b-usa-9662,r-usa-vip-4766,cc-usa-1,2012-04-26,2012-05-09,Dental eruption appearance of new tooth,520.66,6768.58
+adm-usa-6790,p-usa-0370,b-usa-4366,r-usa-i-6190,cc-usa-1,2022-09-07,2022-10-02,Spermatocele sperm-filled epididymal cyst,319.53,7988.25
+adm-usa-2113,p-usa-0801,b-usa-8106,r-usa-vip-5897,cc-usa-1,2018-06-07,2018-06-22,Goodpasture syndrome disease of kidneys and lungs,520.66,7809.9
+adm-usa-4097,p-usa-0142,b-usa-5068,r-usa-ii-2764,cc-usa-2,2015-05-10,2015-05-22,Adenoiditis (a type of lymph node inflammation),184.48,2213.76
+adm-usa-7977,p-usa-0066,b-usa-1701,r-usa-iii-5566,cc-usa-1,2021-01-17,2021-02-01,Spinal cord tumor,77.11,1156.65
+adm-usa-8700,p-usa-0331,b-usa-8467,r-usa-i-3301,cc-usa-1,2013-01-31,2013-02-11,Conversion disorder,319.53,3514.83
+adm-usa-7765,p-usa-0338,b-usa-3162,r-usa-vip-6532,cc-usa-2,2022-10-30,2022-11-21,Ankle swelling,672.34,14791.48
+adm-usa-5570,p-usa-0633,b-usa-6477,r-usa-ii-8011,cc-usa-1,2016-10-18,2016-10-26,Ringworm of the scalp tinea capitis,225.11,1800.88
+adm-usa-7413,p-usa-0263,b-usa-9996,r-usa-i-8280,cc-usa-2,2014-07-24,2014-08-12,Lyme disease bacterial infection from ticks,479.38,9108.22
+adm-usa-0725,p-usa-0201,b-usa-0216,r-usa-iii-2962,cc-usa-2,2022-03-02,2022-03-13,Reflex sympathetic dystrophy complex pain syndrome,83.64,920.04
+adm-usa-6066,p-usa-0294,b-usa-9664,r-usa-iii-9970,cc-usa-1,2013-10-25,2013-11-09,Urinary tract malformation,77.11,1156.65
+adm-usa-5341,p-usa-0745,b-usa-6326,r-usa-iii-9970,cc-usa-1,2022-04-13,2022-04-28,Cerebrospinal fluid rhinorrhea leakage of brain fluid from the nose,77.11,1156.65
+adm-usa-2634,p-usa-0844,b-usa-2412,r-usa-ii-2764,cc-usa-2,2019-08-19,2019-09-08,Dental eruption appearance of new tooth,184.48,3689.6
+adm-usa-9002,p-usa-0510,b-usa-0321,r-usa-vip-9966,cc-usa-2,2022-07-18,2022-07-27,Methyl alcohol intoxication methanol,672.34,6051.06
+adm-usa-9452,p-usa-0403,b-usa-4631,r-usa-vvip-5016,cc-usa-2,2016-03-03,2016-03-09,Insomnia difficulty sleeping,919.31,5515.86
+adm-usa-4750,p-usa-0473,b-usa-5723,r-usa-iii-7268,cc-usa-1,2021-07-11,2021-08-23,Drug overuse Prescription Drug Overuse,77.11,3315.73
+adm-usa-3384,p-usa-0145,b-usa-3629,r-usa-ii-2534,cc-usa-2,2022-11-20,2022-12-09,Umbilical hernia belly button hernia,184.48,3505.12
+adm-usa-4567,p-usa-0057,b-usa-8472,r-usa-vvip-9758,cc-usa-2,2013-08-09,2013-08-14,Estrogen withdrawal female hormone,919.31,4596.55
+adm-usa-1620,p-usa-0430,b-usa-1987,r-usa-iii-3130,cc-usa-2,2021-12-14,2021-12-30,Retropharyngeal abscess throat abscess,83.64,1338.24
+adm-usa-0467,p-usa-0731,b-usa-2524,r-usa-i-3301,cc-usa-2,2017-05-15,2017-05-29,Huntington disease chorea,479.38,6711.32
+adm-usa-0329,p-usa-0856,b-usa-5418,r-usa-vip-2158,cc-usa-1,2022-04-26,2022-05-26,Down syndrome common genetic disorder,520.66,15619.8
+adm-usa-7987,p-usa-0256,b-usa-6759,r-usa-i-8082,cc-usa-2,2012-03-29,2012-04-01,Skull fracture broken bone,479.38,1438.14
+adm-usa-2289,p-usa-0859,b-usa-5954,r-usa-vip-0303,cc-usa-1,2019-06-09,2019-07-06,Birth control pill use,520.66,14057.82
+adm-usa-9547,p-usa-0645,b-usa-4684,r-usa-iii-9363,cc-usa-2,2015-02-23,2015-03-01,Temporal arteritis inflamed scalp artery,83.64,501.84
+adm-usa-8256,p-usa-0238,b-usa-9554,r-usa-i-6190,cc-usa-1,2017-01-16,2017-02-06,Drug withdrawal syndrome,319.53,6710.13
+adm-usa-0580,p-usa-0073,b-usa-3323,r-usa-i-6653,cc-usa-2,2015-12-30,2016-01-14,Insulin overdose,479.38,7190.7
+adm-usa-0833,p-usa-0079,b-usa-1134,r-usa-ii-1489,cc-usa-1,2022-01-09,2022-01-14,Paralytic Ileus intestinal paralysis,225.11,1125.55
+adm-usa-7521,p-usa-0329,b-usa-5922,r-usa-ii-7532,cc-usa-2,2012-08-25,2012-09-07,Anal fissure  (tear),184.48,2398.24
+adm-usa-2416,p-usa-0287,b-usa-4951,r-usa-vvip-2773,cc-usa-1,2016-07-25,2016-08-27,Pericarditis heart sac inflammation,784.86,25900.38
+adm-usa-8204,p-usa-0564,b-usa-7049,r-usa-iii-0308,cc-usa-1,2018-08-22,2018-09-27,Pemphigoid,77.11,2775.96
+adm-usa-0436,p-usa-0895,b-usa-0382,r-usa-ii-6972,cc-usa-1,2012-05-06,2012-06-05,Atrioventricular node conduction block heart block,225.11,6753.3
+adm-usa-2840,p-usa-0549,b-usa-0974,r-usa-vvip-8310,cc-usa-1,2015-01-22,2015-02-07,Peripheral vascular disease blocked blood vessels,784.86,12557.76
+adm-usa-0475,p-usa-0860,b-usa-3374,r-usa-ii-3837,cc-usa-2,2017-12-24,2017-12-28,Subarachnoid hemorrhage brain bleeding,184.48,737.92
+adm-usa-7998,p-usa-0424,b-usa-0974,r-usa-vip-6121,cc-usa-1,2016-12-17,2017-01-06,Cat scratch fever bacterial infection after cat scratch,520.66,10413.2
+adm-usa-3123,p-usa-0201,b-usa-3664,r-usa-vvip-0935,cc-usa-1,2021-09-21,2021-10-07,Erectile dysfunction ED,784.86,12557.76
+adm-usa-4444,p-usa-0001,b-usa-2474,r-usa-iii-7963,cc-usa-2,2016-06-19,2016-07-29,Urethritis infection of urethra,83.64,3345.6
+adm-usa-8876,p-usa-0947,b-usa-6694,r-usa-vip-8766,cc-usa-2,2020-04-16,2020-05-09,Puncture wound of foot,672.34,15463.82
+adm-usa-3733,p-usa-0608,b-usa-9453,r-usa-iii-7683,cc-usa-2,2018-10-25,2018-11-28,Polycythemia vera increased number of red blood cells,83.64,2843.76
+adm-usa-5260,p-usa-0148,b-usa-0416,r-usa-ii-7532,cc-usa-2,2018-03-15,2018-04-01,Lipoma benign fatty tumor,184.48,3136.16
+adm-usa-4987,p-usa-0831,b-usa-2986,r-usa-iii-9386,cc-usa-1,2014-04-04,2014-04-18,Munchausen syndrome fabricated illness,77.11,1079.54
+adm-usa-9461,p-usa-0621,b-usa-5041,r-usa-iii-6266,cc-usa-2,2020-08-31,2020-10-04,Subarachnoid hemorrhage brain bleeding,83.64,2843.76
+adm-usa-0414,p-usa-0674,b-usa-9253,r-usa-vvip-6493,cc-usa-1,2013-05-16,2013-05-19,Prescription drug abuse,784.86,2354.58
+adm-usa-4992,p-usa-0498,b-usa-9333,r-usa-i-6699,cc-usa-2,2016-03-21,2016-04-03,Generalized seizure disorder generalized epilepsy,479.38,6231.94
+adm-usa-5299,p-usa-0286,b-usa-9685,r-usa-ii-5307,cc-usa-2,2017-06-28,2017-07-15,Syphilis treponema pallidum,184.48,3136.16
+adm-usa-1428,p-usa-0645,b-usa-9899,r-usa-iii-6938,cc-usa-1,2019-03-23,2019-03-26,Contact urticaria hives,77.11,231.33
+adm-usa-8584,p-usa-0296,b-usa-2712,r-usa-iii-9386,cc-usa-1,2020-04-17,2020-05-05,Hyperparathyroidism elevated parathyroid hormone levels,77.11,1387.98
+adm-usa-3906,p-usa-0850,b-usa-6771,r-usa-iii-2791,cc-usa-2,2013-09-17,2013-09-27,Drug overuse Prescription Drug Overuse,83.64,836.4
+adm-usa-5949,p-usa-0880,b-usa-2477,r-usa-iii-5566,cc-usa-2,2012-03-01,2012-03-15,Flat feet pes planus,83.64,1170.96
+adm-usa-6788,p-usa-0895,b-usa-9985,r-usa-i-5899,cc-usa-2,2015-01-07,2015-02-03,Hepatitis liver inflammation,479.38,12943.26
+adm-usa-9782,p-usa-0914,b-usa-9519,r-usa-vip-1774,cc-usa-2,2022-09-29,2022-10-08,Pancytopenia,672.34,6051.06
+adm-usa-4822,p-usa-0353,b-usa-2914,r-usa-vip-4098,cc-usa-2,2014-06-01,2014-06-21,Inhaled foreign body in respiratory tract,672.34,13446.8
+adm-usa-0011,p-usa-0956,b-usa-1568,r-usa-vip-2595,cc-usa-1,2015-01-04,2015-01-13,Common spider bite spider bite,520.66,4685.94
+adm-usa-2244,p-usa-0304,b-usa-5545,r-usa-i-5511,cc-usa-1,2013-01-24,2013-02-16,Traumatic brain injury,319.53,7349.19
+adm-usa-1070,p-usa-0287,b-usa-3544,r-usa-vip-6353,cc-usa-1,2012-08-27,2012-09-13,Liver abscess collection of pus,520.66,8851.22
+adm-usa-0229,p-usa-0783,b-usa-8879,r-usa-ii-0282,cc-usa-1,2016-01-10,2016-01-19,Herpes simplex infection viral infection,225.11,2025.99
+adm-usa-7721,p-usa-0308,b-usa-9811,r-usa-i-5298,cc-usa-2,2013-10-07,2013-10-13,Abdominal adhesions scar tissue,479.38,2876.28
+adm-usa-1286,p-usa-0863,b-usa-7897,r-usa-ii-0028,cc-usa-2,2022-08-03,2022-08-17,Rhabdomyolysis severe muscle breakdown,184.48,2582.72
+adm-usa-3886,p-usa-0728,b-usa-5908,r-usa-i-1261,cc-usa-2,2018-09-07,2018-09-15,Ophthalmoplegia eye muscle weakness,479.38,3835.04
+adm-usa-6139,p-usa-0349,b-usa-1768,r-usa-vip-3469,cc-usa-1,2020-10-09,2020-10-16,"Neisseria meningitidis infection Neisseria meningitidis meningococcus, serious bacterial illness",520.66,3644.62
+adm-usa-2182,p-usa-0705,b-usa-4921,r-usa-iii-5645,cc-usa-1,2020-02-11,2020-02-26,Flea bite,77.11,1156.65
+adm-usa-9033,p-usa-0598,b-usa-2219,r-usa-i-7946,cc-usa-2,2022-04-24,2022-05-08,Sciatica lower back nerve irritation,479.38,6711.32
+adm-usa-9585,p-usa-0265,b-usa-8472,r-usa-iii-3491,cc-usa-2,2021-06-06,2021-06-25,"Ductal carcinoma in situ DCIS, breast cancer",83.64,1589.16
+adm-usa-6677,p-usa-0098,b-usa-2687,r-usa-vip-1209,cc-usa-1,2016-10-22,2016-10-26,Self-inflicted injury,520.66,2082.64
+adm-usa-6288,p-usa-0486,b-usa-3118,r-usa-vvip-8193,cc-usa-2,2020-06-22,2020-07-06,Epidural abscess brain or spine pus collection,919.31,12870.34
+adm-usa-6172,p-usa-0105,b-usa-2916,r-usa-iii-8207,cc-usa-2,2014-02-28,2014-03-27,Peripheral nerve transection nerve injury,83.64,2258.28
+adm-usa-4860,p-usa-0320,b-usa-7530,r-usa-iii-9363,cc-usa-2,2018-06-26,2018-06-28,"Amyotrophic lateral sclerosis ALS, Lou Gehrig's disease",83.64,167.28
+adm-usa-6576,p-usa-0205,b-usa-3276,r-usa-vip-2158,cc-usa-1,2018-09-26,2018-10-12,Osteomyelitis bone infection,520.66,8330.56
+adm-usa-3555,p-usa-0667,b-usa-9696,r-usa-iii-9970,cc-usa-1,2020-12-12,2021-01-09,Methamphetamine abuse,77.11,2159.08
+adm-usa-7529,p-usa-0731,b-usa-3679,r-usa-vvip-3173,cc-usa-2,2013-08-14,2013-08-26,Leukemia blood cell cancer,919.31,11031.72
+adm-usa-3331,p-usa-0683,b-usa-2712,r-usa-vip-0303,cc-usa-1,2012-05-30,2012-06-14,Corneal foreign body object in the eye,520.66,7809.9
+adm-usa-5281,p-usa-0520,b-usa-4693,r-usa-vvip-9554,cc-usa-1,2015-07-11,2015-07-14,Folliculitis hair follicle infection,784.86,2354.58
+adm-usa-9544,p-usa-0057,b-usa-0332,r-usa-vvip-4710,cc-usa-2,2017-01-28,2017-02-20,Tenosynovitis tendon sheath inflammation,919.31,21144.13
+adm-usa-1229,p-usa-0914,b-usa-6267,r-usa-i-7946,cc-usa-2,2014-11-03,2014-11-06,Allergic conjunctivitis allergic reaction in the eye,479.38,1438.14
+adm-usa-5651,p-usa-0005,b-usa-2916,r-usa-vip-6262,cc-usa-2,2013-03-21,2013-04-11,Prescription drug abuse,672.34,14119.14
+adm-usa-3293,p-usa-0236,b-usa-8467,r-usa-i-5298,cc-usa-1,2018-02-28,2018-03-10,Head trauma,319.53,3195.3
+adm-usa-4135,p-usa-0956,b-usa-0824,r-usa-iii-9384,cc-usa-1,2018-07-08,2018-07-16,Food allergy,77.11,616.88
+adm-usa-1334,p-usa-0329,b-usa-6512,r-usa-vip-9966,cc-usa-2,2015-03-18,2015-05-05,Volvulus twisted intestine,672.34,32272.32
+adm-usa-3220,p-usa-0071,b-usa-9131,r-usa-vip-5014,cc-usa-2,2016-01-30,2016-03-05,"Renal failure, acute sudden kidney failure",672.34,23531.9
+adm-usa-8018,p-usa-0445,b-usa-0995,r-usa-vip-0654,cc-usa-1,2017-08-07,2017-09-03,"Leishmaniasis parasitic infection, kala azar",520.66,14057.82
+adm-usa-1344,p-usa-0899,b-usa-6759,r-usa-iii-9386,cc-usa-1,2014-10-09,2014-10-30,Uterine prolapse uterine vaginal protrusion,77.11,1619.31
+adm-usa-4961,p-usa-0705,b-usa-0834,r-usa-iii-8563,cc-usa-1,2022-03-28,2022-04-22,Traumatic brain injury,77.11,1927.75
+adm-usa-8269,p-usa-0275,b-usa-8872,r-usa-i-8061,cc-usa-2,2015-03-26,2015-05-03,Compression fracture broken spinal bone,479.38,18216.44
+adm-usa-4518,p-usa-0251,b-usa-0504,r-usa-vip-6624,cc-usa-1,2017-07-09,2017-07-19,Cerebellar Ataxia,520.66,5206.6
+adm-usa-6585,p-usa-0935,b-usa-3820,r-usa-ii-7211,cc-usa-2,2022-09-15,2022-09-24,Mastitis breast infection inflammation,184.48,1660.32
+adm-usa-9491,p-usa-0446,b-usa-4921,r-usa-iii-3213,cc-usa-2,2017-02-15,2017-02-21,"Decompression sickness bends, caisson's disease",83.64,501.84
+adm-usa-9285,p-usa-0771,b-usa-3834,r-usa-vip-0303,cc-usa-1,2014-11-25,2014-11-28,"Disseminated intravascular coagulation DIC, abnormality of blood clotting",520.66,1561.98
+adm-usa-7239,p-usa-0440,b-usa-8000,r-usa-i-7162,cc-usa-2,2017-06-08,2017-06-20,Esophageal achalasia swallowing disease,479.38,5752.56
+adm-usa-6798,p-usa-0635,b-usa-6694,r-usa-vvip-9758,cc-usa-2,2019-03-04,2019-03-12,Radiator fluid ethylene glycol poisoning,919.31,7354.48
+adm-usa-6491,p-usa-0825,b-usa-4467,r-usa-vip-9096,cc-usa-1,2019-09-21,2019-09-27,"Carcinoid syndrome flushing, diarrhea",520.66,3123.96
+adm-usa-0886,p-usa-0495,b-usa-8288,r-usa-vip-6903,cc-usa-1,2014-02-07,2014-02-19,Allergy,520.66,6247.92
+adm-usa-3893,p-usa-0600,b-usa-1145,r-usa-iii-8807,cc-usa-2,2019-08-24,2019-09-07,Tarantula bite Tarantula Venoms,83.64,1170.96
+adm-usa-0729,p-usa-0884,b-usa-9526,r-usa-iii-5566,cc-usa-1,2020-04-03,2020-04-12,Fetal alcohol syndrome,77.11,693.99
+adm-usa-9162,p-usa-0731,b-usa-1174,r-usa-iii-1499,cc-usa-2,2018-11-20,2018-11-30,Hyperosmolar hyperglycemic state severely elevated glucose level,83.64,836.4
+adm-usa-7909,p-usa-0338,b-usa-2916,r-usa-vvip-6493,cc-usa-2,2019-01-22,2019-01-24,Beriberi thiamine vitamin B1 deficiency,919.31,1838.62
+adm-usa-6947,p-usa-0179,b-usa-9554,r-usa-iii-6413,cc-usa-2,2014-10-28,2014-11-09,Hernia,83.64,1003.68
+adm-usa-3718,p-usa-0263,b-usa-0660,r-usa-vvip-6493,cc-usa-2,2020-01-20,2020-01-28,Parotitis salivary gland inflammation,919.31,7354.48
+adm-usa-1931,p-usa-0157,b-usa-1768,r-usa-ii-0028,cc-usa-1,2013-02-08,2013-03-05,Femoral artery aneurysm dilation of leg artery,225.11,5627.75
+adm-usa-1984,p-usa-0030,b-usa-5487,r-usa-iii-7683,cc-usa-1,2017-11-18,2017-11-30,"Genital warts HPV, Human papillomavirus infection",77.11,925.32
+adm-usa-0125,p-usa-0884,b-usa-6081,r-usa-ii-9195,cc-usa-2,2015-06-25,2015-07-20,Finger pulp infection felon,184.48,4612.0
+adm-usa-3966,p-usa-0951,b-usa-2893,r-usa-iii-4615,cc-usa-2,2019-02-27,2019-04-05,Perforated septum hole in skin between nostrils,83.64,3094.68
+adm-usa-5492,p-usa-0782,b-usa-5068,r-usa-i-1699,cc-usa-1,2020-04-04,2020-04-06,Toe fracture,319.53,639.06
+adm-usa-9209,p-usa-0581,b-usa-0752,r-usa-vip-7400,cc-usa-1,2020-06-15,2020-06-30,"Spinal cord injury, acute",520.66,7809.9
+adm-usa-5131,p-usa-0312,b-usa-3514,r-usa-i-2268,cc-usa-2,2014-03-17,2014-04-30,Diabetic retinopathy diabetic eye disease,479.38,21092.72
+adm-usa-3136,p-usa-0541,b-usa-4390,r-usa-ii-6485,cc-usa-2,2021-11-23,2021-12-30,Sexually transmitted disease STD,184.48,6825.76
+adm-usa-5822,p-usa-0472,b-usa-2032,r-usa-ii-6972,cc-usa-1,2021-03-12,2021-04-09,Mediastinitis inner chest inflammation,225.11,6303.08
+adm-usa-6599,p-usa-0667,b-usa-3795,r-usa-vip-5014,cc-usa-2,2021-03-27,2021-05-10,Hyperemesis gravidarum severe vomiting in pregnancy,672.34,29582.96
+adm-usa-9474,p-usa-0040,b-usa-7105,r-usa-i-8280,cc-usa-2,2021-03-17,2021-04-07,Graves eye disease Graves ophthalmopathy,479.38,10066.98
+adm-usa-7332,p-usa-0552,b-usa-6174,r-usa-iii-6668,cc-usa-2,2016-06-10,2016-06-15,Waldenström macroglobulinemia blood cell disease,83.64,418.2
+adm-usa-7353,p-usa-0645,b-usa-3752,r-usa-vip-2254,cc-usa-1,2020-10-14,2020-10-23,Tuberculosis infection TB,520.66,4685.94
+adm-usa-0100,p-usa-0698,b-usa-9776,r-usa-vip-7966,cc-usa-1,2022-06-24,2022-07-06,Rotator cuff syndrome shoulder injury,520.66,6247.92
+adm-usa-4760,p-usa-0492,b-usa-5723,r-usa-iii-2831,cc-usa-1,2012-02-09,2012-02-19,"Steven Johnson syndrome rare, serious skin disorder",77.11,771.1
+adm-usa-4060,p-usa-0962,b-usa-5278,r-usa-ii-7087,cc-usa-1,2015-01-24,2015-02-21,Avulsions forcible tissue detachment,225.11,6303.08
+adm-usa-4310,p-usa-0501,b-usa-0974,r-usa-vvip-3569,cc-usa-2,2020-07-26,2020-08-12,Diabetic nephropathy diabetes and kidney disease,919.31,15628.27
+adm-usa-4335,p-usa-0068,b-usa-4781,r-usa-i-7946,cc-usa-2,2020-09-26,2020-10-21,Fragile X syndrome genetic disorder,479.38,11984.5
+adm-usa-7105,p-usa-0839,b-usa-2569,r-usa-ii-7087,cc-usa-2,2022-04-27,2022-04-30,"Ductal carcinoma in situ DCIS, breast cancer",184.48,553.44
+adm-usa-5314,p-usa-0286,b-usa-8745,r-usa-i-1001,cc-usa-1,2020-12-22,2021-01-08,Traveler's diarrhea Montezuma's revenge,319.53,5432.01
+adm-usa-2089,p-usa-0013,b-usa-7185,r-usa-ii-0679,cc-usa-2,2021-06-28,2021-07-03,Common spider bite spider bite,184.48,922.4
+adm-usa-3056,p-usa-0528,b-usa-7038,r-usa-ii-5936,cc-usa-2,2013-05-04,2013-06-11,Neuroblastoma,184.48,7010.24
+adm-usa-5899,p-usa-0001,b-usa-2112,r-usa-ii-6126,cc-usa-1,2014-03-05,2014-03-20,Gastroenteritis intestinal infection,225.11,3376.65
+adm-usa-1625,p-usa-0772,b-usa-0477,r-usa-vvip-4521,cc-usa-1,2012-03-05,2012-03-14,"Esophageal web Schatzki's ring, constriction of esophagus",784.86,7063.74
+adm-usa-0543,p-usa-0039,b-usa-8000,r-usa-iii-6668,cc-usa-2,2019-07-26,2019-08-11,Folliculitis hair follicle infection,83.64,1338.24
+adm-usa-4577,p-usa-0149,b-usa-3138,r-usa-i-5041,cc-usa-1,2016-10-24,2016-10-27,Failure to thrive - adult failure to thrive,319.53,958.59
+adm-usa-3296,p-usa-0238,b-usa-8745,r-usa-iii-5566,cc-usa-1,2019-07-20,2019-08-09,Radiation exposure radiation sickness,77.11,1542.2
+adm-usa-5461,p-usa-0449,b-usa-7167,r-usa-vvip-8193,cc-usa-1,2022-02-02,2022-02-10,Paget disease of the nipple rare breast cancer,784.86,6278.88
+adm-usa-3141,p-usa-0926,b-usa-1686,r-usa-iii-2057,cc-usa-1,2019-06-25,2019-07-05,Fibromuscular dysplasia FMD,77.11,771.1
+adm-usa-7580,p-usa-0944,b-usa-4729,r-usa-vvip-9238,cc-usa-2,2017-06-06,2017-06-13,Optic neuritis optic nerve inflammation,919.31,6435.17
+adm-usa-5452,p-usa-0041,b-usa-5553,r-usa-i-7946,cc-usa-1,2015-10-02,2015-10-12,"Carbon monoxide poisoning odorless, poisonous gas",319.53,3195.3
+adm-usa-1241,p-usa-0180,b-usa-2392,r-usa-iii-3107,cc-usa-1,2016-07-26,2016-08-20,Fever elevated temperature,77.11,1927.75
+adm-usa-8229,p-usa-0348,b-usa-7303,r-usa-iii-0308,cc-usa-1,2017-03-01,2017-03-17,Shingles herpes zoster,77.11,1233.76
+adm-usa-8583,p-usa-0914,b-usa-8475,r-usa-vvip-0485,cc-usa-1,2016-05-31,2016-06-18,Central cord syndrome traumatic spine injury,784.86,14127.48
+adm-usa-9057,p-usa-0348,b-usa-8745,r-usa-vip-6262,cc-usa-2,2014-07-07,2014-07-14,Gallbladder cancer,672.34,4706.38
+adm-usa-0045,p-usa-0060,b-usa-0788,r-usa-vip-5014,cc-usa-2,2021-12-10,2021-12-16,Lead overdose lead poisoning,672.34,4034.04
+adm-usa-9154,p-usa-0738,b-usa-6326,r-usa-vip-2595,cc-usa-1,2021-01-03,2021-02-05,Chikungunya viral illness from mosquitoes,520.66,17181.78
+adm-usa-5244,p-usa-0320,b-usa-2476,r-usa-vip-8328,cc-usa-2,2013-07-11,2013-08-12,Anorexia (eating disorder),672.34,21514.88
+adm-usa-1799,p-usa-0013,b-usa-8147,r-usa-vip-5496,cc-usa-1,2016-01-13,2016-01-22,Ulcerative colitis large intestine inflammation,520.66,4685.94
+adm-usa-7132,p-usa-0322,b-usa-9811,r-usa-iii-3491,cc-usa-1,2013-10-09,2013-10-30,"Nonsteroidal anti-inflammatory drug overdose Motrin, Advil",77.11,1619.31
+adm-usa-0193,p-usa-0505,b-usa-4549,r-usa-vvip-2312,cc-usa-2,2018-06-02,2018-06-08,"Sprain stretched, torn ligament",919.31,5515.86
+adm-usa-6616,p-usa-0603,b-usa-8000,r-usa-vip-8328,cc-usa-1,2022-02-24,2022-03-06,Kaposi Sarcoma type of cancer,520.66,5206.6

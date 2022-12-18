@@ -1,0 +1,955 @@
+,admission_id,patient_id,bed_id,room_id,care_center_id,admitted_date,discharged_date,admitted_causes,room_rate_per_night,room_rate_total
+0,adm-idn-3091,p-idn-0582,b-idn-4435,r-idn-i-1546,cc-idn-2,2014-06-24,2014-06-30,"Tourette syndrome repetitive involuntary movements, vocalizations",315.24,1891.44
+1,adm-idn-6403,p-idn-0353,b-idn-6920,r-idn-vip-2151,cc-idn-1,2019-10-26,2019-11-23,Cervical lymphadenopathy enlarged neck lymph nodes,615.4,17231.2
+2,adm-idn-6610,p-idn-0145,b-idn-8526,r-idn-i-5102,cc-idn-2,2019-09-27,2019-10-04,Breast fibroadenoma benign breast lumps,315.24,2206.68
+3,adm-idn-5921,p-idn-0017,b-idn-1626,r-idn-vvip-5557,cc-idn-2,2014-12-21,2015-01-04,Tonsillitis tonsil infection,940.92,13172.88
+4,adm-idn-5966,p-idn-0846,b-idn-5680,r-idn-iii-5028,cc-idn-2,2018-09-08,2018-09-19,Head trauma,115.65,1272.15
+5,adm-idn-9848,p-idn-0544,b-idn-6338,r-idn-vvip-3616,cc-idn-1,2017-12-13,2017-12-15,Scarlet fever post strep inflammation,970.83,1941.66
+6,adm-idn-4801,p-idn-0817,b-idn-0012,r-idn-vip-1990,cc-idn-1,2019-05-17,2019-06-06,Ludwigs angina severe infection in the floor of the mouth and neck,615.4,12308.0
+7,adm-idn-5334,p-idn-0764,b-idn-4994,r-idn-i-6616,cc-idn-1,2020-08-15,2020-08-22,Burns,359.31,2515.17
+8,adm-idn-5832,p-idn-0422,b-idn-2934,r-idn-i-7226,cc-idn-1,2013-11-14,2013-11-22,Sjogren's syndrome dry eyes and mouth,359.31,2874.48
+9,adm-idn-7915,p-idn-0384,b-idn-3739,r-idn-i-4343,cc-idn-1,2021-01-24,2021-02-12,Foot ulcer,359.31,6826.89
+10,adm-idn-9831,p-idn-0302,b-idn-8080,r-idn-iii-5414,cc-idn-2,2014-01-23,2014-01-25,Leptospirosis bacterial infection,115.65,231.3
+11,adm-idn-5237,p-idn-0962,b-idn-0809,r-idn-iii-9731,cc-idn-2,2013-05-13,2013-06-09,Pulpitis dental root inflammation,115.65,3122.55
+12,adm-idn-6874,p-idn-0902,b-idn-4473,r-idn-vvip-2899,cc-idn-1,2019-10-04,2019-10-10,Long QT Syndrome inherited heart condition,970.83,5824.98
+13,adm-idn-3688,p-idn-0433,b-idn-1778,r-idn-i-6924,cc-idn-1,2016-06-24,2016-07-19,Poisoning,359.31,8982.75
+14,adm-idn-0125,p-idn-0858,b-idn-1640,r-idn-ii-5318,cc-idn-2,2012-10-24,2012-10-28,Heat stroke,240.15,960.6
+15,adm-idn-4549,p-idn-0413,b-idn-3540,r-idn-iii-3212,cc-idn-2,2015-06-24,2015-07-28,Food allergy,115.65,3932.1
+16,adm-idn-6511,p-idn-0849,b-idn-5509,r-idn-iii-7884,cc-idn-1,2017-09-14,2017-09-21,Esophageal foreign body,94.5,661.5
+17,adm-idn-7504,p-idn-0979,b-idn-2686,r-idn-iii-7884,cc-idn-2,2015-11-28,2015-12-06,"Bladder infection cystitis, UTI, urinary tract infection",115.65,925.2
+18,adm-idn-7425,p-idn-0776,b-idn-6768,r-idn-iii-6268,cc-idn-2,2017-04-06,2017-04-10,Trauma,115.65,462.6
+19,adm-idn-6240,p-idn-0189,b-idn-2745,r-idn-ii-6615,cc-idn-2,2015-06-20,2015-07-11,Staphylococcus aureus type of bacteria,240.15,5043.15
+20,adm-idn-0953,p-idn-0655,b-idn-4417,r-idn-vvip-2520,cc-idn-1,2015-01-13,2015-02-17,Scar,970.83,33979.05
+21,adm-idn-4033,p-idn-0115,b-idn-4758,r-idn-ii-5318,cc-idn-2,2014-05-25,2014-06-10,Kidney cancer tumor,240.15,3842.4
+22,adm-idn-9522,p-idn-0339,b-idn-8606,r-idn-vip-9724,cc-idn-1,2015-03-17,2015-04-09,"Emphysema COPD, lung disease",615.4,14154.2
+23,adm-idn-4858,p-idn-0973,b-idn-8763,r-idn-ii-5160,cc-idn-1,2017-11-26,2017-12-01,Empyema collection of pus in chest,195.46,977.3
+24,adm-idn-2769,p-idn-0769,b-idn-0027,r-idn-ii-6615,cc-idn-2,2018-04-18,2018-05-13,Headache,240.15,6003.75
+25,adm-idn-4625,p-idn-0269,b-idn-8571,r-idn-vip-8264,cc-idn-1,2022-08-27,2022-09-10,Aortic valve stenosis tight heart valve,615.4,8615.6
+26,adm-idn-7388,p-idn-0883,b-idn-3006,r-idn-ii-5756,cc-idn-2,2018-12-20,2018-12-24,Esophageal stricture narrowing of the esophagus,240.15,960.6
+27,adm-idn-7735,p-idn-0398,b-idn-6920,r-idn-iii-5402,cc-idn-2,2015-08-03,2015-09-06,Colon cancer large intestine tumor,115.65,3932.1
+28,adm-idn-1704,p-idn-0629,b-idn-6818,r-idn-vvip-2899,cc-idn-1,2018-11-09,2018-11-16,Compartment syndrome increased pressure inside muscles,970.83,6795.81
+29,adm-idn-2006,p-idn-0425,b-idn-9634,r-idn-ii-2386,cc-idn-1,2019-11-05,2019-11-09,Finger fracture broken finger,195.46,781.84
+30,adm-idn-8690,p-idn-0059,b-idn-5956,r-idn-vip-6476,cc-idn-2,2021-06-13,2021-06-20,Low platelets thrombocytopenia,627.13,4389.91
+31,adm-idn-4012,p-idn-0329,b-idn-3692,r-idn-i-6102,cc-idn-2,2016-09-09,2016-10-11,Primary dysmenorrhea painful menstruation,315.24,10087.68
+32,adm-idn-1329,p-idn-0210,b-idn-5243,r-idn-vvip-2578,cc-idn-1,2018-05-19,2018-06-09,Colic prolonged infant crying episodes,970.83,20387.43
+33,adm-idn-7173,p-idn-0826,b-idn-2506,r-idn-ii-6103,cc-idn-1,2014-09-23,2014-10-02,Unstable angina pre heart attack chest pain,195.46,1759.14
+34,adm-idn-9379,p-idn-0433,b-idn-9634,r-idn-ii-2386,cc-idn-2,2022-11-11,2022-11-22,Triangular fibrocartilage complex injury wrist injury,240.15,2641.65
+35,adm-idn-0129,p-idn-0351,b-idn-6356,r-idn-iii-9106,cc-idn-2,2014-02-10,2014-02-22,"Nonsteroidal anti-inflammatory drug overdose Motrin, Advil",115.65,1387.8
+36,adm-idn-5839,p-idn-0288,b-idn-3156,r-idn-i-7226,cc-idn-1,2015-01-27,2015-02-05,Phobias irrational fear,359.31,3233.79
+37,adm-idn-0970,p-idn-0311,b-idn-0976,r-idn-vvip-4831,cc-idn-1,2012-02-05,2012-02-19,Mittelschmerz ovulation pain,970.83,13591.62
+38,adm-idn-4951,p-idn-0800,b-idn-9267,r-idn-iii-5720,cc-idn-2,2022-04-03,2022-04-07,Malnutrition,115.65,462.6
+39,adm-idn-6064,p-idn-0352,b-idn-9064,r-idn-vvip-2872,cc-idn-2,2018-09-23,2018-10-09,Radiation exposure radiation sickness,940.92,15054.72
+40,adm-idn-2419,p-idn-0800,b-idn-6059,r-idn-vvip-9507,cc-idn-1,2014-07-06,2014-07-10,Conduct disorder,970.83,3883.32
+41,adm-idn-1774,p-idn-0747,b-idn-8608,r-idn-i-7555,cc-idn-1,2021-08-18,2021-09-21,Testicular hypofunction,359.31,12216.54
+42,adm-idn-5037,p-idn-0668,b-idn-3156,r-idn-i-5830,cc-idn-2,2014-10-06,2014-11-14,"Narcotic morphine, heroin overdose",315.24,12294.36
+43,adm-idn-4401,p-idn-0145,b-idn-4671,r-idn-ii-5795,cc-idn-2,2015-04-12,2015-05-03,Self-inflicted injury,240.15,5043.15
+44,adm-idn-2190,p-idn-0670,b-idn-0027,r-idn-iii-0632,cc-idn-1,2014-11-03,2014-11-09,Chlorine bleach ingestion,94.5,567.0
+45,adm-idn-9074,p-idn-0013,b-idn-9379,r-idn-vip-9665,cc-idn-1,2012-06-11,2012-06-21,Tonsillitis tonsil infection,615.4,6154.0
+46,adm-idn-7447,p-idn-0422,b-idn-2417,r-idn-ii-7158,cc-idn-2,2016-01-14,2016-02-09,Wound infection cut infection,240.15,6243.9
+47,adm-idn-5938,p-idn-0366,b-idn-9267,r-idn-vvip-0376,cc-idn-1,2019-08-16,2019-08-19,Benign prostatic hyperplasia prostate enlargement,970.83,2912.49
+48,adm-idn-3840,p-idn-0721,b-idn-6148,r-idn-i-2054,cc-idn-2,2022-11-07,2022-11-16,Asperger's syndrome autism spectrum disorder,315.24,2837.16
+49,adm-idn-0293,p-idn-0862,b-idn-5583,r-idn-iii-4697,cc-idn-1,2018-08-05,2018-08-26,Pinworms common intestinal worm,94.5,1984.5
+50,adm-idn-2571,p-idn-0326,b-idn-6625,r-idn-i-5299,cc-idn-1,2014-02-25,2014-03-05,Hand swelling,359.31,2874.48
+51,adm-idn-9459,p-idn-0222,b-idn-9920,r-idn-ii-4655,cc-idn-2,2022-08-12,2022-09-22,Gastroparesis stomach muscle malfunction,240.15,9846.15
+52,adm-idn-1860,p-idn-0806,b-idn-7583,r-idn-i-4462,cc-idn-2,2021-06-04,2021-07-10,"Thrombotic thrombocytopenia purpura TTP, rare blood disorder Thrombotic thrombocytopenic purpura",315.24,11348.64
+53,adm-idn-0154,p-idn-0329,b-idn-9102,r-idn-vvip-3616,cc-idn-1,2012-11-21,2012-12-11,"Narcotic morphine, heroin overdose",970.83,19416.6
+54,adm-idn-9510,p-idn-0480,b-idn-6781,r-idn-i-1546,cc-idn-2,2022-05-12,2022-05-31,Allergic reaction,315.24,5989.56
+55,adm-idn-7035,p-idn-0800,b-idn-9249,r-idn-vip-8171,cc-idn-2,2016-03-15,2016-03-26,Lyme disease bacterial infection from ticks,627.13,6898.43
+56,adm-idn-5626,p-idn-0548,b-idn-3989,r-idn-ii-1294,cc-idn-2,2022-07-12,2022-07-24,Cancer tumor,240.15,2881.8
+57,adm-idn-6901,p-idn-0336,b-idn-8139,r-idn-ii-4286,cc-idn-1,2020-08-17,2020-08-19,Puncture wound of arm,195.46,390.92
+58,adm-idn-0503,p-idn-0366,b-idn-8232,r-idn-i-5299,cc-idn-1,2016-12-06,2016-12-22,"Oral candidiasis thrush, oral yeast",359.31,5748.96
+59,adm-idn-2660,p-idn-0700,b-idn-2372,r-idn-ii-5160,cc-idn-2,2022-01-16,2022-01-26,Toxic shock syndrome life-threatening bacterial infection complication,240.15,2401.5
+60,adm-idn-0511,p-idn-0746,b-idn-9129,r-idn-vvip-2740,cc-idn-1,2017-10-05,2017-10-26,Symptomatic dermatographism exaggerated skin response to pressure,970.83,20387.43
+61,adm-idn-8428,p-idn-0937,b-idn-9258,r-idn-vvip-2520,cc-idn-2,2020-12-25,2021-01-08,Colon polyps large intestine tumors,940.92,13172.88
+62,adm-idn-0301,p-idn-0413,b-idn-5296,r-idn-i-8372,cc-idn-1,2017-11-02,2017-11-30,Sjogren's syndrome dry eyes and mouth,359.31,10060.68
+63,adm-idn-1476,p-idn-0428,b-idn-1805,r-idn-vvip-8077,cc-idn-1,2021-03-24,2021-04-06,Acoustic neuroma (ear nerve tumor),970.83,12620.79
+64,adm-idn-8237,p-idn-0058,b-idn-8049,r-idn-iii-9887,cc-idn-2,2018-03-05,2018-03-28,Kidney cancer tumor,115.65,2659.95
+65,adm-idn-5121,p-idn-0843,b-idn-8526,r-idn-iii-8005,cc-idn-1,2020-03-23,2020-04-12,Mongolian spots blue birthmark,94.5,1890.0
+66,adm-idn-2467,p-idn-0074,b-idn-0033,r-idn-iii-0632,cc-idn-2,2018-11-01,2018-11-15,Colon polyps large intestine tumors,115.65,1619.1
+67,adm-idn-8145,p-idn-0544,b-idn-9459,r-idn-vip-8704,cc-idn-1,2013-01-19,2013-01-21,Pneumonia lung infection,615.4,1230.8
+68,adm-idn-1593,p-idn-0852,b-idn-3616,r-idn-iii-1707,cc-idn-2,2013-09-21,2013-10-02,Raynaud's disease blood vessel constriction,115.65,1272.15
+69,adm-idn-4052,p-idn-0601,b-idn-0636,r-idn-vvip-2193,cc-idn-1,2017-02-06,2017-03-18,Acute angle closure glaucoma increased inner eye pressure,970.83,38833.2
+70,adm-idn-9732,p-idn-0817,b-idn-7688,r-idn-vip-6476,cc-idn-1,2019-05-23,2019-06-02,Heat stroke,615.4,6154.0
+71,adm-idn-2211,p-idn-0999,b-idn-4542,r-idn-vip-7211,cc-idn-2,2016-04-18,2016-04-23,Neurogenic bladder bladder paralysis,627.13,3135.65
+72,adm-idn-4194,p-idn-0769,b-idn-4562,r-idn-vip-7211,cc-idn-1,2016-01-30,2016-02-04,Primary sclerosing cholangitis bile duct disease,615.4,3077.0
+73,adm-idn-1102,p-idn-0843,b-idn-0243,r-idn-iii-7184,cc-idn-1,2019-06-11,2019-06-28,Stomach cancer gastric cancer,94.5,1606.5
+74,adm-idn-2149,p-idn-0328,b-idn-0743,r-idn-i-6476,cc-idn-2,2020-09-26,2020-10-21,Male pattern hair loss hereditary-patterned baldness Androgenic alopecia,315.24,7881.0
+75,adm-idn-0696,p-idn-0328,b-idn-8031,r-idn-i-6924,cc-idn-1,2020-05-24,2020-05-28,Jellyfish stings,359.31,1437.24
+76,adm-idn-8490,p-idn-0858,b-idn-3657,r-idn-vvip-4621,cc-idn-2,2021-11-29,2021-12-05,Large cell lung cancer,940.92,5645.52
+77,adm-idn-1616,p-idn-0858,b-idn-4585,r-idn-vip-9745,cc-idn-2,2016-04-28,2016-05-01,Herpes vulvovaginitis viral infection of the vagina Herpesviral vulvovaginitis,627.13,1881.39
+78,adm-idn-3752,p-idn-0915,b-idn-2921,r-idn-i-5857,cc-idn-1,2014-07-03,2014-07-06,Heat cramps,359.31,1077.93
+79,adm-idn-7301,p-idn-0990,b-idn-3187,r-idn-i-6392,cc-idn-1,2012-12-27,2013-01-03,"Irritable bowel syndrome IBS, chronic intestinal pain and cramping",359.31,2515.17
+80,adm-idn-5430,p-idn-0696,b-idn-1131,r-idn-iii-9731,cc-idn-2,2021-12-16,2021-12-21,Toothache,115.65,578.25
+81,adm-idn-3844,p-idn-0883,b-idn-3654,r-idn-vip-3364,cc-idn-2,2017-07-23,2017-08-12,Jet lag,627.13,12542.6
+82,adm-idn-5465,p-idn-0852,b-idn-7622,r-idn-ii-9513,cc-idn-1,2014-10-20,2014-10-31,Strangulation of genitalia constriction of genital blood supply,195.46,2150.06
+83,adm-idn-7163,p-idn-0189,b-idn-8785,r-idn-vip-6476,cc-idn-1,2012-12-05,2012-12-07,Orbital fracture broken bone near the eye,615.4,1230.8
+84,adm-idn-2945,p-idn-0807,b-idn-2110,r-idn-ii-0964,cc-idn-2,2016-09-05,2016-09-29,Newborn jaundice newborn skin discoloration,240.15,5763.6
+85,adm-idn-8297,p-idn-0285,b-idn-6280,r-idn-vip-3445,cc-idn-1,2014-01-21,2014-01-31,Dementia decline in mental ability,615.4,6154.0
+86,adm-idn-8664,p-idn-0828,b-idn-9400,r-idn-ii-0705,cc-idn-1,2012-11-11,2012-12-01,Staphylococcus aureus type of bacteria,195.46,3909.2
+87,adm-idn-3375,p-idn-0798,b-idn-2372,r-idn-vvip-8925,cc-idn-2,2022-02-16,2022-02-27,Iron overdose,940.92,10350.12
+88,adm-idn-1320,p-idn-0817,b-idn-5360,r-idn-i-5299,cc-idn-2,2015-09-23,2015-10-25,Carotid artery stenosis neck artery narrowing,315.24,10087.68
+89,adm-idn-3327,p-idn-0416,b-idn-6468,r-idn-vip-0582,cc-idn-2,2017-04-09,2017-04-22,Arm swelling,627.13,8152.69
+90,adm-idn-8886,p-idn-0117,b-idn-8426,r-idn-ii-3562,cc-idn-2,2020-12-03,2020-12-24,Facial swelling,240.15,5043.15
+91,adm-idn-7594,p-idn-0322,b-idn-4906,r-idn-iii-9731,cc-idn-1,2022-07-26,2022-08-19,Aspiration pneumonia lung inflammation or infection,94.5,2268.0
+92,adm-idn-4139,p-idn-0412,b-idn-1211,r-idn-vip-2071,cc-idn-2,2015-09-07,2015-09-20,Nail avulsion traumatic removal of nail,627.13,8152.69
+93,adm-idn-6227,p-idn-0529,b-idn-4585,r-idn-i-6180,cc-idn-1,2021-08-31,2021-09-02,Penis carcinoma tumor,359.31,718.62
+94,adm-idn-3328,p-idn-0386,b-idn-7680,r-idn-iii-7884,cc-idn-2,2018-01-28,2018-02-15,Retinoblastoma pediatric eye cancer,115.65,2081.7
+95,adm-idn-5712,p-idn-0696,b-idn-9006,r-idn-vip-7211,cc-idn-1,2017-09-04,2017-10-02,Iron overdose,615.4,17231.2
+96,adm-idn-9177,p-idn-0749,b-idn-7546,r-idn-ii-9148,cc-idn-2,2019-10-02,2019-10-16,Bacterial dysentery bacterial infection of the intestines,240.15,3362.1
+97,adm-idn-4841,p-idn-0843,b-idn-1204,r-idn-iii-9660,cc-idn-2,2012-03-18,2012-03-22,Greater trochanteric bursitis hip bursitis,115.65,462.6
+98,adm-idn-7885,p-idn-0311,b-idn-2471,r-idn-vvip-9744,cc-idn-2,2013-12-09,2013-12-24,Bladder cancer,940.92,14113.8
+99,adm-idn-8692,p-idn-0274,b-idn-2745,r-idn-ii-6603,cc-idn-1,2020-02-02,2020-03-18,Diabetic nephropathy diabetes and kidney disease,195.46,8795.7
+100,adm-idn-9336,p-idn-0601,b-idn-7945,r-idn-ii-0964,cc-idn-2,2015-04-13,2015-04-25,Anal fistula,240.15,2881.8
+101,adm-idn-5790,p-idn-0013,b-idn-6776,r-idn-iii-5878,cc-idn-2,2020-12-07,2020-12-23,Nail bruise subungual hematoma,115.65,1850.4
+102,adm-idn-5650,p-idn-0798,b-idn-6623,r-idn-i-9649,cc-idn-1,2014-01-09,2014-01-16,Iron overdose,359.31,2515.17
+103,adm-idn-4809,p-idn-0657,b-idn-7165,r-idn-vvip-2661,cc-idn-2,2022-02-18,2022-03-02,Tear duct infection Dacryocystitis,940.92,11291.04
+104,adm-idn-6115,p-idn-0251,b-idn-2921,r-idn-i-9855,cc-idn-2,2015-07-23,2015-07-28,Muscular dystrophy inherited muscle disease,315.24,1576.2
+105,adm-idn-2988,p-idn-0687,b-idn-2500,r-idn-vip-2071,cc-idn-2,2012-09-30,2012-10-02,"Multiple pregnancy twins, triplets, etc",627.13,1254.26
+106,adm-idn-7429,p-idn-0512,b-idn-6228,r-idn-iii-3521,cc-idn-1,2018-08-19,2018-08-22,Focal seizure partial seizure,94.5,283.5
+107,adm-idn-6788,p-idn-0189,b-idn-4092,r-idn-vvip-0845,cc-idn-2,2013-10-08,2013-10-10,Kaposi Sarcoma type of cancer,940.92,1881.84
+108,adm-idn-1629,p-idn-0377,b-idn-5569,r-idn-ii-0536,cc-idn-1,2018-10-25,2018-11-02,Munchausen syndrome by proxy fabricated illness in a dependent,195.46,1563.68
+109,adm-idn-5321,p-idn-0843,b-idn-4428,r-idn-ii-9513,cc-idn-1,2014-07-30,2014-08-08,Smoke inhalation,195.46,1759.14
+110,adm-idn-5449,p-idn-0849,b-idn-8976,r-idn-vvip-7650,cc-idn-2,2022-07-10,2022-07-13,Post-polio syndrome,940.92,2822.76
+111,adm-idn-1493,p-idn-0593,b-idn-9370,r-idn-iii-5720,cc-idn-1,2020-02-10,2020-02-15,Addison's disease adrenal insufficiency,94.5,472.5
+112,adm-idn-2943,p-idn-0119,b-idn-6853,r-idn-vip-7029,cc-idn-2,2021-04-10,2021-04-12,Rattlesnake pit viper bite,627.13,1254.26
+113,adm-idn-0711,p-idn-0119,b-idn-3117,r-idn-vip-5365,cc-idn-2,2012-08-29,2012-09-11,Tendonitis tendon inflammation,627.13,8152.69
+114,adm-idn-9180,p-idn-0940,b-idn-4528,r-idn-vip-8171,cc-idn-2,2019-07-29,2019-08-02,Hyperkeratosis skin thickening,627.13,2508.52
+115,adm-idn-3248,p-idn-0171,b-idn-2694,r-idn-iii-9887,cc-idn-1,2014-09-28,2014-10-31,"Neisseria meningitidis infection Neisseria meningitidis meningococcus, serious bacterial illness",94.5,3118.5
+116,adm-idn-3538,p-idn-0459,b-idn-0477,r-idn-vip-2624,cc-idn-1,2012-11-02,2012-11-18,Paralytic Ileus intestinal paralysis,615.4,9846.4
+117,adm-idn-2487,p-idn-0357,b-idn-6228,r-idn-i-9649,cc-idn-2,2020-01-23,2020-02-14,Tear duct infection Dacryocystitis,315.24,6935.28
+118,adm-idn-8937,p-idn-0352,b-idn-5403,r-idn-i-4044,cc-idn-2,2012-10-19,2012-11-03,Tension pneumothorax dangerous lung collapse,315.24,4728.6
+119,adm-idn-9039,p-idn-0417,b-idn-0171,r-idn-vvip-6847,cc-idn-2,2015-05-16,2015-05-26,Foot sprain,940.92,9409.2
+120,adm-idn-0712,p-idn-0357,b-idn-7347,r-idn-i-6924,cc-idn-1,2016-03-25,2016-04-10,Menopause end of menstruation and fertility,359.31,5748.96
+121,adm-idn-9916,p-idn-0174,b-idn-0670,r-idn-vvip-2520,cc-idn-1,2014-09-05,2014-09-30,Fragile X syndrome genetic disorder,970.83,24270.75
+122,adm-idn-6380,p-idn-0804,b-idn-1279,r-idn-vip-7063,cc-idn-2,2013-08-09,2013-08-24,"Renal arteriovenous malformation AVM, blood vessel abnormality of the kidney",627.13,9406.95
+123,adm-idn-4197,p-idn-0417,b-idn-8785,r-idn-iii-9731,cc-idn-2,2012-08-30,2012-09-01,Teeth grinding bruxism,115.65,231.3
+124,adm-idn-7526,p-idn-0459,b-idn-8840,r-idn-vip-1742,cc-idn-2,2014-05-19,2014-06-01,Alcohol withdrawal syndrome  (mild),627.13,8152.69
+125,adm-idn-7422,p-idn-0680,b-idn-4671,r-idn-i-5732,cc-idn-2,2015-08-08,2015-08-17,"Wegener's granulomatosis granulomatosis with polyangiitis,  blood vessel disease",315.24,2837.16
+126,adm-idn-2821,p-idn-0617,b-idn-6985,r-idn-ii-3200,cc-idn-1,2022-11-29,2022-12-26,Ant bite,195.46,5277.42
+127,adm-idn-5499,p-idn-0621,b-idn-1473,r-idn-iii-7184,cc-idn-2,2013-07-14,2013-07-21,Coronary artery dissection heart artery tear,115.65,809.55
+128,adm-idn-4076,p-idn-0970,b-idn-3657,r-idn-ii-4598,cc-idn-2,2014-02-03,2014-02-25,Arm swelling,240.15,5283.3
+129,adm-idn-7348,p-idn-0768,b-idn-4435,r-idn-vvip-2899,cc-idn-1,2016-04-12,2016-04-23,Peritonitis abdominal cavity inflammation,970.83,10679.13
+130,adm-idn-0829,p-idn-0396,b-idn-5343,r-idn-iii-3449,cc-idn-1,2013-02-19,2013-03-08,Mediastinitis inner chest inflammation,94.5,1606.5
+131,adm-idn-8013,p-idn-0450,b-idn-2729,r-idn-iii-3449,cc-idn-1,2018-11-03,2018-11-05,Rectocele,94.5,189.0
+132,adm-idn-6123,p-idn-0190,b-idn-4006,r-idn-vvip-7757,cc-idn-1,2012-08-17,2012-08-29,Puncture wound of skin,970.83,11649.96
+133,adm-idn-9913,p-idn-0999,b-idn-9620,r-idn-i-5732,cc-idn-1,2021-03-12,2021-04-04,Measles viral disease with typical rash,359.31,8264.13
+134,adm-idn-2935,p-idn-0657,b-idn-1473,r-idn-vvip-2416,cc-idn-1,2019-04-03,2019-04-29,Tick paralysis toxin from ticks,970.83,25241.58
+135,adm-idn-1683,p-idn-0281,b-idn-5451,r-idn-i-6102,cc-idn-2,2020-01-25,2020-02-18,Tubo ovarian abscess pelvic abscess,315.24,7565.76
+136,adm-idn-4124,p-idn-0239,b-idn-7149,r-idn-iii-0999,cc-idn-1,2019-08-31,2019-09-22,Temporal arteritis inflamed scalp artery,94.5,2079.0
+137,adm-idn-8895,p-idn-0715,b-idn-5699,r-idn-vvip-2899,cc-idn-1,2017-11-05,2017-11-10,Myxedema coma severely low thyroid hormone,970.83,4854.15
+138,adm-idn-0683,p-idn-0655,b-idn-8360,r-idn-ii-6504,cc-idn-2,2019-09-23,2019-11-05,Anaphylactoid reactions  (pseudo allergic reaction),240.15,10326.45
+139,adm-idn-5496,p-idn-0544,b-idn-8197,r-idn-iii-5720,cc-idn-1,2020-11-27,2020-12-04,Inflammation of testicular tubes epididymitis,94.5,661.5
+140,adm-idn-8587,p-idn-0420,b-idn-4602,r-idn-vvip-8077,cc-idn-2,2015-04-21,2015-05-18,ACE inhibitor induced cough blood pressure medication side effect Drug-induced cough Drug reaction: ACE inhibitor,940.92,25404.84
+141,adm-idn-1989,p-idn-0169,b-idn-3773,r-idn-i-1417,cc-idn-2,2022-04-26,2022-05-01,Heat cramps,315.24,1576.2
+142,adm-idn-5107,p-idn-0928,b-idn-3657,r-idn-iii-0632,cc-idn-1,2021-11-11,2021-11-21,Mediastinitis inner chest inflammation,94.5,945.0
+143,adm-idn-5873,p-idn-0657,b-idn-4092,r-idn-vip-3364,cc-idn-2,2016-04-10,2016-04-16,Synovitis inflammation of joint lining,627.13,3762.78
+144,adm-idn-9712,p-idn-0537,b-idn-7730,r-idn-i-6616,cc-idn-2,2019-02-08,2019-03-25,"Steven Johnson syndrome rare, serious skin disorder",315.24,14185.8
+145,adm-idn-3604,p-idn-0414,b-idn-5569,r-idn-vvip-4831,cc-idn-1,2014-06-22,2014-07-09,Eyelid swelling,970.83,16504.11
+146,adm-idn-6531,p-idn-0837,b-idn-2782,r-idn-iii-4317,cc-idn-2,2015-07-20,2015-07-24,Bacterial tracheitis,115.65,462.6
+147,adm-idn-1199,p-idn-0764,b-idn-5583,r-idn-i-9881,cc-idn-1,2019-01-08,2019-02-07,Anopheles mosquito bite,359.31,10779.3
+148,adm-idn-6542,p-idn-0098,b-idn-9676,r-idn-i-5102,cc-idn-2,2013-04-26,2013-04-29,Kidney stone nephrolithiasis,315.24,945.72
+149,adm-idn-5190,p-idn-0849,b-idn-6768,r-idn-vip-2071,cc-idn-1,2022-03-04,2022-03-25,Heat stroke,615.4,12923.4
+150,adm-idn-1976,p-idn-0868,b-idn-1473,r-idn-i-9737,cc-idn-2,2016-07-29,2016-08-09,Schizophrenia chronic impaired reality perception,315.24,3467.64
+151,adm-idn-5484,p-idn-0265,b-idn-2538,r-idn-vip-9745,cc-idn-2,2018-10-26,2018-11-04,Overuse syndrome injury from repetitive activity,627.13,5644.17
+152,adm-idn-0885,p-idn-0983,b-idn-5819,r-idn-vip-2145,cc-idn-2,2016-06-06,2016-06-12,Renal vein thrombosis kidney vein clot,627.13,3762.78
+153,adm-idn-8309,p-idn-0764,b-idn-3898,r-idn-i-6102,cc-idn-2,2013-08-12,2013-09-18,Dislocation joint out of place,315.24,11663.88
+154,adm-idn-2268,p-idn-0326,b-idn-4499,r-idn-ii-4598,cc-idn-2,2015-03-29,2015-04-20,Motion sickness,240.15,5283.3
+155,adm-idn-3621,p-idn-0316,b-idn-9896,r-idn-i-5857,cc-idn-2,2015-11-15,2015-11-25,Hair loss alopecia,315.24,3152.4
+156,adm-idn-1318,p-idn-0970,b-idn-3677,r-idn-iii-0999,cc-idn-2,2012-10-21,2012-10-29,Iron deficiency anemia low red blood cell count,115.65,925.2
+157,adm-idn-0596,p-idn-0940,b-idn-3042,r-idn-i-0759,cc-idn-1,2018-08-23,2018-08-26,Beta blocker overdose blood pressure medication overdose,359.31,1077.93
+158,adm-idn-1091,p-idn-0894,b-idn-2506,r-idn-iii-1707,cc-idn-1,2016-08-13,2016-08-21,Autoimmune disease,94.5,756.0
+159,adm-idn-2667,p-idn-0214,b-idn-8002,r-idn-ii-1705,cc-idn-1,2012-01-18,2012-02-22,Henoch Schönlein purpura blood vessel inflammation,195.46,6841.1
+160,adm-idn-6578,p-idn-0102,b-idn-9060,r-idn-iii-5028,cc-idn-2,2016-08-12,2016-09-16,Pemphigoid,115.65,4047.75
+161,adm-idn-3304,p-idn-0956,b-idn-3130,r-idn-ii-6542,cc-idn-2,2017-03-06,2017-04-02,Vertebral-basilar stroke stroke in the back of the brain Vertebro basilar insufficiency,240.15,6484.05
+162,adm-idn-5024,p-idn-0255,b-idn-2023,r-idn-vvip-4831,cc-idn-2,2012-08-22,2012-09-02,Muscular dystrophy inherited muscle disease,940.92,10350.12
+163,adm-idn-3864,p-idn-0776,b-idn-8436,r-idn-vvip-2740,cc-idn-1,2012-06-11,2012-06-29,Black widow spider bite,970.83,17474.94
+164,adm-idn-3181,p-idn-0468,b-idn-4585,r-idn-iii-3376,cc-idn-1,2021-07-01,2021-07-12,"Bladder stone, urinary",94.5,1039.5
+165,adm-idn-2250,p-idn-0115,b-idn-7267,r-idn-i-8372,cc-idn-1,2017-01-04,2017-01-08,Esophageal spasm painful muscle contraction,359.31,1437.24
+166,adm-idn-3226,p-idn-0753,b-idn-8296,r-idn-vip-0356,cc-idn-1,2015-12-12,2015-12-24,Coarctation of aorta narrowing of the aorta,615.4,7384.8
+167,adm-idn-5851,p-idn-0947,b-idn-6153,r-idn-vip-0582,cc-idn-2,2018-11-07,2018-12-02,Pseudogout calcium deposit arthritis,627.13,15678.25
+168,adm-idn-1316,p-idn-0185,b-idn-7424,r-idn-ii-5795,cc-idn-1,2012-03-01,2012-03-13,Esophageal spasm painful muscle contraction,195.46,2345.52
+169,adm-idn-8515,p-idn-0110,b-idn-4417,r-idn-ii-8139,cc-idn-1,2013-05-12,2013-05-18,Inflammation of testicular tubes epididymitis,195.46,1172.76
+170,adm-idn-1650,p-idn-0908,b-idn-3781,r-idn-iii-1271,cc-idn-1,2015-09-26,2015-10-09,Neck trauma injury,94.5,1228.5
+171,adm-idn-4016,p-idn-0017,b-idn-0130,r-idn-vip-2624,cc-idn-1,2017-01-25,2017-01-29,Golfer's elbow medial epicondylitis of elbow,615.4,2461.6
+172,adm-idn-5696,p-idn-0871,b-idn-6205,r-idn-iii-5402,cc-idn-2,2022-08-28,2022-09-20,Radial head fracture broken elbow bone,115.65,2659.95
+173,adm-idn-6180,p-idn-0919,b-idn-5152,r-idn-ii-4195,cc-idn-2,2012-05-23,2012-06-25,Acute angle closure glaucoma increased inner eye pressure,240.15,7924.95
+174,adm-idn-6659,p-idn-0616,b-idn-8850,r-idn-ii-4286,cc-idn-2,2013-06-23,2013-07-21,Chest trauma injury,240.15,6724.2
+175,adm-idn-2461,p-idn-0921,b-idn-7325,r-idn-iii-5663,cc-idn-2,2021-12-15,2022-01-13,Tension headache stress headache,115.65,3353.85
+176,adm-idn-4601,p-idn-0617,b-idn-7198,r-idn-vvip-8925,cc-idn-2,2017-12-31,2018-01-11,Common warts,940.92,10350.12
+177,adm-idn-7998,p-idn-0837,b-idn-0909,r-idn-ii-5756,cc-idn-1,2017-07-06,2017-07-10,"Hemorrhagic stroke CVA, cerebrovascular accident",195.46,781.84
+178,adm-idn-0352,p-idn-0171,b-idn-0543,r-idn-iii-3449,cc-idn-2,2019-07-23,2019-07-29,Vasculitis inflammation of the arteries,115.65,693.9
+179,adm-idn-5459,p-idn-0747,b-idn-4602,r-idn-vvip-9507,cc-idn-1,2012-07-28,2012-07-31,Nail contusion swelling of finger and nail,970.83,2912.49
+180,adm-idn-9082,p-idn-0733,b-idn-2932,r-idn-i-9295,cc-idn-2,2015-02-19,2015-03-10,Mouth cancer oropharyngeal cancer,315.24,5989.56
+181,adm-idn-4861,p-idn-0011,b-idn-5743,r-idn-iii-7884,cc-idn-1,2013-06-04,2013-06-21,Langerhans cell histiocytosis Histiocytosis X,94.5,1606.5
+182,adm-idn-4892,p-idn-0175,b-idn-7165,r-idn-i-4398,cc-idn-2,2012-05-21,2012-05-30,Sickle cell crisis complication of sickle cell disease,315.24,2837.16
+183,adm-idn-4484,p-idn-0177,b-idn-1530,r-idn-vvip-7803,cc-idn-1,2022-07-04,2022-07-07,Viral infections,970.83,2912.49
+184,adm-idn-6386,p-idn-0826,b-idn-1803,r-idn-ii-9740,cc-idn-1,2017-12-30,2018-01-15,"Leishmaniasis parasitic infection, kala azar",195.46,3127.36
+185,adm-idn-7664,p-idn-0536,b-idn-9736,r-idn-vvip-2899,cc-idn-2,2021-06-03,2021-06-30,"Angioedema swelling of skin, lips, eyes",940.92,25404.84
+186,adm-idn-1463,p-idn-0239,b-idn-3273,r-idn-iii-4801,cc-idn-1,2014-06-11,2014-06-15,Hot tub follicullitis hair follicle infection Pustular folliculitis,94.5,378.0
+187,adm-idn-8878,p-idn-0098,b-idn-3249,r-idn-ii-9202,cc-idn-2,2014-09-14,2014-10-04,Rectal abscess collection of pus in the rectum,240.15,4803.0
+188,adm-idn-8870,p-idn-0265,b-idn-0591,r-idn-ii-2751,cc-idn-2,2012-01-21,2012-02-03,Bone cancer bone tumor,240.15,3121.95
+189,adm-idn-6021,p-idn-0316,b-idn-8316,r-idn-ii-9513,cc-idn-1,2012-03-25,2012-04-12,Septic shock low blood pressure from serious blood infection,195.46,3518.28
+190,adm-idn-4004,p-idn-0061,b-idn-0968,r-idn-i-4398,cc-idn-2,2017-06-10,2017-07-01,"Hemorrhagic stroke CVA, cerebrovascular accident",315.24,6620.04
+191,adm-idn-2091,p-idn-0468,b-idn-7625,r-idn-i-6924,cc-idn-2,2020-08-18,2020-09-10,Tear duct infection Dacryocystitis,315.24,7250.52
+192,adm-idn-8642,p-idn-0904,b-idn-9555,r-idn-i-7125,cc-idn-2,2018-09-28,2018-10-08,Low platelets thrombocytopenia,315.24,3152.4
+193,adm-idn-6768,p-idn-0733,b-idn-4018,r-idn-ii-0536,cc-idn-1,2014-12-20,2014-12-23,Menopause end of menstruation and fertility,195.46,586.38
+194,adm-idn-2854,p-idn-0296,b-idn-2506,r-idn-iii-8441,cc-idn-2,2018-06-22,2018-06-25,Alzheimer's disease dementia,115.65,346.95
+195,adm-idn-6044,p-idn-0185,b-idn-5538,r-idn-i-9192,cc-idn-2,2018-07-02,2018-08-21,Lipoma benign fatty tumor,315.24,15762.0
+196,adm-idn-7148,p-idn-0060,b-idn-4209,r-idn-vip-8565,cc-idn-1,2019-08-07,2019-08-19,Cat scratch fever bacterial infection after cat scratch,615.4,7384.8
+198,adm-idn-1072,p-idn-0171,b-idn-6836,r-idn-iii-5720,cc-idn-2,2015-08-13,2015-08-20,Extragonadal germ cell tumors,115.65,809.55
+199,adm-idn-0868,p-idn-0096,b-idn-7583,r-idn-vip-1990,cc-idn-2,2014-09-27,2014-10-22,"Pelvic inflammatory disease PID, female reproductive organ infection",627.13,15678.25
+200,adm-idn-6473,p-idn-0926,b-idn-3039,r-idn-ii-6103,cc-idn-2,2022-03-23,2022-03-27,Trench foot immersion foot,240.15,960.6
+201,adm-idn-4433,p-idn-0191,b-idn-4968,r-idn-vip-2151,cc-idn-1,2021-10-22,2021-10-31,White coat hypertension elevated blood pressure at doctor's office,615.4,5538.6
+202,adm-idn-6281,p-idn-0692,b-idn-3596,r-idn-vip-8704,cc-idn-1,2021-05-08,2021-05-21,Secondary dysmenorrhea painful menstruation,615.4,8000.2
+203,adm-idn-0177,p-idn-0316,b-idn-8360,r-idn-vvip-3616,cc-idn-1,2016-08-09,2016-08-21,"Plantar wart human papilloma virus infection, foot warts",970.83,11649.96
+204,adm-idn-6903,p-idn-0089,b-idn-3006,r-idn-ii-9202,cc-idn-1,2013-03-30,2013-04-20,Detached retina retinal detachment,195.46,4104.66
+205,adm-idn-3411,p-idn-0769,b-idn-6836,r-idn-vip-2151,cc-idn-1,2022-08-22,2022-09-06,Medication reaction,615.4,9231.0
+206,adm-idn-9178,p-idn-0169,b-idn-9400,r-idn-vvip-2193,cc-idn-2,2019-10-13,2019-10-24,Leptospirosis bacterial infection,940.92,10350.12
+207,adm-idn-8079,p-idn-0068,b-idn-4642,r-idn-i-0493,cc-idn-2,2022-10-08,2022-10-15,Melasma choloasma,315.24,2206.68
+208,adm-idn-2698,p-idn-0417,b-idn-5360,r-idn-vvip-8917,cc-idn-2,2014-04-25,2014-05-21,"Renal failure, chronic ongoing kidney failure",940.92,24463.92
+209,adm-idn-5735,p-idn-0203,b-idn-6590,r-idn-vip-2145,cc-idn-2,2019-06-11,2019-07-08,Squamous cell cancer common skin cancer,627.13,16932.51
+210,adm-idn-9234,p-idn-0351,b-idn-9267,r-idn-ii-6805,cc-idn-1,2021-12-11,2021-12-16,Esophageal varices dilation of esophageal veins,195.46,977.3
+211,adm-idn-4767,p-idn-0412,b-idn-0114,r-idn-vip-4229,cc-idn-1,2021-12-10,2021-12-20,Dislocation joint out of place,615.4,6154.0
+212,adm-idn-2299,p-idn-0871,b-idn-3041,r-idn-ii-3562,cc-idn-1,2020-07-31,2020-08-04,Menopause end of menstruation and fertility,195.46,781.84
+213,adm-idn-4778,p-idn-0915,b-idn-5205,r-idn-ii-6504,cc-idn-1,2013-11-21,2013-11-27,Lung cancer tumor,195.46,1172.76
+214,adm-idn-3077,p-idn-0281,b-idn-8571,r-idn-i-7261,cc-idn-2,2017-02-12,2017-03-01,Tape worm infection,315.24,5359.08
+215,adm-idn-1554,p-idn-0211,b-idn-1552,r-idn-vvip-2661,cc-idn-1,2014-02-20,2014-03-29,Double diabetes hybrid diabetes,970.83,35920.71
+216,adm-idn-2442,p-idn-0414,b-idn-9881,r-idn-vip-2145,cc-idn-1,2013-11-22,2013-12-07,Puncture wound of face,615.4,9231.0
+218,adm-idn-2833,p-idn-0419,b-idn-2557,r-idn-vvip-2510,cc-idn-2,2022-06-25,2022-06-30,Diabetes high blood sugar,940.92,4704.6
+219,adm-idn-4442,p-idn-0947,b-idn-7651,r-idn-vip-8704,cc-idn-1,2015-10-18,2015-11-11,Hip fracture broken hip,615.4,14769.6
+221,adm-idn-7111,p-idn-0979,b-idn-1059,r-idn-iii-7184,cc-idn-1,2018-09-11,2018-09-25,Liver injury liver trauma,94.5,1323.0
+222,adm-idn-7578,p-idn-0827,b-idn-0909,r-idn-ii-9740,cc-idn-2,2019-10-19,2019-11-19,"Wegener's granulomatosis granulomatosis with polyangiitis,  blood vessel disease",240.15,7444.65
+223,adm-idn-6493,p-idn-0269,b-idn-8563,r-idn-vip-6476,cc-idn-2,2019-04-25,2019-04-28,Drug reaction,627.13,1881.39
+224,adm-idn-9000,p-idn-0414,b-idn-7694,r-idn-i-9295,cc-idn-1,2017-12-23,2018-01-26,Food poisoning,359.31,12216.54
+225,adm-idn-6370,p-idn-0955,b-idn-2919,r-idn-vvip-7650,cc-idn-1,2013-06-27,2013-07-10,Erysipelas bacterial skin infection,970.83,12620.79
+226,adm-idn-0521,p-idn-0002,b-idn-0130,r-idn-vvip-8917,cc-idn-2,2013-03-07,2013-04-05,Transient global amnesia sudden period of short-term memory loss,940.92,27286.68
+227,adm-idn-7623,p-idn-0398,b-idn-9624,r-idn-vvip-8925,cc-idn-2,2012-10-16,2012-11-05,Head injury in children Non-accidental traumatic head injury to child,940.92,18818.4
+228,adm-idn-7615,p-idn-0471,b-idn-1848,r-idn-i-7117,cc-idn-2,2019-07-06,2019-07-30,Carpal tunnel syndrome wrist nerve compression,315.24,7565.76
+229,adm-idn-7870,p-idn-0862,b-idn-7267,r-idn-vip-2071,cc-idn-2,2019-01-30,2019-03-07,Hydronephrosis,627.13,22576.68
+230,adm-idn-1944,p-idn-0002,b-idn-6481,r-idn-iii-2936,cc-idn-1,2012-05-04,2012-05-13,"Porphyria rare disorder of skin, nervous system",94.5,850.5
+231,adm-idn-9235,p-idn-0536,b-idn-0158,r-idn-vvip-8925,cc-idn-2,2021-08-17,2021-09-02,Myopathy muscle disease,940.92,15054.72
+232,adm-idn-1569,p-idn-0768,b-idn-6955,r-idn-vip-6476,cc-idn-1,2014-08-16,2014-08-21,Whipple's disease rare bacterial infection of the small intestine,615.4,3077.0
+233,adm-idn-9964,p-idn-0352,b-idn-5017,r-idn-ii-9148,cc-idn-1,2020-03-05,2020-03-09,Pneumonia lung infection,195.46,781.84
+234,adm-idn-0828,p-idn-0196,b-idn-7198,r-idn-ii-2326,cc-idn-1,2013-10-22,2013-11-07,Botulism bacterial toxin causing muscle weakness,195.46,3127.36
+235,adm-idn-1442,p-idn-0758,b-idn-9964,r-idn-ii-2386,cc-idn-2,2013-07-03,2013-07-13,Constipation,240.15,2401.5
+236,adm-idn-2090,p-idn-0177,b-idn-2932,r-idn-i-6476,cc-idn-2,2016-12-30,2017-01-02,Broken jaw mandible fracture,315.24,945.72
+237,adm-idn-4396,p-idn-0862,b-idn-5980,r-idn-vip-2151,cc-idn-2,2022-08-21,2022-09-13,Orbital mass growth near the eye,627.13,14423.99
+238,adm-idn-1497,p-idn-0659,b-idn-6920,r-idn-i-1417,cc-idn-1,2013-08-16,2013-09-16,Staphylococcus aureus type of bacteria,359.31,11138.61
+239,adm-idn-6559,p-idn-0862,b-idn-1982,r-idn-vvip-5557,cc-idn-1,2021-06-10,2021-06-15,Hand swelling,970.83,4854.15
+240,adm-idn-9648,p-idn-0178,b-idn-0013,r-idn-vvip-3616,cc-idn-2,2021-08-22,2021-09-05,Erythrasma chronic bacterial skin infection,940.92,13172.88
+241,adm-idn-3610,p-idn-0830,b-idn-5360,r-idn-i-7261,cc-idn-1,2014-07-02,2014-07-18,Hand swelling,359.31,5748.96
+242,adm-idn-3803,p-idn-0172,b-idn-2538,r-idn-vip-0582,cc-idn-2,2014-05-22,2014-05-27,Blocked tear duct dacryostenosis,627.13,3135.65
+243,adm-idn-3485,p-idn-0827,b-idn-7328,r-idn-vip-1990,cc-idn-1,2021-06-08,2021-06-27,"Amyotrophic lateral sclerosis ALS, Lou Gehrig's disease",615.4,11692.6
+244,adm-idn-5115,p-idn-0250,b-idn-7680,r-idn-iii-0632,cc-idn-2,2021-12-09,2022-01-02,Mouth trauma injury,115.65,2775.6
+245,adm-idn-8125,p-idn-0544,b-idn-3423,r-idn-vvip-0376,cc-idn-2,2014-06-30,2014-07-11,Cervical spondylosis neck arthritis,940.92,10350.12
+246,adm-idn-4352,p-idn-0275,b-idn-7676,r-idn-i-6102,cc-idn-2,2014-11-23,2014-11-26,Esophageal varices dilation of esophageal veins,315.24,945.72
+247,adm-idn-7068,p-idn-0428,b-idn-1133,r-idn-ii-6504,cc-idn-2,2018-02-03,2018-02-21,Strabismus crossed eyes,240.15,4322.7
+248,adm-idn-3630,p-idn-0275,b-idn-9324,r-idn-ii-5756,cc-idn-2,2021-08-16,2021-09-01,Osteochondritis dissecans joint disorder,240.15,3842.4
+249,adm-idn-7107,p-idn-0830,b-idn-3318,r-idn-i-5830,cc-idn-2,2018-06-15,2018-07-01,Poisoning,315.24,5043.84
+250,adm-idn-0244,p-idn-0274,b-idn-2301,r-idn-vip-2145,cc-idn-2,2013-10-09,2013-10-30,Intravenous drug abuse IVDA,627.13,13169.73
+251,adm-idn-9695,p-idn-0012,b-idn-4585,r-idn-vvip-2661,cc-idn-2,2020-03-28,2020-03-31,Viral infections,940.92,2822.76
+252,adm-idn-7062,p-idn-0433,b-idn-2694,r-idn-ii-2751,cc-idn-2,2017-06-30,2017-07-12,Transient global amnesia sudden period of short-term memory loss,240.15,2881.8
+253,adm-idn-9350,p-idn-0349,b-idn-8906,r-idn-i-2054,cc-idn-1,2013-12-21,2014-01-28,Discitis spinal disk inflammation,359.31,13653.78
+254,adm-idn-2831,p-idn-0948,b-idn-1059,r-idn-ii-6615,cc-idn-1,2020-01-11,2020-01-16,Primary affective disorder depression,195.46,977.3
+255,adm-idn-2497,p-idn-0355,b-idn-2023,r-idn-i-9881,cc-idn-1,2016-10-15,2016-10-22,Munchausen syndrome fabricated illness,359.31,2515.17
+256,adm-idn-5505,p-idn-0921,b-idn-6399,r-idn-vvip-4831,cc-idn-1,2015-11-10,2015-11-27,Bacterial infection,970.83,16504.11
+257,adm-idn-6039,p-idn-0072,b-idn-7232,r-idn-i-7125,cc-idn-1,2017-12-04,2017-12-11,Anal fissure  (tear),359.31,2515.17
+258,adm-idn-2815,p-idn-0008,b-idn-8720,r-idn-vvip-9744,cc-idn-2,2015-11-23,2015-12-17,Mononucleosis common viral illness,940.92,22582.08
+259,adm-idn-3402,p-idn-0184,b-idn-8355,r-idn-i-7887,cc-idn-1,2012-08-05,2012-09-07,Folliculitis hair follicle infection,359.31,11857.23
+260,adm-idn-4888,p-idn-0353,b-idn-4877,r-idn-i-7555,cc-idn-2,2012-03-29,2012-04-06,Esophageal varices dilation of esophageal veins,315.24,2521.92
+261,adm-idn-4440,p-idn-0419,b-idn-2694,r-idn-i-0636,cc-idn-2,2015-10-29,2015-11-15,Atrioventricular node conduction block heart block,315.24,5359.08
+262,adm-idn-9893,p-idn-0170,b-idn-7904,r-idn-iii-9095,cc-idn-1,2020-08-13,2020-08-24,Molluscum contagiosum,94.5,1039.5
+263,adm-idn-9232,p-idn-0983,b-idn-7149,r-idn-ii-3200,cc-idn-2,2013-12-03,2013-12-05,Fibromuscular dysplasia FMD,240.15,480.3
+264,adm-idn-1719,p-idn-0790,b-idn-6153,r-idn-iii-1271,cc-idn-2,2021-04-28,2021-04-30,Mycoplasma infection bacteria,115.65,231.3
+265,adm-idn-7317,p-idn-0200,b-idn-1216,r-idn-iii-6003,cc-idn-2,2013-07-06,2013-08-06,Spinal abscess collection of spinal pus,115.65,3585.15
+266,adm-idn-0554,p-idn-0904,b-idn-1636,r-idn-i-1546,cc-idn-1,2014-02-15,2014-02-24,Amebiasis ameba infection,359.31,3233.79
+267,adm-idn-0217,p-idn-0883,b-idn-8080,r-idn-vip-8565,cc-idn-2,2019-12-26,2019-12-30,Serotonin syndrome severe medication reaction,627.13,2508.52
+268,adm-idn-0043,p-idn-0577,b-idn-5322,r-idn-iii-1707,cc-idn-2,2022-09-25,2022-10-12,Vocal cord paralysis voice box weakness,115.65,1966.05
+269,adm-idn-1767,p-idn-0937,b-idn-9145,r-idn-vip-0634,cc-idn-2,2012-11-19,2012-11-21,Streptococcus infection strep throat bacteria,627.13,1254.26
+270,adm-idn-2164,p-idn-0822,b-idn-1863,r-idn-vvip-2740,cc-idn-2,2020-02-18,2020-03-19,"Dysthymia depression, dysthymic disorder",940.92,28227.6
+271,adm-idn-4907,p-idn-0790,b-idn-6272,r-idn-ii-0964,cc-idn-2,2017-12-15,2018-01-05,Fecal impaction rectal blockage from stool,240.15,5043.15
+272,adm-idn-7418,p-idn-0396,b-idn-0480,r-idn-i-6180,cc-idn-1,2020-09-07,2020-09-25,Heat stroke,359.31,6467.58
+273,adm-idn-7710,p-idn-0687,b-idn-4006,r-idn-vip-5365,cc-idn-2,2020-02-14,2020-03-24,Dry socket pain after tooth removal,627.13,24458.07
+274,adm-idn-1443,p-idn-0969,b-idn-6800,r-idn-iii-1460,cc-idn-1,2015-06-18,2015-06-25,Clavicle fracture broken collar bone,94.5,661.5
+275,adm-idn-5722,p-idn-0670,b-idn-3187,r-idn-ii-0705,cc-idn-1,2020-05-17,2020-05-22,Croup upper airway inflammation,195.46,977.3
+276,adm-idn-7494,p-idn-0903,b-idn-8785,r-idn-vvip-2520,cc-idn-2,2012-10-22,2012-11-20,Septal perforation hole in the skin between nostrils,940.92,27286.68
+277,adm-idn-1617,p-idn-0721,b-idn-3225,r-idn-iii-5402,cc-idn-1,2020-08-11,2020-08-17,Allergic reaction,94.5,567.0
+278,adm-idn-1724,p-idn-0644,b-idn-5081,r-idn-iii-9887,cc-idn-1,2022-01-02,2022-01-23,Cervical spine fracture broken neck bone,94.5,1984.5
+279,adm-idn-3324,p-idn-0098,b-idn-2500,r-idn-vvip-6869,cc-idn-1,2016-05-09,2016-05-21,Tendonitis tendon inflammation,970.83,11649.96
+280,adm-idn-3511,p-idn-0940,b-idn-8984,r-idn-iii-5402,cc-idn-2,2012-07-01,2012-07-22,Ecstasy MDMA abuse,115.65,2428.65
+281,adm-idn-1647,p-idn-0200,b-idn-5243,r-idn-i-1452,cc-idn-2,2022-04-16,2022-05-01,Choledocholithiasis stone in bile duct,315.24,4728.6
+282,adm-idn-9450,p-idn-0412,b-idn-1023,r-idn-vip-7343,cc-idn-1,2020-12-08,2020-12-24,Pancreatic cancer tumor,615.4,9846.4
+283,adm-idn-5525,p-idn-0417,b-idn-6205,r-idn-vip-2740,cc-idn-1,2020-11-30,2021-01-01,Aortic regurgitation leaking heart valve,615.4,19692.8
+284,adm-idn-4035,p-idn-0660,b-idn-4758,r-idn-ii-9783,cc-idn-2,2013-10-25,2013-11-05,Volvulus twisted intestine,240.15,2641.65
+285,adm-idn-6439,p-idn-0591,b-idn-7651,r-idn-iii-4334,cc-idn-2,2015-02-16,2015-03-01,Myositis muscle inflammation or infection,115.65,1503.45
+286,adm-idn-7601,p-idn-0836,b-idn-2410,r-idn-i-9855,cc-idn-2,2012-09-02,2012-09-08,Hematocele collection of blood around testicle,315.24,1891.44
+287,adm-idn-2530,p-idn-0900,b-idn-4045,r-idn-ii-6103,cc-idn-2,2021-11-02,2021-11-30,Rhabdomyolysis severe muscle breakdown,240.15,6724.2
+288,adm-idn-1305,p-idn-0900,b-idn-4968,r-idn-ii-6231,cc-idn-1,2015-12-16,2016-01-26,Pyomyositis muscle infection,195.46,8013.86
+289,adm-idn-8373,p-idn-0832,b-idn-4045,r-idn-i-4343,cc-idn-2,2019-11-17,2019-12-09,Vertebral artery dissection neck artery tear,315.24,6935.28
+290,adm-idn-4536,p-idn-0427,b-idn-1863,r-idn-i-9881,cc-idn-1,2012-03-09,2012-04-11,Calcium channel blocker overdose blood pressure medication overdose,359.31,11857.23
+291,adm-idn-0387,p-idn-0368,b-idn-2919,r-idn-vvip-4831,cc-idn-1,2013-12-08,2013-12-14,Diffuse esophageal spasm painful contractions of the esophagus,970.83,5824.98
+292,adm-idn-7023,p-idn-0582,b-idn-4209,r-idn-vvip-2872,cc-idn-2,2015-10-16,2015-11-05,Ichthyosis,940.92,18818.4
+293,adm-idn-8278,p-idn-0747,b-idn-6590,r-idn-vvip-8927,cc-idn-2,2018-03-31,2018-04-27,Renal trauma kidney trauma,940.92,25404.84
+294,adm-idn-0104,p-idn-0170,b-idn-3359,r-idn-ii-6504,cc-idn-1,2017-06-17,2017-07-09,Rectocele,195.46,4300.12
+295,adm-idn-7552,p-idn-0947,b-idn-6800,r-idn-i-8016,cc-idn-1,2014-01-16,2014-01-23,Staphylococcus aureus type of bacteria,359.31,2515.17
+296,adm-idn-9536,p-idn-0696,b-idn-3540,r-idn-ii-7624,cc-idn-1,2022-09-02,2022-09-09,Atrial fibrillation irregular heart rate,195.46,1368.22
+297,adm-idn-6267,p-idn-0466,b-idn-2054,r-idn-ii-7158,cc-idn-2,2017-02-07,2017-02-28,Alcohol  ethanol abuse,240.15,5043.15
+298,adm-idn-8823,p-idn-0495,b-idn-3039,r-idn-ii-6504,cc-idn-1,2013-10-06,2013-10-22,Cerebellar hemorrhage bleeding in back of brain,195.46,3127.36
+299,adm-idn-6382,p-idn-0013,b-idn-8141,r-idn-ii-5160,cc-idn-1,2017-03-18,2017-04-05,False pregnancy,195.46,3518.28
+300,adm-idn-0007,p-idn-0915,b-idn-9993,r-idn-ii-6103,cc-idn-2,2017-03-09,2017-03-11,Cluster headache one-sided headache behind the eye,240.15,480.3
+301,adm-idn-9206,p-idn-0749,b-idn-5509,r-idn-i-0636,cc-idn-2,2019-06-12,2019-07-03,Myotonia impaired muscle relaxation,315.24,6620.04
+302,adm-idn-7364,p-idn-0984,b-idn-9498,r-idn-iii-9660,cc-idn-2,2022-07-23,2022-07-29,Invasive lobular carcinoma,115.65,693.9
+303,adm-idn-1110,p-idn-0577,b-idn-9145,r-idn-ii-5795,cc-idn-1,2015-04-08,2015-04-15,Seizure abnormal brain electrical activity,195.46,1368.22
+304,adm-idn-0170,p-idn-0726,b-idn-3870,r-idn-vvip-9945,cc-idn-1,2017-07-15,2017-07-23,Gestational diabetes diabetes during pregnancy,970.83,7766.64
+305,adm-idn-5998,p-idn-0902,b-idn-5750,r-idn-vvip-7757,cc-idn-2,2013-07-02,2013-07-15,Atrial fibrillation irregular heart rate,940.92,12231.96
+306,adm-idn-5320,p-idn-0374,b-idn-1803,r-idn-vip-2624,cc-idn-1,2014-08-31,2014-09-17,Posterior vitreous detachment common eye abnormality,615.4,10461.8
+307,adm-idn-7802,p-idn-0544,b-idn-9129,r-idn-vvip-4831,cc-idn-1,2017-11-02,2017-11-12,Foreign body in a wound,970.83,9708.3
+308,adm-idn-5629,p-idn-0068,b-idn-3677,r-idn-vvip-2899,cc-idn-2,2022-02-25,2022-03-07,Bronchiolitis bronchial tube inflammation,940.92,9409.2
+309,adm-idn-9818,p-idn-0174,b-idn-2301,r-idn-vvip-0845,cc-idn-1,2022-07-13,2022-08-16,Tarsal tunnel syndrome foot nerve damage,970.83,33008.22
+310,adm-idn-5946,p-idn-0746,b-idn-7546,r-idn-i-9649,cc-idn-1,2014-08-11,2014-08-22,"Multiple pregnancy twins, triplets, etc",359.31,3952.41
+311,adm-idn-6209,p-idn-0561,b-idn-3327,r-idn-vip-9617,cc-idn-1,2015-04-07,2015-05-03,Pemphigoid,615.4,16000.4
+312,adm-idn-4058,p-idn-0304,b-idn-5509,r-idn-i-2385,cc-idn-2,2019-03-18,2019-03-25,Myotonia impaired muscle relaxation,315.24,2206.68
+313,adm-idn-1610,p-idn-0386,b-idn-9810,r-idn-ii-6504,cc-idn-2,2013-05-23,2013-06-09,Cutaneous T cell lymphoma,240.15,4082.55
+314,adm-idn-2770,p-idn-0973,b-idn-0480,r-idn-vvip-8077,cc-idn-2,2013-06-28,2013-07-03,Smoke inhalation,940.92,4704.6
+315,adm-idn-8681,p-idn-0322,b-idn-9810,r-idn-vvip-2661,cc-idn-2,2017-05-11,2017-06-04,Neck trauma injury,940.92,22582.08
+316,adm-idn-9754,p-idn-0548,b-idn-8760,r-idn-i-8444,cc-idn-2,2022-04-10,2022-04-14,Achilles tendon rupture (heel tendon tear),315.24,1260.96
+317,adm-idn-2692,p-idn-0117,b-idn-2410,r-idn-vvip-7803,cc-idn-1,2015-06-19,2015-07-12,Waldenström macroglobulinemia blood cell disease,970.83,22329.09
+318,adm-idn-6884,p-idn-0253,b-idn-0291,r-idn-vvip-5557,cc-idn-1,2017-05-07,2017-05-26,Breast fat necrosis dead breast fat,970.83,18445.77
+319,adm-idn-5816,p-idn-0428,b-idn-0869,r-idn-vip-3445,cc-idn-1,2016-07-21,2016-08-24,Paget disease of the nipple rare breast cancer,615.4,20923.6
+320,adm-idn-3216,p-idn-0716,b-idn-0904,r-idn-vvip-4059,cc-idn-1,2014-08-05,2014-08-17,Inguinal hernia groin hernia,970.83,11649.96
+321,adm-idn-8979,p-idn-0883,b-idn-2301,r-idn-vvip-7757,cc-idn-1,2013-11-19,2013-11-29,Mononucleosis common viral illness,970.83,9708.3
+322,adm-idn-2887,p-idn-0908,b-idn-3130,r-idn-i-8016,cc-idn-1,2019-07-19,2019-07-25,Hammer toes toe deformity,359.31,2155.86
+323,adm-idn-3380,p-idn-0302,b-idn-4528,r-idn-i-7261,cc-idn-1,2012-04-09,2012-04-19,Mitral regurgitation leaking heart valve,359.31,3593.1
+324,adm-idn-1608,p-idn-0747,b-idn-1216,r-idn-vip-6476,cc-idn-1,2015-06-25,2015-07-22,Dystonia,615.4,16615.8
+325,adm-idn-0260,p-idn-0450,b-idn-2121,r-idn-i-0759,cc-idn-1,2020-10-31,2020-11-09,Listeria serious bacterial illness,359.31,3233.79
+326,adm-idn-8221,p-idn-0480,b-idn-4473,r-idn-vip-5365,cc-idn-1,2014-10-05,2014-10-12,Ovarian torsion twisting of the ovary,615.4,4307.8
+327,adm-idn-2407,p-idn-0281,b-idn-8976,r-idn-i-6476,cc-idn-1,2020-01-13,2020-02-10,Alzheimer's disease dementia,359.31,10060.68
+328,adm-idn-6938,p-idn-0817,b-idn-1530,r-idn-ii-6504,cc-idn-1,2022-03-14,2022-04-16,Spinal cord compression cauda equina syndrome,195.46,6450.18
+329,adm-idn-1283,p-idn-0530,b-idn-7523,r-idn-ii-4688,cc-idn-2,2012-09-19,2012-10-03,Chicken pox varicella virus,240.15,3362.1
+330,adm-idn-2214,p-idn-0624,b-idn-4642,r-idn-vvip-2193,cc-idn-1,2021-03-24,2021-04-19,Nursemaid's elbow radial head subluxation,970.83,25241.58
+331,adm-idn-7233,p-idn-0979,b-idn-5990,r-idn-i-7125,cc-idn-1,2019-07-06,2019-07-19,Autoimmune conditions,359.31,4671.03
+332,adm-idn-7942,p-idn-0302,b-idn-2410,r-idn-i-7555,cc-idn-1,2017-12-17,2018-01-18,Methamphetamine abuse,359.31,11497.92
+333,adm-idn-8805,p-idn-0468,b-idn-8853,r-idn-vip-2151,cc-idn-2,2012-02-15,2012-02-21,Hypertrophic cardiomyopathy thickened heart muscle,627.13,3762.78
+334,adm-idn-4444,p-idn-0190,b-idn-9736,r-idn-ii-4655,cc-idn-1,2013-05-31,2013-06-14,Transverse myelitis spinal cord inflammation,195.46,2736.44
+335,adm-idn-7010,p-idn-0352,b-idn-7267,r-idn-vip-7114,cc-idn-2,2020-06-16,2020-07-08,Atrioventricular node conduction block heart block,627.13,13796.86
+336,adm-idn-9088,p-idn-0296,b-idn-9633,r-idn-vip-9724,cc-idn-1,2013-01-12,2013-02-03,Benign positional vertigo sensation of spinning,615.4,13538.8
+337,adm-idn-1211,p-idn-0613,b-idn-9203,r-idn-ii-8139,cc-idn-2,2019-03-27,2019-04-08,Osteochondritis dissecans joint disorder,240.15,2881.8
+338,adm-idn-1450,p-idn-0377,b-idn-6112,r-idn-vip-4753,cc-idn-1,2018-06-28,2018-07-13,Osteomyelitis bone infection,615.4,9231.0
+339,adm-idn-3321,p-idn-0352,b-idn-8971,r-idn-ii-6603,cc-idn-1,2014-08-21,2014-09-21,Malignant hyperthermia rare temperature abnormality,195.46,6059.26
+340,adm-idn-6415,p-idn-0507,b-idn-4422,r-idn-vip-2624,cc-idn-2,2015-04-22,2015-05-02,"Pneumocystis pneumonia PCP, fungal lung infection",627.13,6271.3
+341,adm-idn-1173,p-idn-0915,b-idn-5699,r-idn-ii-9783,cc-idn-1,2019-06-01,2019-06-27,Lung abscess collection of pus,195.46,5081.96
+342,adm-idn-3326,p-idn-0739,b-idn-1829,r-idn-vvip-3616,cc-idn-1,2015-01-25,2015-02-10,Limb ischemia decreased blood flow,970.83,15533.28
+343,adm-idn-2171,p-idn-0283,b-idn-7733,r-idn-vip-1742,cc-idn-1,2015-06-27,2015-07-21,Miscarriage,615.4,14769.6
+344,adm-idn-6383,p-idn-0544,b-idn-0663,r-idn-vvip-8077,cc-idn-2,2016-07-10,2016-07-25,Mouth swelling,940.92,14113.8
+345,adm-idn-4417,p-idn-0416,b-idn-2982,r-idn-i-6924,cc-idn-1,2016-04-23,2016-04-25,Anopheles mosquito bite,359.31,718.62
+346,adm-idn-5562,p-idn-0837,b-idn-7579,r-idn-ii-9513,cc-idn-2,2015-09-13,2015-10-02,Salmonella infection common bacterial intestinal infection,240.15,4562.85
+347,adm-idn-8617,p-idn-0537,b-idn-8795,r-idn-iii-1707,cc-idn-1,2016-12-31,2017-01-05,Gastroenteritis intestinal infection,94.5,472.5
+348,adm-idn-7118,p-idn-0726,b-idn-3993,r-idn-vip-3635,cc-idn-2,2018-10-23,2018-10-29,Cerebellar Ataxia,627.13,3762.78
+349,adm-idn-2212,p-idn-0915,b-idn-6399,r-idn-iii-5663,cc-idn-2,2018-09-01,2018-09-16,Blood loss,115.65,1734.75
+351,adm-idn-6478,p-idn-0102,b-idn-7198,r-idn-iii-4334,cc-idn-2,2017-09-05,2017-09-22,Double diabetes hybrid diabetes,115.65,1966.05
+352,adm-idn-9036,p-idn-0900,b-idn-1803,r-idn-vip-3635,cc-idn-2,2012-06-20,2012-06-29,Cauliflower ear wrestlers ear,627.13,5644.17
+353,adm-idn-4695,p-idn-0023,b-idn-9881,r-idn-iii-5414,cc-idn-2,2016-07-11,2016-07-21,"Renal failure, acute sudden kidney failure",115.65,1156.5
+354,adm-idn-6337,p-idn-0413,b-idn-0909,r-idn-iii-6268,cc-idn-2,2016-02-05,2016-03-01,Broken heart syndrome Takotsubo cardiomyopathy,115.65,2891.25
+355,adm-idn-2536,p-idn-0969,b-idn-7165,r-idn-vvip-6869,cc-idn-2,2020-11-01,2020-11-24,Patellar dislocation knee cap dislocation,940.92,21641.16
+356,adm-idn-5599,p-idn-0979,b-idn-4528,r-idn-vvip-3616,cc-idn-2,2014-12-29,2015-01-25,Carotid cavernous fistula abnormal blood vessel communication,940.92,25404.84
+357,adm-idn-1047,p-idn-0485,b-idn-7149,r-idn-iii-5402,cc-idn-1,2012-11-22,2012-12-29,Cerebral palsy movement disorder,94.5,3496.5
+358,adm-idn-3523,p-idn-0927,b-idn-8785,r-idn-iii-3212,cc-idn-1,2019-01-28,2019-02-11,Phimosis,94.5,1323.0
+359,adm-idn-8794,p-idn-0867,b-idn-4877,r-idn-iii-7884,cc-idn-1,2013-07-30,2013-08-05,Myelodysplastic syndrome bone marrow failure,94.5,567.0
+360,adm-idn-8146,p-idn-0412,b-idn-9537,r-idn-vip-1066,cc-idn-2,2017-12-29,2018-01-07,Cervicitis inflammation of the lower uterus,627.13,5644.17
+361,adm-idn-7054,p-idn-0927,b-idn-5743,r-idn-i-9401,cc-idn-1,2014-01-13,2014-01-28,Croup upper airway inflammation,359.31,5389.65
+362,adm-idn-0528,p-idn-0687,b-idn-1859,r-idn-i-5857,cc-idn-1,2014-11-19,2014-11-24,Bronchiolitis bronchial tube inflammation,359.31,1796.55
+363,adm-idn-3268,p-idn-0904,b-idn-2749,r-idn-ii-7718,cc-idn-1,2022-06-27,2022-06-30,Mongolian spots blue birthmark,195.46,586.38
+364,adm-idn-1525,p-idn-0381,b-idn-2266,r-idn-i-5102,cc-idn-2,2020-01-14,2020-02-21,Herpes stomatitis viral mouth infection,315.24,11979.12
+365,adm-idn-9069,p-idn-0827,b-idn-1636,r-idn-i-9295,cc-idn-2,2018-04-19,2018-05-23,Osgood Schlatter disease painful shinbone inflammation,315.24,10718.16
+366,adm-idn-9795,p-idn-0660,b-idn-4906,r-idn-vip-3364,cc-idn-1,2015-08-21,2015-09-07,Cervical spine stenosis narrowing of spinal canal,615.4,10461.8
+367,adm-idn-3754,p-idn-0420,b-idn-6356,r-idn-vvip-0845,cc-idn-1,2020-10-24,2020-11-01,Spleen injury splenic rupture,970.83,7766.64
+368,adm-idn-5352,p-idn-0496,b-idn-0869,r-idn-ii-9202,cc-idn-2,2016-01-22,2016-01-26,Sialolithiasis salivary gland stone,240.15,960.6
+369,adm-idn-8430,p-idn-0537,b-idn-2728,r-idn-iii-0895,cc-idn-2,2018-11-13,2018-12-02,Interstitial cystitis bladder inflammation,115.65,2197.35
+370,adm-idn-5260,p-idn-0519,b-idn-7232,r-idn-ii-7158,cc-idn-2,2012-05-13,2012-06-02,Serotonin syndrome severe medication reaction,240.15,4803.0
+371,adm-idn-3706,p-idn-0339,b-idn-2417,r-idn-iii-3212,cc-idn-1,2019-12-07,2019-12-13,Reflex sympathetic dystrophy complex pain syndrome,94.5,567.0
+372,adm-idn-0956,p-idn-0956,b-idn-6960,r-idn-vvip-8077,cc-idn-1,2017-09-26,2017-10-02,Pancoast syndrome apical lung tumor,970.83,5824.98
+373,adm-idn-1875,p-idn-0903,b-idn-5438,r-idn-vvip-4059,cc-idn-1,2012-08-30,2012-10-05,Testicular hypofunction,970.83,34949.88
+374,adm-idn-3779,p-idn-0611,b-idn-9242,r-idn-vip-8565,cc-idn-2,2016-07-03,2016-08-05,Waldenström macroglobulinemia blood cell disease,627.13,20695.29
+375,adm-idn-3578,p-idn-0158,b-idn-6273,r-idn-i-0759,cc-idn-2,2020-06-27,2020-07-10,Drug withdrawal syndrome,315.24,4098.12
+376,adm-idn-8635,p-idn-0419,b-idn-9370,r-idn-iii-0895,cc-idn-2,2022-02-24,2022-02-27,Dentures,115.65,346.95
+377,adm-idn-6058,p-idn-0733,b-idn-7565,r-idn-i-2385,cc-idn-1,2012-11-02,2012-12-02,Stress incontinence unintentional urination with cough or sneeze,359.31,10779.3
+378,adm-idn-1537,p-idn-0419,b-idn-9624,r-idn-vip-2145,cc-idn-1,2013-04-06,2013-04-12,Delusional disorder,615.4,3692.4
+379,adm-idn-8040,p-idn-0336,b-idn-8720,r-idn-i-0493,cc-idn-1,2018-01-18,2018-01-29,Cerebral palsy movement disorder,359.31,3952.41
+380,adm-idn-7456,p-idn-0082,b-idn-7686,r-idn-vip-5365,cc-idn-1,2012-09-14,2012-09-19,Narcolepsy uncontrollable sleeping,615.4,3077.0
+381,adm-idn-5560,p-idn-0659,b-idn-8108,r-idn-vip-7114,cc-idn-2,2016-05-23,2016-06-18,Rhinovirus infection common cold,627.13,16305.38
+382,adm-idn-1214,p-idn-0846,b-idn-5403,r-idn-iii-5507,cc-idn-2,2021-11-22,2021-12-17,Candida albicans yeast infection,115.65,2891.25
+383,adm-idn-3841,p-idn-0261,b-idn-9060,r-idn-ii-7718,cc-idn-1,2019-10-15,2019-10-31,"Carcinoid syndrome flushing, diarrhea",195.46,3127.36
+384,adm-idn-7548,p-idn-0686,b-idn-7149,r-idn-iii-4334,cc-idn-2,2021-10-14,2021-11-12,Hyperemesis gravidarum severe vomiting in pregnancy,115.65,3353.85
+385,adm-idn-3965,p-idn-0315,b-idn-7579,r-idn-ii-0964,cc-idn-2,2022-07-10,2022-08-13,"Heart attack acute myocardial infarction, AMI",240.15,8165.1
+386,adm-idn-6425,p-idn-0999,b-idn-4877,r-idn-vvip-9507,cc-idn-1,2016-11-28,2016-12-03,Infection,970.83,4854.15
+387,adm-idn-6829,p-idn-0605,b-idn-3006,r-idn-vvip-2578,cc-idn-1,2021-01-29,2021-02-23,Nasal trauma nose injury,970.83,24270.75
+388,adm-idn-3016,p-idn-0692,b-idn-3359,r-idn-vip-8565,cc-idn-2,2018-10-07,2018-11-05,Neisseria gonorrhea infection sexually transmitted disease,627.13,18186.77
+389,adm-idn-6981,p-idn-0050,b-idn-5243,r-idn-vip-2071,cc-idn-1,2018-03-10,2018-03-24,Pulmonary edema fluid build-up in the lungs,615.4,8615.6
+390,adm-idn-7279,p-idn-0253,b-idn-5017,r-idn-i-6180,cc-idn-2,2017-07-09,2017-07-17,"Polymyalgia rheumatica PMR, muscle and joint disorder",315.24,2521.92
+391,adm-idn-6085,p-idn-0311,b-idn-0477,r-idn-vvip-7650,cc-idn-1,2014-09-04,2014-09-27,Tylenol  acetaminophen poisoning,970.83,22329.09
+392,adm-idn-9666,p-idn-0105,b-idn-6131,r-idn-iii-3521,cc-idn-2,2014-02-22,2014-02-27,Cholangitis inflammation of the bile ducts,115.65,578.25
+393,adm-idn-1940,p-idn-0352,b-idn-7583,r-idn-vip-9665,cc-idn-2,2015-02-14,2015-02-26,Osteoporosis extremely thin bone,627.13,7525.56
+394,adm-idn-2850,p-idn-0832,b-idn-5750,r-idn-i-9192,cc-idn-1,2017-10-13,2017-11-01,Munchausen syndrome by proxy fabricated illness in a dependent,359.31,6826.89
+395,adm-idn-3236,p-idn-0889,b-idn-3359,r-idn-ii-2386,cc-idn-1,2020-05-23,2020-07-13,Bronchiectasis bronchial tube inflammatory damage,195.46,9968.46
+396,adm-idn-6133,p-idn-0355,b-idn-9060,r-idn-iii-3449,cc-idn-1,2018-10-19,2018-10-29,Head injury,94.5,945.0
+397,adm-idn-7128,p-idn-0660,b-idn-8850,r-idn-iii-3000,cc-idn-2,2022-07-05,2022-09-03,Arthritis joint inflammation,115.65,6939.0
+398,adm-idn-5600,p-idn-0582,b-idn-2932,r-idn-vvip-2510,cc-idn-1,2018-12-14,2019-01-30,Eustachian tube dysfunction inner ear tube,970.83,45629.01
+399,adm-idn-6838,p-idn-0817,b-idn-4877,r-idn-ii-0705,cc-idn-2,2016-03-14,2016-04-04,Testicular torsion twisting of testicle,240.15,5043.15
+400,adm-idn-7730,p-idn-0261,b-idn-2023,r-idn-vvip-2872,cc-idn-2,2020-06-28,2020-07-14,"Respiratory syncytial virus RSV, pediatric respiratory infection",940.92,15054.72
+401,adm-idn-9330,p-idn-0496,b-idn-9789,r-idn-iii-8005,cc-idn-1,2013-08-29,2013-10-23,Scorpion sting,94.5,5197.5
+402,adm-idn-1428,p-idn-0413,b-idn-0980,r-idn-vip-6476,cc-idn-2,2021-01-10,2021-01-30,Atrial fibrillation irregular heart rate,627.13,12542.6
+403,adm-idn-6729,p-idn-0013,b-idn-4968,r-idn-ii-6231,cc-idn-2,2015-08-06,2015-08-29,"Brain arteriovenous malformation blood vessel abnormality in the brain, AVM Arteriovenous malformation of brain",240.15,5523.45
+404,adm-idn-6140,p-idn-0398,b-idn-3423,r-idn-iii-5663,cc-idn-2,2015-01-02,2015-01-13,Acidosis  (excessive acid in the body),115.65,1272.15
+405,adm-idn-4557,p-idn-0417,b-idn-7347,r-idn-iii-3376,cc-idn-1,2013-04-23,2013-04-28,Acne pimples,94.5,472.5
+406,adm-idn-4813,p-idn-0283,b-idn-7733,r-idn-vvip-2661,cc-idn-1,2016-03-06,2016-03-18,"Actinic keratosis AK, skin growth",970.83,11649.96
+407,adm-idn-6530,p-idn-0427,b-idn-7325,r-idn-vip-8704,cc-idn-2,2013-05-16,2013-05-19,Excessive hair growth Hirsutism,627.13,1881.39
+408,adm-idn-2807,p-idn-0962,b-idn-0132,r-idn-i-1546,cc-idn-2,2012-04-27,2012-06-20,"Arteriovenous malformation blood vessel abnormality, AVM",315.24,17022.96
+409,adm-idn-2662,p-idn-0737,b-idn-7232,r-idn-i-3164,cc-idn-1,2022-06-21,2022-07-20,Missed abortion,359.31,10419.99
+410,adm-idn-4292,p-idn-0915,b-idn-3130,r-idn-iii-9162,cc-idn-1,2016-10-05,2016-10-13,Windshield wiper fluid Methanol poisoning,94.5,756.0
+411,adm-idn-9480,p-idn-0544,b-idn-5509,r-idn-i-6180,cc-idn-1,2020-03-17,2020-04-05,Orbital cellulitis soft tissue eye infection,359.31,6826.89
+412,adm-idn-7012,p-idn-0607,b-idn-6272,r-idn-iii-2900,cc-idn-2,2015-09-23,2015-11-21,Overuse syndrome injury from repetitive activity,115.65,6823.35
+413,adm-idn-9124,p-idn-0336,b-idn-7789,r-idn-vip-4753,cc-idn-1,2017-09-12,2017-09-18,Cervical lymphadenopathy enlarged neck lymph nodes,615.4,3692.4
+414,adm-idn-3007,p-idn-0326,b-idn-2737,r-idn-vvip-0845,cc-idn-2,2018-12-01,2019-01-15,Traumatic brain injury,940.92,42341.4
+415,adm-idn-3452,p-idn-0454,b-idn-3273,r-idn-vip-9617,cc-idn-1,2012-10-09,2012-10-31,Puncture wound of ankle,615.4,13538.8
+416,adm-idn-0466,p-idn-0255,b-idn-9633,r-idn-i-9192,cc-idn-1,2022-02-17,2022-03-18,Frostbite tissue damage from cold,359.31,10419.99
+417,adm-idn-5105,p-idn-0955,b-idn-7982,r-idn-ii-8139,cc-idn-2,2016-08-24,2016-09-02,Tylenol  acetaminophen poisoning,240.15,2161.35
+418,adm-idn-3615,p-idn-0754,b-idn-4585,r-idn-vvip-4831,cc-idn-1,2020-02-06,2020-02-18,Peripheral vascular disease blocked blood vessels,970.83,11649.96
+419,adm-idn-2255,p-idn-0670,b-idn-3840,r-idn-vip-0356,cc-idn-1,2017-11-08,2017-11-28,Night terrors nightmares,615.4,12308.0
+420,adm-idn-7324,p-idn-0582,b-idn-9376,r-idn-i-6180,cc-idn-2,2017-11-01,2017-11-21,Triangular fibrocartilage complex injury wrist injury,315.24,6304.8
+421,adm-idn-6832,p-idn-0843,b-idn-6570,r-idn-ii-4688,cc-idn-1,2013-03-27,2013-05-03,Muscle tear,195.46,7232.02
+422,adm-idn-0006,p-idn-0339,b-idn-8939,r-idn-i-8397,cc-idn-2,2020-08-29,2020-09-11,"Carbon monoxide poisoning odorless, poisonous gas",315.24,4098.12
+423,adm-idn-4952,p-idn-0544,b-idn-4006,r-idn-iii-5507,cc-idn-1,2016-11-23,2016-12-07,"Thoracic outlet syndrome nerve, blood vessel compression",94.5,1323.0
+424,adm-idn-2020,p-idn-0265,b-idn-8114,r-idn-i-7125,cc-idn-2,2022-05-28,2022-06-07,Puncture wound of toe,315.24,3152.4
+425,adm-idn-5370,p-idn-0830,b-idn-8080,r-idn-iii-5414,cc-idn-1,2014-09-10,2014-10-03,Hernia,94.5,2173.5
+426,adm-idn-0243,p-idn-0644,b-idn-0171,r-idn-vip-0356,cc-idn-2,2018-05-15,2018-05-23,Ototoxicity ear toxicity,627.13,5017.04
+427,adm-idn-4508,p-idn-0191,b-idn-3657,r-idn-vvip-2510,cc-idn-1,2017-04-03,2017-04-24,Lyme disease bacterial infection from ticks,970.83,20387.43
+428,adm-idn-5005,p-idn-0196,b-idn-0869,r-idn-ii-9148,cc-idn-2,2015-12-21,2016-01-08,Cardiomyopathy weakened heart,240.15,4322.7
+429,adm-idn-5745,p-idn-0826,b-idn-4276,r-idn-iii-4317,cc-idn-1,2018-11-11,2018-11-16,Developmental delay,94.5,472.5
+430,adm-idn-5502,p-idn-0737,b-idn-1555,r-idn-iii-1498,cc-idn-1,2019-05-23,2019-05-29,Carotid artery stenosis neck artery narrowing,94.5,567.0
+431,adm-idn-6994,p-idn-0852,b-idn-6696,r-idn-vip-9724,cc-idn-2,2012-09-02,2012-09-07,Pulmonary fibrosis lung scarring,627.13,3135.65
+432,adm-idn-3795,p-idn-0374,b-idn-8197,r-idn-ii-5799,cc-idn-1,2012-01-29,2012-02-02,Stuttering,195.46,781.84
+433,adm-idn-5876,p-idn-0761,b-idn-8023,r-idn-i-6489,cc-idn-1,2016-08-01,2016-08-23,Anal fistula,359.31,7904.82
+434,adm-idn-6034,p-idn-0002,b-idn-2248,r-idn-i-7125,cc-idn-2,2013-05-21,2013-06-02,Menopause end of menstruation and fertility,315.24,3782.88
+435,adm-idn-3156,p-idn-0060,b-idn-6311,r-idn-vvip-2520,cc-idn-1,2021-02-08,2021-03-16,"Warfarin Coumadin, Jantoven overdose",970.83,34949.88
+436,adm-idn-4529,p-idn-0496,b-idn-3041,r-idn-iii-3449,cc-idn-1,2013-09-04,2013-09-19,Scaphoid fracture broken hand bone,94.5,1417.5
+437,adm-idn-9546,p-idn-0285,b-idn-8316,r-idn-ii-9459,cc-idn-1,2016-09-07,2016-09-17,Hearing loss,195.46,1954.6
+438,adm-idn-2670,p-idn-0613,b-idn-8964,r-idn-ii-7624,cc-idn-1,2022-09-06,2022-09-10,Bacterial dysentery bacterial infection of the intestines,195.46,781.84
+439,adm-idn-5164,p-idn-0433,b-idn-5322,r-idn-ii-0964,cc-idn-2,2019-03-16,2019-04-05,Estrogen withdrawal female hormone,240.15,4803.0
+440,adm-idn-1379,p-idn-0239,b-idn-6586,r-idn-i-9192,cc-idn-1,2020-02-25,2020-03-15,Legionellosis Legionnaires' disease,359.31,6826.89
+441,adm-idn-9425,p-idn-0336,b-idn-8571,r-idn-i-9295,cc-idn-2,2021-01-24,2021-01-30,Vaginal yeast fungal infection,315.24,1891.44
+442,adm-idn-3744,p-idn-0002,b-idn-0480,r-idn-vip-8264,cc-idn-1,2016-09-22,2016-09-28,Mittelschmerz ovulation pain,615.4,3692.4
+443,adm-idn-1848,p-idn-0466,b-idn-2643,r-idn-iii-1498,cc-idn-1,2022-08-22,2022-09-28,Sunburn,94.5,3496.5
+444,adm-idn-0924,p-idn-0302,b-idn-9920,r-idn-vvip-7757,cc-idn-2,2021-05-28,2021-06-22,Anxiety disorder generalized anxiety disorder GAD,940.92,23523.0
+445,adm-idn-2344,p-idn-0800,b-idn-0909,r-idn-ii-3562,cc-idn-2,2012-09-22,2012-09-24,Overdose,240.15,480.3
+446,adm-idn-3798,p-idn-0484,b-idn-7904,r-idn-iii-9731,cc-idn-2,2020-06-07,2020-07-02,Heat stroke,115.65,2891.25
+447,adm-idn-5556,p-idn-0894,b-idn-9102,r-idn-i-9401,cc-idn-2,2022-09-17,2022-10-20,Munchausen syndrome fabricated illness,315.24,10402.92
+448,adm-idn-3175,p-idn-0250,b-idn-8971,r-idn-iii-4590,cc-idn-1,2017-04-17,2017-04-19,Sarcoma soft tissue cancer,94.5,189.0
+449,adm-idn-3166,p-idn-0450,b-idn-3196,r-idn-i-1417,cc-idn-2,2015-02-07,2015-02-17,Vertebral-basilar stroke stroke in the back of the brain Vertebro basilar insufficiency,315.24,3152.4
+450,adm-idn-7368,p-idn-0008,b-idn-4262,r-idn-i-9345,cc-idn-1,2013-06-20,2013-07-12,Morton's neuroma,359.31,7904.82
+452,adm-idn-2715,p-idn-0739,b-idn-3323,r-idn-i-4044,cc-idn-1,2020-05-06,2020-05-10,Skin laceration cut skin,359.31,1437.24
+453,adm-idn-1410,p-idn-0668,b-idn-3327,r-idn-vip-4229,cc-idn-2,2022-06-09,2022-06-12,Esophageal foreign body,627.13,1881.39
+454,adm-idn-2236,p-idn-0190,b-idn-2500,r-idn-i-7226,cc-idn-1,2022-09-28,2022-10-12,Rotavirus infection intestinal viral infection,359.31,5030.34
+455,adm-idn-5716,p-idn-0957,b-idn-2745,r-idn-iii-5507,cc-idn-2,2015-07-20,2015-07-23,Cerebrospinal fluid rhinorrhea leakage of brain fluid from the nose,115.65,346.95
+456,adm-idn-2298,p-idn-0485,b-idn-5155,r-idn-iii-2936,cc-idn-2,2021-01-04,2021-01-22,Anaphylaxis (severe/life threatening allergic reaction),115.65,2081.7
+457,adm-idn-5968,p-idn-0915,b-idn-2557,r-idn-vip-0356,cc-idn-1,2013-06-14,2013-06-28,Spinal abscess collection of spinal pus,615.4,8615.6
+458,adm-idn-8355,p-idn-0495,b-idn-6853,r-idn-i-6616,cc-idn-2,2017-10-06,2017-10-22,Plantar fasciitis inflammation of tissue at the bottom of the foot,315.24,5043.84
+459,adm-idn-8942,p-idn-0644,b-idn-6590,r-idn-i-0636,cc-idn-1,2022-05-31,2022-06-13,Puerperal depression depression after giving birth,359.31,4671.03
+460,adm-idn-3780,p-idn-0184,b-idn-4422,r-idn-vip-1066,cc-idn-1,2014-08-25,2014-08-30,Premenstrual syndrome PMS,615.4,3077.0
+461,adm-idn-3315,p-idn-0017,b-idn-4542,r-idn-vvip-0893,cc-idn-1,2018-11-28,2018-12-13,Endometriosis uterine tissue outside the uterus,970.83,14562.45
+462,adm-idn-6042,p-idn-0601,b-idn-8114,r-idn-i-7117,cc-idn-1,2020-08-12,2020-08-15,Posterior inferior cerebellar artery syndrome stroke syndrome,359.31,1077.93
+463,adm-idn-9969,p-idn-0489,b-idn-4943,r-idn-iii-1271,cc-idn-2,2012-09-03,2012-09-13,Alcoholism,115.65,1156.5
+464,adm-idn-7175,p-idn-0158,b-idn-2982,r-idn-ii-2326,cc-idn-1,2018-09-23,2018-10-02,Abdominal swelling,195.46,1759.14
+466,adm-idn-0819,p-idn-0011,b-idn-9537,r-idn-iii-9887,cc-idn-1,2018-11-30,2018-12-14,Post concussive syndrome symptoms after a concussion,94.5,1323.0
+467,adm-idn-5265,p-idn-0846,b-idn-3276,r-idn-ii-1227,cc-idn-1,2015-01-07,2015-01-16,Pemphigus rare skin disorder,195.46,1759.14
+468,adm-idn-5048,p-idn-0495,b-idn-6853,r-idn-vvip-0269,cc-idn-2,2021-07-28,2021-08-11,Sickle cell disease disease of red blood cells,940.92,13172.88
+469,adm-idn-0786,p-idn-0940,b-idn-3323,r-idn-i-7887,cc-idn-1,2019-05-20,2019-06-12,"Amyotrophic lateral sclerosis ALS, Lou Gehrig's disease",359.31,8264.13
+470,adm-idn-2124,p-idn-0904,b-idn-5684,r-idn-ii-6504,cc-idn-2,2016-03-18,2016-03-25,Brain abscess collection of pus in the brain,240.15,1681.05
+471,adm-idn-6971,p-idn-0800,b-idn-8882,r-idn-iii-5720,cc-idn-2,2022-04-04,2022-04-13,Wrist sprain,115.65,1040.85
+472,adm-idn-0015,p-idn-0489,b-idn-7267,r-idn-iii-3521,cc-idn-1,2013-05-14,2013-06-13,Pheochromocytoma adrenal gland tumor,94.5,2835.0
+473,adm-idn-0205,p-idn-0936,b-idn-6590,r-idn-vvip-2578,cc-idn-2,2019-08-27,2019-09-09,Whooping cough pertussis,940.92,12231.96
+474,adm-idn-1674,p-idn-0247,b-idn-6448,r-idn-vvip-4308,cc-idn-1,2018-04-06,2018-04-09,Herpes vulvovaginitis viral infection of the vagina Herpesviral vulvovaginitis,970.83,2912.49
+475,adm-idn-0714,p-idn-0076,b-idn-1473,r-idn-vvip-2510,cc-idn-2,2012-01-10,2012-01-12,Interstitial cystitis bladder inflammation,940.92,1881.84
+476,adm-idn-8029,p-idn-0050,b-idn-5549,r-idn-vvip-0845,cc-idn-2,2016-11-25,2016-12-04,Muscle strain pulled muscle,940.92,8468.28
+477,adm-idn-6652,p-idn-0061,b-idn-9964,r-idn-i-7117,cc-idn-1,2019-03-16,2019-04-01,AC joint separation acromioclavicular joint separation closed separation of acromioclavicular joint,359.31,5748.96
+478,adm-idn-7281,p-idn-0927,b-idn-7730,r-idn-ii-1227,cc-idn-1,2012-02-28,2012-03-06,Nasal fracture broken nose,195.46,1368.22
+479,adm-idn-2884,p-idn-0211,b-idn-0742,r-idn-vvip-7650,cc-idn-1,2019-09-01,2019-09-05,Meconium aspiration newborn respiratory problem,970.83,3883.32
+480,adm-idn-7957,p-idn-0412,b-idn-0282,r-idn-ii-6103,cc-idn-2,2022-03-17,2022-04-19,Rheumatoid arthritis type of chronic joint inflammation,240.15,7924.95
+481,adm-idn-9788,p-idn-0145,b-idn-6920,r-idn-ii-5799,cc-idn-1,2016-11-21,2016-12-04,Stress headache tension headache,195.46,2540.98
+482,adm-idn-7334,p-idn-0336,b-idn-7733,r-idn-iii-3000,cc-idn-1,2015-05-14,2015-05-24,Scar,94.5,945.0
+483,adm-idn-4630,p-idn-0273,b-idn-0663,r-idn-i-6180,cc-idn-1,2019-08-15,2019-08-20,Neuroblastoma,359.31,1796.55
+484,adm-idn-2198,p-idn-0217,b-idn-1216,r-idn-i-1417,cc-idn-1,2020-04-27,2020-05-28,Depression excessive sadness,359.31,11138.61
+485,adm-idn-4690,p-idn-0808,b-idn-9242,r-idn-vip-9617,cc-idn-2,2022-10-27,2022-11-16,Interstitial lung disease chronic scarring of the lung,627.13,12542.6
+486,adm-idn-7904,p-idn-0948,b-idn-6836,r-idn-ii-1705,cc-idn-1,2020-12-28,2021-01-03,Reyes syndrome rare liver and brain swelling,195.46,1172.76
+487,adm-idn-2766,p-idn-0189,b-idn-2745,r-idn-ii-9740,cc-idn-2,2014-02-19,2014-03-03,Puncture wound of mouth,240.15,2881.8
+488,adm-idn-7593,p-idn-0419,b-idn-1973,r-idn-vip-9617,cc-idn-2,2020-01-16,2020-02-08,Febrile fever illness,627.13,14423.99
+489,adm-idn-5581,p-idn-0927,b-idn-0949,r-idn-vvip-0269,cc-idn-2,2014-05-24,2014-05-26,Narcolepsy uncontrollable sleeping,940.92,1881.84
+491,adm-idn-1269,p-idn-0900,b-idn-9810,r-idn-ii-0536,cc-idn-2,2016-11-15,2016-12-09,Ovarian cyst female organ fluid collection,240.15,5763.6
+492,adm-idn-4615,p-idn-0136,b-idn-3086,r-idn-iii-5720,cc-idn-1,2018-08-16,2018-08-28,Intravenous drug abuse IVDA,94.5,1134.0
+493,adm-idn-3465,p-idn-0737,b-idn-0367,r-idn-vip-4229,cc-idn-1,2012-02-26,2012-03-09,Anxiety disorder generalized anxiety disorder GAD,615.4,7384.8
+494,adm-idn-3857,p-idn-0420,b-idn-4422,r-idn-vvip-7803,cc-idn-2,2012-06-04,2012-06-18,Erysipelas bacterial skin infection,940.92,13172.88
+495,adm-idn-9891,p-idn-0021,b-idn-5296,r-idn-vvip-2661,cc-idn-2,2018-10-28,2018-11-25,Intestinal ischemia decreased intestinal blood flow,940.92,26345.76
+496,adm-idn-1407,p-idn-0425,b-idn-0735,r-idn-iii-3521,cc-idn-1,2013-11-19,2013-11-24,Rib fracture broken bone,94.5,472.5
+498,adm-idn-2297,p-idn-0680,b-idn-7165,r-idn-ii-5795,cc-idn-1,2021-10-26,2021-11-04,Cervical myelopathy spinal cord compression,195.46,1759.14
+499,adm-idn-1959,p-idn-0105,b-idn-9555,r-idn-vvip-3616,cc-idn-2,2016-02-18,2016-03-03,Aphakia,940.92,13172.88
+500,adm-idn-0929,p-idn-0085,b-idn-6321,r-idn-vip-7211,cc-idn-2,2014-06-07,2014-07-08,Ingrown nail onychocryptosis,627.13,19441.03
+501,adm-idn-8255,p-idn-0419,b-idn-2982,r-idn-ii-6805,cc-idn-2,2016-02-01,2016-02-09,Achilles tendon rupture (heel tendon tear),240.15,1921.2
+502,adm-idn-3112,p-idn-0940,b-idn-8853,r-idn-i-8397,cc-idn-1,2020-01-21,2020-01-30,Methyl alcohol intoxication methanol,359.31,3233.79
+503,adm-idn-5809,p-idn-0435,b-idn-0742,r-idn-iii-7884,cc-idn-2,2014-12-10,2014-12-31,Polycythemia vera increased number of red blood cells,115.65,2428.65
+504,adm-idn-8534,p-idn-0302,b-idn-4603,r-idn-vvip-8077,cc-idn-1,2018-12-22,2019-01-13,"Systemic sclerosis scleroderma, progressive soft tissue hardening",970.83,21358.26
+505,adm-idn-0346,p-idn-0692,b-idn-0282,r-idn-i-2054,cc-idn-1,2017-04-05,2017-05-15,Hypoxia lack of oxygen,359.31,14372.4
+506,adm-idn-0859,p-idn-0808,b-idn-9634,r-idn-i-9192,cc-idn-1,2017-01-18,2017-01-21,Chest trauma injury,359.31,1077.93
+507,adm-idn-4325,p-idn-0415,b-idn-2372,r-idn-i-6489,cc-idn-2,2020-12-02,2020-12-24,Blood vessel headache familial basilar artery migraine headache,315.24,6935.28
+508,adm-idn-7936,p-idn-0241,b-idn-0012,r-idn-vip-7211,cc-idn-2,2018-08-11,2018-08-17,Cervical spine stenosis narrowing of spinal canal,627.13,3762.78
+509,adm-idn-2575,p-idn-0210,b-idn-6951,r-idn-iii-4334,cc-idn-2,2018-07-17,2018-08-12,Mallory Weiss syndrome esophageal tear,115.65,3006.9
+510,adm-idn-3587,p-idn-0686,b-idn-8636,r-idn-i-7226,cc-idn-2,2018-08-14,2018-08-29,Varicocele testicular vein enlargement,315.24,4728.6
+511,adm-idn-4684,p-idn-0948,b-idn-4877,r-idn-i-9737,cc-idn-1,2021-10-14,2021-10-22,Strabismus crossed eyes,359.31,2874.48
+512,adm-idn-8283,p-idn-0281,b-idn-7789,r-idn-iii-1498,cc-idn-2,2020-01-24,2020-02-06,Epidural hematoma bleeding around brain or spine,115.65,1503.45
+513,adm-idn-4093,p-idn-0064,b-idn-2421,r-idn-i-2054,cc-idn-2,2013-12-22,2014-01-12,Small bowel cancer small intestine,315.24,6620.04
+514,adm-idn-9752,p-idn-0065,b-idn-7625,r-idn-i-7261,cc-idn-2,2021-06-30,2021-07-12,Arnold Chiari malformation,315.24,3782.88
+515,adm-idn-2024,p-idn-0617,b-idn-1863,r-idn-vip-0634,cc-idn-1,2021-09-15,2021-10-06,Bacterial dysentery bacterial infection of the intestines,615.4,12923.4
+516,adm-idn-7921,p-idn-0329,b-idn-0027,r-idn-iii-1460,cc-idn-2,2014-05-18,2014-05-21,Aphakia,115.65,346.95
+517,adm-idn-1652,p-idn-0696,b-idn-5388,r-idn-ii-1227,cc-idn-1,2012-07-19,2012-08-02,Bleeding tendency bleeding disorder,195.46,2736.44
+518,adm-idn-5203,p-idn-0593,b-idn-8000,r-idn-i-5857,cc-idn-1,2020-09-04,2020-09-30,Puncture wound of skin,359.31,9342.06
+519,adm-idn-9301,p-idn-0164,b-idn-1848,r-idn-i-9649,cc-idn-1,2012-12-28,2013-01-10,Pseudogout calcium deposit arthritis,359.31,4671.03
+520,adm-idn-5538,p-idn-0429,b-idn-5509,r-idn-iii-5663,cc-idn-1,2012-05-06,2012-05-27,Epiglottitis severe throat inflammation,94.5,1984.5
+521,adm-idn-5838,p-idn-0828,b-idn-9236,r-idn-iii-8441,cc-idn-2,2020-08-26,2020-08-28,Large cell lung cancer,115.65,231.3
+522,adm-idn-7099,p-idn-0798,b-idn-6714,r-idn-vip-7343,cc-idn-1,2019-04-14,2019-05-05,"Dysthymia depression, dysthymic disorder",615.4,12923.4
+523,adm-idn-7914,p-idn-0414,b-idn-8355,r-idn-ii-1294,cc-idn-2,2018-08-04,2018-08-16,Gestational diabetes diabetes during pregnancy,240.15,2881.8
+524,adm-idn-4474,p-idn-0157,b-idn-5645,r-idn-i-9855,cc-idn-2,2018-07-02,2018-07-06,Rattlesnake pit viper bite,315.24,1260.96
+525,adm-idn-9250,p-idn-0296,b-idn-3117,r-idn-vip-7029,cc-idn-2,2015-10-07,2015-11-02,Cradle cap infant scalp rash,627.13,16305.38
+527,adm-idn-0363,p-idn-0368,b-idn-1473,r-idn-vip-5365,cc-idn-2,2013-12-05,2014-01-08,Malnutrition,627.13,21322.42
+528,adm-idn-3869,p-idn-0812,b-idn-0670,r-idn-ii-3562,cc-idn-2,2013-04-07,2013-05-11,Cluster headache one-sided headache behind the eye,240.15,8165.1
+529,adm-idn-0271,p-idn-0390,b-idn-2735,r-idn-iii-7184,cc-idn-2,2015-10-20,2015-11-12,Vaginal yeast fungal infection,115.65,2659.95
+531,adm-idn-4379,p-idn-0247,b-idn-5854,r-idn-iii-9162,cc-idn-2,2016-07-18,2016-08-06,Scaphoid fracture broken hand bone,115.65,2197.35
+532,adm-idn-8897,p-idn-0459,b-idn-7546,r-idn-vip-1742,cc-idn-2,2017-04-09,2017-05-06,Candida albicans yeast infection,627.13,16932.51
+533,adm-idn-0936,p-idn-0119,b-idn-4921,r-idn-iii-4801,cc-idn-2,2020-10-30,2020-11-15,Hearing loss,115.65,1850.4
+534,adm-idn-3565,p-idn-0668,b-idn-9822,r-idn-vvip-4308,cc-idn-1,2014-10-08,2014-10-10,Neisseria gonorrhea infection sexually transmitted disease,970.83,1941.66
+535,adm-idn-7342,p-idn-0197,b-idn-5416,r-idn-ii-5799,cc-idn-1,2022-06-22,2022-07-15,Tubo ovarian abscess pelvic abscess,195.46,4495.58
+536,adm-idn-9016,p-idn-0926,b-idn-8023,r-idn-ii-6103,cc-idn-1,2020-02-16,2020-02-27,Fragile X syndrome genetic disorder,195.46,2150.06
+537,adm-idn-0430,p-idn-0396,b-idn-5343,r-idn-vip-8264,cc-idn-1,2022-06-08,2022-06-16,Typhoid fever salmonella typhi infection from contaminated food or water,615.4,4923.2
+538,adm-idn-5017,p-idn-0883,b-idn-5322,r-idn-vip-7029,cc-idn-2,2021-05-30,2021-06-05,Herpes stomatitis viral mouth infection,627.13,3762.78
+539,adm-idn-8503,p-idn-0530,b-idn-9238,r-idn-vvip-9507,cc-idn-1,2018-03-28,2018-04-05,Atypical pneumonia lung infection,970.83,7766.64
+540,adm-idn-0648,p-idn-0895,b-idn-9258,r-idn-i-8045,cc-idn-2,2017-11-30,2017-12-27,Magic mushroom ingestion psilocybin,315.24,8511.48
+541,adm-idn-6818,p-idn-0377,b-idn-5017,r-idn-vvip-0845,cc-idn-2,2017-12-16,2018-01-07,Child abuse,940.92,20700.24
+542,adm-idn-0465,p-idn-0427,b-idn-2197,r-idn-vvip-2520,cc-idn-2,2018-12-08,2018-12-10,Strabismus crossed eyes,940.92,1881.84
+543,adm-idn-1158,p-idn-0611,b-idn-5569,r-idn-i-7117,cc-idn-2,2016-09-25,2016-10-05,Pericarditis heart sac inflammation,315.24,3152.4
+544,adm-idn-8062,p-idn-0826,b-idn-9634,r-idn-ii-5799,cc-idn-1,2013-04-04,2013-04-21,Puncture wound of skin,195.46,3322.82
+545,adm-idn-3418,p-idn-0852,b-idn-5680,r-idn-iii-5414,cc-idn-2,2019-03-08,2019-03-29,Orbital mass growth near the eye,115.65,2428.65
+546,adm-idn-1742,p-idn-0973,b-idn-7328,r-idn-vvip-2899,cc-idn-1,2015-12-13,2015-12-25,Pneumothorax collapse of lung,970.83,11649.96
+547,adm-idn-3560,p-idn-0008,b-idn-1204,r-idn-vvip-2510,cc-idn-1,2018-08-01,2018-08-13,Drug withdrawal syndrome,970.83,11649.96
+548,adm-idn-2861,p-idn-0311,b-idn-2982,r-idn-i-7555,cc-idn-1,2012-01-03,2012-01-05,Renal vein thrombosis kidney vein clot,359.31,718.62
+549,adm-idn-9759,p-idn-0056,b-idn-5509,r-idn-iii-5878,cc-idn-2,2016-12-12,2017-01-06,Sarcoidosis inflammatory disease,115.65,2891.25
+550,adm-idn-8081,p-idn-0122,b-idn-6468,r-idn-iii-2918,cc-idn-1,2021-03-27,2021-04-09,Intracranial hemorrhage bleeding in brain,94.5,1228.5
+551,adm-idn-2649,p-idn-0463,b-idn-5205,r-idn-vvip-2872,cc-idn-2,2012-07-29,2012-08-18,Beriberi thiamine vitamin B1 deficiency,940.92,18818.4
+552,adm-idn-4454,p-idn-0827,b-idn-7328,r-idn-iii-5507,cc-idn-1,2022-10-28,2022-11-20,Windshield wiper fluid Methanol poisoning,94.5,2173.5
+553,adm-idn-5912,p-idn-0425,b-idn-1581,r-idn-ii-2326,cc-idn-1,2018-05-04,2018-05-17,Rickettsial infections type of bacterial infection,195.46,2540.98
+554,adm-idn-8680,p-idn-0210,b-idn-8785,r-idn-vvip-2520,cc-idn-2,2020-03-03,2020-03-06,Herpes simplex infection viral infection,940.92,2822.76
+555,adm-idn-6249,p-idn-0158,b-idn-4045,r-idn-i-0493,cc-idn-1,2019-01-02,2019-01-08,"Obsessive compulsive disorder OCD, anxiety disorder",359.31,2155.86
+556,adm-idn-0395,p-idn-0416,b-idn-4921,r-idn-vip-7211,cc-idn-2,2016-04-29,2016-05-23,Transient global amnesia sudden period of short-term memory loss,627.13,15051.12
+557,adm-idn-4652,p-idn-0969,b-idn-9344,r-idn-vip-9724,cc-idn-2,2019-06-16,2019-06-18,Glomerulonephritis kidney disease,627.13,1254.26
+558,adm-idn-8312,p-idn-0185,b-idn-4045,r-idn-vvip-2578,cc-idn-2,2014-05-07,2014-05-09,Jet lag,940.92,1881.84
+559,adm-idn-1066,p-idn-0862,b-idn-7471,r-idn-vvip-6847,cc-idn-1,2020-05-30,2020-07-26,Unisom overdose doxylamine overdose,970.83,55337.31
+560,adm-idn-4165,p-idn-0273,b-idn-4262,r-idn-vip-4753,cc-idn-2,2022-08-08,2022-08-14,Ascites fluid in the abdomen,627.13,3762.78
+561,adm-idn-2325,p-idn-0058,b-idn-1279,r-idn-ii-2751,cc-idn-1,2022-02-11,2022-02-18,Panic disorder,195.46,1368.22
+562,adm-idn-6105,p-idn-0507,b-idn-8971,r-idn-iii-1271,cc-idn-2,2018-02-09,2018-02-22,Vocal cord nodule growth on the vocal cords,115.65,1503.45
+563,adm-idn-3119,p-idn-0798,b-idn-3117,r-idn-iii-4334,cc-idn-2,2016-12-18,2017-01-05,Generalized seizure disorder generalized epilepsy,115.65,2081.7
+564,adm-idn-3549,p-idn-0179,b-idn-2479,r-idn-i-2385,cc-idn-1,2012-03-11,2012-03-28,Malnutrition,359.31,6108.27
+565,adm-idn-7805,p-idn-0185,b-idn-7165,r-idn-vip-3445,cc-idn-1,2013-04-20,2013-05-02,Peritonsillar abscess collection of pus around tonsils,615.4,7384.8
+566,adm-idn-1770,p-idn-0368,b-idn-2074,r-idn-iii-0999,cc-idn-2,2018-08-29,2018-09-21,Barrett's esophagus esophagus inflammation,115.65,2659.95
+567,adm-idn-8140,p-idn-0737,b-idn-0743,r-idn-i-4462,cc-idn-1,2014-02-02,2014-02-12,Serum sickness abnormal immune system response,359.31,3593.1
+568,adm-idn-7020,p-idn-0463,b-idn-0033,r-idn-i-6180,cc-idn-2,2020-11-16,2020-11-30,Interstitial cystitis bladder inflammation,315.24,4413.36
+569,adm-idn-1333,p-idn-0468,b-idn-6818,r-idn-vip-8565,cc-idn-1,2018-10-15,2018-11-10,Early menopause premature ovarian failure,615.4,16000.4
+570,adm-idn-5641,p-idn-0177,b-idn-8460,r-idn-iii-6986,cc-idn-1,2015-07-27,2015-08-09,Body lice,94.5,1228.5
+571,adm-idn-7935,p-idn-0302,b-idn-2116,r-idn-iii-5414,cc-idn-2,2014-09-29,2014-10-06,Puncture wound of ankle,115.65,809.55
+572,adm-idn-3386,p-idn-0248,b-idn-6629,r-idn-ii-1294,cc-idn-1,2016-08-04,2016-09-01,Humerus fracture broken upper arm,195.46,5472.88
+573,adm-idn-7648,p-idn-0409,b-idn-1982,r-idn-vip-2071,cc-idn-1,2012-11-04,2012-12-01,Amphetamine abuse,615.4,16615.8
+574,adm-idn-9127,p-idn-0889,b-idn-6949,r-idn-i-3503,cc-idn-1,2012-09-03,2012-09-25,Antidepressant overdose,359.31,7904.82
+575,adm-idn-9287,p-idn-0536,b-idn-6171,r-idn-vvip-4831,cc-idn-1,2013-07-29,2013-08-23,Neck trauma injury,970.83,24270.75
+576,adm-idn-7237,p-idn-0118,b-idn-3157,r-idn-i-6924,cc-idn-2,2020-12-22,2021-01-21,Morton's neuroma,315.24,9457.2
+577,adm-idn-0537,p-idn-0459,b-idn-1581,r-idn-i-2054,cc-idn-1,2019-08-30,2019-09-19,Ear laceration cut on the ear,359.31,7186.2
+578,adm-idn-4629,p-idn-0015,b-idn-1211,r-idn-iii-1460,cc-idn-2,2017-11-12,2017-11-17,Atypical pneumonia lung infection,115.65,578.25
+579,adm-idn-4807,p-idn-0659,b-idn-8976,r-idn-i-6180,cc-idn-1,2012-06-08,2012-07-03,Nasal cancer tumor,359.31,8982.75
+580,adm-idn-4023,p-idn-0179,b-idn-5684,r-idn-vvip-4831,cc-idn-1,2017-12-03,2017-12-07,Sickle cell crisis complication of sickle cell disease,970.83,3883.32
+581,adm-idn-0262,p-idn-0060,b-idn-4671,r-idn-ii-6103,cc-idn-2,2022-01-16,2022-01-23,Sepsis serious blood infection,240.15,1681.05
+582,adm-idn-3821,p-idn-0852,b-idn-3725,r-idn-iii-4801,cc-idn-1,2015-06-07,2015-06-15,Infection,94.5,756.0
+583,adm-idn-8128,p-idn-0696,b-idn-8033,r-idn-i-2385,cc-idn-2,2017-08-24,2017-09-05,Common cold upper respiratory infection,315.24,3782.88
+584,adm-idn-7254,p-idn-0466,b-idn-2972,r-idn-ii-4598,cc-idn-1,2016-03-07,2016-03-11,Swimmer's itch cercarial dermatitis,195.46,781.84
+585,adm-idn-4565,p-idn-0335,b-idn-8832,r-idn-i-5857,cc-idn-1,2021-10-08,2021-10-23,Neisseria gonorrhea infection sexually transmitted disease,359.31,5389.65
+586,adm-idn-3505,p-idn-0284,b-idn-1848,r-idn-vvip-2510,cc-idn-1,2017-01-08,2017-02-03,Diabetes mellitus type 1 elevated blood sugar,970.83,25241.58
+587,adm-idn-4868,p-idn-0962,b-idn-9620,r-idn-i-0636,cc-idn-2,2020-10-24,2020-10-28,Head injury in children Non-accidental traumatic head injury to child,315.24,1260.96
+588,adm-idn-2071,p-idn-0351,b-idn-6776,r-idn-ii-9148,cc-idn-2,2022-07-31,2022-08-27,Nail avulsion traumatic removal of nail,240.15,6484.05
+591,adm-idn-7129,p-idn-0600,b-idn-2471,r-idn-vip-7029,cc-idn-2,2017-06-16,2017-07-02,Skin tags acrochordons,627.13,10034.08
+592,adm-idn-6336,p-idn-0459,b-idn-8850,r-idn-ii-2386,cc-idn-1,2017-04-29,2017-05-11,Cavernous sinus tumor head vein cancer,195.46,2345.52
+593,adm-idn-9313,p-idn-0454,b-idn-1973,r-idn-ii-4195,cc-idn-1,2016-07-07,2016-08-05,Sclerosing cholangitis progressive bile duct disease ,195.46,5668.34
+594,adm-idn-1672,p-idn-0061,b-idn-3007,r-idn-vvip-4621,cc-idn-1,2013-09-27,2013-10-12,Shock severe low blood pressure,970.83,14562.45
+595,adm-idn-2287,p-idn-0217,b-idn-6399,r-idn-ii-1227,cc-idn-2,2014-09-01,2014-09-27,Peripheral nerve transection nerve injury,240.15,6243.9
+596,adm-idn-4997,p-idn-0537,b-idn-5093,r-idn-iii-4317,cc-idn-1,2017-04-13,2017-04-17,Toxic shock syndrome life-threatening bacterial infection complication,94.5,378.0
+598,adm-idn-9104,p-idn-0804,b-idn-8355,r-idn-iii-2918,cc-idn-2,2020-08-19,2020-09-15,Orbital mass growth near the eye,115.65,3122.55
+599,adm-idn-3745,p-idn-0836,b-idn-3898,r-idn-iii-4334,cc-idn-2,2022-10-18,2022-10-21,Cancer tumor,115.65,346.95
+600,adm-idn-2003,p-idn-0217,b-idn-9102,r-idn-ii-5318,cc-idn-2,2015-12-20,2015-12-24,Sea lice bite,240.15,960.6
+601,adm-idn-0092,p-idn-0605,b-idn-6818,r-idn-vip-3635,cc-idn-2,2015-12-24,2016-01-05,Bone cancer bone tumor,627.13,7525.56
+605,adm-idn-4957,p-idn-0177,b-idn-2421,r-idn-vip-1990,cc-idn-1,2018-09-29,2018-11-07,Alcoholism,615.4,24000.6
+606,adm-idn-8869,p-idn-0398,b-idn-4760,r-idn-i-7887,cc-idn-1,2020-01-04,2020-02-06,Mouth cancer oropharyngeal cancer,359.31,11857.23
+608,adm-idn-8179,p-idn-0768,b-idn-5360,r-idn-iii-4334,cc-idn-1,2014-05-30,2014-06-05,Vaccination,94.5,567.0
+609,adm-idn-7596,p-idn-0537,b-idn-2431,r-idn-i-1452,cc-idn-2,2018-11-08,2018-12-01,Nasal trauma nose injury,315.24,7250.52
+610,adm-idn-5224,p-idn-0264,b-idn-4849,r-idn-vip-7063,cc-idn-1,2017-12-31,2018-01-24,"Myasthenia gravis autoimmune disease of the nerves, muscles",615.4,14769.6
+611,adm-idn-6776,p-idn-0348,b-idn-8031,r-idn-ii-2326,cc-idn-1,2014-12-06,2014-12-12,Puncture wound of hand,195.46,1172.76
+612,adm-idn-8166,p-idn-0171,b-idn-8563,r-idn-i-8397,cc-idn-2,2022-10-08,2022-10-28,Pericarditis heart sac inflammation,315.24,6304.8
+613,adm-idn-3483,p-idn-0887,b-idn-7347,r-idn-vvip-6869,cc-idn-1,2016-02-18,2016-02-23,Enlarged lymph nodes lymphadenopathy,970.83,4854.15
+614,adm-idn-0307,p-idn-0948,b-idn-9634,r-idn-i-4462,cc-idn-2,2022-07-20,2022-08-03,Hyperventilation rapid breathing,315.24,4413.36
+616,adm-idn-6001,p-idn-0316,b-idn-9236,r-idn-iii-3376,cc-idn-2,2016-10-31,2016-11-05,Insulin overdose,115.65,578.25
+617,adm-idn-3017,p-idn-0217,b-idn-3840,r-idn-vip-9745,cc-idn-1,2016-11-01,2016-11-13,"Lupus systemic lupus erythematosus, SLE",615.4,7384.8
+618,adm-idn-9963,p-idn-0858,b-idn-7793,r-idn-ii-8139,cc-idn-1,2020-03-30,2020-04-01,Raynaud's disease blood vessel constriction,195.46,390.92
+619,adm-idn-5448,p-idn-0200,b-idn-5538,r-idn-vvip-2578,cc-idn-1,2017-02-05,2017-03-10,Anticholinergic drug overdose,970.83,32037.39
+620,adm-idn-5395,p-idn-0915,b-idn-3141,r-idn-iii-3376,cc-idn-2,2021-07-20,2021-08-20,Dog bite,115.65,3585.15
+621,adm-idn-1464,p-idn-0131,b-idn-4830,r-idn-ii-7624,cc-idn-2,2022-10-24,2022-10-27,Esophagitis esophageal inflammation,240.15,720.45
+622,adm-idn-5898,p-idn-0484,b-idn-4760,r-idn-vip-9724,cc-idn-1,2022-01-14,2022-01-27,Anorectal abscess (perirectal) abscess,615.4,8000.2
+623,adm-idn-4810,p-idn-0386,b-idn-8080,r-idn-iii-5720,cc-idn-2,2016-10-08,2016-10-17,Turner syndrome gonadal dysgenesis,115.65,1040.85
+624,adm-idn-9435,p-idn-0940,b-idn-9964,r-idn-iii-1707,cc-idn-2,2021-11-02,2021-11-17,Scar,115.65,1734.75
+625,adm-idn-7523,p-idn-0247,b-idn-6311,r-idn-vvip-8874,cc-idn-1,2017-10-04,2017-10-14,Enlarged lymph nodes lymphadenopathy,970.83,9708.3
+626,adm-idn-9995,p-idn-0768,b-idn-6550,r-idn-vip-2145,cc-idn-2,2012-07-09,2012-07-12,Inflammatory conditions,627.13,1881.39
+627,adm-idn-7153,p-idn-0940,b-idn-3039,r-idn-vvip-8077,cc-idn-1,2018-06-27,2018-07-01,Colic prolonged infant crying episodes,970.83,3883.32
+628,adm-idn-8099,p-idn-0902,b-idn-5819,r-idn-vip-5365,cc-idn-2,2022-08-05,2022-08-14,Rotavirus infection intestinal viral infection,627.13,5644.17
+629,adm-idn-9441,p-idn-0203,b-idn-2934,r-idn-vvip-8927,cc-idn-2,2018-07-24,2018-08-14,Viral infections,940.92,19759.32
+630,adm-idn-2226,p-idn-0110,b-idn-9370,r-idn-vip-9617,cc-idn-1,2021-07-15,2021-07-27,Stress headache tension headache,615.4,7384.8
+631,adm-idn-5318,p-idn-0613,b-idn-0968,r-idn-ii-6805,cc-idn-2,2019-03-31,2019-04-05,Rotavirus infection intestinal viral infection,240.15,1200.75
+632,adm-idn-3829,p-idn-0311,b-idn-8296,r-idn-ii-9459,cc-idn-2,2020-03-13,2020-04-05,"Respiratory syncytial virus RSV, pediatric respiratory infection",240.15,5523.45
+633,adm-idn-3065,p-idn-0529,b-idn-9620,r-idn-vvip-0036,cc-idn-2,2016-10-26,2016-11-29,Hot tub follicullitis hair follicle infection Pustular folliculitis,940.92,31991.28
+634,adm-idn-6780,p-idn-0862,b-idn-6934,r-idn-iii-6268,cc-idn-1,2020-10-09,2020-10-23,Placenta previa placenta covers cervix,94.5,1323.0
+635,adm-idn-7519,p-idn-0624,b-idn-9041,r-idn-ii-0536,cc-idn-2,2018-12-09,2019-01-13,Kawasaki disease pediatric blood vessel disease,240.15,8405.25
+636,adm-idn-5551,p-idn-0420,b-idn-6920,r-idn-vvip-3669,cc-idn-2,2012-06-22,2012-07-01,"Pneumocystis pneumonia PCP, fungal lung infection",940.92,8468.28
+637,adm-idn-8473,p-idn-0386,b-idn-1829,r-idn-i-9855,cc-idn-2,2020-12-06,2020-12-11,Hyperkalemia elevated potassium level,315.24,1576.2
+638,adm-idn-2436,p-idn-0667,b-idn-5996,r-idn-ii-3200,cc-idn-2,2018-11-19,2018-11-29,"Esophageal web Schatzki's ring, constriction of esophagus",240.15,2401.5
+639,adm-idn-0027,p-idn-0450,b-idn-1216,r-idn-ii-6542,cc-idn-2,2014-05-28,2014-07-08,Breast fat necrosis dead breast fat,240.15,9846.15
+640,adm-idn-4349,p-idn-0544,b-idn-1640,r-idn-vip-0634,cc-idn-1,2017-08-01,2017-08-10,Orbital fracture broken bone near the eye,615.4,5538.6
+641,adm-idn-2074,p-idn-0999,b-idn-0636,r-idn-vvip-9744,cc-idn-1,2022-02-08,2022-02-10,Morton's neuroma,970.83,1941.66
+642,adm-idn-4784,p-idn-0739,b-idn-6625,r-idn-i-0493,cc-idn-1,2016-09-15,2016-10-08,Amphetamine abuse,359.31,8264.13
+643,adm-idn-2355,p-idn-0917,b-idn-1335,r-idn-vip-9745,cc-idn-2,2017-12-11,2018-01-06,Rotator cuff syndrome shoulder injury,627.13,16305.38
+644,adm-idn-3415,p-idn-0466,b-idn-0251,r-idn-i-4462,cc-idn-2,2018-05-19,2018-06-12,Cavernous sinus thrombosis head vein blood clot,315.24,7565.76
+645,adm-idn-5755,p-idn-0316,b-idn-1211,r-idn-ii-5795,cc-idn-2,2019-03-30,2019-04-14,Arm laceration skin cut,240.15,3602.25
+646,adm-idn-9339,p-idn-0471,b-idn-4943,r-idn-iii-9731,cc-idn-1,2014-01-09,2014-01-16,Sjogren's syndrome dry eyes and mouth,94.5,661.5
+647,adm-idn-7113,p-idn-0087,b-idn-2782,r-idn-vip-8565,cc-idn-1,2021-11-12,2021-12-12,Phobias irrational fear,615.4,18462.0
+648,adm-idn-0377,p-idn-0228,b-idn-3105,r-idn-i-6924,cc-idn-1,2015-02-09,2015-02-13,Food poisoning,359.31,1437.24
+649,adm-idn-1691,p-idn-0828,b-idn-2919,r-idn-i-9345,cc-idn-2,2014-02-15,2014-03-11,Depression excessive sadness,315.24,7565.76
+650,adm-idn-6991,p-idn-0849,b-idn-1829,r-idn-ii-4195,cc-idn-1,2014-01-10,2014-01-23,Atopic dermatitis eczema,195.46,2540.98
+651,adm-idn-9373,p-idn-0248,b-idn-6318,r-idn-vvip-0269,cc-idn-1,2013-05-23,2013-06-04,"Amyotrophic lateral sclerosis ALS, Lou Gehrig's disease",970.83,11649.96
+652,adm-idn-7499,p-idn-0868,b-idn-0477,r-idn-i-8372,cc-idn-2,2019-12-10,2019-12-22,Major depressive disorder severe depression,315.24,3782.88
+654,adm-idn-3982,p-idn-0749,b-idn-6059,r-idn-vvip-3616,cc-idn-1,2015-05-29,2015-06-20,Lewy body dementia common type of dementia,970.83,21358.26
+655,adm-idn-4829,p-idn-0390,b-idn-6481,r-idn-vvip-2740,cc-idn-2,2014-12-02,2014-12-15,Bacterial infection,940.92,12231.96
+656,adm-idn-5497,p-idn-0617,b-idn-7694,r-idn-iii-9731,cc-idn-1,2013-01-18,2013-02-26,Atopic dermatitis eczema,94.5,3685.5
+657,adm-idn-2545,p-idn-0847,b-idn-2043,r-idn-vvip-7803,cc-idn-1,2021-07-04,2021-08-07,Overdose,970.83,33008.22
+658,adm-idn-9918,p-idn-0357,b-idn-8571,r-idn-i-9192,cc-idn-2,2021-05-14,2021-06-23,"Lupus systemic lupus erythematosus, SLE",315.24,12609.6
+659,adm-idn-6124,p-idn-0247,b-idn-2694,r-idn-i-7261,cc-idn-1,2020-03-20,2020-04-13,Bronchiolitis bronchial tube inflammation,359.31,8623.44
+660,adm-idn-3573,p-idn-0790,b-idn-6835,r-idn-i-6924,cc-idn-1,2019-09-25,2019-10-12,Slipped capital femoral epiphysis adolescent hip disorder,359.31,6108.27
+661,adm-idn-0595,p-idn-0600,b-idn-5990,r-idn-vip-9745,cc-idn-1,2022-11-12,2022-11-24,Coarctation of aorta narrowing of the aorta,615.4,7384.8
+662,adm-idn-0059,p-idn-0485,b-idn-0543,r-idn-vvip-8927,cc-idn-1,2022-01-28,2022-02-04,Prostate cancer male anatomy cancer,970.83,6795.81
+663,adm-idn-9979,p-idn-0896,b-idn-6148,r-idn-ii-2751,cc-idn-1,2017-03-12,2017-03-27,"Bladder infection cystitis, UTI, urinary tract infection",195.46,2931.9
+664,adm-idn-3516,p-idn-0315,b-idn-9634,r-idn-iii-5028,cc-idn-1,2013-03-21,2013-03-30,Vaccination,94.5,850.5
+665,adm-idn-6297,p-idn-0613,b-idn-7553,r-idn-ii-4655,cc-idn-1,2018-09-26,2018-10-14,Symptomatic dermatographism exaggerated skin response to pressure,195.46,3518.28
+666,adm-idn-4859,p-idn-0692,b-idn-9006,r-idn-iii-9660,cc-idn-2,2013-09-10,2013-09-16,Non venomous snake bite,115.65,693.9
+667,adm-idn-7031,p-idn-0284,b-idn-0976,r-idn-i-7887,cc-idn-1,2017-09-12,2017-10-12,"Puncture wound, leg Puncture wound of leg",359.31,10779.3
+668,adm-idn-2657,p-idn-0082,b-idn-4276,r-idn-ii-0964,cc-idn-2,2020-05-26,2020-06-16,"Herniated disc slipped disc, ruptured disc",240.15,5043.15
+669,adm-idn-0254,p-idn-0415,b-idn-5124,r-idn-iii-9162,cc-idn-1,2019-07-10,2019-07-21,Cardiomegaly enlarged heart,94.5,1039.5
+670,adm-idn-7387,p-idn-0082,b-idn-6273,r-idn-vip-9665,cc-idn-2,2019-10-19,2019-11-07,Aseptic necrosis of bone bone death and destruction,627.13,11915.47
+671,adm-idn-4090,p-idn-0507,b-idn-5205,r-idn-vvip-0376,cc-idn-1,2021-11-02,2021-11-08,Empyema collection of pus in chest,970.83,5824.98
+672,adm-idn-3015,p-idn-0056,b-idn-7471,r-idn-ii-9459,cc-idn-1,2016-12-18,2016-12-27,Medication reaction,195.46,1759.14
+673,adm-idn-4910,p-idn-0184,b-idn-1778,r-idn-i-8045,cc-idn-2,2021-05-04,2021-06-04,Major depressive disorder severe depression,315.24,9772.44
+674,adm-idn-2460,p-idn-0828,b-idn-6904,r-idn-i-3164,cc-idn-2,2021-09-02,2021-09-08,Dental eruption appearance of new tooth,315.24,1891.44
+675,adm-idn-4935,p-idn-0089,b-idn-1106,r-idn-vip-0356,cc-idn-1,2012-10-09,2012-11-04,Head injury,615.4,16000.4
+676,adm-idn-6492,p-idn-0098,b-idn-5996,r-idn-iii-2936,cc-idn-2,2021-09-10,2021-09-14,Miller Fisher Syndrome rare nerve disease,115.65,462.6
+677,adm-idn-4830,p-idn-0896,b-idn-8563,r-idn-i-9192,cc-idn-1,2014-07-11,2014-07-30,Restless legs syndrome nervous system disorder,359.31,6826.89
+678,adm-idn-3393,p-idn-0029,b-idn-1805,r-idn-i-3531,cc-idn-2,2013-03-08,2013-03-23,Bipolar disorder manic depressive disorder,315.24,4728.6
+679,adm-idn-3053,p-idn-0616,b-idn-3225,r-idn-vvip-4831,cc-idn-1,2012-06-02,2012-06-15,Fracture broken bone,970.83,12620.79
+680,adm-idn-8956,p-idn-0999,b-idn-5956,r-idn-ii-8139,cc-idn-1,2019-09-21,2019-11-03,Diabetic retinopathy diabetic eye disease,195.46,8404.78
+682,adm-idn-1429,p-idn-0605,b-idn-9242,r-idn-iii-1271,cc-idn-1,2013-06-05,2013-06-10,Narcolepsy uncontrollable sleeping,94.5,472.5
+683,adm-idn-2542,p-idn-0779,b-idn-5839,r-idn-vip-1066,cc-idn-1,2017-05-25,2017-06-13,Heat exhaustion,615.4,11692.6
+684,adm-idn-2669,p-idn-0492,b-idn-4428,r-idn-i-9401,cc-idn-2,2012-04-10,2012-04-18,Pesticide poisoning organophosphate poisoning,315.24,2521.92
+685,adm-idn-2998,p-idn-0394,b-idn-5839,r-idn-iii-3376,cc-idn-2,2021-10-07,2021-11-09,Thyroid cancer neck gland cancer,115.65,3816.45
+686,adm-idn-8284,p-idn-0302,b-idn-4428,r-idn-i-8016,cc-idn-1,2012-08-05,2012-09-27,Failure to thrive - adult failure to thrive,359.31,19043.43
+687,adm-idn-5791,p-idn-0970,b-idn-5143,r-idn-vip-6476,cc-idn-1,2021-04-08,2021-05-12,Parkinson's disease movement disorder,615.4,20923.6
+688,adm-idn-1631,p-idn-0926,b-idn-6448,r-idn-ii-0536,cc-idn-2,2021-06-05,2021-06-16,Normal menstruation,240.15,2641.65
+690,adm-idn-9398,p-idn-0485,b-idn-7546,r-idn-vip-7211,cc-idn-1,2020-12-02,2020-12-14,"Infectious mononucleosis Epstein Barr virus, ""Mono""",615.4,7384.8
+691,adm-idn-7019,p-idn-0215,b-idn-3692,r-idn-i-9295,cc-idn-2,2013-09-01,2013-10-04,Urethritis infection of urethra,315.24,10402.92
+692,adm-idn-3987,p-idn-0374,b-idn-6714,r-idn-i-9192,cc-idn-1,2013-07-24,2013-08-11,Foot sprain,359.31,6467.58
+693,adm-idn-4376,p-idn-0990,b-idn-9379,r-idn-i-9401,cc-idn-1,2017-11-28,2017-12-24,Male pattern hair loss hereditary-patterned baldness Androgenic alopecia,359.31,9342.06
+694,adm-idn-4768,p-idn-0471,b-idn-3423,r-idn-vip-1066,cc-idn-1,2019-06-09,2019-06-17,"Polymyalgia rheumatica PMR, muscle and joint disorder",615.4,4923.2
+695,adm-idn-5325,p-idn-0433,b-idn-1805,r-idn-vvip-8925,cc-idn-2,2021-05-09,2021-05-26,Near drowning,940.92,15995.64
+696,adm-idn-4738,p-idn-0737,b-idn-3196,r-idn-i-6489,cc-idn-1,2013-09-26,2013-11-09,Sunburn,359.31,15809.64
+697,adm-idn-3263,p-idn-0749,b-idn-5932,r-idn-ii-4655,cc-idn-2,2016-12-18,2016-12-23,Rhinitis nasal inflammation,240.15,1200.75
+698,adm-idn-3871,p-idn-0577,b-idn-8060,r-idn-i-6180,cc-idn-1,2012-01-24,2012-03-09,Wilms' Tumor,359.31,16168.95
+699,adm-idn-3906,p-idn-0196,b-idn-6955,r-idn-iii-2918,cc-idn-2,2022-05-28,2022-06-19,Esophageal achalasia swallowing disease,115.65,2544.3
+701,adm-idn-2638,p-idn-0548,b-idn-8141,r-idn-ii-0536,cc-idn-1,2012-05-18,2012-06-09,Esophageal cyst,195.46,4300.12
+702,adm-idn-0393,p-idn-0265,b-idn-7676,r-idn-i-8372,cc-idn-2,2019-10-07,2019-10-27,Tonsillitis tonsil infection,315.24,6304.8
+703,adm-idn-6855,p-idn-0435,b-idn-7680,r-idn-vip-1066,cc-idn-1,2015-02-02,2015-02-06,"Esophageal web Schatzki's ring, constriction of esophagus",615.4,2461.6
+704,adm-idn-4220,p-idn-0700,b-idn-5819,r-idn-i-7261,cc-idn-2,2012-11-07,2012-11-10,Focal seizure partial seizure,315.24,945.72
+705,adm-idn-0499,p-idn-0211,b-idn-2837,r-idn-vip-7211,cc-idn-2,2019-02-16,2019-02-27,Alcohol  ethanol abuse,627.13,6898.43
+706,adm-idn-4115,p-idn-0384,b-idn-6481,r-idn-i-8444,cc-idn-2,2013-01-14,2013-01-25,"Warfarin Coumadin, Jantoven overdose",315.24,3467.64
+707,adm-idn-0186,p-idn-0769,b-idn-1757,r-idn-ii-5756,cc-idn-2,2021-03-11,2021-03-21,Chemical burn,240.15,2401.5
+708,adm-idn-7654,p-idn-0085,b-idn-0249,r-idn-i-5830,cc-idn-2,2022-09-28,2022-10-02,"Viral hemorrhagic fevers Ebola, Lassa",315.24,1260.96
+709,adm-idn-5388,p-idn-0508,b-idn-4642,r-idn-i-8372,cc-idn-2,2021-04-28,2021-05-22,Postural hypotension low blood pressure after standing,315.24,7565.76
+710,adm-idn-1544,p-idn-0433,b-idn-4542,r-idn-ii-6615,cc-idn-2,2017-10-01,2017-11-03,Carotid artery dissection neck artery tear,240.15,7924.95
+711,adm-idn-7079,p-idn-0973,b-idn-0282,r-idn-i-5102,cc-idn-2,2016-05-30,2016-06-23,Lead overdose lead poisoning,315.24,7565.76
+713,adm-idn-7692,p-idn-0657,b-idn-1803,r-idn-vvip-0269,cc-idn-2,2013-07-28,2013-08-11,Clostridium difficile C. Diff,940.92,13172.88
+714,adm-idn-2927,p-idn-0529,b-idn-9236,r-idn-vip-3364,cc-idn-1,2012-11-18,2012-12-19,Cerumen impaction ear wax buildup,615.4,19077.4
+715,adm-idn-7639,p-idn-0696,b-idn-0012,r-idn-i-6924,cc-idn-2,2019-10-02,2019-10-07,Hyperkalemia elevated potassium level,315.24,1576.2
+716,adm-idn-9758,p-idn-0696,b-idn-4758,r-idn-iii-6986,cc-idn-1,2020-02-17,2020-03-03,Amphetamine abuse,94.5,1417.5
+717,adm-idn-5021,p-idn-0601,b-idn-0636,r-idn-i-6924,cc-idn-2,2022-05-31,2022-06-12,"Uveitis iritis, eye inflammation",315.24,3782.88
+718,adm-idn-3255,p-idn-0029,b-idn-1530,r-idn-vip-7343,cc-idn-1,2016-04-09,2016-04-11,Dentures,615.4,1230.8
+720,adm-idn-0670,p-idn-0414,b-idn-8785,r-idn-i-6476,cc-idn-1,2018-08-23,2018-09-20,Cavernous sinus aneurysm head vein dilation,359.31,10060.68
+721,adm-idn-8301,p-idn-0843,b-idn-9634,r-idn-iii-3449,cc-idn-1,2012-08-29,2012-09-13,Rib fracture broken bone,94.5,1417.5
+722,adm-idn-5715,p-idn-0471,b-idn-3616,r-idn-vvip-8874,cc-idn-1,2021-05-31,2021-06-17,Tendonitis tendon inflammation,970.83,16504.11
+723,adm-idn-4288,p-idn-0429,b-idn-4005,r-idn-ii-0964,cc-idn-2,2018-10-02,2018-10-17,Brachial plexus injury shoulder nerve injury,240.15,3602.25
+724,adm-idn-5047,p-idn-0284,b-idn-6100,r-idn-i-4343,cc-idn-2,2021-08-16,2021-08-26,Onchocerciasis river blindness,315.24,3152.4
+725,adm-idn-0158,p-idn-0582,b-idn-6281,r-idn-vip-0356,cc-idn-1,2012-03-04,2012-03-24,Achilles tendonitis  (heel tendon inflammation),615.4,12308.0
+726,adm-idn-3262,p-idn-0498,b-idn-1335,r-idn-iii-7884,cc-idn-2,2013-09-24,2013-09-27,Charcot-Marie-Tooth disease,115.65,346.95
+727,adm-idn-5870,p-idn-0331,b-idn-0904,r-idn-ii-4688,cc-idn-2,2016-10-02,2016-10-26,Sun poisoning,240.15,5763.6
+729,adm-idn-0235,p-idn-0281,b-idn-8141,r-idn-ii-8660,cc-idn-2,2018-08-12,2018-08-19,Anemia  (low red blood cell count),240.15,1681.05
+730,adm-idn-3362,p-idn-0085,b-idn-4746,r-idn-ii-3199,cc-idn-1,2012-01-02,2012-02-02,Vaginal atrophy atrophic vaginitis,195.46,6059.26
+731,adm-idn-9888,p-idn-0655,b-idn-0904,r-idn-ii-5318,cc-idn-2,2015-02-28,2015-03-09,Myocardial infarction heart attack,240.15,2161.35
+732,adm-idn-2665,p-idn-0269,b-idn-0477,r-idn-vip-2145,cc-idn-1,2019-01-26,2019-02-07,acetaminophen overdose Adverse reaction to acetaminophen,615.4,7384.8
+733,adm-idn-6882,p-idn-0074,b-idn-2932,r-idn-i-9737,cc-idn-2,2014-09-30,2014-10-20,Fibromuscular dysplasia FMD,315.24,6304.8
+734,adm-idn-3049,p-idn-0896,b-idn-9993,r-idn-iii-7884,cc-idn-2,2021-09-12,2021-10-15,Blood loss,115.65,3816.45
+735,adm-idn-3021,p-idn-0519,b-idn-3657,r-idn-iii-9106,cc-idn-1,2015-08-08,2015-08-28,Acid  LSD abuse,94.5,1890.0
+736,adm-idn-2154,p-idn-0102,b-idn-8984,r-idn-vip-1990,cc-idn-2,2017-04-15,2017-05-08,Gastroparesis stomach muscle malfunction,627.13,14423.99
+737,adm-idn-5412,p-idn-0292,b-idn-2982,r-idn-vvip-4308,cc-idn-1,2015-09-24,2015-10-13,Traveler's diarrhea Montezuma's revenge,970.83,18445.77
+738,adm-idn-0120,p-idn-0591,b-idn-1852,r-idn-vip-2151,cc-idn-2,2013-03-19,2013-04-06,Eustachian tube dysfunction inner ear tube,627.13,11288.34
+739,adm-idn-4923,p-idn-0056,b-idn-5718,r-idn-i-2385,cc-idn-2,2014-05-28,2014-06-05,Dressler syndrome heart sac inflammation following heart attack or heart surgery,315.24,2521.92
+740,adm-idn-4833,p-idn-0937,b-idn-6059,r-idn-i-8497,cc-idn-2,2022-09-19,2022-10-11,Newborn jaundice newborn skin discoloration,315.24,6935.28
+741,adm-idn-3301,p-idn-0512,b-idn-8939,r-idn-iii-9106,cc-idn-1,2020-08-28,2020-09-25,Heat cramps,94.5,2646.0
+742,adm-idn-7929,p-idn-0190,b-idn-6059,r-idn-i-6392,cc-idn-1,2013-01-01,2013-01-06,Secondary dysmenorrhea painful menstruation,359.31,1796.55
+743,adm-idn-4524,p-idn-0904,b-idn-6835,r-idn-ii-4286,cc-idn-2,2021-05-11,2021-05-14,Body lice,240.15,720.45
+744,adm-idn-1317,p-idn-0059,b-idn-3596,r-idn-ii-6615,cc-idn-2,2017-09-02,2017-09-05,Scalp swelling,240.15,720.45
+745,adm-idn-5417,p-idn-0013,b-idn-5296,r-idn-i-7555,cc-idn-1,2013-09-15,2013-09-28,Lipoma benign fatty tumor,359.31,4671.03
+746,adm-idn-1064,p-idn-0894,b-idn-2891,r-idn-vvip-7650,cc-idn-2,2022-01-09,2022-02-02,Finger fracture broken finger,940.92,22582.08
+748,adm-idn-8705,p-idn-0726,b-idn-4262,r-idn-vip-9334,cc-idn-1,2016-11-26,2016-12-07,Skin abscess collection of pus,615.4,6769.4
+749,adm-idn-4131,p-idn-0136,b-idn-0636,r-idn-i-6392,cc-idn-1,2022-07-11,2022-07-20,Bowel obstruction intestinal blockage,359.31,3233.79
+750,adm-idn-9029,p-idn-0172,b-idn-7347,r-idn-ii-6231,cc-idn-1,2015-04-05,2015-05-01,Pyomyositis muscle infection,195.46,5081.96
+751,adm-idn-3883,p-idn-0752,b-idn-7546,r-idn-iii-9887,cc-idn-1,2013-09-02,2013-09-29,Hyperthermia extreme heat exposure,94.5,2551.5
+752,adm-idn-4308,p-idn-0457,b-idn-8060,r-idn-ii-6542,cc-idn-2,2018-10-23,2018-11-16,"Pneumocystis pneumonia PCP, fungal lung infection",240.15,5763.6
+754,adm-idn-6637,p-idn-0185,b-idn-4006,r-idn-vvip-2520,cc-idn-1,2017-08-18,2017-09-07,Night terrors nightmares,970.83,19416.6
+755,adm-idn-1776,p-idn-0412,b-idn-9203,r-idn-ii-5756,cc-idn-1,2012-11-21,2012-11-24,"Obsessive compulsive disorder OCD, anxiety disorder",195.46,586.38
+756,adm-idn-5332,p-idn-0096,b-idn-1581,r-idn-i-1546,cc-idn-1,2017-11-08,2017-11-26,Febrile fever illness,359.31,6467.58
+757,adm-idn-8828,p-idn-0450,b-idn-8939,r-idn-iii-0895,cc-idn-2,2018-10-29,2018-11-19,Cellulitis skin infection,115.65,2428.65
+758,adm-idn-8413,p-idn-0531,b-idn-2431,r-idn-vvip-0893,cc-idn-2,2012-08-10,2012-08-12,Periodontitis gum inflammation,940.92,1881.84
+759,adm-idn-9261,p-idn-0131,b-idn-9041,r-idn-iii-7884,cc-idn-1,2020-07-20,2020-08-30,Ventral hernia bulging of the abdominal wall,94.5,3874.5
+760,adm-idn-3683,p-idn-0979,b-idn-3773,r-idn-i-5299,cc-idn-2,2022-02-13,2022-03-11,"Plague bubonic plague, bacteria yersinia infection",315.24,8196.24
+761,adm-idn-9215,p-idn-0937,b-idn-8832,r-idn-iii-0632,cc-idn-1,2017-05-12,2017-05-23,Breast fat necrosis dead breast fat,94.5,1039.5
+762,adm-idn-3933,p-idn-0283,b-idn-2243,r-idn-vvip-5557,cc-idn-1,2015-10-14,2015-11-06,Macular degeneration chronic eye disease,970.83,22329.09
+763,adm-idn-4478,p-idn-0164,b-idn-7733,r-idn-ii-1294,cc-idn-2,2017-10-14,2017-10-17,Broken leg leg fracture,240.15,720.45
+764,adm-idn-9719,p-idn-0414,b-idn-2110,r-idn-iii-9660,cc-idn-2,2017-02-20,2017-03-14,"Poison ivy poison oak, poison sumac",115.65,2544.3
+766,adm-idn-0102,p-idn-0157,b-idn-4603,r-idn-vip-3635,cc-idn-1,2014-12-01,2014-12-11,Muscle and ligament inflammation enthesopathy,615.4,6154.0
+767,adm-idn-4832,p-idn-0328,b-idn-9344,r-idn-vip-3364,cc-idn-2,2013-01-23,2013-01-31,Finger laceration skin cut,627.13,5017.04
+768,adm-idn-2690,p-idn-0276,b-idn-8760,r-idn-vip-9745,cc-idn-2,2021-05-13,2021-06-05,Asthma,627.13,14423.99
+769,adm-idn-1360,p-idn-0593,b-idn-7471,r-idn-vip-4753,cc-idn-2,2019-11-29,2019-12-07,Keratitis inflammation of cornea,627.13,5017.04
+770,adm-idn-6178,p-idn-0145,b-idn-0735,r-idn-i-6489,cc-idn-2,2018-05-29,2018-06-06,Muscle tear,315.24,2521.92
+771,adm-idn-0977,p-idn-0329,b-idn-3041,r-idn-ii-4195,cc-idn-1,2013-12-22,2013-12-24,Anticholinergic drug overdose,195.46,390.92
+772,adm-idn-9740,p-idn-0871,b-idn-5093,r-idn-vip-9745,cc-idn-2,2012-02-04,2012-02-07,Puncture wound of toe,627.13,1881.39
+773,adm-idn-3954,p-idn-0196,b-idn-4602,r-idn-iii-9106,cc-idn-2,2012-07-30,2012-08-15,Campylobacter infection intestinal bacterial infection,115.65,1850.4
+774,adm-idn-5261,p-idn-0339,b-idn-6272,r-idn-iii-2936,cc-idn-1,2017-08-08,2017-08-11,"Polymyalgia rheumatica PMR, muscle and joint disorder",94.5,283.5
+775,adm-idn-5077,p-idn-0122,b-idn-9344,r-idn-ii-9740,cc-idn-2,2021-01-04,2021-01-23,Benadryl diphenhydramine overdose,240.15,4562.85
+776,adm-idn-7564,p-idn-0433,b-idn-5680,r-idn-vvip-7757,cc-idn-2,2016-07-20,2016-08-11,Neck trauma injury,940.92,20700.24
+777,adm-idn-4834,p-idn-0215,b-idn-8000,r-idn-ii-1705,cc-idn-1,2021-06-30,2021-07-13,Arm swelling,195.46,2540.98
+778,adm-idn-5666,p-idn-0496,b-idn-3677,r-idn-ii-7718,cc-idn-2,2020-10-31,2020-11-06,Body lice,240.15,1440.9
+779,adm-idn-6924,p-idn-0398,b-idn-2984,r-idn-ii-3562,cc-idn-1,2020-08-28,2020-09-02,Puncture wound of lip,195.46,977.3
+780,adm-idn-7838,p-idn-0074,b-idn-4671,r-idn-iii-3449,cc-idn-2,2021-05-04,2021-05-07,Abdominal trauma,115.65,346.95
+781,adm-idn-8815,p-idn-0530,b-idn-1982,r-idn-ii-7158,cc-idn-1,2014-10-24,2014-11-05,Scaphoid fracture broken hand bone,195.46,2345.52
+782,adm-idn-1031,p-idn-0074,b-idn-9736,r-idn-i-4343,cc-idn-2,2019-10-09,2019-10-17,West Nile virus infection mosquito-transmitted illness,315.24,2521.92
+783,adm-idn-3029,p-idn-0177,b-idn-0591,r-idn-vip-4229,cc-idn-1,2012-10-22,2012-11-05,Epidural abscess brain or spine pus collection,615.4,8615.6
+784,adm-idn-9956,p-idn-0883,b-idn-5243,r-idn-iii-4801,cc-idn-2,2014-11-12,2014-12-15,Lead poisoning toxicity,115.65,3816.45
+785,adm-idn-6587,p-idn-0255,b-idn-8197,r-idn-iii-2900,cc-idn-1,2013-08-09,2013-08-29,Sickle cell crisis complication of sickle cell disease,94.5,1890.0
+786,adm-idn-6406,p-idn-0164,b-idn-7366,r-idn-i-6102,cc-idn-2,2021-09-18,2021-09-24,Traumatic brain injury,315.24,1891.44
+787,adm-idn-6900,p-idn-0425,b-idn-5322,r-idn-vip-8171,cc-idn-1,2012-04-14,2012-05-09,Filariasis elephantiasis,615.4,15385.0
+788,adm-idn-3776,p-idn-0828,b-idn-9974,r-idn-vip-2071,cc-idn-1,2018-04-01,2018-04-09,Fibrocystic breasts breast lumpiness,615.4,4923.2
+789,adm-idn-1839,p-idn-0519,b-idn-8636,r-idn-ii-3200,cc-idn-1,2021-07-17,2021-08-04,Sagittal sinus thrombosis venous blood clot in the brain,195.46,3518.28
+790,adm-idn-9955,p-idn-0355,b-idn-6623,r-idn-iii-5402,cc-idn-1,2012-06-01,2012-06-12,"Idiopathic thrombocytopenia purpura ITP, low platelets",94.5,1039.5
+791,adm-idn-9280,p-idn-0969,b-idn-0012,r-idn-vvip-0893,cc-idn-1,2017-02-09,2017-02-21,Renal infarct kidney damage from an area of blocked blood flow,970.83,11649.96
+792,adm-idn-7235,p-idn-0288,b-idn-3130,r-idn-iii-3850,cc-idn-2,2020-12-25,2021-01-22,Vaginal cancer tumor,115.65,3238.2
+793,adm-idn-0790,p-idn-0668,b-idn-6904,r-idn-vvip-0376,cc-idn-1,2020-05-12,2020-05-28,Developmental delay,970.83,15533.28
+794,adm-idn-6772,p-idn-0667,b-idn-0477,r-idn-iii-3521,cc-idn-2,2015-03-19,2015-04-22,Thyroid cyst,115.65,3932.1
+795,adm-idn-7366,p-idn-0616,b-idn-4602,r-idn-vip-9724,cc-idn-1,2022-09-22,2022-10-14,"Multiple pregnancy twins, triplets, etc",615.4,13538.8
+796,adm-idn-5230,p-idn-0352,b-idn-1266,r-idn-ii-6103,cc-idn-1,2013-01-09,2013-01-29,Vaginal cancer tumor,195.46,3909.2
+797,adm-idn-3496,p-idn-0769,b-idn-8426,r-idn-ii-3200,cc-idn-1,2018-02-19,2018-03-01,Ventral hernia bulging of the abdominal wall,195.46,1954.6
+798,adm-idn-4854,p-idn-0537,b-idn-6949,r-idn-i-8397,cc-idn-2,2015-10-15,2015-10-20,Transverse myelitis spinal cord inflammation,315.24,1576.2
+799,adm-idn-5795,p-idn-0253,b-idn-7945,r-idn-iii-4590,cc-idn-2,2015-08-21,2015-08-29,Hair loss alopecia,115.65,925.2
+800,adm-idn-5421,p-idn-0611,b-idn-0012,r-idn-vvip-8874,cc-idn-1,2019-08-26,2019-09-03,Testicular hypofunction,970.83,7766.64
+801,adm-idn-0996,p-idn-0836,b-idn-2116,r-idn-i-6924,cc-idn-2,2013-11-08,2013-12-20,Pancreatic cancer tumor,315.24,13240.08
+802,adm-idn-6621,p-idn-0085,b-idn-5343,r-idn-vip-8565,cc-idn-1,2013-12-15,2014-01-25,Arnold Chiari malformation,615.4,25231.4
+803,adm-idn-4815,p-idn-0145,b-idn-4768,r-idn-vip-1742,cc-idn-2,2019-10-30,2019-11-08,Mallet finger finger tendon rupture,627.13,5644.17
+804,adm-idn-4938,p-idn-0957,b-idn-1473,r-idn-ii-4195,cc-idn-2,2022-08-26,2022-09-09,Male pattern hair loss hereditary-patterned baldness Androgenic alopecia,240.15,3362.1
+805,adm-idn-6667,p-idn-0012,b-idn-9993,r-idn-vip-0356,cc-idn-1,2012-08-14,2012-08-23,"Deep venous thrombosis DVT, venous blood clot",615.4,5538.6
+807,adm-idn-0647,p-idn-0379,b-idn-3870,r-idn-vip-0582,cc-idn-2,2014-09-06,2014-10-11,Bed bugs,627.13,21949.55
+808,adm-idn-7149,p-idn-0836,b-idn-3951,r-idn-vip-5009,cc-idn-2,2019-04-23,2019-05-06,Rectal ulcer,627.13,8152.69
+809,adm-idn-0250,p-idn-0779,b-idn-5571,r-idn-ii-4688,cc-idn-1,2019-11-13,2019-12-07,Self-inflicted injury,195.46,4691.04
+810,adm-idn-8771,p-idn-0983,b-idn-0742,r-idn-ii-9459,cc-idn-1,2019-07-22,2019-08-16,Toxic shock syndrome life-threatening bacterial infection complication,195.46,4886.5
+811,adm-idn-4480,p-idn-0265,b-idn-1266,r-idn-iii-2900,cc-idn-2,2019-03-25,2019-04-25,Anorexia nervosa  (eating disorder),115.65,3585.15
+812,adm-idn-1052,p-idn-0082,b-idn-0909,r-idn-i-6102,cc-idn-2,2020-04-07,2020-05-23,Henoch Schönlein purpura blood vessel inflammation,315.24,14501.04
+813,adm-idn-5754,p-idn-0457,b-idn-7198,r-idn-vip-2740,cc-idn-1,2022-01-08,2022-02-15,Retinopathy,615.4,23385.2
+814,adm-idn-0364,p-idn-0274,b-idn-4417,r-idn-iii-3000,cc-idn-1,2016-05-01,2016-05-18,Bronchial asthma,94.5,1606.5
+815,adm-idn-2314,p-idn-0390,b-idn-9249,r-idn-i-7117,cc-idn-2,2020-06-06,2020-06-28,Carotid artery dissection neck artery tear,315.24,6935.28
+816,adm-idn-1000,p-idn-0715,b-idn-9379,r-idn-i-7261,cc-idn-1,2013-02-14,2013-02-27,Polyarteritis Nodosa PAN,359.31,4671.03
+817,adm-idn-6448,p-idn-0726,b-idn-8114,r-idn-i-3164,cc-idn-1,2016-04-09,2016-04-24,Dengue fever tropical mosquito borne illness,359.31,5389.65
+818,adm-idn-6230,p-idn-0692,b-idn-0251,r-idn-vvip-8927,cc-idn-2,2018-04-23,2018-05-21,Mycoplasma infection bacteria,940.92,26345.76
+819,adm-idn-7353,p-idn-0798,b-idn-9633,r-idn-vip-0582,cc-idn-2,2018-07-27,2018-08-06,Night terrors nightmares,627.13,6271.3
+820,adm-idn-7114,p-idn-0686,b-idn-8500,r-idn-vip-9334,cc-idn-2,2015-03-23,2015-04-26,Dressler syndrome heart sac inflammation following heart attack or heart surgery,627.13,21322.42
+821,adm-idn-9761,p-idn-0808,b-idn-9896,r-idn-iii-5402,cc-idn-1,2013-10-04,2013-11-20,Thrombocytopenia low platelet count,94.5,4441.5
+822,adm-idn-3670,p-idn-0059,b-idn-2729,r-idn-ii-1227,cc-idn-1,2021-03-11,2021-04-01,Aplastic anemia bone marrow failure,195.46,4104.66
+823,adm-idn-4934,p-idn-0276,b-idn-6835,r-idn-vip-3635,cc-idn-1,2015-07-31,2015-08-13,Adenoiditis (a type of lymph node inflammation),615.4,8000.2
+824,adm-idn-8884,p-idn-0847,b-idn-4045,r-idn-i-5299,cc-idn-2,2013-03-23,2013-04-03,Choledocholithiasis stone in bile duct,315.24,3467.64
+825,adm-idn-7294,p-idn-0390,b-idn-8033,r-idn-vvip-9507,cc-idn-1,2020-11-08,2020-11-12,Hypertension high blood pressure,970.83,3883.32
+826,adm-idn-2363,p-idn-0827,b-idn-2749,r-idn-vvip-4621,cc-idn-1,2012-07-06,2012-07-14,Gout uric acid crystals in the joint causing inflammation,970.83,7766.64
+827,adm-idn-0210,p-idn-0847,b-idn-4906,r-idn-vvip-0893,cc-idn-2,2017-08-10,2017-08-24,Achilles tendon rupture (heel tendon tear),940.92,13172.88
+828,adm-idn-6644,p-idn-0548,b-idn-0670,r-idn-ii-4688,cc-idn-2,2015-03-30,2015-04-05,"Bladder stone, urinary",240.15,1440.9
+829,adm-idn-4174,p-idn-0812,b-idn-0636,r-idn-vvip-2510,cc-idn-1,2012-10-23,2012-11-04,Munchausen syndrome by proxy fabricated illness in a dependent,970.83,11649.96
+830,adm-idn-2114,p-idn-0970,b-idn-8853,r-idn-vip-9665,cc-idn-2,2022-04-14,2022-05-04,AC joint separation acromioclavicular joint separation closed separation of acromioclavicular joint,627.13,12542.6
+831,adm-idn-3440,p-idn-0809,b-idn-5793,r-idn-i-7555,cc-idn-1,2018-10-17,2018-10-22,Cytomegalovirus infection CMV viral infection,359.31,1796.55
+832,adm-idn-0179,p-idn-0331,b-idn-1279,r-idn-iii-8441,cc-idn-2,2020-05-26,2020-06-12,Blood loss,115.65,1966.05
+833,adm-idn-6378,p-idn-0849,b-idn-1279,r-idn-i-9737,cc-idn-1,2022-08-25,2022-10-05,"Hantavirus infection rare, serious viral infection",359.31,14731.71
+834,adm-idn-2400,p-idn-0118,b-idn-2984,r-idn-iii-7884,cc-idn-1,2020-10-18,2020-10-28,Non venomous snake bite,94.5,945.0
+835,adm-idn-0010,p-idn-0883,b-idn-0259,r-idn-i-9192,cc-idn-2,2012-08-31,2012-09-08,Nursemaid's elbow radial head subluxation,315.24,2521.92
+837,adm-idn-6199,p-idn-0158,b-idn-0282,r-idn-i-4398,cc-idn-2,2017-12-31,2018-02-03,Mallet finger finger tendon rupture,315.24,10718.16
+838,adm-idn-2843,p-idn-0917,b-idn-6050,r-idn-ii-7158,cc-idn-2,2022-02-02,2022-02-15,Graves eye disease Graves ophthalmopathy,240.15,3121.95
+839,adm-idn-1132,p-idn-0082,b-idn-6920,r-idn-ii-4688,cc-idn-2,2018-03-20,2018-04-03,Essential hypertension high blood pressure,240.15,3362.1
+841,adm-idn-6417,p-idn-0613,b-idn-9537,r-idn-i-3503,cc-idn-2,2013-05-10,2013-05-25,Yaws,315.24,4728.6
+842,adm-idn-8273,p-idn-0507,b-idn-1084,r-idn-vvip-9507,cc-idn-1,2012-08-17,2012-08-20,Shingles herpes zoster,970.83,2912.49
+843,adm-idn-0984,p-idn-0302,b-idn-7523,r-idn-vvip-2661,cc-idn-2,2017-05-09,2017-05-21,Tension headache stress headache,940.92,11291.04
+844,adm-idn-6580,p-idn-0928,b-idn-6696,r-idn-ii-1294,cc-idn-2,2014-12-21,2015-01-15,Normal menstruation,240.15,6003.75
+845,adm-idn-4783,p-idn-0784,b-idn-3616,r-idn-vip-8022,cc-idn-1,2020-03-11,2020-03-25,Rocky mountain spotted fever bacterial infection spread by ticks,615.4,8615.6
+846,adm-idn-0856,p-idn-0937,b-idn-3042,r-idn-iii-6268,cc-idn-2,2012-04-04,2012-04-28,Astrocytoma brain tumor,115.65,2775.6
+847,adm-idn-4918,p-idn-0082,b-idn-5393,r-idn-vvip-0893,cc-idn-2,2021-09-09,2021-09-17,Tarantula bite Tarantula Venoms,940.92,7527.36
+848,adm-idn-7827,p-idn-0507,b-idn-5106,r-idn-iii-7884,cc-idn-2,2020-04-11,2020-04-27,Lymphangitis lymph tissue inflammation,115.65,1850.4
+849,adm-idn-1817,p-idn-0737,b-idn-6360,r-idn-vvip-7650,cc-idn-1,2016-09-24,2016-09-30,Gallbladder and bile duct cancer Gallbladder cancer bile duct cancer,970.83,5824.98
+850,adm-idn-4146,p-idn-0412,b-idn-9459,r-idn-iii-9162,cc-idn-2,2013-08-23,2013-09-26,Epidural abscess brain or spine pus collection,115.65,3932.1
+851,adm-idn-5713,p-idn-0616,b-idn-6934,r-idn-vip-7063,cc-idn-1,2019-07-25,2019-07-31,"Upper respiratory tract infection URI, common cold",615.4,3692.4
+852,adm-idn-7833,p-idn-0530,b-idn-8031,r-idn-vip-1742,cc-idn-1,2012-04-26,2012-05-07,Scrotal hematoma collection of blood in skin around testicles,615.4,6769.4
+854,adm-idn-4345,p-idn-0015,b-idn-2932,r-idn-vip-8565,cc-idn-1,2018-06-07,2018-07-09,Toe swelling,615.4,19692.8
+855,adm-idn-4246,p-idn-0381,b-idn-0171,r-idn-ii-5160,cc-idn-2,2015-05-10,2015-05-20,Ophthalmoplegia eye muscle weakness,240.15,2401.5
+857,adm-idn-1143,p-idn-0667,b-idn-4417,r-idn-vip-5009,cc-idn-2,2013-01-31,2013-02-27,Optic neuritis optic nerve inflammation,627.13,16932.51
+858,adm-idn-1858,p-idn-0843,b-idn-6656,r-idn-vip-8171,cc-idn-2,2022-10-30,2022-11-19,"Arteriovenous malformation blood vessel abnormality, AVM",627.13,12542.6
+859,adm-idn-6537,p-idn-0987,b-idn-5388,r-idn-iii-5878,cc-idn-2,2016-10-18,2016-11-01,Nasal trauma nose injury,115.65,1619.1
+860,adm-idn-5892,p-idn-0353,b-idn-3141,r-idn-i-5830,cc-idn-1,2014-07-24,2014-08-18,Eustachian tube dysfunction inner ear tube,359.31,8982.75
+861,adm-idn-4967,p-idn-0812,b-idn-5540,r-idn-vvip-8077,cc-idn-1,2022-03-02,2022-03-08,Quaternary syphilis late stage syphilis,970.83,5824.98
+862,adm-idn-2062,p-idn-0466,b-idn-3898,r-idn-ii-6603,cc-idn-2,2013-10-25,2013-11-07,Transient global amnesia sudden period of short-term memory loss,240.15,3121.95
+863,adm-idn-3732,p-idn-0381,b-idn-4710,r-idn-vip-9724,cc-idn-1,2022-04-13,2022-04-19,Mitral stenosis tight heart valve,615.4,3692.4
+864,adm-idn-7405,p-idn-0957,b-idn-2659,r-idn-iii-4590,cc-idn-2,2019-08-19,2019-09-01,Laxative abuse,115.65,1503.45
+865,adm-idn-0325,p-idn-0463,b-idn-1266,r-idn-iii-3850,cc-idn-1,2022-07-18,2022-07-23,Cavernous sinus tumor head vein cancer,94.5,472.5
+866,adm-idn-3773,p-idn-0601,b-idn-3840,r-idn-vvip-4621,cc-idn-1,2016-03-03,2016-03-16,Hand laceration skin cut,970.83,12620.79
+867,adm-idn-1840,p-idn-0896,b-idn-0663,r-idn-vvip-2872,cc-idn-2,2012-01-13,2012-02-22,Tendon laceration tendon cut,940.92,37636.8
+868,adm-idn-8275,p-idn-0239,b-idn-3106,r-idn-ii-6457,cc-idn-2,2021-07-11,2021-07-21,Abrasions  (scrapes),240.15,2401.5
+869,adm-idn-0980,p-idn-0379,b-idn-1803,r-idn-vvip-9507,cc-idn-2,2022-11-20,2022-11-28,Hypertrophic cardiomyopathy thickened heart muscle,940.92,7527.36
+870,adm-idn-0890,p-idn-0847,b-idn-4768,r-idn-vip-7211,cc-idn-1,2013-08-09,2013-09-03,Pulmonary fibrosis lung scarring,615.4,15385.0
+871,adm-idn-3206,p-idn-0419,b-idn-1228,r-idn-vvip-2193,cc-idn-1,2021-12-14,2022-01-08,Cerebellar Ataxia,970.83,24270.75
+872,adm-idn-5396,p-idn-0200,b-idn-0145,r-idn-i-5732,cc-idn-2,2017-05-15,2017-05-21,Goiter enlarged thyroid,315.24,1891.44
+873,adm-idn-5302,p-idn-0501,b-idn-5877,r-idn-iii-4334,cc-idn-2,2022-04-26,2022-05-22,Antidepressant overdose,115.65,3006.9
+874,adm-idn-1009,p-idn-0417,b-idn-0145,r-idn-vvip-6869,cc-idn-1,2012-03-29,2012-04-03,Cluster headache one-sided headache behind the eye,970.83,4854.15
+875,adm-idn-9607,p-idn-0767,b-idn-4006,r-idn-vvip-7650,cc-idn-1,2019-06-09,2019-06-16,Empyema collection of pus in chest,970.83,6795.81
+876,adm-idn-3085,p-idn-0531,b-idn-2984,r-idn-ii-0536,cc-idn-1,2015-02-23,2015-03-03,Meniscus injury knee cartilage injury,195.46,1563.68
+877,adm-idn-1338,p-idn-0059,b-idn-5932,r-idn-iii-3850,cc-idn-1,2017-01-16,2017-01-18,Endometritis inflammation of the uterus,94.5,189.0
+878,adm-idn-4533,p-idn-0955,b-idn-0012,r-idn-i-2054,cc-idn-1,2015-12-30,2016-01-08,Paget disease of the nipple rare breast cancer,359.31,3233.79
+879,adm-idn-8361,p-idn-0530,b-idn-5718,r-idn-i-0759,cc-idn-1,2022-01-09,2022-01-27,Triple negative breast cancer,359.31,6467.58
+880,adm-idn-7221,p-idn-0847,b-idn-1561,r-idn-iii-3521,cc-idn-1,2012-08-25,2012-08-28,Bronchiolitis bronchial tube inflammation,94.5,283.5
+881,adm-idn-8832,p-idn-0064,b-idn-6131,r-idn-i-7226,cc-idn-2,2016-07-25,2016-07-30,Trichomonas vaginalis infection vaginal infection,315.24,1576.2
+883,adm-idn-7925,p-idn-0737,b-idn-2410,r-idn-vvip-0376,cc-idn-2,2017-05-10,2017-05-13,"Uveitis iritis, eye inflammation",940.92,2822.76
+884,adm-idn-3009,p-idn-0211,b-idn-9459,r-idn-vvip-0845,cc-idn-2,2012-05-06,2012-05-25,"Narcotic morphine, heroin abuse",940.92,17877.48
+885,adm-idn-0383,p-idn-0484,b-idn-8460,r-idn-ii-4286,cc-idn-1,2015-01-22,2015-02-20,Ureaplasma urealyticum infection genital infection,195.46,5668.34
+886,adm-idn-1752,p-idn-0419,b-idn-7165,r-idn-ii-1227,cc-idn-2,2017-01-02,2017-01-14,Cholangitis inflammation of the bile ducts,240.15,2881.8
+887,adm-idn-8439,p-idn-0059,b-idn-1266,r-idn-vip-2740,cc-idn-2,2017-12-24,2018-01-11,Aseptic joint effusion fluid in a joint Effusion of joint,627.13,11288.34
+888,adm-idn-4582,p-idn-0215,b-idn-2116,r-idn-vvip-2661,cc-idn-2,2016-12-17,2017-01-21,Cavernous sinus aneurysm head vein dilation,940.92,32932.2
+890,adm-idn-7859,p-idn-0217,b-idn-0063,r-idn-ii-6615,cc-idn-1,2016-06-19,2016-07-19,"Crohn's disease regional enteritis, Crohn's colitis, intestinal inflammation",195.46,5863.8
+891,adm-idn-9094,p-idn-0940,b-idn-1939,r-idn-i-5299,cc-idn-1,2020-04-16,2020-05-13,Dengue fever tropical mosquito borne illness,359.31,9701.37
+892,adm-idn-8134,p-idn-0085,b-idn-8060,r-idn-ii-9148,cc-idn-1,2018-10-25,2018-12-05,Charcot-Marie-Tooth disease,195.46,8013.86
+893,adm-idn-0446,p-idn-0908,b-idn-6059,r-idn-vip-0356,cc-idn-1,2018-03-15,2018-03-29,Rectal prolapse rectal protrusion,615.4,8615.6
+894,adm-idn-9098,p-idn-0200,b-idn-8832,r-idn-iii-1498,cc-idn-2,2014-04-04,2014-04-09,Blood vessel injury,115.65,578.25
+895,adm-idn-6122,p-idn-0616,b-idn-6955,r-idn-ii-4688,cc-idn-1,2020-08-31,2020-09-07,Sickle cell crisis complication of sickle cell disease,195.46,1368.22
+896,adm-idn-6701,p-idn-0837,b-idn-7904,r-idn-vip-7029,cc-idn-1,2013-05-16,2013-05-28,Panhypopituitarism pituitary gland malfunction,615.4,7384.8
+897,adm-idn-2569,p-idn-0269,b-idn-4045,r-idn-vip-9745,cc-idn-2,2016-03-21,2016-03-31,"Loffler's syndrome pulmonary eosinophilia, lung inflammation",627.13,6271.3
+898,adm-idn-8168,p-idn-0955,b-idn-2431,r-idn-vvip-4059,cc-idn-1,2017-06-28,2017-07-09,Nasal trauma nose injury,970.83,10679.13
+900,adm-idn-6926,p-idn-0936,b-idn-1757,r-idn-ii-0499,cc-idn-2,2020-04-17,2020-05-29,Breast fibroadenoma benign breast lumps,240.15,10086.3
+901,adm-idn-7938,p-idn-0247,b-idn-7149,r-idn-vip-1742,cc-idn-2,2013-09-17,2013-10-31,Tonsillar cancer tumor tongue,627.13,27593.72
+902,adm-idn-4897,p-idn-0273,b-idn-3351,r-idn-i-3531,cc-idn-2,2012-03-01,2012-03-13,Contact dermatitis contact skin irritation,315.24,3782.88
+903,adm-idn-6459,p-idn-0068,b-idn-4184,r-idn-vvip-2661,cc-idn-1,2015-01-07,2015-01-12,Leptospirosis bacterial infection,970.83,4854.15
+904,adm-idn-9456,p-idn-0680,b-idn-4416,r-idn-vvip-9945,cc-idn-2,2022-09-29,2022-11-10,Psoriasis scaly skin disease,940.92,39518.64
+905,adm-idn-3526,p-idn-0339,b-idn-7229,r-idn-iii-9162,cc-idn-2,2014-06-01,2014-06-16,Eustachian tube dysfunction inner ear tube,115.65,1734.75
+906,adm-idn-5471,p-idn-0396,b-idn-1204,r-idn-ii-9783,cc-idn-2,2021-03-25,2021-03-30,Cerebral aneurysm brain artery dilation,240.15,1200.75
+907,adm-idn-6368,p-idn-0544,b-idn-5980,r-idn-i-5102,cc-idn-1,2015-01-04,2015-01-08,Puncture wound of ear,359.31,1437.24
+908,adm-idn-5725,p-idn-0409,b-idn-6399,r-idn-iii-2918,cc-idn-2,2013-01-24,2013-02-05,Ecstasy MDMA abuse,115.65,1387.8
+909,adm-idn-2040,p-idn-0733,b-idn-8296,r-idn-iii-7884,cc-idn-2,2012-08-27,2012-09-03,Osgood Schlatter disease painful shinbone inflammation,115.65,809.55
+910,adm-idn-1453,p-idn-0349,b-idn-5571,r-idn-i-8016,cc-idn-2,2016-01-10,2016-01-17,"Plague bubonic plague, bacteria yersinia infection",315.24,2206.68
+911,adm-idn-4142,p-idn-0239,b-idn-6112,r-idn-vvip-7757,cc-idn-1,2013-10-07,2013-11-04,Low platelets thrombocytopenia,970.83,27183.24
+912,adm-idn-6737,p-idn-0110,b-idn-1848,r-idn-vvip-2872,cc-idn-1,2022-08-03,2022-08-13,Tylenol  acetaminophen poisoning,970.83,9708.3
+913,adm-idn-8136,p-idn-0480,b-idn-0423,r-idn-ii-6103,cc-idn-1,2018-09-07,2018-10-02,Hammer toes toe deformity,195.46,4886.5
+915,adm-idn-3733,p-idn-0849,b-idn-5155,r-idn-i-5857,cc-idn-2,2020-02-11,2020-02-20,Heat exhaustion,315.24,2837.16
+916,adm-idn-9044,p-idn-0507,b-idn-0249,r-idn-iii-2918,cc-idn-2,2022-04-24,2022-04-28,Autoimmune conditions,115.65,462.6
+918,adm-idn-3749,p-idn-0008,b-idn-4092,r-idn-vip-7343,cc-idn-2,2016-10-22,2016-10-26,Pulmonary edema fluid build-up in the lungs,627.13,2508.52
+919,adm-idn-5130,p-idn-0417,b-idn-9400,r-idn-vip-0767,cc-idn-1,2020-06-22,2020-07-12,Mucormycosis fungal infection,615.4,12308.0
+920,adm-idn-6557,p-idn-0136,b-idn-9060,r-idn-ii-2326,cc-idn-2,2014-02-28,2014-03-08,Rhinitis nasal inflammation,240.15,1921.2
+921,adm-idn-1308,p-idn-0428,b-idn-0949,r-idn-iii-3376,cc-idn-2,2018-06-26,2018-07-20,Chemical burn,115.65,2775.6
+922,adm-idn-7264,p-idn-0479,b-idn-6205,r-idn-ii-8660,cc-idn-1,2018-09-26,2018-09-30,"Thalassemia Mediterranean anemia, inherited blood disorder",195.46,781.84
+923,adm-idn-6279,p-idn-0415,b-idn-6490,r-idn-i-4044,cc-idn-2,2020-12-12,2020-12-20,Benzodiazepine Valium overdose,315.24,2521.92
+924,adm-idn-3458,p-idn-0351,b-idn-6800,r-idn-vip-1066,cc-idn-1,2013-08-14,2013-08-24,Bladder cancer,615.4,6154.0
+925,adm-idn-4871,p-idn-0328,b-idn-4993,r-idn-i-8497,cc-idn-2,2022-09-03,2022-09-05,"Leishmaniasis parasitic infection, kala azar",315.24,630.48
+926,adm-idn-3194,p-idn-0189,b-idn-4585,r-idn-ii-7718,cc-idn-1,2012-05-30,2012-06-09,Altitude illness Illnesses due to high altitude effects,195.46,1954.6
+927,adm-idn-8930,p-idn-0915,b-idn-6781,r-idn-i-4343,cc-idn-1,2015-07-11,2015-07-17,Amphetamine abuse,359.31,2155.86
+928,adm-idn-3902,p-idn-0680,b-idn-9993,r-idn-ii-6615,cc-idn-1,2017-01-28,2017-02-14,Restless legs syndrome nervous system disorder,195.46,3322.82
+929,adm-idn-0283,p-idn-0118,b-idn-6205,r-idn-iii-1460,cc-idn-1,2018-12-31,2019-02-01,Hemotympanum blood behind ear drum,94.5,3024.0
+930,adm-idn-6330,p-idn-0232,b-idn-2984,r-idn-i-5299,cc-idn-1,2014-11-03,2014-11-24,Cushing disease excessive pituitary gland hormones,359.31,7545.51
+931,adm-idn-3734,p-idn-0737,b-idn-2728,r-idn-iii-4317,cc-idn-2,2013-03-21,2013-04-06,Allergic rhinitis  (allergic reaction in the nose),115.65,1850.4
+932,adm-idn-0196,p-idn-0381,b-idn-3041,r-idn-i-0636,cc-idn-1,2018-02-28,2018-03-07,Inflammation of testicular tubes epididymitis,359.31,2515.17
+933,adm-idn-7335,p-idn-0962,b-idn-0949,r-idn-ii-0499,cc-idn-1,2018-07-08,2018-07-16,Food poisoning,195.46,1563.68
+934,adm-idn-0197,p-idn-0419,b-idn-9620,r-idn-vip-0634,cc-idn-2,2015-03-18,2015-03-22,Missed abortion,627.13,2508.52
+935,adm-idn-3666,p-idn-0915,b-idn-8720,r-idn-i-9881,cc-idn-2,2016-01-30,2016-02-08,Insulin overdose,315.24,2837.16
+936,adm-idn-5149,p-idn-0726,b-idn-7366,r-idn-vvip-6869,cc-idn-1,2017-08-07,2017-09-13,Tension pneumothorax dangerous lung collapse,970.83,35920.71
+937,adm-idn-4531,p-idn-0921,b-idn-3993,r-idn-i-5299,cc-idn-2,2014-10-09,2014-10-31,Failure to thrive - adult failure to thrive,315.24,6935.28
+940,adm-idn-4064,p-idn-0696,b-idn-8000,r-idn-iii-4390,cc-idn-2,2017-07-09,2017-08-10,Mouth laceration mouth cut,115.65,3700.8
+942,adm-idn-4006,p-idn-0480,b-idn-2301,r-idn-vvip-7650,cc-idn-1,2017-02-15,2017-03-27,"Renal failure, acute sudden kidney failure",970.83,38833.2
+943,adm-idn-4461,p-idn-0764,b-idn-0976,r-idn-i-8372,cc-idn-2,2014-11-25,2014-12-08,Wilsons disease copper accumulation in tissues,315.24,4098.12
+944,adm-idn-4554,p-idn-0616,b-idn-8426,r-idn-vvip-8077,cc-idn-1,2017-06-08,2017-06-10,Contact dermatitis contact skin irritation,970.83,1941.66
+945,adm-idn-8115,p-idn-0715,b-idn-5296,r-idn-vvip-2510,cc-idn-1,2019-03-04,2019-03-12,Nursemaid's elbow radial head subluxation,970.83,7766.64
+946,adm-idn-0389,p-idn-0479,b-idn-8296,r-idn-i-8444,cc-idn-1,2019-09-21,2019-10-11,Finger laceration skin cut,359.31,7186.2
+947,adm-idn-2583,p-idn-0530,b-idn-2054,r-idn-i-4462,cc-idn-1,2014-02-07,2014-02-19,Slipped capital femoral epiphysis adolescent hip disorder,359.31,4311.72
+948,adm-idn-6202,p-idn-0463,b-idn-3201,r-idn-i-5830,cc-idn-1,2019-08-24,2019-08-28,"Amyotrophic lateral sclerosis ALS, Lou Gehrig's disease",359.31,1437.24
+950,adm-idn-6226,p-idn-0617,b-idn-5509,r-idn-i-8497,cc-idn-2,2018-11-20,2018-12-13,Mediastinitis inner chest inflammation,315.24,7250.52
+951,adm-idn-0810,p-idn-0419,b-idn-8080,r-idn-ii-0499,cc-idn-2,2019-01-22,2019-02-05,Mucormycosis fungal infection,240.15,3362.1
+952,adm-idn-8949,p-idn-0591,b-idn-8049,r-idn-ii-6103,cc-idn-2,2014-10-28,2014-11-08,Mouth cancer oropharyngeal cancer,240.15,2641.65
+953,adm-idn-2890,p-idn-0917,b-idn-5540,r-idn-iii-8005,cc-idn-1,2015-04-23,2015-05-04,Tape worm infection,94.5,1039.5
+954,adm-idn-3678,p-idn-0379,b-idn-9537,r-idn-vvip-8925,cc-idn-1,2020-01-20,2020-01-28,Confusion  (altered mental status),970.83,7766.64
+955,adm-idn-9834,p-idn-0492,b-idn-6818,r-idn-iii-5720,cc-idn-1,2013-02-08,2013-03-05,Gastritis stomach inflammation,94.5,2362.5
+956,adm-idn-2844,p-idn-0104,b-idn-8033,r-idn-i-5102,cc-idn-2,2017-11-18,2017-11-28,Rectal abscess collection of pus in the rectum,315.24,3152.4
+957,adm-idn-5867,p-idn-0165,b-idn-8563,r-idn-vip-2151,cc-idn-2,2015-06-25,2015-07-15,Brachial plexus injury shoulder nerve injury,627.13,12542.6
+959,adm-idn-9197,p-idn-0231,b-idn-0909,r-idn-vip-4753,cc-idn-2,2020-04-04,2020-05-09,Chemical burn,627.13,21949.55
+960,adm-idn-2967,p-idn-0284,b-idn-5296,r-idn-vvip-5557,cc-idn-1,2020-06-15,2020-06-23,Femoral artery aneurysm dilation of leg artery,970.83,7766.64
+961,adm-idn-8993,p-idn-0519,b-idn-4435,r-idn-i-9649,cc-idn-1,2014-03-17,2014-03-30,"Wegener's granulomatosis granulomatosis with polyangiitis,  blood vessel disease",359.31,4671.03
+962,adm-idn-5185,p-idn-0145,b-idn-9653,r-idn-iii-4334,cc-idn-2,2021-11-23,2021-12-31,Shoulder sprain,115.65,4394.7
+963,adm-idn-0545,p-idn-0498,b-idn-4585,r-idn-i-6924,cc-idn-1,2012-11-15,2012-12-25,Caffeine use,359.31,14372.4
+964,adm-idn-1542,p-idn-0764,b-idn-6273,r-idn-vip-2624,cc-idn-2,2021-03-12,2021-03-21,"Ear infection, middle ear otitis media",627.13,5644.17
+965,adm-idn-2182,p-idn-0761,b-idn-7310,r-idn-vvip-6869,cc-idn-1,2021-03-27,2021-04-18,Vaginal atrophy atrophic vaginitis,970.83,21358.26
+966,adm-idn-9432,p-idn-0531,b-idn-8984,r-idn-iii-5878,cc-idn-1,2021-03-17,2021-03-26,acetaminophen overdose Adverse reaction to acetaminophen,94.5,850.5
+967,adm-idn-0417,p-idn-0197,b-idn-4045,r-idn-i-7261,cc-idn-1,2016-06-10,2016-06-25,Scarlet fever post strep inflammation,359.31,5389.65
+968,adm-idn-6059,p-idn-0197,b-idn-2431,r-idn-i-9192,cc-idn-2,2020-10-14,2020-10-16,Hand fracture broken hand,315.24,630.48
+970,adm-idn-0902,p-idn-0800,b-idn-9215,r-idn-iii-9887,cc-idn-1,2012-02-09,2012-02-21,Broken heart syndrome Takotsubo cardiomyopathy,94.5,1134.0
+971,adm-idn-6722,p-idn-0292,b-idn-9422,r-idn-vvip-9507,cc-idn-2,2015-01-24,2015-01-27,Bradycardia slow heart rate,940.92,2822.76
+972,adm-idn-8999,p-idn-0413,b-idn-6273,r-idn-ii-2751,cc-idn-2,2020-07-26,2020-09-04,Japanese encephalitis viral brain infection,240.15,9606.0
+973,adm-idn-5527,p-idn-0485,b-idn-9244,r-idn-vip-0582,cc-idn-2,2020-09-26,2020-10-05,Common spider bite spider bite,627.13,5644.17
+974,adm-idn-6366,p-idn-0087,b-idn-2557,r-idn-vvip-0036,cc-idn-2,2022-04-27,2022-04-30,Brucellosis bacterial infection spread from animals,940.92,2822.76
+975,adm-idn-3770,p-idn-0250,b-idn-2228,r-idn-iii-3850,cc-idn-2,2020-12-22,2021-01-12,Skin tags acrochordons,115.65,2428.65
+976,adm-idn-2061,p-idn-0231,b-idn-5684,r-idn-iii-4697,cc-idn-2,2021-06-28,2021-07-13,Cutaneous larva migrans parasitic skin disease,115.65,1734.75
+977,adm-idn-2874,p-idn-0936,b-idn-0591,r-idn-vvip-4308,cc-idn-2,2013-05-04,2013-05-15,Prediabetes high blood sugar,940.92,10350.12
+979,adm-idn-3026,p-idn-0122,b-idn-8571,r-idn-iii-3449,cc-idn-1,2012-03-05,2012-03-08,Vertigo spinning sensation,94.5,283.5
+980,adm-idn-8803,p-idn-0273,b-idn-4499,r-idn-vvip-2872,cc-idn-2,2019-07-26,2019-08-27,Neurogenic bladder bladder paralysis,940.92,30109.44
+981,adm-idn-5689,p-idn-0784,b-idn-8292,r-idn-iii-6986,cc-idn-1,2016-10-24,2016-11-03,Osteoporosis extremely thin bone,94.5,945.0
+982,adm-idn-8057,p-idn-0887,b-idn-5718,r-idn-iii-2936,cc-idn-1,2019-07-20,2019-08-11,Aspirin salicylates overdose,94.5,2079.0
+983,adm-idn-3903,p-idn-0398,b-idn-3870,r-idn-vip-1066,cc-idn-2,2022-02-02,2022-02-16,Carotid cavernous fistula abnormal blood vessel communication,627.13,8779.82
+984,adm-idn-4624,p-idn-0326,b-idn-5583,r-idn-ii-5799,cc-idn-1,2019-06-25,2019-07-26,"Narcotic morphine, heroin overdose",195.46,6059.26
+985,adm-idn-0361,p-idn-0285,b-idn-7553,r-idn-vvip-0376,cc-idn-2,2017-06-06,2017-06-23,Traveler's diarrhea Montezuma's revenge,940.92,15995.64
+986,adm-idn-2474,p-idn-0917,b-idn-2891,r-idn-ii-7158,cc-idn-2,2015-10-02,2015-11-30,Mouth swelling,240.15,14168.85
+987,adm-idn-3467,p-idn-0846,b-idn-4758,r-idn-vip-7114,cc-idn-1,2016-07-26,2016-08-30,Atrial fibrillation irregular heart rate,615.4,21539.0
+988,adm-idn-9125,p-idn-0248,b-idn-2023,r-idn-vip-9665,cc-idn-2,2021-12-13,2022-01-03,Cavernous sinus aneurysm head vein dilation,627.13,13169.73
+989,adm-idn-7413,p-idn-0339,b-idn-7366,r-idn-i-6476,cc-idn-2,2017-03-01,2017-03-25,Insect bite,315.24,7565.76
+990,adm-idn-1063,p-idn-0984,b-idn-2023,r-idn-iii-9095,cc-idn-2,2016-05-31,2016-06-11,Guillain Barre syndrome ascending muscle weakness,115.65,1272.15
+991,adm-idn-7202,p-idn-0769,b-idn-1426,r-idn-i-7887,cc-idn-1,2014-07-07,2014-07-15,Fibroid uterine muscle tumor,359.31,2874.48
+992,adm-idn-4258,p-idn-0948,b-idn-1335,r-idn-i-6180,cc-idn-1,2022-03-08,2022-03-23,Epiglottitis severe throat inflammation,359.31,5389.65
+993,adm-idn-5661,p-idn-0200,b-idn-6490,r-idn-iii-3449,cc-idn-2,2021-12-10,2021-12-24,Teething,115.65,1619.1
+995,adm-idn-9154,p-idn-0012,b-idn-1228,r-idn-i-2385,cc-idn-2,2013-07-11,2013-07-15,Lung abscess collection of pus,315.24,1260.96
+996,adm-idn-7354,p-idn-0210,b-idn-0007,r-idn-iii-9106,cc-idn-1,2016-01-13,2016-02-03,Guillain Barre syndrome ascending muscle weakness,94.5,1984.5
+997,adm-idn-4587,p-idn-0769,b-idn-6586,r-idn-vvip-4059,cc-idn-2,2013-10-09,2013-11-09,Nail avulsion traumatic removal of nail,940.92,29168.52
+998,adm-idn-2565,p-idn-0322,b-idn-5980,r-idn-i-6392,cc-idn-1,2018-06-02,2018-06-26,Pleural effusion abnormal chest fluid,359.31,8623.44
+999,adm-idn-3625,p-idn-0867,b-idn-1106,r-idn-iii-5028,cc-idn-2,2022-02-24,2022-03-23,Cutaneous larva migrans parasitic skin disease,115.65,3122.55

@@ -1,0 +1,201 @@
+care_center_id,room_id,room_type,rate
+cc-idn-1,r-idn-i-0493,Class I,359.31
+cc-idn-1,r-idn-i-0636,Class I,359.31
+cc-idn-2,r-idn-i-0759,Class I,315.24
+cc-idn-1,r-idn-i-1417,Class I,359.31
+cc-idn-1,r-idn-i-1452,Class I,359.31
+cc-idn-2,r-idn-i-1546,Class I,315.24
+cc-idn-2,r-idn-i-2054,Class I,315.24
+cc-idn-2,r-idn-i-2385,Class I,315.24
+cc-idn-1,r-idn-i-3164,Class I,359.31
+cc-idn-1,r-idn-i-3503,Class I,359.31
+cc-idn-2,r-idn-i-3531,Class I,315.24
+cc-idn-2,r-idn-i-4044,Class I,315.24
+cc-idn-1,r-idn-i-4343,Class I,359.31
+cc-idn-1,r-idn-i-4398,Class I,359.31
+cc-idn-1,r-idn-i-4462,Class I,359.31
+cc-idn-2,r-idn-i-5102,Class I,315.24
+cc-idn-2,r-idn-i-5299,Class I,315.24
+cc-idn-1,r-idn-i-5732,Class I,359.31
+cc-idn-1,r-idn-i-5830,Class I,359.31
+cc-idn-1,r-idn-i-5857,Class I,359.31
+cc-idn-2,r-idn-i-6102,Class I,315.24
+cc-idn-2,r-idn-i-6180,Class I,315.24
+cc-idn-2,r-idn-i-6392,Class I,315.24
+cc-idn-2,r-idn-i-6476,Class I,315.24
+cc-idn-1,r-idn-i-6489,Class I,359.31
+cc-idn-2,r-idn-i-6616,Class I,315.24
+cc-idn-2,r-idn-i-6924,Class I,315.24
+cc-idn-1,r-idn-i-7117,Class I,359.31
+cc-idn-1,r-idn-i-7125,Class I,359.31
+cc-idn-1,r-idn-i-7226,Class I,359.31
+cc-idn-1,r-idn-i-7261,Class I,359.31
+cc-idn-2,r-idn-i-7555,Class I,315.24
+cc-idn-2,r-idn-i-7887,Class I,315.24
+cc-idn-2,r-idn-i-8016,Class I,315.24
+cc-idn-1,r-idn-i-8045,Class I,359.31
+cc-idn-1,r-idn-i-8372,Class I,359.31
+cc-idn-1,r-idn-i-8397,Class I,359.31
+cc-idn-1,r-idn-i-8444,Class I,359.31
+cc-idn-1,r-idn-i-8497,Class I,359.31
+cc-idn-1,r-idn-i-9192,Class I,359.31
+cc-idn-2,r-idn-i-9295,Class I,315.24
+cc-idn-2,r-idn-i-9345,Class I,315.24
+cc-idn-1,r-idn-i-9401,Class I,359.31
+cc-idn-1,r-idn-i-9649,Class I,359.31
+cc-idn-1,r-idn-i-9737,Class I,359.31
+cc-idn-2,r-idn-i-9855,Class I,315.24
+cc-idn-1,r-idn-i-9881,Class I,359.31
+cc-idn-2,r-idn-ii-0499,Class II,240.15
+cc-idn-2,r-idn-ii-0536,Class II,240.15
+cc-idn-1,r-idn-ii-0705,Class II,195.46
+cc-idn-2,r-idn-ii-0964,Class II,240.15
+cc-idn-1,r-idn-ii-1227,Class II,195.46
+cc-idn-1,r-idn-ii-1294,Class II,195.46
+cc-idn-2,r-idn-ii-1705,Class II,240.15
+cc-idn-1,r-idn-ii-2326,Class II,195.46
+cc-idn-2,r-idn-ii-2386,Class II,240.15
+cc-idn-1,r-idn-ii-2751,Class II,195.46
+cc-idn-1,r-idn-ii-3199,Class II,195.46
+cc-idn-1,r-idn-ii-3200,Class II,195.46
+cc-idn-1,r-idn-ii-3562,Class II,195.46
+cc-idn-1,r-idn-ii-4195,Class II,195.46
+cc-idn-2,r-idn-ii-4286,Class II,240.15
+cc-idn-1,r-idn-ii-4598,Class II,195.46
+cc-idn-1,r-idn-ii-4655,Class II,195.46
+cc-idn-1,r-idn-ii-4688,Class II,195.46
+cc-idn-2,r-idn-ii-5160,Class II,240.15
+cc-idn-1,r-idn-ii-5318,Class II,195.46
+cc-idn-2,r-idn-ii-5756,Class II,240.15
+cc-idn-1,r-idn-ii-5795,Class II,195.46
+cc-idn-2,r-idn-ii-5799,Class II,240.15
+cc-idn-1,r-idn-ii-6103,Class II,195.46
+cc-idn-1,r-idn-ii-6231,Class II,195.46
+cc-idn-2,r-idn-ii-6457,Class II,240.15
+cc-idn-2,r-idn-ii-6504,Class II,240.15
+cc-idn-1,r-idn-ii-6542,Class II,195.46
+cc-idn-2,r-idn-ii-6603,Class II,240.15
+cc-idn-1,r-idn-ii-6615,Class II,195.46
+cc-idn-1,r-idn-ii-6805,Class II,195.46
+cc-idn-1,r-idn-ii-7158,Class II,195.46
+cc-idn-1,r-idn-ii-7624,Class II,195.46
+cc-idn-1,r-idn-ii-7718,Class II,195.46
+cc-idn-2,r-idn-ii-8139,Class II,240.15
+cc-idn-2,r-idn-ii-8660,Class II,240.15
+cc-idn-2,r-idn-ii-9148,Class II,240.15
+cc-idn-1,r-idn-ii-9202,Class II,195.46
+cc-idn-1,r-idn-ii-9459,Class II,195.46
+cc-idn-1,r-idn-ii-9513,Class II,195.46
+cc-idn-2,r-idn-ii-9740,Class II,240.15
+cc-idn-2,r-idn-ii-9783,Class II,240.15
+cc-idn-2,r-idn-iii-0632,Class III,115.65
+cc-idn-1,r-idn-iii-0895,Class III,94.5
+cc-idn-1,r-idn-iii-0999,Class III,94.5
+cc-idn-2,r-idn-iii-1271,Class III,115.65
+cc-idn-2,r-idn-iii-1460,Class III,115.65
+cc-idn-2,r-idn-iii-1498,Class III,115.65
+cc-idn-1,r-idn-iii-1707,Class III,94.5
+cc-idn-2,r-idn-iii-2900,Class III,115.65
+cc-idn-2,r-idn-iii-2918,Class III,115.65
+cc-idn-1,r-idn-iii-2936,Class III,94.5
+cc-idn-2,r-idn-iii-3000,Class III,115.65
+cc-idn-1,r-idn-iii-3212,Class III,94.5
+cc-idn-1,r-idn-iii-3376,Class III,94.5
+cc-idn-2,r-idn-iii-3449,Class III,115.65
+cc-idn-1,r-idn-iii-3521,Class III,94.5
+cc-idn-2,r-idn-iii-3850,Class III,115.65
+cc-idn-1,r-idn-iii-4317,Class III,94.5
+cc-idn-2,r-idn-iii-4334,Class III,115.65
+cc-idn-2,r-idn-iii-4390,Class III,115.65
+cc-idn-2,r-idn-iii-4590,Class III,115.65
+cc-idn-1,r-idn-iii-4697,Class III,94.5
+cc-idn-1,r-idn-iii-4801,Class III,94.5
+cc-idn-2,r-idn-iii-5028,Class III,115.65
+cc-idn-1,r-idn-iii-5402,Class III,94.5
+cc-idn-1,r-idn-iii-5414,Class III,94.5
+cc-idn-1,r-idn-iii-5507,Class III,94.5
+cc-idn-1,r-idn-iii-5663,Class III,94.5
+cc-idn-2,r-idn-iii-5720,Class III,115.65
+cc-idn-1,r-idn-iii-5878,Class III,94.5
+cc-idn-1,r-idn-iii-6003,Class III,94.5
+cc-idn-1,r-idn-iii-6268,Class III,94.5
+cc-idn-1,r-idn-iii-6986,Class III,94.5
+cc-idn-1,r-idn-iii-7184,Class III,94.5
+cc-idn-2,r-idn-iii-7884,Class III,115.65
+cc-idn-2,r-idn-iii-8005,Class III,115.65
+cc-idn-1,r-idn-iii-8441,Class III,94.5
+cc-idn-1,r-idn-iii-9095,Class III,94.5
+cc-idn-2,r-idn-iii-9106,Class III,115.65
+cc-idn-1,r-idn-iii-9162,Class III,94.5
+cc-idn-1,r-idn-iii-9660,Class III,94.5
+cc-idn-1,r-idn-iii-9731,Class III,94.5
+cc-idn-2,r-idn-iii-9887,Class III,115.65
+cc-idn-1,r-idn-vip-0356,VIP,615.4
+cc-idn-2,r-idn-vip-0582,VIP,627.13
+cc-idn-1,r-idn-vip-0634,VIP,615.4
+cc-idn-1,r-idn-vip-0767,VIP,615.4
+cc-idn-2,r-idn-vip-1066,VIP,627.13
+cc-idn-2,r-idn-vip-1742,VIP,627.13
+cc-idn-1,r-idn-vip-1990,VIP,615.4
+cc-idn-2,r-idn-vip-2071,VIP,627.13
+cc-idn-2,r-idn-vip-2145,VIP,627.13
+cc-idn-1,r-idn-vip-2151,VIP,615.4
+cc-idn-1,r-idn-vip-2624,VIP,615.4
+cc-idn-1,r-idn-vip-2740,VIP,615.4
+cc-idn-1,r-idn-vip-3364,VIP,615.4
+cc-idn-2,r-idn-vip-3445,VIP,627.13
+cc-idn-1,r-idn-vip-3635,VIP,615.4
+cc-idn-2,r-idn-vip-4229,VIP,627.13
+cc-idn-2,r-idn-vip-4753,VIP,627.13
+cc-idn-1,r-idn-vip-5009,VIP,615.4
+cc-idn-2,r-idn-vip-5365,VIP,627.13
+cc-idn-1,r-idn-vip-6476,VIP,615.4
+cc-idn-2,r-idn-vip-7029,VIP,627.13
+cc-idn-2,r-idn-vip-7063,VIP,627.13
+cc-idn-2,r-idn-vip-7114,VIP,627.13
+cc-idn-2,r-idn-vip-7211,VIP,627.13
+cc-idn-2,r-idn-vip-7343,VIP,627.13
+cc-idn-2,r-idn-vip-8022,VIP,627.13
+cc-idn-2,r-idn-vip-8171,VIP,627.13
+cc-idn-1,r-idn-vip-8264,VIP,615.4
+cc-idn-2,r-idn-vip-8565,VIP,627.13
+cc-idn-2,r-idn-vip-8704,VIP,627.13
+cc-idn-2,r-idn-vip-9334,VIP,627.13
+cc-idn-2,r-idn-vip-9617,VIP,627.13
+cc-idn-2,r-idn-vip-9665,VIP,627.13
+cc-idn-2,r-idn-vip-9724,VIP,627.13
+cc-idn-2,r-idn-vip-9745,VIP,627.13
+cc-idn-1,r-idn-vvip-0036,VVIP,970.83
+cc-idn-2,r-idn-vvip-0269,VVIP,940.92
+cc-idn-2,r-idn-vvip-0376,VVIP,940.92
+cc-idn-2,r-idn-vvip-0845,VVIP,940.92
+cc-idn-1,r-idn-vvip-0893,VVIP,970.83
+cc-idn-1,r-idn-vvip-2193,VVIP,970.83
+cc-idn-2,r-idn-vvip-2416,VVIP,940.92
+cc-idn-1,r-idn-vvip-2510,VVIP,970.83
+cc-idn-2,r-idn-vvip-2520,VVIP,940.92
+cc-idn-2,r-idn-vvip-2578,VVIP,940.92
+cc-idn-1,r-idn-vvip-2661,VVIP,970.83
+cc-idn-1,r-idn-vvip-2740,VVIP,970.83
+cc-idn-2,r-idn-vvip-2872,VVIP,940.92
+cc-idn-2,r-idn-vvip-2899,VVIP,940.92
+cc-idn-2,r-idn-vvip-3616,VVIP,940.92
+cc-idn-1,r-idn-vvip-3669,VVIP,970.83
+cc-idn-1,r-idn-vvip-4059,VVIP,970.83
+cc-idn-2,r-idn-vvip-4308,VVIP,940.92
+cc-idn-1,r-idn-vvip-4621,VVIP,970.83
+cc-idn-1,r-idn-vvip-4831,VVIP,970.83
+cc-idn-2,r-idn-vvip-5557,VVIP,940.92
+cc-idn-1,r-idn-vvip-6847,VVIP,970.83
+cc-idn-1,r-idn-vvip-6869,VVIP,970.83
+cc-idn-2,r-idn-vvip-7650,VVIP,940.92
+cc-idn-2,r-idn-vvip-7757,VVIP,940.92
+cc-idn-2,r-idn-vvip-7803,VVIP,940.92
+cc-idn-1,r-idn-vvip-8077,VVIP,970.83
+cc-idn-2,r-idn-vvip-8874,VVIP,940.92
+cc-idn-1,r-idn-vvip-8917,VVIP,970.83
+cc-idn-2,r-idn-vvip-8925,VVIP,940.92
+cc-idn-2,r-idn-vvip-8927,VVIP,940.92
+cc-idn-1,r-idn-vvip-9507,VVIP,970.83
+cc-idn-2,r-idn-vvip-9744,VVIP,940.92
+cc-idn-1,r-idn-vvip-9945,VVIP,970.83
