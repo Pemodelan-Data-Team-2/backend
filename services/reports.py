@@ -267,14 +267,14 @@ class CountryReports(object):
         agg = df.groupby(['year','room_type'],as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_occupancy'})
         return self.format_json_occupancy(agg)
-        
+
     def format_json_occupancy(self,df):
         """
         format_json fangsi digunakna untuk mengubah format dataframe Occupancy ke bentuk inputan
         javascript.
         """
         output = []
-        
+
         year = df['year'].unique()
         for i in year:
             d = {}
@@ -284,3 +284,15 @@ class CountryReports(object):
                     d[j.room_type] = j.total_occupancy
             output.append(d)
         return output
+
+    def format_json_occupancy_barchart(self,df):
+        """
+        fungsi ini digunakan untuk membuat format dataframe ke format
+        javascript untuk barchart
+
+        """
+        output = []
+        year = df['year'].unique()
+
+        for i in year:
+            data_column
