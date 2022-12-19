@@ -235,6 +235,7 @@ class CountryReports(object):
         """
         output = []
         df["Country"] = self.country
+        df['Id'] = np.arange(1, len(df) +1)
         columns = list(df.columns)
         for i in range(len(df)):
             output.append(df.iloc[i].to_dict())
