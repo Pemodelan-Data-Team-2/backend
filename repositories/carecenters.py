@@ -4,32 +4,22 @@ import pandas as pd
 
 from repositories.create_session_v2 import create_session
 
-def get_carecenters_by_id(id):
+def get_carecenters_by_id(id, created_session):
     """
     Function to get a care center by its id
     """
-    dc = 'usa'
-    if 'usa' in id:
-        dc = 'usa'
-    elif 'idn' in id:
-        dc = 'idn'
-    session = create_session(dc=dc)
+    session = created_session
     row = session.execute(f"""
         SELECT * FROM carecenters WHERE care_center_id='{id}' ALLOW FILTERING;
     """)
     df = pd.DataFrame(row)
     return df
 
-def carecenters_by_city(country, city=None):
+def carecenters_by_city(created_session, city=None):
     """
     Function to get carecenters that are located in given city
     """
-    dc = 'usa'
-    if country.lower() == 'usa':
-        dc = 'usa'
-    elif country.lower() == 'idn':
-        dc = 'idn'
-    session = create_session(dc=dc)
+    session = created_session
 
     if city == None:
         row = session.execute(f"""
@@ -43,16 +33,11 @@ def carecenters_by_city(country, city=None):
     df = pd.DataFrame(row)
     return df
 
-def carecenters_by_state(country, state=None):
+def carecenters_by_state(created_session, state=None):
     """
     Function to get carecenters that are located in given state
     """
-    dc = 'usa'
-    if country.lower() == 'usa':
-        dc = 'usa'
-    elif country.lower() == 'idn':
-        dc = 'idn'
-    session = create_session(dc=dc)
+    session = created_session
 
     if state == None:
         row = session.execute(f"""
@@ -65,31 +50,16 @@ def carecenters_by_state(country, state=None):
     df = pd.DataFrame(row)
     return df
 
-def carecenters_by_country(country=None):
+def carecenters_by_country(created_session):
     """
     Function to get carecenters
     """
-    if country == None:
-        session1 = create_session(dc='usa')
-        row1 = session1.execute(f"""
-            SELECT * FROM carecenters_by_country;
-        """)
-
-        session2 = create_session(dc='idn')
-        row2 = session2.execute(f"""
-            SELECT * FROM carecenters_by_country;
-        """)
-        df_usa = pd.DataFrame(row1)
-        df_idn = pd.DataFrame(row2)
-        df = pd.concat([df_usa, df_idn])
-        return df
-    else:
-        session = create_session(dc=country)
-        row = session.execute(f"""
-            SELECT * FROM carecenters_by_country;
-        """)
-        df = pd.DataFrame(row)
-        return df
+    session = created_session
+    row = session.execute(f"""
+        SELECT * FROM carecenters_by_country;
+    """)
+    df = pd.DataFrame(row)
+    return df
 
 
 # test = get_carecenters_by_id('cc-usa-1')

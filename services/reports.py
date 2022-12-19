@@ -7,51 +7,54 @@ import repositories.patient_admissions as patient_admissions_repo
 import repositories.patients as patients_repo
 import repositories.rooms as rooms_repo
 
+from repositories.create_session_v2 import create_session
+
 import pandas as pd
 import numpy as np
 
 class CountryReports(object):
     def __init__(self, country):
         self.country = country
+        self.session = create_session(self.country)
 
     def rooms_by_carecenter(self, care_center_id=None):
-        df = rooms_repo.rooms_by_carecenter(country=self.country, care_center_id=care_center_id)
+        df = rooms_repo.rooms_by_carecenter(created_session=self.session, care_center_id=care_center_id)
         return df
 
     def beds_by_room(self, room_id=None):
-        df = beds_repo.beds_by_room(country=self.country,room_id=room_id)
+        df = beds_repo.beds_by_room(created_session=self.session, room_id=room_id)
         return df
 
     def carecenters_by_city(self, city=None):
-        df = carecenters_repo.carecenters_by_city(country=self.country, city=city)
+        df = carecenters_repo.carecenters_by_city(created_session=self.session, city=city)
         return df
 
     def carecenters_by_state(self, state=None):
-        df = carecenters_repo.carecenters_by_state(country=self.country, state=state)
+        df = carecenters_repo.carecenters_by_state(created_session=self.session, state=state)
         return df
 
     def carecenters_by_country(self):
-        df = carecenters_repo.carecenters_by_country(country=self.country)
+        df = carecenters_repo.carecenters_by_country(created_session=self.session)
         return df
 
     def patient_admissions_by_carecenter(self, care_center_id=None):
-        df = patient_admissions_repo.patient_admissions_by_carecenter(country=self.country, care_center_id=care_center_id)
+        df = patient_admissions_repo.patient_admissions_by_carecenter(created_session=self.session, care_center_id=care_center_id)
         return df
 
     def patient_admissions_by_room(self, room_id=None):
-        df = patient_admissions_repo.patient_admissions_by_room(country=self.country, room_id=room_id)
+        df = patient_admissions_repo.patient_admissions_by_room(created_session=self.session, room_id=room_id)
         return df
 
     def patient_admissions_by_city(self, city=None):
-        df = patient_admissions_repo.patient_admissions_by_city(country=self.country, city=city)
+        df = patient_admissions_repo.patient_admissions_by_city(created_session=self.session, city=city)
         return df
 
     def patient_admissions_by_state(self, state=None):
-        df = patient_admissions_repo.patient_admissions_by_state(country=self.country, state=state)
+        df = patient_admissions_repo.patient_admissions_by_state(created_session=self.session, state=state)
         return df
 
     def patient_admissions_by_country(self):
-        df = patient_admissions_repo.patient_admissions_by_country(country=self.country)
+        df = patient_admissions_repo.patient_admissions_by_country(created_session=self.session)
         return df
 
     ## PATIENT ADMISSIONS REVENUES REPORTS
