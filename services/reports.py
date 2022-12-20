@@ -157,6 +157,34 @@ class CountryReports(object):
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
+    def patient_admissions_per_annum_by_cc(self,df):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        """
+        df['admitted_date'] = df['admitted_date'].astype('str')
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year','care_center_id'],as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return agg
+
+    def patient_admissions_per_annum_by_room_type(self,df):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        """
+        df['admitted_date'] = df['admitted_date'].astype('str')
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year',"room_type"],as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return agg
+
     def patient_admissions_per_month(self, df, year):
         """
         Function to generate monthly report
@@ -243,6 +271,20 @@ class CountryReports(object):
             output.append(df.iloc[i].to_dict())
         return output
 
+    def set_cc_name(self,df):
+        cc_name = []
+        for cc_id in df['care_center_id']:
+            if cc_id == 'cc-usa-1':
+                cc_name.append('Global Health MVCH')
+            elif cc_id == 'cc-usa-2':
+                cc_name.append('MedStar MVCH')
+            elif cc_id == 'cc-idn-1':
+                cc_name.append('Medistra MVCH')
+            elif cc_id == 'cc-idn-2':
+                cc_name.append('Rumah Sakit Mitra Keluarga MVCH')
+        df['care_center_name'] = cc_name
+        return df
+
     def get_room_type(self, df):
         room_types = []
         for idx, row in df.iterrows():
@@ -270,14 +312,14 @@ class CountryReports(object):
         agg = df.groupby(['year','room_type'],as_index = False)[['admission_id']].count()
         agg = agg.rename(columns={'admission_id':'total_occupancy'})
         return self.format_json_occupancy(agg)
-        
+
     def format_json_occupancy(self,df):
         """
         format_json fangsi digunakna untuk mengubah format dataframe Occupancy ke bentuk inputan
         javascript.
         """
         output = []
-        
+
         year = df['year'].unique()
         for i in year:
             d = {}
