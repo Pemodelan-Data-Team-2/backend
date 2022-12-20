@@ -293,10 +293,10 @@ class CountryReports(object):
         fungsi digunakna untuk menampilkan bed-room availability dengan output berupa format Json untuk inputan
         javascript.
         """
-        df_patient['status'] = df_patient['discharged_date'].apply(lambda x: 'Occupied' if np.nan(x) else 'Available')
+        df_patient['status'] = df_patient['discharged_date'].apply(lambda x: 'Occupied' if x == None else 'Available')
         df_patient = df_patient[['bed_id', 'room_id', 'status']]
         df_result = df_beds.merge(df_patient, on = ['bed_id', 'room_id'], how ='left')
-        df_result['status'] = df_result['status'].apply(lambda x: 'Available' if np.nan(x) else x)
+        df_result['status'] = df_result['status'].apply(lambda x: 'Available' if np.isnan(x) else x)
         df_result['id'] = np.arange(1, len(df_result) + 1)
         df_result = df_result[['id', 'room_id', 'bed_id', 'care_center_id', 'status']]
         output = []
