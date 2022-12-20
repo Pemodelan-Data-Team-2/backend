@@ -252,9 +252,9 @@ def annual_admitted_patients_by_room_type():
                     "Class III" : 0 ,
                     "Class IIIColor" : 'hsl(122,40%,80%)',
                     "VIP" : 0,
-                    "VIP Color" : 'hsl(100,20%,20%)',
+                    "VIPColor" : 'hsl(100,20%,20%)',
                     "VVIP" : 0,
-                    "VVIP Color" : 'hsl(70,60%,90%)'}
+                    "VVIPColor" : 'hsl(70,60%,90%)'}
 
         for room in df_peryear_idn['room_type']:
             sum_count = int(df_peryear_usa[df_peryear_usa['room_type'] == room]['total_admitted_patients']) + int(df_peryear_idn[df_peryear_idn['room_type'] == room]['total_admitted_patients'])
