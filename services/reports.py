@@ -157,6 +157,20 @@ class CountryReports(object):
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
+    def patient_admissions_per_annum_by_cc(df):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        """
+        df['admitted_date'] = df['admitted_date'].astype('str')
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year','care_center_id'],as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return agg
+
     def patient_admissions_per_annum_by_room_type(self,df):
         """
         Function to generate annual report

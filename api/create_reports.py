@@ -36,6 +36,41 @@ def quarterly_revenues_line_chart_data():
     data = [usa_quarter_revenues,idn_quarter_revenues]
     return data
 
+def rooms_count_by_care_center():
+    usa_rooms_by_cc = usa_instance.rooms_by_carecenter()
+    idn_rooms_by_cc = idn_instance.rooms_by_carecenter()
+
+    gb_count_by_cc_usa = usa_rooms_by_cc.groupby('care_center_id',as_index = False).count()
+    gb_count_by_cc_idn = idn_rooms_by_cc.groupby('care_center_id',as_index = False).count()
+
+    output = [{
+        'care_center_id' : 'cc-usa-1',
+        'care_center_name': 'Global Health MVCH',
+        'country' :'USA',
+        'num_of_rooms' : int(gb_count_by_cc_usa['room_id'][0])
+    },
+    {
+        'care_center_id' : 'cc-usa-2',
+        'care_center_name': 'MedStar MVCH',
+        'country' :'USA',
+        'num_of_rooms' : int(gb_count_by_cc_usa['room_id'][1])
+
+    },
+    {
+        'care_center_id' : 'cc-idn-1',
+        'care_center_name': 'Medistra MVCH',
+        'country' :'IDN',
+        'num_of_rooms' : int(gb_count_by_cc_idn['room_id'][0])
+    },
+    {
+        'care_center_id' : 'cc-idn-1',
+        'care_center_name': 'Rumah Sakit Mitra Keluarga MVCH',
+        'country' :'IDN',
+        'num_of_rooms' : int(gb_count_by_cc_idn['room_id'][1])
+    }]
+
+    return output
+
 def annual_admitted_patients_bar_chart_data():
     usa_patient_admitted = usa_instance.patient_admissions_by_country()
     idn_patient_admitted = idn_instance.patient_admissions_by_country()
@@ -44,7 +79,7 @@ def annual_admitted_patients_bar_chart_data():
     idn_annum_count = idn_instance.patient_admissions_per_annum(df = idn_patient_admitted)
     output = []
     for n,year in enumerate(usa_annum_count['year']):
-        peryear = {"year" : str(i),
+        peryear = {"year" : str(year),
                     "USA": usa_annum_count['total_admitted_patients'][n],
                     "USAColor" : "hsl(128,70%,50%)",
                     "IDN": idn_annum_count['total_admitted_patients'][n],
@@ -77,27 +112,31 @@ def annual_admitted_patients_by_room_type():
     usa_patient_admitted = usa_instance.patient_admissions_by_country()
     idn_patient_admitted = idn_instance.patient_admissions_by_country()
 
-    usa_annum_count = usa_instance.patient_admissions_per_annum(df = usa_patient_admitted)
-    idn_annum_count = idn_instance.patient_admissions_per_annum(df = idn_patient_admitted)
+    usa_patient_admitted = usa_instance.get_room_type(usa_patient_admitted)
+    idn_patient_admitted = usa_instance.get_room_type(idn_patient_admitted)
+
+    usa_annum_count = usa_instance.patient_admissions_per_annum_by_room_type(df = usa_patient_admitted)
+    idn_annum_count = idn_instance.patient_admissions_per_annum_by_room_type(df = idn_patient_admitted)
 
     output = []
-    for year in enumerate(usa_annum_count['year']):
+    for year in (usa_annum_count['year'].unique()):
         df_peryear_usa =  usa_annum_count[usa_annum_count['year'] == year]
         df_peryear_idn = idn_annum_count[idn_annum_count['year'] == year]
         peryear = {"year": str(year),
-                    "class I" : 0,
-                    "class IColor" : 'hsl(128,70%,50%)',
-                    "class II" : 0,
-                    "class IIColor" : 'hsl(130,20%,10%)',
-                    "class III" : 0 ,
-                    "class IIIColor" : 'hsl(122,40%,80%)',
+                    "Class I" : 0,
+                    "Class IColor" : 'hsl(128,70%,50%)',
+                    "Class II" : 0,
+                    "Class IIColor" : 'hsl(130,20%,10%)',
+                    "Class III" : 0 ,
+                    "Class IIIColor" : 'hsl(122,40%,80%)',
                     "VIP" : 0,
                     "VIP Color" : 'hsl(100,20%,20%)',
                     "VVIP" : 0,
                     "VVIP Color" : 'hsl(70,60%,90%)'}
 
         for room in df_peryear_idn['room_type']:
-            peryear[room] = df_peryear_usa[df_peryear_usa['room_type'] == room]['total_admitted_patients'] + df_peryear_idn[df_peryear_idn['room_type'] == room]['total_admitted_patients']
+            sum_count = int(df_peryear_usa[df_peryear_usa['room_type'] == room]['total_admitted_patients']) + int(df_peryear_idn[df_peryear_idn['room_type'] == room]['total_admitted_patients'])
+            peryear[room] = sum_count
         output.append(peryear)
 
     return output
