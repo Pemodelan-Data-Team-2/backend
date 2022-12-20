@@ -154,6 +154,20 @@ class CountryReports(object):
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
+    def patient_admissions_per_annum_by_room_type(self,df):
+        """
+        Function to generate annual report
+        Args:
+        - df: pandas.DataFrame -> queried data (prefix: patient_admissions_by_....).
+            E.g., patient_admissions_by_country, patient_admissions_by_state, etc.
+        """
+        df['admitted_date'] = df['admitted_date'].astype('str')
+        df['admitted_date'] = pd.to_datetime(df['admitted_date'])
+        df['year'] = df['admitted_date'].dt.year
+        agg = df.groupby(['year',"room_type"],as_index = False)[['admission_id']].count()
+        agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
+        return agg
+
     def patient_admissions_per_month(self, df, year):
         """
         Function to generate monthly report
@@ -234,9 +248,7 @@ class CountryReports(object):
         javascript.
         """
         output = []
-        
         df["Country"] = self.country
-        df['Id'] = np.arange(1, len(df) +1)
         columns = list(df.columns)
         for i in range(len(df)):
             output.append(df.iloc[i].to_dict())
@@ -286,15 +298,3 @@ class CountryReports(object):
                     d[j.room_type] = j.total_occupancy
             output.append(d)
         return output
-
-    def format_json_occupancy_barchart(self,df):
-        """
-        fungsi ini digunakan untuk membuat format dataframe ke format
-        javascript untuk barchart
-
-        """
-        output = []
-        year = df['year'].unique()
-
-        for i in year:
-            data_column

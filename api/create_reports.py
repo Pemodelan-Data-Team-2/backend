@@ -85,16 +85,16 @@ def annual_admitted_patients_by_room_type():
         df_peryear_usa =  usa_annum_count[usa_annum_count['year'] == year]
         df_peryear_idn = idn_annum_count[idn_annum_count['year'] == year]
         peryear = {"year": str(year),
-                    "class I" = 0,
-                    'class IColor' = 'hsl(128,70%,50%)',
-                    "class II" = 0,
-                    "class IIColor" = 'hsl(130,20%,10%)'
-                    "class III" = 0 ,
-                    "class IIIColor" =  'hsl(122,40%,80%)',
-                    "VIP" = 0,
-                    "VIP Color" = 'hsl(100,20%,20%)',
-                    "VVIP" = 0
-                    "VVIP Color" = 'hsl(70,60%,90%)'}
+                    "class I" : 0,
+                    "class IColor" : 'hsl(128,70%,50%)',
+                    "class II" : 0,
+                    "class IIColor" : 'hsl(130,20%,10%)',
+                    "class III" : 0 ,
+                    "class IIIColor" : 'hsl(122,40%,80%)',
+                    "VIP" : 0,
+                    "VIP Color" : 'hsl(100,20%,20%)',
+                    "VVIP" : 0,
+                    "VVIP Color" : 'hsl(70,60%,90%)'}
 
         for room in df_peryear_idn['room_type']:
             peryear[room] = df_peryear_usa[df_peryear_usa['room_type'] == room]['total_admitted_patients'] + df_peryear_idn[df_peryear_idn['room_type'] == room]['total_admitted_patients']
