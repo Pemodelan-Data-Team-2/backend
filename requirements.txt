@@ -1,5 +1,4 @@
 cassandra_driver==3.25.0
 Flask==2.0.3
-numpy==1.22.0
 pandas==1.1.5
 gunicorn==20.1.0
