@@ -1,10 +1,7 @@
-import sys
-sys.path.append('../')
-
 from flask import Flask
 
 from services.reports import CountryReports
-import api.create_reports as create_reports
+import create_reports 
 
 app = Flask(__name__)
 

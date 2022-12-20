@@ -1,6 +1,3 @@
-import sys
-sys.path.append('../')
-
 from services.reports import CountryReports
 
 import pandas as pd
