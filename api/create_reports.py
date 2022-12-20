@@ -44,19 +44,21 @@ def patient_admission_count_by_care_center():
     data4 = usa_instance.patient_admissions_per_annum_by_cc(data3)
 
     output = []
+    n = 1
     for i,j in zip(data2.iterrows(),data4.iterrows()) :
-        per_year_usa = {'id' : i[0]+1,
+        per_year_usa = {'id' : n,
                     'year' : str(i[1][0]),
                     'care_center_id':i[1][1],
                     'total_admitted_patients':i[1][2],
                     'country' :i[1][1][3:6]}
         output.append(per_year_usa)
-        per_year_idn = {'id' : j[0]+1,
+        per_year_idn = {'id' : n+1,
                 'year' : str(j[1][0]),
                 'care_center_id':j[1][1],
                 'total_admitted_patients':j[1][2],
                 'country' :j[1][1][3:6]}
         output.append(per_year_idn)
+        n+=2
     return output
 
 def rooms_count_by_care_center():
@@ -180,8 +182,8 @@ def patient_admissions_table():
                         'bed_id': i[1][4],
                         'room_id': i[1][8],
                         'care_center_id': i[1][5],
-                        'admitted_date': i[1][3],
-                        'discharged_date': i[1][6],
+                        'admitted_date': str(i[1][3]),
+                        'discharged_date': str(i[1][6]),
                         'admitted_causes': i[1][2],
                         'room_rate_per_night': float(i[1][9]),
                         'room_rate_total': float(i[1][10])
@@ -189,12 +191,12 @@ def patient_admissions_table():
         output.append(patient_table)
         n+=1
 
-    return outputs
+    return output
 
 def care_centers_table():
-    usa_patient_admitted = usa_instance.carecenters_by_country()
-    idn_patient_admitted = idn_instance.carecenters_by_country()
-    df_concat = pd.concat([idn_patient_admitted,usa_patient_admitted])
+    usa_cc_by_country = usa_instance.carecenters_by_country()
+    idn_cc_by_country = idn_instance.carecenters_by_country()
+    df_concat = pd.concat([usa_cc_by_country,idn_cc_by_country])
     output = []
     n = 0
     for i in df_concat.iterrows():
@@ -202,7 +204,7 @@ def care_centers_table():
             'country': i[1][0],
             'care_center_id': i[1][1],
             'care_center_name': i[1][3],
-            'address': i[1][2][0]}
+            'address': f"{i[1][2][0]}, {i[1][2][1]}, {i[1][2][2]}, {i[1][2][3]}, {i[1][2][4]}"}
         output.append(cc_table)
         n+=1
     return output
