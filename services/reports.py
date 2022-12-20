@@ -157,7 +157,7 @@ class CountryReports(object):
         agg = agg.rename(columns={'admission_id':'total_admitted_patients'})
         return agg
 
-    def patient_admissions_per_annum_by_cc(df):
+    def patient_admissions_per_annum_by_cc(self,df):
         """
         Function to generate annual report
         Args:
