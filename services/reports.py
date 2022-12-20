@@ -271,6 +271,20 @@ class CountryReports(object):
             output.append(df.iloc[i].to_dict())
         return output
 
+    def set_cc_name(self,df):
+        cc_name = []
+        for cc_id in df['care_center_id']:
+            if cc_id == 'cc-usa-1':
+                cc_name.append('Global Health MVCH')
+            elif cc_id == 'cc-usa-2':
+                cc_name.append('MedStar MVCH')
+            elif cc_id == 'cc-idn-1':
+                cc_name.append('Medistra MVCH')
+            elif cc_id == 'cc-idn-2':
+                cc_name.append('Rumah Sakit Mitra Keluarga MVCH')
+        df['care_center_name'] = cc_name
+        return df
+
     def get_room_type(self, df):
         room_types = []
         for idx, row in df.iterrows():
