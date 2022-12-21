@@ -153,22 +153,40 @@ def patient_admissions_table():
     output = []
     n = 1
     for i in df_concat.iterrows():
-        patient_table = {
-                        'id': n,
-                        'admission_id': i[1][1],
-                        'country': i[1][0],
-                        'patient_id': i[1][7],
-                        'bed_id': i[1][4],
-                        'room_id': i[1][8],
-                        'care_center_id': i[1][5],
-                        'admitted_date': str(i[1][3]),
-                        'discharged_date': str(i[1][6]),
-                        'admitted_causes': i[1][2],
-                        'room_rate_per_night': float(i[1][9]),
-                        'room_rate_total': float(i[1][10])
-                        }
-        output.append(patient_table)
-        n+=1
+        if 'usa' in i[1][7]:
+            patient_table = {
+                            'id': n,
+                            'admission_id': i[1][0],
+                            'country': i[1][1],
+                            'patient_id': i[1][7],
+                            'bed_id': i[1][4],
+                            'room_id': i[1][8],
+                            'care_center_id': i[1][5],
+                            'admitted_date': str(i[1][3]),
+                            'discharged_date': str(i[1][6]),
+                            'admitted_causes': i[1][2],
+                            'room_rate_per_night': float(i[1][9]),
+                            'room_rate_total': float(i[1][10])
+                            }
+            output.append(patient_table)
+            n+=1
+        elif 'idn' in i[1][7]:
+            patient_table = {
+                            'id': n,
+                            'admission_id': i[1][1],
+                            'country': i[1][0],
+                            'patient_id': i[1][7],
+                            'bed_id': i[1][4],
+                            'room_id': i[1][8],
+                            'care_center_id': i[1][5],
+                            'admitted_date': str(i[1][3]),
+                            'discharged_date': str(i[1][6]),
+                            'admitted_causes': i[1][2],
+                            'room_rate_per_night': float(i[1][9]),
+                            'room_rate_total': float(i[1][10])
+                            }
+            output.append(patient_table)
+            n+=1
 
     return output
 
@@ -220,6 +238,23 @@ def annual_admitted_patients_by_room_type():
         output.append(peryear)
 
     return output
+
+def beds_availability_by_current_date_table_data():
+    usa_beds = usa_instance.beds()
+    idn_beds = idn_instance.beds()
+    
+    usa_admission = usa_instance.patient_admissions_by_country()
+    idn_admission = idn_instance.patient_admissions_by_country()
+    
+    
+    usa_availability = usa_instance.beds_status_per_current_date(df_beds = usa_beds, df_patient = usa_admission)
+    idn_availability = idn_instance.beds_status_per_current_date(df_beds = idn_beds, df_patient=idn_admission)
+
+    usa_availability.extend(idn_availability)
+    for i in range(1, len(usa_availability) + 1):
+        usa_availability[i-1]['id'] = i
+
+    return usa_availability
 
 # def annual_revenues_from_patient_admissions_by_state_table_data():
 #     usa_patient_admitted_by_state = usa_instance.patient_admissions_by_state()

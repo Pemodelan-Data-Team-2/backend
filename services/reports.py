@@ -25,6 +25,10 @@ class CountryReports(object):
         df = beds_repo.beds_by_room(created_session=self.session, room_id=room_id)
         return df
 
+    def beds(self):
+        df = beds_repo.beds(created_session=self.session)
+        return df
+
     def carecenters_by_city(self, city=None):
         df = carecenters_repo.carecenters_by_city(created_session=self.session, city=city)
         return df
@@ -328,4 +332,23 @@ class CountryReports(object):
                 if j.year == i:
                     d[j.room_type] = j.total_occupancy
             output.append(d)
+        return output
+
+    def beds_status_per_current_date(self, df_beds, df_patient):
+        """
+        fungsi digunakna untuk menampilkan bed-room availability dengan output berupa format Json untuk inputan
+        javascript.
+        """
+        df_patient['status'] = df_patient['discharged_date'].apply(lambda x: 'Occupied' if x == None else 'Available')
+        df_patient = df_patient.sort_values('discharged_date')
+        df_patient['country'] = df_patient['admission_id']
+        df_patient = df_patient[['bed_id', 'status', 'country']].drop_duplicates(keep='last')
+        df_result = df_beds.merge(df_patient, on = 'bed_id', how ='left')
+        df_result = df_result.drop_duplicates(subset='bed_id', keep='last')
+        df_result['status'] = df_result['status'].fillna('Available')
+        df_result['id'] = np.arange(1, len(df_result) + 1)
+        df_result = df_result[['id', 'room_id', 'bed_id', 'care_center_id', 'status', 'country']]
+        output = []
+        for i in range(len(df_result)):
+            output.append(df_result.iloc[i].to_dict())
         return output
