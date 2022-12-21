@@ -25,6 +25,10 @@ class CountryReports(object):
         df = beds_repo.beds_by_room(created_session=self.session, room_id=room_id)
         return df
 
+    def beds(self):
+        df = beds_repo.beds(created_session=self.session)
+        return df
+
     def carecenters_by_city(self, city=None):
         df = carecenters_repo.carecenters_by_city(created_session=self.session, city=city)
         return df
