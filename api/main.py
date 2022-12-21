@@ -48,5 +48,12 @@ def get_patient_admissions_by_country():
     """
     return create_reports.patient_admissions_table()
 
+@app.route('/data/beds-availability-by-country', methods=['GET'])
+def get_beds_availability_by_country():
+    """
+    Function to get formatted data for Data page in frontend
+    """
+    return create_reports.beds_availability_by_current_date_table_data()
+
 if __name__ == '__main__':
     app.run(debug=True)
