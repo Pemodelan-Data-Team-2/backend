@@ -237,6 +237,6 @@ def beds_availability_by_current_date_table_data():
 
     usa_availability.extend(idn_availability)
     for i in range(1, len(usa_availability) + 1):
-        usa_count_by_state[i-1]['id'] = i
+        usa_availability[i-1]['id'] = i
 
     return usa_availability
