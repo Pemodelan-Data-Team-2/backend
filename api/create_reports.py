@@ -232,8 +232,8 @@ def beds_availability_by_current_date_table_data():
     idn_admission = idn_instance.patient_admissions_by_country()
     
     
-    usa_count_by_state = usa.instance.beds_status_per_current_date(df_beds = usa_beds, df_patient = usa_admission)
-    idn_count_by_state = idn.instance.beds_status_per_current_date(df_beds = idn_beds, df_patient=idn_admission)
+    usa_count_by_state = usa_instance.beds_status_per_current_date(df_beds = usa_beds, df_patient = usa_admission)
+    idn_count_by_state = idn_instance.beds_status_per_current_date(df_beds = idn_beds, df_patient=idn_admission)
 
     output = [usa_count_by_state,idn_count_by_state]
 
