@@ -153,40 +153,22 @@ def patient_admissions_table():
     output = []
     n = 1
     for i in df_concat.iterrows():
-        if 'usa' in i[1][7]:
-            patient_table = {
-                            'id': n,
-                            'admission_id': i[1][0],
-                            'country': i[1][1],
-                            'patient_id': i[1][7],
-                            'bed_id': i[1][4],
-                            'room_id': i[1][8],
-                            'care_center_id': i[1][5],
-                            'admitted_date': str(i[1][3]),
-                            'discharged_date': str(i[1][6]),
-                            'admitted_causes': i[1][2],
-                            'room_rate_per_night': float(i[1][9]),
-                            'room_rate_total': float(i[1][10])
-                            }
-            output.append(patient_table)
-            n+=1
-        elif 'idn' in i[1][7]:
-            patient_table = {
-                            'id': n,
-                            'admission_id': i[1][1],
-                            'country': i[1][0],
-                            'patient_id': i[1][7],
-                            'bed_id': i[1][4],
-                            'room_id': i[1][8],
-                            'care_center_id': i[1][5],
-                            'admitted_date': str(i[1][3]),
-                            'discharged_date': str(i[1][6]),
-                            'admitted_causes': i[1][2],
-                            'room_rate_per_night': float(i[1][9]),
-                            'room_rate_total': float(i[1][10])
-                            }
-            output.append(patient_table)
-            n+=1
+        patient_table = {
+            'id': n,
+            'admission_id': i[1][1],
+            'country': i[1][0],
+            'patient_id': i[1][7],
+            'bed_id': i[1][4],
+            'room_id': i[1][8],
+            'care_center_id': i[1][5],
+            'admitted_date': str(i[1][3]),
+            'discharged_date': str(i[1][6]),
+            'admitted_causes': i[1][2],
+            'room_rate_per_night': float(i[1][9]),
+            'room_rate_total': float(i[1][10])
+        }
+        output.append(patient_table)
+        n+=1
 
     return output
 
