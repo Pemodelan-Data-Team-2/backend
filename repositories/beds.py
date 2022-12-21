@@ -25,3 +25,20 @@ def beds_by_room(created_session, room_id=None):
         """)
     df = pd.DataFrame(row)
     return df
+
+def beds(created_session):
+    session = created_session
+
+    row = session.execute(f"""
+        SELECT * FROM beds;
+    """)
+    df = pd.DataFrame(row)
+    return df
+
+# #test
+# from create_session_v2 import create_session
+
+# session = create_session('usa')
+# df = beds(session)
+# print(df)
+    
