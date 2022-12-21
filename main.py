@@ -31,6 +31,13 @@ def get_pa_counts_by_room_type():
     """
     return {'statistics': create_reports.patient_admisson_count_by_room_type()}
 
+@app.route('/statistics/beds-availability', methods=['GET'])
+def get_beds_availability_by_country():
+    """
+    Function to get formatted data for Statistics page in frontend
+    """
+    return create_reports.beds_availability_by_current_date_table_data()
+
 @app.route('/data/carecenters', methods=['GET'])
 def get_carecenters():
     """
