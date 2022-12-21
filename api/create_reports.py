@@ -236,5 +236,7 @@ def beds_availability_by_current_date_table_data():
     idn_availability = idn_instance.beds_status_per_current_date(df_beds = idn_beds, df_patient=idn_admission)
 
     usa_availability.extend(idn_availability)
+    for i in range(1, len(usa_count_by_state) + 1):
+        usa_count_by_state[i-1]['id'] = i
 
     return usa_availability
