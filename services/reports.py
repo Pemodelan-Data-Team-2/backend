@@ -294,11 +294,14 @@ class CountryReports(object):
         javascript.
         """
         df_patient['status'] = df_patient['discharged_date'].apply(lambda x: 'Occupied' if x == None else 'Available')
-        df_patient = df_patient[['bed_id', 'room_id', 'status']]
-        df_result = df_beds.merge(df_patient, on = ['bed_id', 'room_id'], how ='left')
-        df_result['status'] = df_result['status'].apply(lambda x: 'Available' if np.isnan(x) else x)
+        df_patient = df_patient.sort_values('discharged_date')
+        df_patient['country'] = df_patient['admission_id']
+        df_patient = df_patient[['bed_id', 'status', 'country']].drop_duplicates(keep='last')
+        df_result = df_beds.merge(df_patient, on = 'bed_id', how ='left')
+        df_result = df_result.drop_duplicates(subset='bed_id', keep='last')
+        df_result['status'] = df_result['status'].fillna('Available')
         df_result['id'] = np.arange(1, len(df_result) + 1)
-        df_result = df_result[['id', 'room_id', 'bed_id', 'care_center_id', 'status']]
+        df_result = df_result[['id', 'room_id', 'bed_id', 'care_center_id', 'status', 'country']]
         output = []
         for i in range(len(df_result)):
             output.append(df_result.iloc[i].to_dict())
