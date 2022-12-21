@@ -341,7 +341,7 @@ class CountryReports(object):
         """
         df_patient['status'] = df_patient['discharged_date'].apply(lambda x: 'Occupied' if x == None else 'Available')
         df_patient = df_patient.sort_values('discharged_date')
-        df_patient['country'] = df_patient['admission_id']
+        df_patient['country'] = self.country
         df_patient = df_patient[['bed_id', 'status', 'country']].drop_duplicates(keep='last')
         df_result = df_beds.merge(df_patient, on = 'bed_id', how ='left')
         df_result = df_result.drop_duplicates(subset='bed_id', keep='last')
