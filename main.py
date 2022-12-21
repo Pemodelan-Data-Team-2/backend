@@ -36,7 +36,7 @@ def get_beds_availability_by_country():
     """
     Function to get formatted data for Statistics page in frontend
     """
-    return create_reports.beds_availability_by_current_date_table_data()
+    return {'statistics': create_reports.beds_availability_by_current_date_table_data()}
 
 @app.route('/data/carecenters', methods=['GET'])
 def get_carecenters():
