@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 
 from services.reports import CountryReports
 import create_reports 
@@ -10,12 +10,12 @@ def get_dashboard_data():
     """
     Function to get dictionary of all formatted data for Dashboard page in frontend
     """
-    response = {
+    response = jsonify({
         'annualTotalAdmittedPatientsByRoomType': create_reports.annual_admitted_patients_by_room_type(),
         'annualTotalAdmittedPatientsByCountry': create_reports.annual_admitted_patients_bar_chart_data(),
         'annualRevenuesGeneratedFromPatientAdmissions': create_reports.annual_revenues_line_chart_data(),
         'roomsCountByCareCenter': create_reports.rooms_count_by_care_center(),
-    }
+    })
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
@@ -24,7 +24,7 @@ def get_pa_counts_by_cc():
     """
     Function to get formatted data for Statistics page in frontend
     """
-    response = {'statistics': create_reports.patient_admission_count_by_care_center()}
+    response = jsonify({'statistics': create_reports.patient_admission_count_by_care_center()})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
@@ -33,7 +33,7 @@ def get_pa_counts_by_room_type():
     """
     Function to get formatted data for Statistics page in frontend
     """
-    response = {'statistics': create_reports.patient_admisson_count_by_room_type()}
+    response = jsonify({'statistics': create_reports.patient_admisson_count_by_room_type()})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
@@ -42,7 +42,7 @@ def get_beds_availability_by_country():
     """
     Function to get formatted data for Statistics page in frontend
     """
-    response = {'statistics': create_reports.beds_availability_by_current_date_table_data()}
+    response = jsonify({'statistics': create_reports.beds_availability_by_current_date_table_data()})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
@@ -51,7 +51,7 @@ def get_carecenters():
     """
     Function to get formatted data for Data page in frontend
     """
-    response = {'data': create_reports.care_centers_table()}
+    response = jsonify({'data': create_reports.care_centers_table()})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
@@ -60,7 +60,7 @@ def get_patient_admissions_by_country():
     """
     Function to get formatted data for Data page in frontend
     """
-    response = {'data': create_reports.patient_admissions_table()}
+    response = jsonify({'data': create_reports.patient_admissions_table()})
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
