@@ -1,0 +1,3 @@
+country,care_center_id,care_center_name,address
+USA,cc-usa-1,Global Health MVCH,"{street: '1400 E Boulder St', city:'Denver', state_or_province:'Colorado',zip_code:'80909', country:'USA'}"
+USA,cc-usa-2,MedStar MVCH,"{street: '56-45 Main St', city:'Queens', state_or_province:'New York',zip_code:'11355', country:'USA'}"

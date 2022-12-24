@@ -1,0 +1,11 @@
+room_id,admission_id,patient_id,bed_id,care_center_id,admitted_date,admitted_causes,room_rate_per_night,room_rate_total
+r-usa-vvip-8952,adm-usa-6421,p-usa-10188,b-usa-1111,cc-usa-2,2022-11-20,Posterior inferior cerebellar artery syndrome stroke syndrome,903.88,32539.68
+r-usa-ii-2961,adm-usa-5000,p-usa-01453,b-usa-8076,cc-usa-2,2022-11-29,Third cranial nerve disorder disorder of eye movement,159.82,3675.86
+r-usa-iii-5740,adm-usa-9741,p-usa-12121,b-usa-8654,cc-usa-2,2022-11-20,Cubital tunnel syndrome nerve compression in the elbow,59.92,2157.12
+r-usa-ii-6228,adm-usa-7272,p-usa-24077,b-usa-4008,cc-usa-1,2022-11-09,Urinary tract malformation,158.98,3815.52
+r-usa-i-0405,adm-usa-5572,p-usa-06410,b-usa-2614,cc-usa-1,2022-11-04,Nail laceration nail bed cut,333.78,11014.74
+r-usa-ii-5686,adm-usa-4576,p-usa-21618,b-usa-7942,cc-usa-2,2022-11-11,"Nonsteroidal anti-inflammatory drug overdose Motrin, Advil",159.82,3995.5
+r-usa-i-0031,adm-usa-7319,p-usa-00676,b-usa-0712,cc-usa-1,2022-11-29,Spinal cord compression cauda equina syndrome,333.78,6341.82
+r-usa-ii-4153,adm-usa-4720,p-usa-20362,b-usa-2744,cc-usa-1,2022-11-20,Stress,158.98,2384.7
+r-usa-iii-4653,adm-usa-7330,p-usa-03258,b-usa-9615,cc-usa-1,2022-11-22,Cervicitis inflammation of the lower uterus,109.67,1864.39
+r-usa-vip-9967,adm-usa-0777,p-usa-22767,b-usa-6741,cc-usa-2,2022-11-23,Jellyfish stings,581.34,8138.76

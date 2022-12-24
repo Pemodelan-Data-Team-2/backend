@@ -1,0 +1,1001 @@
+care_center_id,room_id,room_type,rate
+cc-usa-1,r-usa-i-0031,Class I,333.78
+cc-usa-2,r-usa-i-0089,Class I,468.28
+cc-usa-1,r-usa-i-0099,Class I,333.78
+cc-usa-1,r-usa-i-0118,Class I,333.78
+cc-usa-1,r-usa-i-0119,Class I,333.78
+cc-usa-2,r-usa-i-0127,Class I,468.28
+cc-usa-1,r-usa-i-0169,Class I,333.78
+cc-usa-1,r-usa-i-0403,Class I,333.78
+cc-usa-2,r-usa-i-0405,Class I,468.28
+cc-usa-1,r-usa-i-0555,Class I,333.78
+cc-usa-2,r-usa-i-0561,Class I,468.28
+cc-usa-1,r-usa-i-0739,Class I,333.78
+cc-usa-1,r-usa-i-0778,Class I,333.78
+cc-usa-2,r-usa-i-0788,Class I,468.28
+cc-usa-1,r-usa-i-0809,Class I,333.78
+cc-usa-2,r-usa-i-0912,Class I,468.28
+cc-usa-2,r-usa-i-0930,Class I,468.28
+cc-usa-1,r-usa-i-0962,Class I,333.78
+cc-usa-1,r-usa-i-0965,Class I,333.78
+cc-usa-2,r-usa-i-0983,Class I,468.28
+cc-usa-1,r-usa-i-1002,Class I,333.78
+cc-usa-1,r-usa-i-1055,Class I,333.78
+cc-usa-1,r-usa-i-1090,Class I,333.78
+cc-usa-1,r-usa-i-1181,Class I,333.78
+cc-usa-2,r-usa-i-1217,Class I,468.28
+cc-usa-1,r-usa-i-1343,Class I,333.78
+cc-usa-1,r-usa-i-1367,Class I,333.78
+cc-usa-2,r-usa-i-1447,Class I,468.28
+cc-usa-2,r-usa-i-1485,Class I,468.28
+cc-usa-2,r-usa-i-1576,Class I,468.28
+cc-usa-1,r-usa-i-1624,Class I,333.78
+cc-usa-2,r-usa-i-1694,Class I,468.28
+cc-usa-1,r-usa-i-1728,Class I,333.78
+cc-usa-1,r-usa-i-1730,Class I,333.78
+cc-usa-2,r-usa-i-1782,Class I,468.28
+cc-usa-2,r-usa-i-1811,Class I,468.28
+cc-usa-1,r-usa-i-1819,Class I,333.78
+cc-usa-2,r-usa-i-1840,Class I,468.28
+cc-usa-1,r-usa-i-1854,Class I,333.78
+cc-usa-1,r-usa-i-1881,Class I,333.78
+cc-usa-1,r-usa-i-1884,Class I,333.78
+cc-usa-1,r-usa-i-1892,Class I,333.78
+cc-usa-1,r-usa-i-1982,Class I,333.78
+cc-usa-1,r-usa-i-2054,Class I,333.78
+cc-usa-1,r-usa-i-2071,Class I,333.78
+cc-usa-2,r-usa-i-2093,Class I,468.28
+cc-usa-2,r-usa-i-2164,Class I,468.28
+cc-usa-1,r-usa-i-2181,Class I,333.78
+cc-usa-1,r-usa-i-2192,Class I,333.78
+cc-usa-2,r-usa-i-2291,Class I,468.28
+cc-usa-2,r-usa-i-2319,Class I,468.28
+cc-usa-2,r-usa-i-2320,Class I,468.28
+cc-usa-2,r-usa-i-2445,Class I,468.28
+cc-usa-1,r-usa-i-2446,Class I,333.78
+cc-usa-2,r-usa-i-2455,Class I,468.28
+cc-usa-2,r-usa-i-2465,Class I,468.28
+cc-usa-2,r-usa-i-2617,Class I,468.28
+cc-usa-1,r-usa-i-2692,Class I,333.78
+cc-usa-1,r-usa-i-2712,Class I,333.78
+cc-usa-2,r-usa-i-2740,Class I,468.28
+cc-usa-1,r-usa-i-2812,Class I,333.78
+cc-usa-1,r-usa-i-2837,Class I,333.78
+cc-usa-2,r-usa-i-2851,Class I,468.28
+cc-usa-1,r-usa-i-2862,Class I,333.78
+cc-usa-1,r-usa-i-3008,Class I,333.78
+cc-usa-1,r-usa-i-3030,Class I,333.78
+cc-usa-2,r-usa-i-3080,Class I,468.28
+cc-usa-1,r-usa-i-3221,Class I,333.78
+cc-usa-1,r-usa-i-3259,Class I,333.78
+cc-usa-1,r-usa-i-3374,Class I,333.78
+cc-usa-1,r-usa-i-3428,Class I,333.78
+cc-usa-1,r-usa-i-3484,Class I,333.78
+cc-usa-1,r-usa-i-3511,Class I,333.78
+cc-usa-1,r-usa-i-3582,Class I,333.78
+cc-usa-2,r-usa-i-3621,Class I,468.28
+cc-usa-2,r-usa-i-3667,Class I,468.28
+cc-usa-2,r-usa-i-3691,Class I,468.28
+cc-usa-2,r-usa-i-3771,Class I,468.28
+cc-usa-1,r-usa-i-3888,Class I,333.78
+cc-usa-2,r-usa-i-4023,Class I,468.28
+cc-usa-1,r-usa-i-4040,Class I,333.78
+cc-usa-2,r-usa-i-4082,Class I,468.28
+cc-usa-2,r-usa-i-4233,Class I,468.28
+cc-usa-1,r-usa-i-4285,Class I,333.78
+cc-usa-2,r-usa-i-4348,Class I,468.28
+cc-usa-1,r-usa-i-4353,Class I,333.78
+cc-usa-1,r-usa-i-4381,Class I,333.78
+cc-usa-1,r-usa-i-4571,Class I,333.78
+cc-usa-2,r-usa-i-4665,Class I,468.28
+cc-usa-2,r-usa-i-4677,Class I,468.28
+cc-usa-2,r-usa-i-4710,Class I,468.28
+cc-usa-1,r-usa-i-4765,Class I,333.78
+cc-usa-1,r-usa-i-4853,Class I,333.78
+cc-usa-1,r-usa-i-4864,Class I,333.78
+cc-usa-1,r-usa-i-4991,Class I,333.78
+cc-usa-2,r-usa-i-5003,Class I,468.28
+cc-usa-1,r-usa-i-5006,Class I,333.78
+cc-usa-1,r-usa-i-5008,Class I,333.78
+cc-usa-2,r-usa-i-5039,Class I,468.28
+cc-usa-1,r-usa-i-5054,Class I,333.78
+cc-usa-1,r-usa-i-5059,Class I,333.78
+cc-usa-1,r-usa-i-5075,Class I,333.78
+cc-usa-2,r-usa-i-5091,Class I,468.28
+cc-usa-1,r-usa-i-5135,Class I,333.78
+cc-usa-1,r-usa-i-5144,Class I,333.78
+cc-usa-1,r-usa-i-5225,Class I,333.78
+cc-usa-2,r-usa-i-5305,Class I,468.28
+cc-usa-2,r-usa-i-5401,Class I,468.28
+cc-usa-1,r-usa-i-5442,Class I,333.78
+cc-usa-2,r-usa-i-5495,Class I,468.28
+cc-usa-2,r-usa-i-5598,Class I,468.28
+cc-usa-2,r-usa-i-5745,Class I,468.28
+cc-usa-2,r-usa-i-5797,Class I,468.28
+cc-usa-1,r-usa-i-5811,Class I,333.78
+cc-usa-1,r-usa-i-5818,Class I,333.78
+cc-usa-2,r-usa-i-5825,Class I,468.28
+cc-usa-2,r-usa-i-5914,Class I,468.28
+cc-usa-1,r-usa-i-5988,Class I,333.78
+cc-usa-2,r-usa-i-5992,Class I,468.28
+cc-usa-1,r-usa-i-6005,Class I,333.78
+cc-usa-2,r-usa-i-6057,Class I,468.28
+cc-usa-1,r-usa-i-6057,Class I,333.78
+cc-usa-1,r-usa-i-6141,Class I,333.78
+cc-usa-2,r-usa-i-6197,Class I,468.28
+cc-usa-1,r-usa-i-6207,Class I,333.78
+cc-usa-1,r-usa-i-6253,Class I,333.78
+cc-usa-1,r-usa-i-6282,Class I,333.78
+cc-usa-1,r-usa-i-6438,Class I,333.78
+cc-usa-2,r-usa-i-6527,Class I,468.28
+cc-usa-2,r-usa-i-6533,Class I,468.28
+cc-usa-1,r-usa-i-6538,Class I,333.78
+cc-usa-2,r-usa-i-6583,Class I,468.28
+cc-usa-2,r-usa-i-6596,Class I,468.28
+cc-usa-1,r-usa-i-6622,Class I,333.78
+cc-usa-1,r-usa-i-6740,Class I,333.78
+cc-usa-2,r-usa-i-6740,Class I,468.28
+cc-usa-2,r-usa-i-6820,Class I,468.28
+cc-usa-2,r-usa-i-6916,Class I,468.28
+cc-usa-1,r-usa-i-6934,Class I,333.78
+cc-usa-1,r-usa-i-6939,Class I,333.78
+cc-usa-2,r-usa-i-6973,Class I,468.28
+cc-usa-1,r-usa-i-6979,Class I,333.78
+cc-usa-1,r-usa-i-7077,Class I,333.78
+cc-usa-2,r-usa-i-7096,Class I,468.28
+cc-usa-2,r-usa-i-7295,Class I,468.28
+cc-usa-2,r-usa-i-7336,Class I,468.28
+cc-usa-1,r-usa-i-7386,Class I,333.78
+cc-usa-2,r-usa-i-7420,Class I,468.28
+cc-usa-2,r-usa-i-7486,Class I,468.28
+cc-usa-1,r-usa-i-7492,Class I,333.78
+cc-usa-1,r-usa-i-7514,Class I,333.78
+cc-usa-2,r-usa-i-7789,Class I,468.28
+cc-usa-1,r-usa-i-7924,Class I,333.78
+cc-usa-2,r-usa-i-7962,Class I,468.28
+cc-usa-2,r-usa-i-8124,Class I,468.28
+cc-usa-1,r-usa-i-8147,Class I,333.78
+cc-usa-2,r-usa-i-8163,Class I,468.28
+cc-usa-1,r-usa-i-8328,Class I,333.78
+cc-usa-2,r-usa-i-8447,Class I,468.28
+cc-usa-2,r-usa-i-8468,Class I,468.28
+cc-usa-2,r-usa-i-8494,Class I,468.28
+cc-usa-1,r-usa-i-8535,Class I,333.78
+cc-usa-1,r-usa-i-8568,Class I,333.78
+cc-usa-1,r-usa-i-8625,Class I,333.78
+cc-usa-1,r-usa-i-8644,Class I,333.78
+cc-usa-2,r-usa-i-8705,Class I,468.28
+cc-usa-1,r-usa-i-8784,Class I,333.78
+cc-usa-2,r-usa-i-8797,Class I,468.28
+cc-usa-2,r-usa-i-8815,Class I,468.28
+cc-usa-2,r-usa-i-8839,Class I,468.28
+cc-usa-2,r-usa-i-8883,Class I,468.28
+cc-usa-2,r-usa-i-8923,Class I,468.28
+cc-usa-1,r-usa-i-8934,Class I,333.78
+cc-usa-1,r-usa-i-9010,Class I,333.78
+cc-usa-2,r-usa-i-9344,Class I,468.28
+cc-usa-2,r-usa-i-9416,Class I,468.28
+cc-usa-1,r-usa-i-9577,Class I,333.78
+cc-usa-2,r-usa-i-9593,Class I,468.28
+cc-usa-1,r-usa-i-9626,Class I,333.78
+cc-usa-2,r-usa-i-9668,Class I,468.28
+cc-usa-2,r-usa-i-9792,Class I,468.28
+cc-usa-2,r-usa-i-9829,Class I,468.28
+cc-usa-2,r-usa-i-9837,Class I,468.28
+cc-usa-1,r-usa-ii-0015,Class II,158.98
+cc-usa-1,r-usa-ii-0028,Class II,158.98
+cc-usa-2,r-usa-ii-0148,Class II,159.82
+cc-usa-1,r-usa-ii-0172,Class II,158.98
+cc-usa-1,r-usa-ii-0176,Class II,158.98
+cc-usa-2,r-usa-ii-0223,Class II,159.82
+cc-usa-2,r-usa-ii-0315,Class II,159.82
+cc-usa-2,r-usa-ii-0422,Class II,159.82
+cc-usa-1,r-usa-ii-0552,Class II,158.98
+cc-usa-1,r-usa-ii-0590,Class II,158.98
+cc-usa-2,r-usa-ii-0606,Class II,159.82
+cc-usa-1,r-usa-ii-0732,Class II,158.98
+cc-usa-2,r-usa-ii-0744,Class II,159.82
+cc-usa-1,r-usa-ii-0844,Class II,158.98
+cc-usa-1,r-usa-ii-0853,Class II,158.98
+cc-usa-1,r-usa-ii-0857,Class II,158.98
+cc-usa-2,r-usa-ii-0876,Class II,159.82
+cc-usa-2,r-usa-ii-0897,Class II,159.82
+cc-usa-2,r-usa-ii-0937,Class II,159.82
+cc-usa-1,r-usa-ii-0985,Class II,158.98
+cc-usa-2,r-usa-ii-1094,Class II,159.82
+cc-usa-2,r-usa-ii-1137,Class II,159.82
+cc-usa-2,r-usa-ii-1142,Class II,159.82
+cc-usa-2,r-usa-ii-1240,Class II,159.82
+cc-usa-1,r-usa-ii-1245,Class II,158.98
+cc-usa-2,r-usa-ii-1360,Class II,159.82
+cc-usa-2,r-usa-ii-1424,Class II,159.82
+cc-usa-2,r-usa-ii-1613,Class II,159.82
+cc-usa-2,r-usa-ii-1618,Class II,159.82
+cc-usa-1,r-usa-ii-1649,Class II,158.98
+cc-usa-2,r-usa-ii-1657,Class II,159.82
+cc-usa-2,r-usa-ii-1667,Class II,159.82
+cc-usa-2,r-usa-ii-1708,Class II,159.82
+cc-usa-1,r-usa-ii-1775,Class II,158.98
+cc-usa-1,r-usa-ii-1798,Class II,158.98
+cc-usa-1,r-usa-ii-1815,Class II,158.98
+cc-usa-2,r-usa-ii-1818,Class II,159.82
+cc-usa-2,r-usa-ii-1866,Class II,159.82
+cc-usa-2,r-usa-ii-1874,Class II,159.82
+cc-usa-2,r-usa-ii-1911,Class II,159.82
+cc-usa-1,r-usa-ii-1925,Class II,158.98
+cc-usa-1,r-usa-ii-1954,Class II,158.98
+cc-usa-1,r-usa-ii-2004,Class II,158.98
+cc-usa-2,r-usa-ii-2360,Class II,159.82
+cc-usa-2,r-usa-ii-2399,Class II,159.82
+cc-usa-2,r-usa-ii-2423,Class II,159.82
+cc-usa-2,r-usa-ii-2533,Class II,159.82
+cc-usa-1,r-usa-ii-2534,Class II,158.98
+cc-usa-2,r-usa-ii-2588,Class II,159.82
+cc-usa-1,r-usa-ii-2597,Class II,158.98
+cc-usa-1,r-usa-ii-2716,Class II,158.98
+cc-usa-2,r-usa-ii-2731,Class II,159.82
+cc-usa-1,r-usa-ii-2785,Class II,158.98
+cc-usa-1,r-usa-ii-2821,Class II,158.98
+cc-usa-1,r-usa-ii-2876,Class II,158.98
+cc-usa-2,r-usa-ii-2913,Class II,159.82
+cc-usa-2,r-usa-ii-2927,Class II,159.82
+cc-usa-1,r-usa-ii-2961,Class II,158.98
+cc-usa-2,r-usa-ii-2981,Class II,159.82
+cc-usa-1,r-usa-ii-2981,Class II,158.98
+cc-usa-1,r-usa-ii-3009,Class II,158.98
+cc-usa-2,r-usa-ii-3039,Class II,159.82
+cc-usa-1,r-usa-ii-3058,Class II,158.98
+cc-usa-1,r-usa-ii-3088,Class II,158.98
+cc-usa-2,r-usa-ii-3098,Class II,159.82
+cc-usa-1,r-usa-ii-3160,Class II,158.98
+cc-usa-1,r-usa-ii-3203,Class II,158.98
+cc-usa-2,r-usa-ii-3211,Class II,159.82
+cc-usa-1,r-usa-ii-3228,Class II,158.98
+cc-usa-2,r-usa-ii-3360,Class II,159.82
+cc-usa-1,r-usa-ii-3375,Class II,158.98
+cc-usa-2,r-usa-ii-3419,Class II,159.82
+cc-usa-1,r-usa-ii-3452,Class II,158.98
+cc-usa-2,r-usa-ii-3645,Class II,159.82
+cc-usa-2,r-usa-ii-3659,Class II,159.82
+cc-usa-2,r-usa-ii-3729,Class II,159.82
+cc-usa-1,r-usa-ii-3810,Class II,158.98
+cc-usa-1,r-usa-ii-3837,Class II,158.98
+cc-usa-2,r-usa-ii-3845,Class II,159.82
+cc-usa-1,r-usa-ii-3850,Class II,158.98
+cc-usa-1,r-usa-ii-3979,Class II,158.98
+cc-usa-1,r-usa-ii-3998,Class II,158.98
+cc-usa-1,r-usa-ii-4056,Class II,158.98
+cc-usa-2,r-usa-ii-4121,Class II,159.82
+cc-usa-1,r-usa-ii-4153,Class II,158.98
+cc-usa-2,r-usa-ii-4168,Class II,159.82
+cc-usa-1,r-usa-ii-4171,Class II,158.98
+cc-usa-1,r-usa-ii-4304,Class II,158.98
+cc-usa-1,r-usa-ii-4307,Class II,158.98
+cc-usa-1,r-usa-ii-4326,Class II,158.98
+cc-usa-2,r-usa-ii-4327,Class II,159.82
+cc-usa-2,r-usa-ii-4331,Class II,159.82
+cc-usa-2,r-usa-ii-4393,Class II,159.82
+cc-usa-1,r-usa-ii-4429,Class II,158.98
+cc-usa-2,r-usa-ii-4462,Class II,159.82
+cc-usa-2,r-usa-ii-4528,Class II,159.82
+cc-usa-1,r-usa-ii-4531,Class II,158.98
+cc-usa-2,r-usa-ii-4532,Class II,159.82
+cc-usa-1,r-usa-ii-4543,Class II,158.98
+cc-usa-1,r-usa-ii-4811,Class II,158.98
+cc-usa-2,r-usa-ii-4929,Class II,159.82
+cc-usa-2,r-usa-ii-4973,Class II,159.82
+cc-usa-1,r-usa-ii-5013,Class II,158.98
+cc-usa-1,r-usa-ii-5060,Class II,158.98
+cc-usa-1,r-usa-ii-5081,Class II,158.98
+cc-usa-2,r-usa-ii-5248,Class II,159.82
+cc-usa-2,r-usa-ii-5329,Class II,159.82
+cc-usa-2,r-usa-ii-5337,Class II,159.82
+cc-usa-2,r-usa-ii-5348,Class II,159.82
+cc-usa-1,r-usa-ii-5367,Class II,158.98
+cc-usa-1,r-usa-ii-5423,Class II,158.98
+cc-usa-2,r-usa-ii-5423,Class II,159.82
+cc-usa-1,r-usa-ii-5621,Class II,158.98
+cc-usa-2,r-usa-ii-5674,Class II,159.82
+cc-usa-1,r-usa-ii-5686,Class II,158.98
+cc-usa-1,r-usa-ii-5709,Class II,158.98
+cc-usa-1,r-usa-ii-5846,Class II,158.98
+cc-usa-2,r-usa-ii-5857,Class II,159.82
+cc-usa-2,r-usa-ii-6012,Class II,159.82
+cc-usa-2,r-usa-ii-6016,Class II,159.82
+cc-usa-2,r-usa-ii-6028,Class II,159.82
+cc-usa-1,r-usa-ii-6140,Class II,158.98
+cc-usa-1,r-usa-ii-6155,Class II,158.98
+cc-usa-2,r-usa-ii-6186,Class II,159.82
+cc-usa-1,r-usa-ii-6224,Class II,158.98
+cc-usa-2,r-usa-ii-6228,Class II,159.82
+cc-usa-1,r-usa-ii-6303,Class II,158.98
+cc-usa-1,r-usa-ii-6359,Class II,158.98
+cc-usa-2,r-usa-ii-6371,Class II,159.82
+cc-usa-1,r-usa-ii-6513,Class II,158.98
+cc-usa-1,r-usa-ii-6566,Class II,158.98
+cc-usa-1,r-usa-ii-6573,Class II,158.98
+cc-usa-1,r-usa-ii-6591,Class II,158.98
+cc-usa-1,r-usa-ii-6611,Class II,158.98
+cc-usa-1,r-usa-ii-6743,Class II,158.98
+cc-usa-2,r-usa-ii-6756,Class II,159.82
+cc-usa-1,r-usa-ii-6774,Class II,158.98
+cc-usa-2,r-usa-ii-6784,Class II,159.82
+cc-usa-1,r-usa-ii-6844,Class II,158.98
+cc-usa-2,r-usa-ii-6878,Class II,159.82
+cc-usa-1,r-usa-ii-6883,Class II,158.98
+cc-usa-1,r-usa-ii-6885,Class II,158.98
+cc-usa-2,r-usa-ii-6970,Class II,159.82
+cc-usa-2,r-usa-ii-7012,Class II,159.82
+cc-usa-1,r-usa-ii-7211,Class II,158.98
+cc-usa-2,r-usa-ii-7226,Class II,159.82
+cc-usa-2,r-usa-ii-7241,Class II,159.82
+cc-usa-1,r-usa-ii-7250,Class II,158.98
+cc-usa-1,r-usa-ii-7445,Class II,158.98
+cc-usa-1,r-usa-ii-7456,Class II,158.98
+cc-usa-1,r-usa-ii-7464,Class II,158.98
+cc-usa-1,r-usa-ii-7486,Class II,158.98
+cc-usa-2,r-usa-ii-7585,Class II,159.82
+cc-usa-1,r-usa-ii-7600,Class II,158.98
+cc-usa-2,r-usa-ii-7642,Class II,159.82
+cc-usa-1,r-usa-ii-7705,Class II,158.98
+cc-usa-2,r-usa-ii-7759,Class II,159.82
+cc-usa-1,r-usa-ii-7773,Class II,158.98
+cc-usa-2,r-usa-ii-7789,Class II,159.82
+cc-usa-2,r-usa-ii-7873,Class II,159.82
+cc-usa-1,r-usa-ii-7976,Class II,158.98
+cc-usa-1,r-usa-ii-8035,Class II,158.98
+cc-usa-1,r-usa-ii-8072,Class II,158.98
+cc-usa-1,r-usa-ii-8077,Class II,158.98
+cc-usa-1,r-usa-ii-8109,Class II,158.98
+cc-usa-1,r-usa-ii-8147,Class II,158.98
+cc-usa-1,r-usa-ii-8186,Class II,158.98
+cc-usa-1,r-usa-ii-8214,Class II,158.98
+cc-usa-2,r-usa-ii-8275,Class II,159.82
+cc-usa-2,r-usa-ii-8287,Class II,159.82
+cc-usa-2,r-usa-ii-8331,Class II,159.82
+cc-usa-2,r-usa-ii-8413,Class II,159.82
+cc-usa-1,r-usa-ii-8531,Class II,158.98
+cc-usa-2,r-usa-ii-8545,Class II,159.82
+cc-usa-1,r-usa-ii-8640,Class II,158.98
+cc-usa-2,r-usa-ii-8666,Class II,159.82
+cc-usa-1,r-usa-ii-8806,Class II,158.98
+cc-usa-1,r-usa-ii-8807,Class II,158.98
+cc-usa-1,r-usa-ii-8815,Class II,158.98
+cc-usa-1,r-usa-ii-8835,Class II,158.98
+cc-usa-2,r-usa-ii-8872,Class II,159.82
+cc-usa-2,r-usa-ii-8902,Class II,159.82
+cc-usa-1,r-usa-ii-8912,Class II,158.98
+cc-usa-1,r-usa-ii-9018,Class II,158.98
+cc-usa-2,r-usa-ii-9033,Class II,159.82
+cc-usa-1,r-usa-ii-9091,Class II,158.98
+cc-usa-1,r-usa-ii-9094,Class II,158.98
+cc-usa-1,r-usa-ii-9147,Class II,158.98
+cc-usa-1,r-usa-ii-9159,Class II,158.98
+cc-usa-2,r-usa-ii-9190,Class II,159.82
+cc-usa-1,r-usa-ii-9320,Class II,158.98
+cc-usa-2,r-usa-ii-9369,Class II,159.82
+cc-usa-2,r-usa-ii-9504,Class II,159.82
+cc-usa-1,r-usa-ii-9506,Class II,158.98
+cc-usa-2,r-usa-ii-9508,Class II,159.82
+cc-usa-1,r-usa-ii-9543,Class II,158.98
+cc-usa-1,r-usa-ii-9570,Class II,158.98
+cc-usa-1,r-usa-ii-9686,Class II,158.98
+cc-usa-2,r-usa-ii-9727,Class II,159.82
+cc-usa-2,r-usa-ii-9860,Class II,159.82
+cc-usa-1,r-usa-ii-9939,Class II,158.98
+cc-usa-1,r-usa-iii-0015,Class III,109.67
+cc-usa-2,r-usa-iii-0043,Class III,59.92
+cc-usa-1,r-usa-iii-0063,Class III,109.67
+cc-usa-1,r-usa-iii-0081,Class III,109.67
+cc-usa-2,r-usa-iii-0084,Class III,59.92
+cc-usa-1,r-usa-iii-0135,Class III,109.67
+cc-usa-1,r-usa-iii-0177,Class III,109.67
+cc-usa-1,r-usa-iii-0187,Class III,109.67
+cc-usa-1,r-usa-iii-0247,Class III,109.67
+cc-usa-2,r-usa-iii-0264,Class III,59.92
+cc-usa-2,r-usa-iii-0330,Class III,59.92
+cc-usa-2,r-usa-iii-0333,Class III,59.92
+cc-usa-1,r-usa-iii-0401,Class III,109.67
+cc-usa-2,r-usa-iii-0407,Class III,59.92
+cc-usa-2,r-usa-iii-0462,Class III,59.92
+cc-usa-2,r-usa-iii-0500,Class III,59.92
+cc-usa-2,r-usa-iii-0526,Class III,59.92
+cc-usa-1,r-usa-iii-0543,Class III,109.67
+cc-usa-1,r-usa-iii-0589,Class III,109.67
+cc-usa-2,r-usa-iii-0667,Class III,59.92
+cc-usa-1,r-usa-iii-0696,Class III,109.67
+cc-usa-2,r-usa-iii-0700,Class III,59.92
+cc-usa-1,r-usa-iii-0743,Class III,109.67
+cc-usa-1,r-usa-iii-0748,Class III,109.67
+cc-usa-1,r-usa-iii-0765,Class III,109.67
+cc-usa-1,r-usa-iii-0779,Class III,109.67
+cc-usa-2,r-usa-iii-0785,Class III,59.92
+cc-usa-1,r-usa-iii-0994,Class III,109.67
+cc-usa-2,r-usa-iii-1081,Class III,59.92
+cc-usa-1,r-usa-iii-1139,Class III,109.67
+cc-usa-1,r-usa-iii-1193,Class III,109.67
+cc-usa-2,r-usa-iii-1279,Class III,59.92
+cc-usa-2,r-usa-iii-1293,Class III,59.92
+cc-usa-2,r-usa-iii-1296,Class III,59.92
+cc-usa-2,r-usa-iii-1399,Class III,59.92
+cc-usa-1,r-usa-iii-1501,Class III,109.67
+cc-usa-1,r-usa-iii-1598,Class III,109.67
+cc-usa-1,r-usa-iii-1659,Class III,109.67
+cc-usa-1,r-usa-iii-1727,Class III,109.67
+cc-usa-1,r-usa-iii-1899,Class III,109.67
+cc-usa-1,r-usa-iii-2001,Class III,109.67
+cc-usa-1,r-usa-iii-2214,Class III,109.67
+cc-usa-1,r-usa-iii-2235,Class III,109.67
+cc-usa-1,r-usa-iii-2249,Class III,109.67
+cc-usa-1,r-usa-iii-2322,Class III,109.67
+cc-usa-2,r-usa-iii-2377,Class III,59.92
+cc-usa-2,r-usa-iii-2395,Class III,59.92
+cc-usa-1,r-usa-iii-2479,Class III,109.67
+cc-usa-1,r-usa-iii-2678,Class III,109.67
+cc-usa-1,r-usa-iii-2681,Class III,109.67
+cc-usa-2,r-usa-iii-2755,Class III,59.92
+cc-usa-2,r-usa-iii-2758,Class III,59.92
+cc-usa-1,r-usa-iii-2832,Class III,109.67
+cc-usa-2,r-usa-iii-2921,Class III,59.92
+cc-usa-2,r-usa-iii-3020,Class III,59.92
+cc-usa-2,r-usa-iii-3074,Class III,59.92
+cc-usa-2,r-usa-iii-3110,Class III,59.92
+cc-usa-1,r-usa-iii-3139,Class III,109.67
+cc-usa-1,r-usa-iii-3275,Class III,109.67
+cc-usa-1,r-usa-iii-3396,Class III,109.67
+cc-usa-2,r-usa-iii-3643,Class III,59.92
+cc-usa-1,r-usa-iii-3686,Class III,109.67
+cc-usa-1,r-usa-iii-3766,Class III,109.67
+cc-usa-1,r-usa-iii-3791,Class III,109.67
+cc-usa-1,r-usa-iii-3815,Class III,109.67
+cc-usa-1,r-usa-iii-3900,Class III,109.67
+cc-usa-2,r-usa-iii-3901,Class III,59.92
+cc-usa-2,r-usa-iii-3921,Class III,59.92
+cc-usa-1,r-usa-iii-3941,Class III,109.67
+cc-usa-2,r-usa-iii-3945,Class III,59.92
+cc-usa-1,r-usa-iii-4039,Class III,109.67
+cc-usa-2,r-usa-iii-4042,Class III,59.92
+cc-usa-1,r-usa-iii-4107,Class III,109.67
+cc-usa-1,r-usa-iii-4127,Class III,109.67
+cc-usa-2,r-usa-iii-4146,Class III,59.92
+cc-usa-2,r-usa-iii-4149,Class III,59.92
+cc-usa-2,r-usa-iii-4169,Class III,59.92
+cc-usa-2,r-usa-iii-4257,Class III,59.92
+cc-usa-1,r-usa-iii-4328,Class III,109.67
+cc-usa-1,r-usa-iii-4389,Class III,109.67
+cc-usa-1,r-usa-iii-4472,Class III,109.67
+cc-usa-2,r-usa-iii-4507,Class III,59.92
+cc-usa-1,r-usa-iii-4613,Class III,109.67
+cc-usa-1,r-usa-iii-4653,Class III,109.67
+cc-usa-2,r-usa-iii-4759,Class III,59.92
+cc-usa-2,r-usa-iii-4779,Class III,59.92
+cc-usa-1,r-usa-iii-4804,Class III,109.67
+cc-usa-1,r-usa-iii-4912,Class III,109.67
+cc-usa-1,r-usa-iii-4927,Class III,109.67
+cc-usa-2,r-usa-iii-4937,Class III,59.92
+cc-usa-1,r-usa-iii-4961,Class III,109.67
+cc-usa-2,r-usa-iii-5000,Class III,59.92
+cc-usa-2,r-usa-iii-5012,Class III,59.92
+cc-usa-1,r-usa-iii-5080,Class III,109.67
+cc-usa-2,r-usa-iii-5128,Class III,59.92
+cc-usa-2,r-usa-iii-5150,Class III,59.92
+cc-usa-2,r-usa-iii-5169,Class III,59.92
+cc-usa-2,r-usa-iii-5191,Class III,59.92
+cc-usa-2,r-usa-iii-5218,Class III,59.92
+cc-usa-1,r-usa-iii-5230,Class III,109.67
+cc-usa-2,r-usa-iii-5275,Class III,59.92
+cc-usa-1,r-usa-iii-5340,Class III,109.67
+cc-usa-1,r-usa-iii-5386,Class III,109.67
+cc-usa-2,r-usa-iii-5438,Class III,59.92
+cc-usa-2,r-usa-iii-5461,Class III,59.92
+cc-usa-1,r-usa-iii-5504,Class III,109.67
+cc-usa-2,r-usa-iii-5537,Class III,59.92
+cc-usa-2,r-usa-iii-5579,Class III,59.92
+cc-usa-2,r-usa-iii-5705,Class III,59.92
+cc-usa-1,r-usa-iii-5740,Class III,109.67
+cc-usa-1,r-usa-iii-5742,Class III,109.67
+cc-usa-2,r-usa-iii-5800,Class III,59.92
+cc-usa-2,r-usa-iii-5955,Class III,59.92
+cc-usa-1,r-usa-iii-5970,Class III,109.67
+cc-usa-2,r-usa-iii-6095,Class III,59.92
+cc-usa-1,r-usa-iii-6136,Class III,109.67
+cc-usa-1,r-usa-iii-6153,Class III,109.67
+cc-usa-2,r-usa-iii-6189,Class III,59.92
+cc-usa-1,r-usa-iii-6197,Class III,109.67
+cc-usa-1,r-usa-iii-6226,Class III,109.67
+cc-usa-2,r-usa-iii-6338,Class III,59.92
+cc-usa-2,r-usa-iii-6346,Class III,59.92
+cc-usa-2,r-usa-iii-6428,Class III,59.92
+cc-usa-2,r-usa-iii-6440,Class III,59.92
+cc-usa-1,r-usa-iii-6462,Class III,109.67
+cc-usa-1,r-usa-iii-6479,Class III,109.67
+cc-usa-1,r-usa-iii-6538,Class III,109.67
+cc-usa-1,r-usa-iii-6542,Class III,109.67
+cc-usa-2,r-usa-iii-6589,Class III,59.92
+cc-usa-1,r-usa-iii-6748,Class III,109.67
+cc-usa-2,r-usa-iii-6831,Class III,59.92
+cc-usa-2,r-usa-iii-7018,Class III,59.92
+cc-usa-2,r-usa-iii-7076,Class III,59.92
+cc-usa-1,r-usa-iii-7094,Class III,109.67
+cc-usa-2,r-usa-iii-7164,Class III,59.92
+cc-usa-1,r-usa-iii-7186,Class III,109.67
+cc-usa-2,r-usa-iii-7236,Class III,59.92
+cc-usa-1,r-usa-iii-7257,Class III,109.67
+cc-usa-1,r-usa-iii-7314,Class III,109.67
+cc-usa-2,r-usa-iii-7333,Class III,59.92
+cc-usa-2,r-usa-iii-7349,Class III,59.92
+cc-usa-2,r-usa-iii-7499,Class III,59.92
+cc-usa-1,r-usa-iii-7534,Class III,109.67
+cc-usa-2,r-usa-iii-7594,Class III,59.92
+cc-usa-1,r-usa-iii-7625,Class III,109.67
+cc-usa-1,r-usa-iii-7677,Class III,109.67
+cc-usa-1,r-usa-iii-7755,Class III,109.67
+cc-usa-2,r-usa-iii-7880,Class III,59.92
+cc-usa-1,r-usa-iii-7901,Class III,109.67
+cc-usa-1,r-usa-iii-7905,Class III,109.67
+cc-usa-1,r-usa-iii-7925,Class III,109.67
+cc-usa-1,r-usa-iii-7963,Class III,109.67
+cc-usa-2,r-usa-iii-7980,Class III,59.92
+cc-usa-2,r-usa-iii-7997,Class III,59.92
+cc-usa-2,r-usa-iii-7998,Class III,59.92
+cc-usa-2,r-usa-iii-8028,Class III,59.92
+cc-usa-1,r-usa-iii-8028,Class III,109.67
+cc-usa-1,r-usa-iii-8264,Class III,109.67
+cc-usa-1,r-usa-iii-8314,Class III,109.67
+cc-usa-1,r-usa-iii-8327,Class III,109.67
+cc-usa-1,r-usa-iii-8384,Class III,109.67
+cc-usa-2,r-usa-iii-8432,Class III,59.92
+cc-usa-2,r-usa-iii-8570,Class III,59.92
+cc-usa-2,r-usa-iii-8621,Class III,59.92
+cc-usa-1,r-usa-iii-8693,Class III,109.67
+cc-usa-2,r-usa-iii-8694,Class III,59.92
+cc-usa-1,r-usa-iii-8703,Class III,109.67
+cc-usa-1,r-usa-iii-8707,Class III,109.67
+cc-usa-2,r-usa-iii-8749,Class III,59.92
+cc-usa-1,r-usa-iii-8771,Class III,109.67
+cc-usa-2,r-usa-iii-8784,Class III,59.92
+cc-usa-1,r-usa-iii-8833,Class III,109.67
+cc-usa-2,r-usa-iii-8872,Class III,59.92
+cc-usa-2,r-usa-iii-8882,Class III,59.92
+cc-usa-2,r-usa-iii-8902,Class III,59.92
+cc-usa-2,r-usa-iii-8945,Class III,59.92
+cc-usa-2,r-usa-iii-8962,Class III,59.92
+cc-usa-2,r-usa-iii-8975,Class III,59.92
+cc-usa-1,r-usa-iii-9008,Class III,109.67
+cc-usa-2,r-usa-iii-9078,Class III,59.92
+cc-usa-2,r-usa-iii-9084,Class III,59.92
+cc-usa-1,r-usa-iii-9231,Class III,109.67
+cc-usa-2,r-usa-iii-9267,Class III,59.92
+cc-usa-1,r-usa-iii-9278,Class III,109.67
+cc-usa-1,r-usa-iii-9356,Class III,109.67
+cc-usa-1,r-usa-iii-9387,Class III,109.67
+cc-usa-1,r-usa-iii-9604,Class III,109.67
+cc-usa-1,r-usa-iii-9649,Class III,109.67
+cc-usa-2,r-usa-iii-9672,Class III,59.92
+cc-usa-1,r-usa-iii-9678,Class III,109.67
+cc-usa-2,r-usa-iii-9701,Class III,59.92
+cc-usa-1,r-usa-iii-9709,Class III,109.67
+cc-usa-1,r-usa-iii-9767,Class III,109.67
+cc-usa-1,r-usa-iii-9775,Class III,109.67
+cc-usa-2,r-usa-vip-0050,VIP,581.34
+cc-usa-2,r-usa-vip-0071,VIP,581.34
+cc-usa-1,r-usa-vip-0364,VIP,583.77
+cc-usa-1,r-usa-vip-0400,VIP,583.77
+cc-usa-2,r-usa-vip-0545,VIP,581.34
+cc-usa-1,r-usa-vip-0555,VIP,583.77
+cc-usa-2,r-usa-vip-0642,VIP,581.34
+cc-usa-1,r-usa-vip-0670,VIP,583.77
+cc-usa-1,r-usa-vip-0783,VIP,583.77
+cc-usa-2,r-usa-vip-0905,VIP,581.34
+cc-usa-1,r-usa-vip-0986,VIP,583.77
+cc-usa-1,r-usa-vip-1027,VIP,583.77
+cc-usa-2,r-usa-vip-1133,VIP,581.34
+cc-usa-2,r-usa-vip-1171,VIP,581.34
+cc-usa-2,r-usa-vip-1185,VIP,581.34
+cc-usa-1,r-usa-vip-1241,VIP,583.77
+cc-usa-1,r-usa-vip-1268,VIP,583.77
+cc-usa-1,r-usa-vip-1305,VIP,583.77
+cc-usa-1,r-usa-vip-1359,VIP,583.77
+cc-usa-1,r-usa-vip-1387,VIP,583.77
+cc-usa-2,r-usa-vip-1432,VIP,581.34
+cc-usa-2,r-usa-vip-1489,VIP,581.34
+cc-usa-1,r-usa-vip-1497,VIP,583.77
+cc-usa-1,r-usa-vip-1527,VIP,583.77
+cc-usa-2,r-usa-vip-1579,VIP,581.34
+cc-usa-1,r-usa-vip-1579,VIP,583.77
+cc-usa-1,r-usa-vip-1641,VIP,583.77
+cc-usa-1,r-usa-vip-1714,VIP,583.77
+cc-usa-2,r-usa-vip-1865,VIP,581.34
+cc-usa-1,r-usa-vip-1885,VIP,583.77
+cc-usa-2,r-usa-vip-1908,VIP,581.34
+cc-usa-2,r-usa-vip-1947,VIP,581.34
+cc-usa-2,r-usa-vip-1955,VIP,581.34
+cc-usa-1,r-usa-vip-2131,VIP,583.77
+cc-usa-2,r-usa-vip-2179,VIP,581.34
+cc-usa-2,r-usa-vip-2208,VIP,581.34
+cc-usa-2,r-usa-vip-2306,VIP,581.34
+cc-usa-2,r-usa-vip-2357,VIP,581.34
+cc-usa-2,r-usa-vip-2415,VIP,581.34
+cc-usa-1,r-usa-vip-2427,VIP,583.77
+cc-usa-2,r-usa-vip-2467,VIP,581.34
+cc-usa-2,r-usa-vip-2485,VIP,581.34
+cc-usa-1,r-usa-vip-2554,VIP,583.77
+cc-usa-1,r-usa-vip-2606,VIP,583.77
+cc-usa-1,r-usa-vip-2707,VIP,583.77
+cc-usa-2,r-usa-vip-2733,VIP,581.34
+cc-usa-2,r-usa-vip-2751,VIP,581.34
+cc-usa-2,r-usa-vip-2819,VIP,581.34
+cc-usa-2,r-usa-vip-2920,VIP,581.34
+cc-usa-2,r-usa-vip-2965,VIP,581.34
+cc-usa-1,r-usa-vip-2978,VIP,583.77
+cc-usa-1,r-usa-vip-3028,VIP,583.77
+cc-usa-1,r-usa-vip-3050,VIP,583.77
+cc-usa-2,r-usa-vip-3089,VIP,581.34
+cc-usa-1,r-usa-vip-3140,VIP,583.77
+cc-usa-1,r-usa-vip-3142,VIP,583.77
+cc-usa-2,r-usa-vip-3201,VIP,581.34
+cc-usa-1,r-usa-vip-3217,VIP,583.77
+cc-usa-2,r-usa-vip-3270,VIP,581.34
+cc-usa-2,r-usa-vip-3293,VIP,581.34
+cc-usa-2,r-usa-vip-3369,VIP,581.34
+cc-usa-1,r-usa-vip-3411,VIP,583.77
+cc-usa-1,r-usa-vip-3431,VIP,583.77
+cc-usa-1,r-usa-vip-3496,VIP,583.77
+cc-usa-1,r-usa-vip-3513,VIP,583.77
+cc-usa-2,r-usa-vip-3536,VIP,581.34
+cc-usa-1,r-usa-vip-3654,VIP,583.77
+cc-usa-2,r-usa-vip-3746,VIP,581.34
+cc-usa-2,r-usa-vip-3759,VIP,581.34
+cc-usa-1,r-usa-vip-3762,VIP,583.77
+cc-usa-2,r-usa-vip-3829,VIP,581.34
+cc-usa-1,r-usa-vip-3953,VIP,583.77
+cc-usa-1,r-usa-vip-3979,VIP,583.77
+cc-usa-1,r-usa-vip-3985,VIP,583.77
+cc-usa-1,r-usa-vip-4035,VIP,583.77
+cc-usa-1,r-usa-vip-4095,VIP,583.77
+cc-usa-2,r-usa-vip-4123,VIP,581.34
+cc-usa-1,r-usa-vip-4149,VIP,583.77
+cc-usa-2,r-usa-vip-4234,VIP,581.34
+cc-usa-1,r-usa-vip-4281,VIP,583.77
+cc-usa-1,r-usa-vip-4288,VIP,583.77
+cc-usa-2,r-usa-vip-4315,VIP,581.34
+cc-usa-2,r-usa-vip-4391,VIP,581.34
+cc-usa-2,r-usa-vip-4445,VIP,581.34
+cc-usa-1,r-usa-vip-4447,VIP,583.77
+cc-usa-1,r-usa-vip-4527,VIP,583.77
+cc-usa-1,r-usa-vip-4598,VIP,583.77
+cc-usa-1,r-usa-vip-4609,VIP,583.77
+cc-usa-1,r-usa-vip-4648,VIP,583.77
+cc-usa-1,r-usa-vip-4660,VIP,583.77
+cc-usa-1,r-usa-vip-4665,VIP,583.77
+cc-usa-1,r-usa-vip-4719,VIP,583.77
+cc-usa-1,r-usa-vip-4830,VIP,583.77
+cc-usa-2,r-usa-vip-4932,VIP,581.34
+cc-usa-1,r-usa-vip-4947,VIP,583.77
+cc-usa-1,r-usa-vip-4964,VIP,583.77
+cc-usa-1,r-usa-vip-4984,VIP,583.77
+cc-usa-2,r-usa-vip-4988,VIP,581.34
+cc-usa-2,r-usa-vip-5067,VIP,581.34
+cc-usa-1,r-usa-vip-5109,VIP,583.77
+cc-usa-1,r-usa-vip-5175,VIP,583.77
+cc-usa-2,r-usa-vip-5209,VIP,581.34
+cc-usa-1,r-usa-vip-5211,VIP,583.77
+cc-usa-1,r-usa-vip-5362,VIP,583.77
+cc-usa-1,r-usa-vip-5386,VIP,583.77
+cc-usa-1,r-usa-vip-5486,VIP,583.77
+cc-usa-2,r-usa-vip-5511,VIP,581.34
+cc-usa-1,r-usa-vip-5552,VIP,583.77
+cc-usa-2,r-usa-vip-5574,VIP,581.34
+cc-usa-1,r-usa-vip-5823,VIP,583.77
+cc-usa-2,r-usa-vip-5828,VIP,581.34
+cc-usa-2,r-usa-vip-5843,VIP,581.34
+cc-usa-2,r-usa-vip-5905,VIP,581.34
+cc-usa-1,r-usa-vip-6090,VIP,583.77
+cc-usa-1,r-usa-vip-6221,VIP,583.77
+cc-usa-2,r-usa-vip-6319,VIP,581.34
+cc-usa-1,r-usa-vip-6424,VIP,583.77
+cc-usa-2,r-usa-vip-6443,VIP,581.34
+cc-usa-2,r-usa-vip-6445,VIP,581.34
+cc-usa-2,r-usa-vip-6460,VIP,581.34
+cc-usa-1,r-usa-vip-6492,VIP,583.77
+cc-usa-1,r-usa-vip-6503,VIP,583.77
+cc-usa-1,r-usa-vip-6512,VIP,583.77
+cc-usa-1,r-usa-vip-6631,VIP,583.77
+cc-usa-1,r-usa-vip-6680,VIP,583.77
+cc-usa-1,r-usa-vip-6681,VIP,583.77
+cc-usa-1,r-usa-vip-6684,VIP,583.77
+cc-usa-1,r-usa-vip-6691,VIP,583.77
+cc-usa-1,r-usa-vip-6830,VIP,583.77
+cc-usa-1,r-usa-vip-6846,VIP,583.77
+cc-usa-2,r-usa-vip-6904,VIP,581.34
+cc-usa-1,r-usa-vip-6908,VIP,583.77
+cc-usa-2,r-usa-vip-6965,VIP,581.34
+cc-usa-2,r-usa-vip-6997,VIP,581.34
+cc-usa-2,r-usa-vip-7034,VIP,581.34
+cc-usa-1,r-usa-vip-7060,VIP,583.77
+cc-usa-1,r-usa-vip-7108,VIP,583.77
+cc-usa-1,r-usa-vip-7224,VIP,583.77
+cc-usa-2,r-usa-vip-7231,VIP,581.34
+cc-usa-2,r-usa-vip-7232,VIP,581.34
+cc-usa-2,r-usa-vip-7363,VIP,581.34
+cc-usa-2,r-usa-vip-7388,VIP,581.34
+cc-usa-2,r-usa-vip-7447,VIP,581.34
+cc-usa-2,r-usa-vip-7461,VIP,581.34
+cc-usa-2,r-usa-vip-7591,VIP,581.34
+cc-usa-1,r-usa-vip-7609,VIP,583.77
+cc-usa-1,r-usa-vip-7633,VIP,583.77
+cc-usa-2,r-usa-vip-7659,VIP,581.34
+cc-usa-2,r-usa-vip-7670,VIP,581.34
+cc-usa-2,r-usa-vip-7671,VIP,581.34
+cc-usa-1,r-usa-vip-7672,VIP,583.77
+cc-usa-1,r-usa-vip-7793,VIP,583.77
+cc-usa-2,r-usa-vip-7797,VIP,581.34
+cc-usa-1,r-usa-vip-7903,VIP,583.77
+cc-usa-1,r-usa-vip-7934,VIP,583.77
+cc-usa-2,r-usa-vip-7948,VIP,581.34
+cc-usa-2,r-usa-vip-7964,VIP,581.34
+cc-usa-2,r-usa-vip-8037,VIP,581.34
+cc-usa-1,r-usa-vip-8074,VIP,583.77
+cc-usa-1,r-usa-vip-8096,VIP,583.77
+cc-usa-2,r-usa-vip-8103,VIP,581.34
+cc-usa-2,r-usa-vip-8118,VIP,581.34
+cc-usa-1,r-usa-vip-8188,VIP,583.77
+cc-usa-2,r-usa-vip-8201,VIP,581.34
+cc-usa-1,r-usa-vip-8225,VIP,583.77
+cc-usa-2,r-usa-vip-8268,VIP,581.34
+cc-usa-1,r-usa-vip-8290,VIP,583.77
+cc-usa-2,r-usa-vip-8298,VIP,581.34
+cc-usa-1,r-usa-vip-8307,VIP,583.77
+cc-usa-1,r-usa-vip-8473,VIP,583.77
+cc-usa-1,r-usa-vip-8476,VIP,583.77
+cc-usa-2,r-usa-vip-8500,VIP,581.34
+cc-usa-1,r-usa-vip-8522,VIP,583.77
+cc-usa-2,r-usa-vip-8527,VIP,581.34
+cc-usa-1,r-usa-vip-8554,VIP,583.77
+cc-usa-1,r-usa-vip-8614,VIP,583.77
+cc-usa-1,r-usa-vip-8668,VIP,583.77
+cc-usa-2,r-usa-vip-8838,VIP,581.34
+cc-usa-2,r-usa-vip-8986,VIP,581.34
+cc-usa-2,r-usa-vip-9002,VIP,581.34
+cc-usa-2,r-usa-vip-9112,VIP,581.34
+cc-usa-1,r-usa-vip-9116,VIP,583.77
+cc-usa-2,r-usa-vip-9178,VIP,581.34
+cc-usa-2,r-usa-vip-9203,VIP,581.34
+cc-usa-1,r-usa-vip-9226,VIP,583.77
+cc-usa-2,r-usa-vip-9410,VIP,581.34
+cc-usa-1,r-usa-vip-9431,VIP,583.77
+cc-usa-1,r-usa-vip-9435,VIP,583.77
+cc-usa-1,r-usa-vip-9436,VIP,583.77
+cc-usa-1,r-usa-vip-9441,VIP,583.77
+cc-usa-1,r-usa-vip-9494,VIP,583.77
+cc-usa-1,r-usa-vip-9671,VIP,583.77
+cc-usa-1,r-usa-vip-9673,VIP,583.77
+cc-usa-1,r-usa-vip-9793,VIP,583.77
+cc-usa-1,r-usa-vip-9809,VIP,583.77
+cc-usa-2,r-usa-vip-9811,VIP,581.34
+cc-usa-2,r-usa-vip-9893,VIP,581.34
+cc-usa-1,r-usa-vip-9928,VIP,583.77
+cc-usa-1,r-usa-vip-9932,VIP,583.77
+cc-usa-1,r-usa-vip-9967,VIP,583.77
+cc-usa-1,r-usa-vip-9978,VIP,583.77
+cc-usa-2,r-usa-vvip-0010,VVIP,903.88
+cc-usa-2,r-usa-vvip-0013,VVIP,903.88
+cc-usa-1,r-usa-vvip-0092,VVIP,937.89
+cc-usa-1,r-usa-vvip-0115,VVIP,937.89
+cc-usa-2,r-usa-vvip-0171,VVIP,903.88
+cc-usa-1,r-usa-vvip-0225,VVIP,937.89
+cc-usa-2,r-usa-vvip-0295,VVIP,903.88
+cc-usa-1,r-usa-vvip-0312,VVIP,937.89
+cc-usa-1,r-usa-vvip-0324,VVIP,937.89
+cc-usa-2,r-usa-vvip-0353,VVIP,903.88
+cc-usa-1,r-usa-vvip-0368,VVIP,937.89
+cc-usa-2,r-usa-vvip-0368,VVIP,903.88
+cc-usa-2,r-usa-vvip-0392,VVIP,903.88
+cc-usa-1,r-usa-vvip-0440,VVIP,937.89
+cc-usa-2,r-usa-vvip-0497,VVIP,903.88
+cc-usa-1,r-usa-vvip-0506,VVIP,937.89
+cc-usa-2,r-usa-vvip-0660,VVIP,903.88
+cc-usa-1,r-usa-vvip-0832,VVIP,937.89
+cc-usa-2,r-usa-vvip-0863,VVIP,903.88
+cc-usa-1,r-usa-vvip-0869,VVIP,937.89
+cc-usa-1,r-usa-vvip-0917,VVIP,937.89
+cc-usa-2,r-usa-vvip-0977,VVIP,903.88
+cc-usa-1,r-usa-vvip-1018,VVIP,937.89
+cc-usa-2,r-usa-vvip-1018,VVIP,903.88
+cc-usa-1,r-usa-vvip-1149,VVIP,937.89
+cc-usa-1,r-usa-vvip-1200,VVIP,937.89
+cc-usa-1,r-usa-vvip-1260,VVIP,937.89
+cc-usa-1,r-usa-vvip-1275,VVIP,937.89
+cc-usa-2,r-usa-vvip-1291,VVIP,903.88
+cc-usa-1,r-usa-vvip-1304,VVIP,937.89
+cc-usa-1,r-usa-vvip-1305,VVIP,937.89
+cc-usa-2,r-usa-vvip-1349,VVIP,903.88
+cc-usa-1,r-usa-vvip-1409,VVIP,937.89
+cc-usa-1,r-usa-vvip-1411,VVIP,937.89
+cc-usa-1,r-usa-vvip-1467,VVIP,937.89
+cc-usa-1,r-usa-vvip-1487,VVIP,937.89
+cc-usa-2,r-usa-vvip-1600,VVIP,903.88
+cc-usa-1,r-usa-vvip-1611,VVIP,937.89
+cc-usa-1,r-usa-vvip-1630,VVIP,937.89
+cc-usa-1,r-usa-vvip-1740,VVIP,937.89
+cc-usa-2,r-usa-vvip-1746,VVIP,903.88
+cc-usa-2,r-usa-vvip-1766,VVIP,903.88
+cc-usa-2,r-usa-vvip-1804,VVIP,903.88
+cc-usa-1,r-usa-vvip-1922,VVIP,937.89
+cc-usa-2,r-usa-vvip-1930,VVIP,903.88
+cc-usa-1,r-usa-vvip-1935,VVIP,937.89
+cc-usa-1,r-usa-vvip-1951,VVIP,937.89
+cc-usa-2,r-usa-vvip-1965,VVIP,903.88
+cc-usa-2,r-usa-vvip-1982,VVIP,903.88
+cc-usa-1,r-usa-vvip-2024,VVIP,937.89
+cc-usa-1,r-usa-vvip-2144,VVIP,937.89
+cc-usa-2,r-usa-vvip-2168,VVIP,903.88
+cc-usa-2,r-usa-vvip-2218,VVIP,903.88
+cc-usa-2,r-usa-vvip-2231,VVIP,903.88
+cc-usa-1,r-usa-vvip-2306,VVIP,937.89
+cc-usa-2,r-usa-vvip-2313,VVIP,903.88
+cc-usa-2,r-usa-vvip-2328,VVIP,903.88
+cc-usa-2,r-usa-vvip-2335,VVIP,903.88
+cc-usa-1,r-usa-vvip-2335,VVIP,937.89
+cc-usa-1,r-usa-vvip-2374,VVIP,937.89
+cc-usa-1,r-usa-vvip-2384,VVIP,937.89
+cc-usa-2,r-usa-vvip-2410,VVIP,903.88
+cc-usa-1,r-usa-vvip-2473,VVIP,937.89
+cc-usa-2,r-usa-vvip-2478,VVIP,903.88
+cc-usa-1,r-usa-vvip-2525,VVIP,937.89
+cc-usa-1,r-usa-vvip-2624,VVIP,937.89
+cc-usa-1,r-usa-vvip-2636,VVIP,937.89
+cc-usa-2,r-usa-vvip-2854,VVIP,903.88
+cc-usa-1,r-usa-vvip-2909,VVIP,937.89
+cc-usa-2,r-usa-vvip-2956,VVIP,903.88
+cc-usa-2,r-usa-vvip-3006,VVIP,903.88
+cc-usa-1,r-usa-vvip-3027,VVIP,937.89
+cc-usa-1,r-usa-vvip-3048,VVIP,937.89
+cc-usa-2,r-usa-vvip-3159,VVIP,903.88
+cc-usa-2,r-usa-vvip-3164,VVIP,903.88
+cc-usa-1,r-usa-vvip-3276,VVIP,937.89
+cc-usa-2,r-usa-vvip-3368,VVIP,903.88
+cc-usa-2,r-usa-vvip-3369,VVIP,903.88
+cc-usa-1,r-usa-vvip-3447,VVIP,937.89
+cc-usa-1,r-usa-vvip-3519,VVIP,937.89
+cc-usa-2,r-usa-vvip-3535,VVIP,903.88
+cc-usa-1,r-usa-vvip-3554,VVIP,937.89
+cc-usa-2,r-usa-vvip-3582,VVIP,903.88
+cc-usa-2,r-usa-vvip-3588,VVIP,903.88
+cc-usa-2,r-usa-vvip-3697,VVIP,903.88
+cc-usa-2,r-usa-vvip-3752,VVIP,903.88
+cc-usa-2,r-usa-vvip-3769,VVIP,903.88
+cc-usa-2,r-usa-vvip-3826,VVIP,903.88
+cc-usa-2,r-usa-vvip-3841,VVIP,903.88
+cc-usa-1,r-usa-vvip-3873,VVIP,937.89
+cc-usa-2,r-usa-vvip-3919,VVIP,903.88
+cc-usa-1,r-usa-vvip-4044,VVIP,937.89
+cc-usa-2,r-usa-vvip-4086,VVIP,903.88
+cc-usa-2,r-usa-vvip-4195,VVIP,903.88
+cc-usa-1,r-usa-vvip-4200,VVIP,937.89
+cc-usa-1,r-usa-vvip-4215,VVIP,937.89
+cc-usa-2,r-usa-vvip-4264,VVIP,903.88
+cc-usa-1,r-usa-vvip-4282,VVIP,937.89
+cc-usa-1,r-usa-vvip-4284,VVIP,937.89
+cc-usa-1,r-usa-vvip-4311,VVIP,937.89
+cc-usa-1,r-usa-vvip-4396,VVIP,937.89
+cc-usa-2,r-usa-vvip-4423,VVIP,903.88
+cc-usa-2,r-usa-vvip-4456,VVIP,903.88
+cc-usa-1,r-usa-vvip-4527,VVIP,937.89
+cc-usa-2,r-usa-vvip-4531,VVIP,903.88
+cc-usa-1,r-usa-vvip-4562,VVIP,937.89
+cc-usa-1,r-usa-vvip-4592,VVIP,937.89
+cc-usa-2,r-usa-vvip-4684,VVIP,903.88
+cc-usa-2,r-usa-vvip-4855,VVIP,903.88
+cc-usa-2,r-usa-vvip-4957,VVIP,903.88
+cc-usa-1,r-usa-vvip-4988,VVIP,937.89
+cc-usa-1,r-usa-vvip-5040,VVIP,937.89
+cc-usa-1,r-usa-vvip-5099,VVIP,937.89
+cc-usa-2,r-usa-vvip-5105,VVIP,903.88
+cc-usa-2,r-usa-vvip-5289,VVIP,903.88
+cc-usa-2,r-usa-vvip-5375,VVIP,903.88
+cc-usa-1,r-usa-vvip-5400,VVIP,937.89
+cc-usa-2,r-usa-vvip-5440,VVIP,903.88
+cc-usa-1,r-usa-vvip-5440,VVIP,937.89
+cc-usa-1,r-usa-vvip-5463,VVIP,937.89
+cc-usa-1,r-usa-vvip-5487,VVIP,937.89
+cc-usa-2,r-usa-vvip-5518,VVIP,903.88
+cc-usa-1,r-usa-vvip-5555,VVIP,937.89
+cc-usa-1,r-usa-vvip-5574,VVIP,937.89
+cc-usa-2,r-usa-vvip-5605,VVIP,903.88
+cc-usa-2,r-usa-vvip-5671,VVIP,903.88
+cc-usa-2,r-usa-vvip-5770,VVIP,903.88
+cc-usa-1,r-usa-vvip-5831,VVIP,937.89
+cc-usa-1,r-usa-vvip-5843,VVIP,937.89
+cc-usa-2,r-usa-vvip-5850,VVIP,903.88
+cc-usa-2,r-usa-vvip-5947,VVIP,903.88
+cc-usa-1,r-usa-vvip-6023,VVIP,937.89
+cc-usa-1,r-usa-vvip-6156,VVIP,937.89
+cc-usa-1,r-usa-vvip-6274,VVIP,937.89
+cc-usa-1,r-usa-vvip-6343,VVIP,937.89
+cc-usa-2,r-usa-vvip-6365,VVIP,903.88
+cc-usa-1,r-usa-vvip-6397,VVIP,937.89
+cc-usa-2,r-usa-vvip-6405,VVIP,903.88
+cc-usa-2,r-usa-vvip-6422,VVIP,903.88
+cc-usa-2,r-usa-vvip-6477,VVIP,903.88
+cc-usa-2,r-usa-vvip-6556,VVIP,903.88
+cc-usa-2,r-usa-vvip-6627,VVIP,903.88
+cc-usa-2,r-usa-vvip-6630,VVIP,903.88
+cc-usa-2,r-usa-vvip-6671,VVIP,903.88
+cc-usa-2,r-usa-vvip-6675,VVIP,903.88
+cc-usa-2,r-usa-vvip-6701,VVIP,903.88
+cc-usa-1,r-usa-vvip-6717,VVIP,937.89
+cc-usa-1,r-usa-vvip-6726,VVIP,937.89
+cc-usa-1,r-usa-vvip-6778,VVIP,937.89
+cc-usa-1,r-usa-vvip-6800,VVIP,937.89
+cc-usa-2,r-usa-vvip-6836,VVIP,903.88
+cc-usa-2,r-usa-vvip-6837,VVIP,903.88
+cc-usa-2,r-usa-vvip-6965,VVIP,903.88
+cc-usa-2,r-usa-vvip-6976,VVIP,903.88
+cc-usa-1,r-usa-vvip-7091,VVIP,937.89
+cc-usa-1,r-usa-vvip-7095,VVIP,937.89
+cc-usa-1,r-usa-vvip-7116,VVIP,937.89
+cc-usa-2,r-usa-vvip-7212,VVIP,903.88
+cc-usa-1,r-usa-vvip-7275,VVIP,937.89
+cc-usa-2,r-usa-vvip-7284,VVIP,903.88
+cc-usa-1,r-usa-vvip-7332,VVIP,937.89
+cc-usa-1,r-usa-vvip-7378,VVIP,937.89
+cc-usa-1,r-usa-vvip-7463,VVIP,937.89
+cc-usa-1,r-usa-vvip-7491,VVIP,937.89
+cc-usa-2,r-usa-vvip-7524,VVIP,903.88
+cc-usa-1,r-usa-vvip-7541,VVIP,937.89
+cc-usa-1,r-usa-vvip-7548,VVIP,937.89
+cc-usa-1,r-usa-vvip-7559,VVIP,937.89
+cc-usa-2,r-usa-vvip-7668,VVIP,903.88
+cc-usa-1,r-usa-vvip-7711,VVIP,937.89
+cc-usa-2,r-usa-vvip-7776,VVIP,903.88
+cc-usa-1,r-usa-vvip-7850,VVIP,937.89
+cc-usa-2,r-usa-vvip-7863,VVIP,903.88
+cc-usa-2,r-usa-vvip-7869,VVIP,903.88
+cc-usa-1,r-usa-vvip-7878,VVIP,937.89
+cc-usa-2,r-usa-vvip-7954,VVIP,903.88
+cc-usa-2,r-usa-vvip-7965,VVIP,903.88
+cc-usa-2,r-usa-vvip-7987,VVIP,903.88
+cc-usa-1,r-usa-vvip-8003,VVIP,937.89
+cc-usa-1,r-usa-vvip-8029,VVIP,937.89
+cc-usa-1,r-usa-vvip-8066,VVIP,937.89
+cc-usa-1,r-usa-vvip-8107,VVIP,937.89
+cc-usa-2,r-usa-vvip-8233,VVIP,903.88
+cc-usa-1,r-usa-vvip-8272,VVIP,937.89
+cc-usa-1,r-usa-vvip-8285,VVIP,937.89
+cc-usa-2,r-usa-vvip-8323,VVIP,903.88
+cc-usa-2,r-usa-vvip-8371,VVIP,903.88
+cc-usa-1,r-usa-vvip-8413,VVIP,937.89
+cc-usa-1,r-usa-vvip-8426,VVIP,937.89
+cc-usa-2,r-usa-vvip-8438,VVIP,903.88
+cc-usa-1,r-usa-vvip-8452,VVIP,937.89
+cc-usa-1,r-usa-vvip-8468,VVIP,937.89
+cc-usa-2,r-usa-vvip-8567,VVIP,903.88
+cc-usa-1,r-usa-vvip-8579,VVIP,937.89
+cc-usa-2,r-usa-vvip-8601,VVIP,903.88
+cc-usa-2,r-usa-vvip-8641,VVIP,903.88
+cc-usa-1,r-usa-vvip-8808,VVIP,937.89
+cc-usa-2,r-usa-vvip-8829,VVIP,903.88
+cc-usa-1,r-usa-vvip-8849,VVIP,937.89
+cc-usa-1,r-usa-vvip-8915,VVIP,937.89
+cc-usa-1,r-usa-vvip-8952,VVIP,937.89
+cc-usa-1,r-usa-vvip-8956,VVIP,937.89
+cc-usa-2,r-usa-vvip-8975,VVIP,903.88
+cc-usa-1,r-usa-vvip-9083,VVIP,937.89
+cc-usa-1,r-usa-vvip-9093,VVIP,937.89
+cc-usa-2,r-usa-vvip-9100,VVIP,903.88
+cc-usa-1,r-usa-vvip-9108,VVIP,937.89
+cc-usa-2,r-usa-vvip-9121,VVIP,903.88
+cc-usa-2,r-usa-vvip-9127,VVIP,903.88
+cc-usa-2,r-usa-vvip-9131,VVIP,903.88
+cc-usa-2,r-usa-vvip-9134,VVIP,903.88
+cc-usa-2,r-usa-vvip-9190,VVIP,903.88
+cc-usa-2,r-usa-vvip-9215,VVIP,903.88
+cc-usa-1,r-usa-vvip-9372,VVIP,937.89
+cc-usa-2,r-usa-vvip-9434,VVIP,903.88
+cc-usa-2,r-usa-vvip-9487,VVIP,903.88
+cc-usa-1,r-usa-vvip-9585,VVIP,937.89
+cc-usa-1,r-usa-vvip-9629,VVIP,937.89
+cc-usa-2,r-usa-vvip-9699,VVIP,903.88
+cc-usa-1,r-usa-vvip-9841,VVIP,937.89
+cc-usa-1,r-usa-vvip-9921,VVIP,937.89
