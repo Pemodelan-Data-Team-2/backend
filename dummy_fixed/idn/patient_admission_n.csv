@@ -1,0 +1,11 @@
+admission_id,patient_id,bed_id,room_id,care_center_id,admitted_date,admitted_causes,room_rate_per_night,room_rate_total
+adm-idn-6722,p-idn-09487,b-idn-0081,r-idn-vip-6217,cc-idn-1,2022-11-27,Toe swelling,628.05,15701.25
+adm-idn-1680,p-idn-20560,b-idn-9626,r-idn-iii-0234,cc-idn-2,2022-11-28,Fibrocystic breasts breast lumpiness,110.27,3197.83
+adm-idn-13248,p-idn-02879,b-idn-5373,r-idn-iii-0499,cc-idn-2,2022-12-13,Synovitis inflammation of joint lining,110.27,1764.32
+adm-idn-7555,p-idn-19630,b-idn-5556,r-idn-iii-0111,cc-idn-2,2022-11-28,Peyronie's disease abnormal curvature of the penis,110.27,661.62
+adm-idn-12462,p-idn-02945,b-idn-6859,r-idn-ii-6217,cc-idn-2,2022-12-03,Paget disease of the bone paget's disease of the bone,221.36,3099.04
+adm-idn-12812,p-idn-22586,b-idn-7495,r-idn-iii-6975,cc-idn-1,2022-11-24,Extragonadal germ cell tumors,108.32,866.56
+adm-idn-2860,p-idn-02717,b-idn-4168,r-idn-ii-8175,cc-idn-1,2022-11-11,Polycythemia vera increased number of red blood cells,191.18,4779.5
+adm-idn-9977,p-idn-04716,b-idn-6938,r-idn-iii-3788,cc-idn-2,2022-12-11,Mouth trauma injury,110.27,441.08
+adm-idn-10836,p-idn-24306,b-idn-6143,r-idn-ii-5797,cc-idn-1,2022-12-05,Strangulation of genitalia constriction of genital blood supply,191.18,1911.8
+adm-idn-8723,p-idn-18149,b-idn-1210,r-idn-i-5109,cc-idn-1,2022-12-10,"Herniated disc slipped disc, ruptured disc",260.46,1823.22

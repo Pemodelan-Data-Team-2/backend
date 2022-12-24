@@ -1,0 +1,3 @@
+city,care_center_id,care_center_name,address
+Kota Bandung,cc-idn-1,Rumah Sakit Mitra Keluarga MVCH,"{street: 'Jl. Ir. H. Juanda No.100', city:'Kota Bandung', state_or_province:'Jawa Barat',zip_code:'40132', country:'IDN'}"
+Jakarta Pusat,cc-idn-2,Medistra MVCH,"{street: 'Jl. HOS. Cokroaminoto No.31-33', city:'Jakarta Pusat', state_or_province:'DKI Jakarta',zip_code:'10350', country:'IDN'}"
